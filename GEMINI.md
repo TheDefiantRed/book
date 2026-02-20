@@ -63,4 +63,5 @@ Identify key learnings along the way and persist them inside the project. (e.g. 
   - **Figures & Photographs:** Are combined into a single "Figure" sequence (e.g., Figure 1, Figure 2...).
   - **Tables:** Are numbered globally as a separate "Table" sequence (e.g., Table 1, Table 2...).
   - **Implementation:** Use Typst's `#figure()` for both, relying on the `kind` parameter (or inference) to distinguish tables from images. References should use `@label` syntax for dynamic numbering.
+- **Attribution:** The project acknowledges the use of AI assistance (Gemini-3-Pro-Preview) in the `backmatter/02_corrections.typ` file, detailing specific contributions like text extraction, formatting, and validation, consistent with best practices for transparency.
 
