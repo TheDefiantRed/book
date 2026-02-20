@@ -53,6 +53,14 @@ This section lists the specific corrections and adjustments made to the original
   caption: [Original table structure (deprecated)]
 )
 
+== Chapter 4: Copper
+
+- *Spelling:* Corrected the name of the French chemist 'Ebelman' to 'Ebelmen'.
+- *Transliteration:* Updated Dutch phonetic transliterations of Chinese dynasties (e.g., 'Tsjow', 'Tsjin') to standard Wade-Giles ('Chou', 'Ch'in') or Pinyin ('Xia') where appropriate.
+- *Enhancement:* Added Simplified Chinese characters (e.g., 'Chou (周)') to dynasty names for clarity and modern context.
+- *Caption:* Corrected the caption for Photograph 7 to "Guangxu period, Ch'ing dynasty" (was "GuangxuChh").
+- *Formatting:* Replaced missing photographs with placeholders.
+
 == Acknowledgments
 
 The conversion, formatting, and technical validation of this manuscript were assisted by `Gemini-3-Pro-Preview` (Google), an AI Large Language Model. The AI was utilized for:
