@@ -38,6 +38,7 @@ It is crucial to maintain scientific accuracy and integrity for this project. Al
 - Frontmatter (Title, Copyright, Welcome, TOC, Preface) is COMPLETED.
 - Chapter 1 is COMPLETED.
 - Chapter 2 is COMPLETED.
+- Chapter 3 is COMPLETED.
 
 # Workflow
 - **Source of Truth:** The `src/thedefiantred_extracted.md` file (generated via `pandoc`) is the primary reference for text extraction.
@@ -63,5 +64,10 @@ Identify key learnings along the way and persist them inside the project. (e.g. 
   - **Figures & Photographs:** Are combined into a single "Figure" sequence (e.g., Figure 1, Figure 2...).
   - **Tables:** Are numbered globally as a separate "Table" sequence (e.g., Table 1, Table 2...).
   - **Implementation:** Use Typst's `#figure()` for both, relying on the `kind` parameter (or inference) to distinguish tables from images. References should use `@label` syntax for dynamic numbering.
+- **Source Inconsistencies:** The source document sometimes labels tables as "Figure" (e.g., "Figure 5" in Chapter 2 is actually a table). The Typst conversion standardizes this by using proper semantic types (`table` vs `image`) while maintaining a global numbering sequence where appropriate.
 - **Attribution:** The project acknowledges the use of AI assistance (Gemini-3-Pro-Preview) in the `backmatter/02_corrections.typ` file, detailing specific contributions like text extraction, formatting, and validation, consistent with best practices for transparency.
+- **Charts vs Tables:** Visual data in the source (e.g., the firing curve in Chapter 3) should be implemented as proper charts using the `cetz` package for higher fidelity, rather than replicating the "spreadsheet" look of the source. The original table data can be preserved in the `backmatter` for reference.
+- **Table Alignment:** To align columns perfectly across multiple separate tables (e.g., the flux compositions in Chapter 3), use proportional `fr` units (e.g., `(0.5fr, 1.5fr, 1fr...)`) instead of `auto` or `%`. This ensures consistent spacing even when content length varies slightly.
+- **Cetz Integration:** When using `cetz` charts, ensure the package is imported (`#import "@preview/cetz:0.2.2"`) in the specific chapter file where it is used.
+- **Typst Syntax:** Be vigilant with string delimiters inside math mode (`$"..."$`). A missing or extra quote can cause cascading "unclosed string" errors that break compilation for the entire document.
 

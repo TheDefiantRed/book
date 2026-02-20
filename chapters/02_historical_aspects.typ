@@ -3,7 +3,7 @@
 
 = HISTORICAL ASPECTS OF RED COLOURS <historical-aspects>
 
-Including some thoughts about colours other than ceramic red colours.
+#figure(kind: "subtitle", supplement: none, numbering: none)[Including some thoughts about colours other than ceramic red colours.]
 
 Although red is called the colour of activity it is remarkable that the ceramic industry had to wait roughly 8000 years before a more general use and application of the so-called pillar box or signal red colour was possible.
 

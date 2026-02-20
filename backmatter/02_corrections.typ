@@ -25,6 +25,34 @@ This section lists the specific corrections and adjustments made to the original
 - *Formatting:* Unified the numbering of "Figures" and "Photographs" into a single global "Figure" sequence.
 - *Formatting:* Chemical formulas (e.g., $"Fe"_2"O"_3$, $"TiO"_2$) were formatted using inline math mode for consistency.
 
+== Chapter 3: Iron
+
+- *Visualization:* The "Terra Sigillata typical firing curve" was converted from a spreadsheet-like table to a proper scientific chart using the `cetz` package. This clarifies the relationship between time, temperature, and atmosphere. The original table structure is preserved below for reference:
+
+#figure(
+  table(
+    columns: (auto, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+    align: (left, center, center, center, center, center, center),
+    stroke: 0.5pt,
+    table.hline(stroke: 0.5pt),
+    [temp.°C], [], [], table.cell(colspan: 3, align: right, text(fill: red)[x = oxidizing atm]), [],
+    [1000°C],  [], [], table.cell(colspan: 3, align: right, text(fill: black)[x = reducing atm]),  [],
+    [900°C],   [], [], [], [#text(fill: black)[*x*]], [], [],
+    [800°C],   [], [], [], [], [#text(fill: red)[*x*]], [],
+    [700°C],   [], [], [#text(fill: black)[*x*]], [], [], [],
+    [600°C],   [], [], [], [], table.cell(colspan: 2, [#text(fill: red)[*x*]]),
+    [500°C],   [], [], [], [], [], [],
+    [400°C],   [], [], [], [], [], [],
+    [300°C],   [], [#text(fill: red)[*x*]], [], [], [], [#text(fill: red)[*x*]],
+    [200°C],   [], [], [], [], [], [],
+    [100°C],   [#text(fill: red)[*x*]], [], [], [], [], [],
+    table.hline(stroke: 0.5pt),
+    [hrs $arrow$], [0], [4], [8], [12], [16], [20],
+    table.hline(stroke: 0.5pt),
+  ),
+  caption: [Original table structure (deprecated)]
+)
+
 == Acknowledgments
 
 The conversion, formatting, and technical validation of this manuscript were assisted by **Gemini-3-Pro-Preview** (Google), an AI Large Language Model. The AI was utilized for:

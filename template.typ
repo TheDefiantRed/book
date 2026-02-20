@@ -31,12 +31,26 @@
     v(0.5em)
   }
 
-  // Apply extra whitespace around all figures (tables and images)
+  // 4. Global Styling Rules
+
+  // Subtitles (Semantic figure)
+  show figure.where(kind: "subtitle"): it => {
+    set block(above: 0.5em, below: 2em) // Override default figure spacing
+    align(center, block(width: 85%)[
+      #text(style: "italic", fill: rgb("#666666"), size: 1.15em, it.body)
+    ])
+  }
+
+  // General Figures (Tables and Images)
+  // Note: This rule applies to all figures EXCEPT those with specific overrides above if they matched first?
+  // Actually, 'show figure:' applies to all. To avoid conflict, we should be careful.
+  // The 'where' selector above is more specific, so it should take precedence for the content transformation.
+  // But the 'set block' below might cascade.
   show figure: set block(above: 3em, below: 3em)
 
   // Style all figure and table captions
   show figure.caption: set text(size: font-size-small, style: "italic")
 
-  // 4. Render the actual document content
+  // 5. Render the actual document content
   body
 }
