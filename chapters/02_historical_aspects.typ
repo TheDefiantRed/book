@@ -131,7 +131,7 @@ From the translation of the so-called 'Glassmakers Tablet' which are available, 
 #figure(
   image("../assets/glassmakers-tablet.jpg", width: 60%),
   caption: [The 'Glassmakers Tablet'. Courtesy of the British Museum]
-) <fig-glassmakers-tablet>
+) <fig:glassmakers-tablet>
 
 The text of the tablet is divided into five chapters. The first chapter gives the receipt for 'lead-copper' glaze; the second chapter gives a receipt for 'Akkadian-copper'. Chapter three describes the handling of the clay for the potter ware to be glazed. Chapter four mentions the glazing, while the fifth chapter gives the signature which translation reads as follows:
 
@@ -140,7 +140,7 @@ The text of the tablet is divided into five chapters. The first chapter gives th
 #figure(
   image("../assets/glassmakers-tablet-chapters.jpg", width: 80%),
   caption: [Chapters of the Glassmakers Tablet.]
-) <fig-chapters-glassmakers>
+) <fig:chapters-glassmakers>
 
 Although Assyriologists had already succeeded to unravel Assyrian cuneiform more than a hundred years ago, one can notice some differences in the mentioned translations. Where Campbell Thomson mentions salpeter, Oppenheims' translation gives anzahhu-glass. Another difference is that Campbell Thomson makes mention of lime, where Oppenheim mentions antimony. Furthermore, a striking difference is that Oppenheim states that the BM 120960 text gives 'a prescription how to produce red-stone coloured glass'. Following Oppenheim, chapter one gives the recipe for Assyrian red-stone glass and chapter two the recipe for Akkadian red-stone glass. R. Campbell Thomson, who has done a lot of work in respect of investigation and translation of Assyrian clay tablets, speaks of green lead-copper glazes in his translation.#footnote[private correspondence between author and Prof. K. R. Veenhof, Rijksuniversiteit Leiden, Assyriologisch Instituut, 1984.]
 
@@ -154,7 +154,7 @@ From the history of glass#footnote[Gustav Weiss. 'Antiek Glas'. Elsevier, Hollan
 
 Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the influence of glaze components in relation with the colour development in this type of glazes. From this survey it is shown that pure alkaline silicate glazes with 3 mol $"SiO"_2$ developed the most beautiful blue colours. Besides the glaze itself, the body used is also important. This influence of the body composition with regard to this type of glazes, often called Egyptian or Persian blue, is described by M.M. French.#footnote[M. M. French. Journal of the American Ceramic Society, 1923, p.405.] From these investigations the conclusion was drawn that quartz-rich and calcium-poor bodies were favourable for the development of the blue colour. W. Henze#footnote[W. Henze. Keramische Rundschau, 1928, p.821.] reports also that just alkaline silicate compositions render good results. Also an alkaline-lead-silicate with 18% PbO develops a good 'well-melted Turkish blue'.
 
-From the before mentioned examinations, it is plausible to suppose that the base glass from the Glassmakers Tablet, mentioned as zukû-glass, could have consisted of an alkaline silicate, e.g. in the mole ratio alkaline : $"SiO"_2$ = 1 : 3 and where the alkaline is singly represented by sodium. Presuming this, the glaze composition should have been read as mentioned in @fig-glaze-composition:
+From the before mentioned examinations, it is plausible to suppose that the base glass from the Glassmakers Tablet, mentioned as zukû-glass, could have consisted of an alkaline silicate, e.g. in the mole ratio alkaline : $"SiO"_2$ = 1 : 3 and where the alkaline is singly represented by sodium. Presuming this, the glaze composition should have been read as mentioned in @fig:glaze-composition:
 
 #figure(
   table(
@@ -169,7 +169,7 @@ From the before mentioned examinations, it is plausible to suppose that the base
     [], [100.00 %], [], [], []
   ),
   caption: [Glaze composition]
-) <fig-glaze-composition>
+) <fig:glaze-composition>
 
 #figure(
   table(
@@ -191,9 +191,9 @@ From the before mentioned examinations, it is plausible to suppose that the base
     table.hline(stroke: 0.5pt),
   ),
   caption: [Oxide composition comparison]
-) <tab-oxide-comparison>
+) <tab:oxide-comparison>
 
-The colour of the glazes of Table VI do not show much difference in appearance and colour development when applied to several bodies. A greater difference than that between the glazes is noticed for the same glaze applied on different bodies as shown by @fig-blue-glaze. For these three articles the same glaze was used, namely the chapter one glaze according to Campbell Thomson. The most beautiful blue colour, reminiscent of the colour of Lapis Lazuli, was achieved using a body with a composition as mentioned in Table VII:
+The colour of the glazes of @tab:oxide-comparison do not show much difference in appearance and colour development when applied to several bodies. A greater difference than that between the glazes is noticed for the same glaze applied on different bodies as shown by @fig:blue-glaze. For these three articles the same glaze was used, namely the chapter one glaze according to Campbell Thomson. The most beautiful blue colour, reminiscent of the colour of Lapis Lazuli, was achieved using a body with a composition as mentioned in @tab:body-composition:
 
 #figure(
   table(
@@ -210,13 +210,13 @@ The colour of the glazes of Table VI do not show much difference in appearance a
     [], [100 %]
   ),
   caption: [Body composition]
-) <tab-body-composition>
+) <tab:body-composition>
 
-Although series of trials were also performed in a gas-heated kiln (natural gas) under reducing conditions, it was not possible to obtain (copper) reduced glazes with a reddish colour. Only the blue colour as well known from the ancient times showed up. Based on these facts it may be supposed that the glaze as prescribed on the BM 120960 tablet may have looked like the glaze on @fig-blue-glaze. The BM 120960 Glassmakers Tablet, some 3700 years old, may therefore be considered as one of the first written ceramic recipes (although not a red glaze) and the start of publishing and collecting of ceramic data.
+Although series of trials were also performed in a gas-heated kiln (natural gas) under reducing conditions, it was not possible to obtain (copper) reduced glazes with a reddish colour. Only the blue colour as well known from the ancient times showed up. Based on these facts it may be supposed that the glaze as prescribed on the BM 120960 tablet may have looked like the glaze on @fig:blue-glaze. The BM 120960 Glassmakers Tablet, some 3700 years old, may therefore be considered as one of the first written ceramic recipes (although not a red glaze) and the start of publishing and collecting of ceramic data.
 
 #figure(
   image("../assets/blue-alkaline-copper-glaze.jpg", width: 80%),
   caption: [Blue alkaline copper glaze following BM 120960 tablet]
-) <fig-blue-glaze>
+) <fig:blue-glaze>
 
 #pagebreak()

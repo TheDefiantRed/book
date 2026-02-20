@@ -38,7 +38,7 @@ By slibbing-up one could obtain the finest particles and applied to a suitable a
     })
   }),
   caption: [Terra Sigillata typical firing curve]
-) <fig-terra-sigillata-chart>
+) <fig:terra-sigillata-chart>
 
 This is also the explanation for the red and black colours of the Greek ceramic vases.
 
@@ -52,12 +52,12 @@ This technique with the slib glazes reached an absolute culminating point during
 
 Besides these still beautiful red colour of the Terra Sigillata from the past there are also today iron red colours used in ceramics. One of them is as onglaze decoration colour also called Venetian Red. This is a red onglaze colour for application at about 780 °C -- 800 °C in a cycle of 5 to 6 hours also known as the classical porcelain onglaze firing. The Venetian Red is in most cases built up with one or more suitable fluxes and an iron compound which in most cases is an iron oxide.
 
-The fluxes are composed in such a way that they develop the colour as good as possible and also have good properties with regard to gloss and acid resistance. Of course, one may call this colour red but compared to the CdSe red colours it has a clearly brown component. The famous Japanese Imari colours (see @fig-imari-plate) are an example and a representative of this type of iron red onglaze colours.
+The fluxes are composed in such a way that they develop the colour as good as possible and also have good properties with regard to gloss and acid resistance. Of course, one may call this colour red but compared to the CdSe red colours it has a clearly brown component. The famous Japanese Imari colours (see @fig:imari-plate) are an example and a representative of this type of iron red onglaze colours.
 
 #figure(
   image("../assets/greek-vase-showing-bright-red-and-black.jpg", width: 50%),
   caption: [Greek vase showing bright red and black colours in one firing]
-) <fig-greek-vase>
+) <fig:greek-vase>
 
 #block(
   breakable: false,
@@ -237,6 +237,6 @@ Nowadays, these types of glazes are not as popular anymore. Especially, the tile
 #figure(
   image("../assets/imari-porcelain-plate.jpg", width: 100%),
   caption: [Imari porcelain plate, flower decoration, QianLong period, 2nd half of 18th century]
-) <fig-imari-plate>
+) <fig:imari-plate>
 
 #pagebreak()

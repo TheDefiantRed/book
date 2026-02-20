@@ -6,6 +6,10 @@ Global & Introduction
 
     Spelling Correction: The brand name 'Zeis' was corrected to 'Zeiss'.
 
+    Tables: The manuscript refers to tables in Roman Numerals, but Typst uses an internal sequence. Where the body mentions "Table nn" (where nn is a Roman Numeral, such as IX) it must be replaced by a label. Typically, we label all tables in Typst using <tab:some-descriptive-label>.
+
+    The same goes for Figures and Photographs, they are all counted as Figure in a Typst internal sequence. Where the body mentions a Figure, it must be replaced by a label reference. Typically, we label all figures in Typst using <fig:some-descriptive-label>.
+
 Chapter 2: Historical Aspects
 
     Chemical Spelling: The term 'porphyrin complex' was corrected (was 'profirine complex').

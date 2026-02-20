@@ -25,9 +25,9 @@ $ y = Y / (X + Y + Z) $
 The relative blue part is:
 $ z = 1 - (x + y) $
 
-The $x$ and $y$ coordinates of the CIE system defines any position on the chromatic diagram (see figure 1). When another variable, the $Y$ value (lightness) is coupled with the chromaticity diagram, the combination defines the exact place in the spatial pattern of the CIE diagram. The dominant wavelength, $lambda_d$, can be determined by lengthening the line between the neutral point and the point as located by the $x$ and $y$ coordinates. The point of intersection of this line and the curve of the spectral colours gives $lambda_d$ for that particular colour. The distance from the neutral point till the point as fixed by the chromatic coordinates $x$ and $y$ is a measure for the colour saturation $sigma$. The colours on the spectral curve have a $sigma = 100$.
+The $x$ and $y$ coordinates of the CIE system defines any position on the chromatic diagram (see @fig:cie-chromatic-diagram). When another variable, the $Y$ value (lightness) is coupled with the chromaticity diagram, the combination defines the exact place in the spatial pattern of the CIE diagram. The dominant wavelength, $lambda_d$, can be determined by lengthening the line between the neutral point and the point as located by the $x$ and $y$ coordinates. The point of intersection of this line and the curve of the spectral colours gives $lambda_d$ for that particular colour. The distance from the neutral point till the point as fixed by the chromatic coordinates $x$ and $y$ is a measure for the colour saturation $sigma$. The colours on the spectral curve have a $sigma = 100$.
 
-If one measures a typical example of a CdSe glaze prepared through the method using a pigment (i) and through the melted-in method (ii), one arrives at the data as given in Table I. For this measurement a colorimeter of Zeiss, type RFC 16 was used. The colour is measured through 16 filters. With these data one can determine the $lambda_d$ and $sigma$ for these colours.
+If one measures a typical example of a CdSe glaze prepared through the method using a pigment (i) and through the melted-in method (ii), one arrives at the data as given in @tab:colour-measurement-zeiss. For this measurement a colorimeter of Zeiss, type RFC 16 was used. The colour is measured through 16 filters. With these data one can determine the $lambda_d$ and $sigma$ for these colours.
 
 #figure(
   table(
@@ -42,14 +42,14 @@ If one measures a typical example of a CdSe glaze prepared through the method us
     table.hline(stroke: 0.5pt)
   ),
   caption: [Colour measurement data (Zeiss RFC 16 colorimeter)]
-)
+) <tab:colour-measurement-zeiss>
 
 #figure(
   image("../assets/cie-chromatic-diagram.png", width: 80%),
   caption: [CIE chromatic diagram]
-)
+) <fig:cie-chromatic-diagram>
 
-Another type of colorimeter is the Hunterlab colorimeter, also including advanced calculation equipment. This meter gives the colour values in $L$, $a$ and $b$ and is also able to give the in-line colour difference according to the CIELAB method in a fast way. When measured the same colour samples (i) and (ii) as mentioned before with a Hunterlab type D 25 g, the data is obtained as given in Table II.
+Another type of colorimeter is the Hunterlab colorimeter, also including advanced calculation equipment. This meter gives the colour values in $L$, $a$ and $b$ and is also able to give the in-line colour difference according to the CIELAB method in a fast way. When measured the same colour samples (i) and (ii) as mentioned before with a Hunterlab type D 25 g, the data is obtained as given in @tab:colour-measurement-hunterlab.
 
 #figure(
   table(
@@ -64,11 +64,11 @@ Another type of colorimeter is the Hunterlab colorimeter, also including advance
     table.hline(stroke: 0.5pt)
   ),
   caption: [Colour measurement data (Hunterlab type D 25 g)]
-)
+) <tab:colour-measurement-hunterlab>
 
 Although these data of the colour measurements of sample (i) and sample (ii) are rather close, it is without doubt that a simple visual judgment, even by inexperienced eyes, is sufficient to distinguish the different nature of these two examples of CdSe glazes.
 
-The typical colour characteristics of the CdSe glazes as shown in the Tables I and II are clearer if they are compared with the results of the colour measurements of some other typical representatives of components which also create reddish colours in ceramics. For these colour measurements the same Zeiss RFC 16 colorimeter was used. The results are given in Table III.
+The typical colour characteristics of the CdSe glazes as shown in the Tables I and II are clearer if they are compared with the results of the colour measurements of some other typical representatives of components which also create reddish colours in ceramics. For these colour measurements the same Zeiss RFC 16 colorimeter was used. The results are given in @tab:colour-measurement-comparison.
 
 #figure(
   table(
@@ -86,9 +86,9 @@ The typical colour characteristics of the CdSe glazes as shown in the Tables I a
     table.hline(stroke: 0.5pt)
   ),
   caption: [Colour measurement data comparison]
-)
+) <tab:colour-measurement-comparison>
 
-As there are no colours which can be considered as standard colours for the various mentioned reds, the glaze examples of Table III represent a certain choice. This choice per colouring component was made in such a way that the mentioned glazes clearly can be recognized as representatives for that colour component. The glaze references as used for these colour measurements are given in Table IV.
+As there are no colours which can be considered as standard colours for the various mentioned reds, the glaze examples of @tab:colour-measurement-comparison represent a certain choice. This choice per colouring component was made in such a way that the mentioned glazes clearly can be recognized as representatives for that colour component. The glaze references as used for these colour measurements are given in @tab:glaze-references.
 
 #figure(
   table(
@@ -117,7 +117,7 @@ As there are no colours which can be considered as standard colours for the vari
     )
   ),
   caption: [Glaze references]
-)
+) <tab:glaze-references>
 
 As mentioned before, these values illustrate more or less the typical character of the CdSe colours. Only the red colour obtained through chromium can approximate these values to a certain extent. However, the special character and application possibilities of chromium red glazes mean that these types of glazes are only applicable in the field of art pottery. All other methods are unable to create the typical signal or pillar-box red colours as those from the CdSe glazes.
 

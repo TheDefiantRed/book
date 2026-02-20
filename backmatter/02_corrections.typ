@@ -5,8 +5,8 @@
 
 This section lists the specific corrections and adjustments made to the original manuscript during the conversion to PDF. These changes ensure scientific accuracy, consistent formatting, and improved readability while maintaining the original tone and intent of the book.
 
-- *Figure and Photograph Numbering* were combined into one global sequence.
-- *Table numbering* was corrected, as some tables were mislabeled as figures.
+- *Figures:* Unified the numbering of "Figures" and "Photographs" into a single global "Figure" sequence.
+- *Tables:* Converted from Roman Numerals into a single global "Table" sequence and corrected references.
 
 == Chapter 1: Introduction
 
@@ -20,9 +20,6 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'chlorophyl' to 'chlorophyll'.
 - *Spelling:* Corrected 'carotenoides' to 'carotenoids'.
 - *Spelling:* Corrected '1, 2-dihydroxyantrachinon' to '1,2-dihydroxyanthraquinone'.
-- *Formatting:* The single placeholder for "Figure 2" (Alizarine) was replaced with a two-column grid displaying both the structure formula and the powder.
-- *Formatting:* The single placeholder for "Figure 3" (Amino-benzene) was replaced with a two-column grid displaying both the structure formula and the 3D rendering.
-- *Formatting:* Unified the numbering of "Figures" and "Photographs" into a single global "Figure" sequence.
 - *Formatting:* Chemical formulas (e.g., $"Fe"_2"O"_3$, $"TiO"_2$) were formatted using inline math mode for consistency.
 
 == Chapter 3: Iron
@@ -59,7 +56,6 @@ This section lists the specific corrections and adjustments made to the original
 - *Transliteration:* Updated Dutch phonetic transliterations of Chinese dynasties (e.g., 'Tsjow', 'Tsjin') to standard Wade-Giles ('Chou', 'Ch'in') or Pinyin ('Xia') where appropriate.
 - *Enhancement:* Added Simplified Chinese characters (e.g., 'Chou (周)') to dynasty names for clarity and modern context.
 - *Caption:* Corrected the caption for Photograph 7 to "Guangxu period, Ch'ing dynasty" (was "GuangxuChh").
-- *Formatting:* Replaced missing photographs with placeholders.
 
 == Acknowledgments
 

@@ -102,11 +102,11 @@ Another reason is that one made use of the Western raw materials which are avail
 
 Important contributions in respect of the development, the realization and the chemistry behind the copper red glazes are published by e.g. Herman A. Seger#footnote[H. Seger. 'Gesammelte Schriften'. Verlag Chemisches Laboratorium für Tonindustrie, Berlin, 1896.], C. M. Harder#footnote[C. M. Harder. 'Red Glazes and Underglaze Red by Reduction'. J. Am. Ceram. Soc. 19, 26-28, 1936.], E. Breitenfeldt#footnote[E. Breitenfeldt. 'Experiments on Copper Red Glazes'. Keram. Rundschau, 37, 1929.], J. W. Mellor#footnote[J. W. Mellor. 'Chemistry of the Chinese Copper-red Glazes'. Trans. Ceram. Soc. 35, 1936.], Brown and Norton#footnote[Brown; Norton. 'Constitution of Copper-red Glazes'. J. Am. Ceram. Soc. 42, 1959.] and C. W. Parmelee#footnote[C. W. Parmelee. 'Ceramic Glazes'. Cahners Publ. Comp. Inc. Boston, 1973.].
 
-All these investigations have contributed to a better knowledge and understanding of Chinese reds made through reduction of copper oxide. This offers the present artists a lead in their experiments but it is hardly imaginable that they will reach a higher level than the Chinese potters of the Sung dynasty. An example of copper red glaze can be seen on @fig-copper-red:
+All these investigations have contributed to a better knowledge and understanding of Chinese reds made through reduction of copper oxide. This offers the present artists a lead in their experiments but it is hardly imaginable that they will reach a higher level than the Chinese potters of the Sung dynasty. An example of copper red glaze can be seen on @fig:copper-red:
 
 #figure(
   image("../assets/chinese-copper-red-glaze.jpg", width: 100%),
   caption: [Chinese copper red glaze, water pot, Guangxu period, Ch'ing dynasty. Chinese red through copper reduction.]
-) <fig-copper-red>
+) <fig:copper-red>
 
 #pagebreak()
