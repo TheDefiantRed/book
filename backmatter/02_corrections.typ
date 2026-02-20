@@ -55,7 +55,7 @@ This section lists the specific corrections and adjustments made to the original
 
 == Acknowledgments
 
-The conversion, formatting, and technical validation of this manuscript were assisted by **Gemini-3-Pro-Preview** (Google), an AI Large Language Model. The AI was utilized for:
+The conversion, formatting, and technical validation of this manuscript were assisted by `Gemini-3-Pro-Preview` (Google), an AI Large Language Model. The AI was utilized for:
 - Extracting and structuring text from the original `.odt` source.
 - Generating Typst code for layout, tables, and figures.
 - Applying specific corrections listed in this chapter.

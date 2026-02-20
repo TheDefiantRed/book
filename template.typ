@@ -20,7 +20,7 @@
   )
 
   // 2. Typography & Font Definitions
-  set text(font: "Linux Libertine", size: font-size-main, lang: "en")
+  set text(size: font-size-main, lang: "en")
   set par(justify: true, leading: 0.65em)
 
   // 3. Header Definitions
