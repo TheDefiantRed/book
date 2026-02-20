@@ -36,7 +36,7 @@ Another organic possibility which was used to obtain a warm red colour came from
   columns: (1fr, 1fr),
   gutter: 2em,
   figure(
-    image("../assets/alizarine-structure-formula.png", width: 90%),
+    image("../assets/Alizaryna.svg", width: 90%),
     caption: [Structure formula Alizarine red]
   ),
   figure(
@@ -67,12 +67,12 @@ It will be clear that there are a number of disadvantages with regard to these n
   columns: (1fr, 1fr),
   gutter: 2em,
   figure(
-    image("../assets/Amino-benzene-structure-formula.png", width: 40%),
+    image("../assets/Aniline.svg", width: 40%),
     caption: [Structure formula Amino-benzene]
   ),
   figure(
-    image("../assets/Amino-benzene-rendering.png", width: 50%),
-    caption: [Amino-benzene rendering]
+    image("../assets/Aniline-3D-balls.png", width: 50%),
+    caption: [Amino-benzene molecular model]
   )
 )
 #v(3em)
