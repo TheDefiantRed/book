@@ -37,7 +37,7 @@ It is crucial to maintain scientific accuracy and integrity for this project. Al
 # Current Status
 - Frontmatter (Title, Copyright, Welcome, TOC, Preface) is COMPLETED.
 - Chapter 1 is COMPLETED.
-- Chapter 2 is PENDING.
+- Chapter 2 is COMPLETED.
 
 # Workflow
 - **Source of Truth:** The `src/thedefiantred_extracted.md` file (generated via `pandoc`) is the primary reference for text extraction.
@@ -54,4 +54,13 @@ Identify key learnings along the way and persist them inside the project. (e.g. 
   - **Formulas:** The source text for the CIE chromaticity coordinates was found to be ambiguous (e.g., `x = X / X + Y + Z`), lacking necessary parentheses. The Typst implementation `$x = X / (X + Y + Z)$` correctly applies the fix listed in `CORRECTIONS.md`.
   - **Footnotes:** The lack of italic styling for book titles in the footnotes matches the source document exactly.
   - **Overall Fidelity:** The content structure and text match the source high-fidelity extraction.
+- **Verification of Chapter 2:**
+  - **Formatting:** Terms like 'Rubia Tinctorum' are quoted in the source, not italicized. This style has been preserved.
+  - **Corrections:** All 5 specific corrections for Chapter 2 from `CORRECTIONS.md` (e.g., 'porphyrin', 'chlorophyll') have been applied.
+  - **Tables:** Complex tables (like the Oxide Composition comparison) have been reconstructed for clarity while maintaining data integrity.
+- **Typst Math Mode:** A critical distinction exists between inline and block math. `$x$` renders inline, while `$ x $` (with spaces) renders as a block. Always use tight spacing for inline formulas to avoid breaking the text flow.
+- **Global Numbering:** The project uses a global numbering scheme where:
+  - **Figures & Photographs:** Are combined into a single "Figure" sequence (e.g., Figure 1, Figure 2...).
+  - **Tables:** Are numbered globally as a separate "Table" sequence (e.g., Table 1, Table 2...).
+  - **Implementation:** Use Typst's `#figure()` for both, relying on the `kind` parameter (or inference) to distinguish tables from images. References should use `@label` syntax for dynamic numbering.
 

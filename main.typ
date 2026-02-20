@@ -19,3 +19,4 @@
 // CHAPTERS
 // ==========================================
 #include "chapters/01_introduction.typ"
+#include "chapters/02_historical_aspects.typ"
