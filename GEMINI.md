@@ -7,7 +7,8 @@ The goal of this project is to extract the text and format it into a professiona
 The original manuscript is provided in `src/thedefiantred final4.doc` file. This file has images embedded and as such might be too large to parse. A `.odt` version has been supplied instead, which does not contain any images.
 
 The footnotes in the source might not be actual footnotes, but superscript "1)" etc. It is up to you to parse these correctly anyway.
-The tables and figures in the source are numbered manually, it is up to you to utilize Typst built-in functionality.
+The tables in the source are numbered manually, it is up to you to utilize Typst built-in functionality.
+You are _not_ expected to correctly extract images from the source material. I will add these back in manually. It is always appreciated if you inserted placeholders, like a grey square, in place where you think an image was present.
 
 # Architecture Rules
 - **Language:** All Typst code, variables, and comments MUST be in English.
@@ -35,9 +36,22 @@ It is crucial to maintain scientific accuracy and integrity for this project. Al
 
 # Current Status
 - Frontmatter (Title, Copyright, Welcome, TOC, Preface) is COMPLETED.
-- Chapter 1 is structurally COMPLETED, but specifically missing footnotes 2, 3, 4, and 5. The very first task is to locate these in the .odt and provide the patched text blocks using the `#footnote[]` syntax.
+- Chapter 1 is COMPLETED.
 - Chapter 2 is PENDING.
+
+# Workflow
+- **Source of Truth:** The `src/thedefiantred_extracted.md` file (generated via `pandoc`) is the primary reference for text extraction.
+- **Verification:** Every chapter's conversion into Typst MUST be verified against the original `.odt` file (e.g., by inspecting the XML structure or opening it in a viewer if possible) to ensure high fidelity. Pay special attention to:
+  - **Math/Formulas:** Pandoc often flattens fractions. Verify the order of operations and grouping.
+  - **Formatting:** Check for italics/bolding in footnotes and references, which might be lost or ambiguous in Markdown.
+  - **Special Characters:** Ensure superscripts/subscripts are correctly interpreted.
 
 # Learnings
 Identify key learnings along the way and persist them inside the project. (e.g. in this file)
+
+- **Footnote Extraction:** The footnotes in the source `.odt` file are not linked as actual ODF footnotes but are manually listed at the end of the document under the section "11. LITERATURE". They are referenced in the text as superscript numbers like `1)`. To extract them efficiently, converting the `.odt` to GitHub-flavored Markdown using `pandoc -f odt -t gfm "src/thedefiantred final4.odt"` is highly recommended. This allows for easy searching of the `LITERATURE` section to match the superscript references.
+- **Verification of Chapter 1:** The conversion of Chapter 1 has been verified against the source `.odt` file.
+  - **Formulas:** The source text for the CIE chromaticity coordinates was found to be ambiguous (e.g., `x = X / X + Y + Z`), lacking necessary parentheses. The Typst implementation `$x = X / (X + Y + Z)$` correctly applies the fix listed in `CORRECTIONS.md`.
+  - **Footnotes:** The lack of italic styling for book titles in the footnotes matches the source document exactly.
+  - **Overall Fidelity:** The content structure and text match the source high-fidelity extraction.
 
