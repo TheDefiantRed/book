@@ -11,8 +11,16 @@
   #v(3cm)
 
   #text(size: 10pt)[
-    © by the author.\
-    No part of this book may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, microfilming, scanning, recording or otherwise, without written permission of the author.
+    *Text and Images*\
+    Copyright © L.W. Baaij (Estate). All Rights Reserved.\
+    No part of the original manuscript text or images may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, microfilming, scanning, recording or otherwise, without written permission of the copyright holder.
+
+    #v(1em)
+
+    *Typst Typesetting & Code*\
+    Copyright © 2026 Joost Baaij.\
+    The Typst code and formatting templates used in this project are licensed under the \
+    *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License* (CC BY-NC-SA 4.0).
   ]
 ]
 
