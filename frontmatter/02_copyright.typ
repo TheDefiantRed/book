@@ -1,7 +1,7 @@
 // 02_copyright.typ
 // Credits and copyright information
 
-#align(center + horizon)[
+#align(bottom)[
   #text(size: 11pt)[
     *My sincere thanks to the correctors:*\
     Dr. Ir. J. P. B. Baaij --- Chemistry\
@@ -19,7 +19,7 @@
 
     *Typst Typesetting & Code*\
     Copyright © 2026 Joost Baaij.\
-    The Typst code and formatting templates used in this project are licensed under the \
+    The Typst code and formatting templates used in this project are licensed under the
     *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License* (CC BY-NC-SA 4.0).
   ]
 ]
