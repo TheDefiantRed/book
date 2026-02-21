@@ -63,7 +63,6 @@ This section lists the specific corrections and adjustments made to the original
 == Chapter 5: Gold
 
 - *Spelling:* Corrected the title of the 10th-century manuscript 'Mappas Clavicula' to 'Mappae Clavicula'.
-- *Figure:* The Lycurgus bowl, originally presented as two separate photographs but labeled as a single Figure, has been combined into a single Figure containing both images to maintain semantic unity with the original text.
 
 == Chapter 6: Chromium Tin Stains
 
@@ -79,7 +78,7 @@ This section lists the specific corrections and adjustments made to the original
 == Acknowledgments
 
 The conversion, formatting, and technical validation of this manuscript were assisted by `Gemini-3-Pro-Preview` (Google), an AI Large Language Model. The AI was utilized for:
-- Extracting and structuring text from the original `.odt` source.
+- Extracting and structuring text from `.odt` source.
 - Generating Typst code for layout, tables, and figures.
 - Applying specific corrections listed in this chapter.
 - Verifying mathematical formulas and chemical syntax.
