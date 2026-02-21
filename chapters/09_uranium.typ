@@ -28,10 +28,10 @@ All these deposits are mainly explored with regard to the economical value of ur
 
 Other than some early findings of uranium containing glass through which an early application is known, a deliberated use of uranium containing minerals was uncommonly limited. The application of several uranium salts in the glass#footnote[J. M. Stevels; F. A. Kröger; T. P. J. Botden. 'Fluorescence of hexavalent uranium in glass'. Philips Research Reports, 3 (1) 46-48, 1948.] and ceramic industry came slightly into fashion during the first half of the 20#super[th] century. There are however not so many publications available as far as the ceramic sphere is concerned. An article of Charles F. Binns and Frobisher Lyttle#footnote[Charles F. Binns; Frobisher Lyttle. Journal of the Am. Cer. Society, no.11, 1920.] published in 1920 mention some compositions for uranium red glazes. As uranium source they mentioned sodium uranate ($"Na"_2"U"_2"O"_7$). The glazes, with 20 and 37 % $"Na"_2"U"_2"O"_7$ resp., developed a bright cinnabar red at a temperature of SK 04a (1020 °C). The base glaze was a lead alumina silicate with only an introduction of some potassium and zinc oxide in the $"R"_2"O" \/ "RO"$ group.
 
-Another article was published by Zimmermann#footnote[Zimmermann. 'Klei', no.20, 1927.]. He started with a simple lead-alumina-silicate with the following composition:
-
 #recipe[
-  #figure(
+  Another article was published by Zimmermann#footnote[Zimmermann. 'Klei', no.20, 1927.]. He started with a simple lead-alumina-silicate with the following composition:
+
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -52,9 +52,9 @@ As a base glaze composition he used a fritted lead meta silicate, completed with
 The trials were fired in a brown coal fired muffelkiln at SK 08a (940 °C) and SK 05a (1000 °C). Heating up took 26 hours and the cooling 50 hours.
 
 #recipe[
-One of the tests applied after the firing was a test with hydrochloric acid. The results were classified in 7 groups ranging from 'not attacked' to 'completely affected'. Glazes with only a variation in the $"SiO"_2$ content according to the formula:
+  One of the tests applied after the firing was a test with hydrochloric acid. The results were classified in 7 groups ranging from 'not attacked' to 'completely affected'. Glazes with only a variation in the $"SiO"_2$ content according to the formula:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -83,7 +83,7 @@ Sodium had in common with potassium that it had a negative influence on the red 
 #recipe[
   In summary it was concluded that good resistant uranium red glazes could be obtained with compositions between:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -93,7 +93,7 @@ Sodium had in common with potassium that it had a negative influence on the red 
       [$"CaF"_2$], [0.15 -- 0.10], [], [], [], [], [], [],
       [$"K"_2"O"$], [0.15 -- 0.10], [], [], [], [], [], [],
     )
-  ) <tab:uranium-red-glaze-compositions>
+  )
 ]
 
 The influence of metal oxides such as $"CuO"$, $"CoO"$, $"Mn"_2"O"_3$, $"Fe"_2"O"_3$ and $"Sb"_2"O"_3$ on the colour development was also ascertained. The main conclusion was that these oxides destroyed the original uranium orange or red colour, but that sometimes colour effects were created which were impossible to obtain with more conventional (and cheaper) stains.
@@ -103,7 +103,7 @@ Another interesting but also rather compendious article was published in 1934 by
 #recipe[
   A 'pleasing red glaze of this type with a crystalline structure' could be obtained with the following glaze composition:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -153,7 +153,7 @@ A not proper glaze application often resulted in an irregular glaze and colour a
 #recipe[
   One used several salts to reach the required colour shades. The origin of those compounds was not always clear, neither was the measure of radiation. For colouring of the glazes the mainly applied uranium compounds were:
 
-  #figure(
+  #align(center,
     table(
       columns: (1fr, 1fr),
       stroke: none,
@@ -174,7 +174,7 @@ A not proper glaze application often resulted in an irregular glaze and colour a
 #recipe[
   Although not a red-giving composition but a main one in respect of the application of uranium for the well known greenish-yellowish fluorescence, the following composition is mentioned by Jochmann:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto),
       stroke: none,
@@ -199,7 +199,7 @@ In those cases the uranium should be present as $"UO"_3$.
 #recipe[
   The early uranium red glazes mentioned by Binns and Lyttle were based on the following compositions:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -216,7 +216,7 @@ An addition of 20 % of sodium uranate should result in a cinnabar red glaze for 
 #recipe[
   The base glaze:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -232,7 +232,7 @@ An addition of 20 % of sodium uranate should result in a cinnabar red glaze for 
 #recipe[
   Zimmermann mentioned the following compositions for orange-red glazes, suitable at SK 07a till SK 03a (960 °C till 1040 °C):
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -253,7 +253,7 @@ For these compositions counted that an addition of 20 parts of sodium uranate to
 #recipe[
   The study of Eska is detailed and built up in a very schematic way. The glazes were fired at SK 08a (940 °C) and SK 05a (1000 °C). The below mentioned glazes gave, according to the author, good red glazes:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -273,7 +273,7 @@ For these compositions counted that an addition of 20 parts of sodium uranate to
 #recipe[
   The weather resistance was not always sufficient and the glazes were heavily attacked. This as contrasted with glazes where the lead content was partly replaced by fluorspar:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -291,7 +291,7 @@ If part of the lead content was replaced by magnesium the investigator observed 
 #recipe[
   The introduction of potassium resulted in bright red glossy glazes with a good resistance. The following examples can be mentioned:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -307,7 +307,7 @@ A too high an amount of sodium had a negative influence on colour, glaze, surfac
 #recipe[
   Kautz gives some compositions for respectively green, yellow, ivory, orange and red uranium based glazes. As possibility for a vermillion red glaze he mentioned:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -321,7 +321,7 @@ A too high an amount of sodium had a negative influence on colour, glaze, surfac
 #recipe[
   A good tomato red glaze for SK 07a (960 °C) with good processing properties is mentioned by Eggert. As base glaze was used:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -336,7 +336,7 @@ The basic red glaze was made with an addition of 16.7 % black uranium oxide $"UO
 #recipe[
   Viehweger mentioned a fire-red, opaque matt glaze with following composition:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto),
       stroke: none,
@@ -355,7 +355,7 @@ The basic red glaze was made with an addition of 16.7 % black uranium oxide $"UO
 #recipe[
   An orange-red opaque glaze for SK 05a -- 03a (1000 °C -- 1040 °C) had the following composition:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto),
       stroke: none,
@@ -379,7 +379,7 @@ Another application of uranium salts is also mentioned, namely in the compositio
 #recipe[
   A golden-yellow luster was then prepared using following composition:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto),
       stroke: none,

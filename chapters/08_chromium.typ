@@ -36,7 +36,7 @@ Chromium red glazes can approximate the appearance of CdSe colour quite close wi
 #recipe[
   A good and bright shiny chromium red is achieved on basis of a lead alumina silicate frit with composition:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -51,7 +51,7 @@ Chromium red glazes can approximate the appearance of CdSe colour quite close wi
 #recipe[
   The composition of the glaze is:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, auto),
       stroke: none,
@@ -77,7 +77,7 @@ This glaze has been supplied e.g. to Ceramica SMOV in Italy during the 70ties of
 #recipe[
   Another very bright red chromium glaze with crystal building on the surface can be obtained in the following way using a lead silicate as basis:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto),
       stroke: none,
@@ -90,7 +90,7 @@ This glaze has been supplied e.g. to Ceramica SMOV in Italy during the 70ties of
 #recipe[
   The composition of the glaze is (dry mix formula):
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto),
       stroke: none,

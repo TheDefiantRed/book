@@ -24,7 +24,7 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 #recipe[
   As a general glaze composition to obtain these violet red nickel coloured glazes counts:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -40,7 +40,7 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 #recipe[
   In 1921 an investigation was published#footnote[Keramische Rundschau 21-VIII.] describing the colouring effects of nickel oxide resulting in green, blue, violet-purple and brown colours. The best compositions for violet-purple-red colours were:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -55,7 +55,7 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 #recipe[
   and:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -70,7 +70,7 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 #recipe[
   Lehnhäuser#footnote[Prof. W. Lehnhäuser. 'Keramische Glasuren und ihre Farben'. Ritterbach Verlag, Frechen, Germany, 2000. ISBN 3 89314 659 8.] gives similar recipes for purple-violet glazes and mentions following composition for a temperature of 1100 °C till 1140 °C:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
@@ -102,7 +102,7 @@ In 1964 an investigation was published by Franz Kure#footnote[Ing. Franz Kure. '
 #recipe[
   An example for this type of violet-purple red coloured nickel glaze is shown by @photo:nickel-glaze. The following glaze composition was used to obtain this result at a firing temperature of 1040 °C -- 1060 °C:
 
-  #figure(
+  #align(center,
     table(
       columns: (auto, auto, auto),
       stroke: none,

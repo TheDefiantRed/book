@@ -45,18 +45,16 @@ Also this type of flamingo rose pink colour stain is not produced in this way an
 #recipe[
   A very nice flamingo rose pink has been made as follows:
 
-  #figure(
-    table(
-      columns: (auto, auto),
-      stroke: none,
-      align: (left, right),
-      [tin oxide], [41.16 %],
-      [calcium carbonate], [27.44 %],
-      [fine quartz], [22.52 %],
-      [lead oxide], [8.65 %],
-      [potassium dichromate], [0.23 %]
-    )
-  )
+  #align(center, table(
+    columns: (auto, auto),
+    stroke: none,
+    align: (left, right),
+    [tin oxide], [41.16 %],
+    [calcium carbonate], [27.44 %],
+    [fine quartz], [22.52 %],
+    [lead oxide], [8.65 %],
+    [potassium dichromate], [0.23 %]
+  ))
 ]
 
 Mixing and calcining at 1250 °C followed by wet milling and washing, drying and sieving. The result is a nice and clear flamingo rose. Also this stain is not produced anymore for economical and health reasons.
@@ -68,40 +66,36 @@ In former days one used to make first a calcium stannate out of calcium carbonat
 #recipe[
   An example is the following receipt:
 
-  #figure(
-    table(
-      columns: (auto, auto),
-      stroke: none,
-      align: (left, right),
-      [calcium carbonate], [23.34 %],
-      [tin oxide], [15.56 %],
-      table.hline(stroke: 0.5pt),
-      [quartz], [38.89 %],
-      [tin oxide], [19.40 %],
-      [lead chromate], [2.80 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %]
-    )
-  )
+  #align(center, table(
+    columns: (auto, auto),
+    stroke: none,
+    align: (left, right),
+    [calcium carbonate], [23.34 %],
+    [tin oxide], [15.56 %],
+    table.hline(stroke: 0.5pt),
+    [quartz], [38.89 %],
+    [tin oxide], [19.40 %],
+    [lead chromate], [2.80 %],
+    table.hline(stroke: 0.5pt),
+    [], [100.00 %]
+  ))
 ]
 
 #recipe[
   Also following cherry-red lead containing pink was produced in the past by dry mixing the raw materials, calcining, washing and drying:
 
-  #figure(
-    table(
-      columns: (auto, auto),
-      stroke: none,
-      align: (left, right),
-      [calcium carbonate], [25.70 %],
-      [quartz], [22.48 %],
-      [tin oxide], [42.60 %],
-      [potassium dichromate], [0.72 %],
-      [red lead oxide], [8.50 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %]
-    )
-  )
+  #align(center, table(
+    columns: (auto, auto),
+    stroke: none,
+    align: (left, right),
+    [calcium carbonate], [25.70 %],
+    [quartz], [22.48 %],
+    [tin oxide], [42.60 %],
+    [potassium dichromate], [0.72 %],
+    [red lead oxide], [8.50 %],
+    table.hline(stroke: 0.5pt),
+    [], [100.00 %]
+  ))
 ]
 
 Such formulations, having a small percentage of lead (introduced e.g. as lead chromate $"PbCrO"_4$, lead carbonate $"PbCO"_3$ or as red lead oxide) show normally a somewhat more bright and clear (wine) red colour compared to lead free compositions.
@@ -111,24 +105,22 @@ As the toxicity of lead compounds and also the lead release following DIN EN 138
 #recipe[
   Compositions mentioned are:
 
-  #figure(
-    table(
-      columns: (auto, auto, auto),
-      stroke: none,
-      align: (left, right, right),
-      [tin oxide], [40.08 %], [40.66 %],
-      [calcium carbonate], [31.01 %], [31.47 %],
-      [silica], [24.05 %], [24.40 %],
-      [chromium oxide], [1.25 %], [1.07 %],
-      table.hline(stroke: 0.5pt),
-      [potassium nitrate], [1.77 %], [---],
-      [potassium carbonate], [---], [1.80 %],
-      [bismuth oxide], [1.84 %], [---],
-      [bismuth nitrate], [---], [0.60 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %], [100.00 %]
-    )
-  )
+  #align(center, table(
+    columns: (auto, auto, auto),
+    stroke: none,
+    align: (left, right, right),
+    [tin oxide], [40.08 %], [40.66 %],
+    [calcium carbonate], [31.01 %], [31.47 %],
+    [silica], [24.05 %], [24.40 %],
+    [chromium oxide], [1.25 %], [1.07 %],
+    table.hline(stroke: 0.5pt),
+    [potassium nitrate], [1.77 %], [---],
+    [potassium carbonate], [---], [1.80 %],
+    [bismuth oxide], [1.84 %], [---],
+    [bismuth nitrate], [---], [0.60 %],
+    table.hline(stroke: 0.5pt),
+    [], [100.00 %], [100.00 %]
+  ))
 ]
 
 Following the patent, the materials were wet-mixed and finely ground, the potassium and the bismuth compounds added, mixed and calcined at 1340 °C for 1 hour, wet-ground and washed and then dried.
@@ -140,24 +132,22 @@ Lilac colour stains are composed out of tin oxide and a chromium compound, in mo
 #recipe[
   Some examples are:
 
-  #figure(
-    table(
-      columns: (auto, auto, auto),
-      stroke: none,
-      align: (left, right, right),
-      table.header([], [*Dark red lilac*], [*Bluish lilac*]),
-      [tin oxide], [91.45 %], [75.35 %],
-      [potassium dichromate], [3.45 %], [0.65 %],
-      [cerium oxide], [3.75 %], [---],
-      [lithium carbonate], [1.35 %], [---],
-      [boric acid], [---], [22.35 %],
-      [cobalt oxide], [---], [1.65 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %], [100.00 %],
-      [], [], [],
-      [calcination temperature:], [1290 °C], [1210 °C]
-    )
-  )
+  #align(center, table(
+    columns: (auto, auto, auto),
+    stroke: none,
+    align: (left, right, right),
+    table.header([], [*Dark red lilac*], [*Bluish lilac*]),
+    [tin oxide], [91.45 %], [75.35 %],
+    [potassium dichromate], [3.45 %], [0.65 %],
+    [cerium oxide], [3.75 %], [---],
+    [lithium carbonate], [1.35 %], [---],
+    [boric acid], [---], [22.35 %],
+    [cobalt oxide], [---], [1.65 %],
+    table.hline(stroke: 0.5pt),
+    [], [100.00 %], [100.00 %],
+    [], [], [],
+    [calcination temperature:], [1290 °C], [1210 °C]
+  ))
 ]
 
 
@@ -168,34 +158,30 @@ With all these examples, however, it is possible to create beautiful wine red, c
 #recipe[
   A typical lead containing glaze which shows a good development for CrSn stains is based on following frit:
 
-  #figure(
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, auto, left, right, auto, left, right),
-      [$"Na"_2"O"$], [0.145], [], [$"Al"_2"O"_3$], [0.172], [], [$"SiO"_2$], [2.977],
-      [$"K"_2"O"$], [0.050], [], [$"B"_2"O"_3$], [0.222], [], [], [],
-      [$"CaO"$], [0.266], [], [], [], [], [], [],
-      [$"PbO"$], [0.539], [], [], [], [], [], [],
-    )
-  )
+  #align(center, table(
+    columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
+    stroke: none,
+    align: (left, right, auto, left, right, auto, left, right),
+    [$"Na"_2"O"$], [0.145], [], [$"Al"_2"O"_3$], [0.172], [], [$"SiO"_2$], [2.977],
+    [$"K"_2"O"$], [0.050], [], [$"B"_2"O"_3$], [0.222], [], [], [],
+    [$"CaO"$], [0.266], [], [], [], [], [], [],
+    [$"PbO"$], [0.539], [], [], [], [], [], [],
+  ))
 ]
 
 #recipe[
   The milling formula for the glaze is 90 parts of the frit together with 10 parts of kaolin. This glaze has a maturing firing range of 1020 °C till 1100 °C and shows normally no lead release after standard DIN EN 1388-1 / -2. Despite this, many of this type of glazes have been replaced by unleaded glazes like glazes based on strontium containing frits#footnote[L.W. Baaij. 'Study on Leadfree Strontium containing Glazes', June 1980.] like e.g.:
 
-  #figure(
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, auto, left, right, auto, left, right),
-      [$"Li"_2"O"$], [0.062], [], [$"Al"_2"O"_3$], [0.134], [], [$"SiO"_2$], [2.302],
-      [$"K"_2"O"$], [0.039], [], [], [], [], [], [],
-      [$"CaO"$], [0.357], [], [], [], [], [], [],
-      [$"BaO"$], [0.107], [], [], [], [], [], [],
-      [$"SrO"$], [0.435], [], [], [], [], [], [],
-    )
-  )
+  #align(center, table(
+    columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
+    stroke: none,
+    align: (left, right, auto, left, right, auto, left, right),
+    [$"Li"_2"O"$], [0.062], [], [$"Al"_2"O"_3$], [0.134], [], [$"SiO"_2$], [2.302],
+    [$"K"_2"O"$], [0.039], [], [], [], [], [], [],
+    [$"CaO"$], [0.357], [], [], [], [], [], [],
+    [$"BaO"$], [0.107], [], [], [], [], [], [],
+    [$"SrO"$], [0.435], [], [], [], [], [], [],
+  ))
 ]
 
 Milling formula of the glaze is 90 parts of frit together with 10 parts of kaolin. Glazes as these are nowadays widely used as unleaded transparent glazes, also as base glaze for CrSn wine red glazes.

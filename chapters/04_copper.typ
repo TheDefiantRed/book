@@ -1,6 +1,6 @@
 // Chapter 4: Copper
 
-#import "../template.typ": narrow
+#import "../template.typ": narrow, recipe
 
 = COPPER
 
@@ -74,8 +74,8 @@ It is said that Ebelmen and Salvetat#footnote[Ebelmen; Salvetat. 'Annales de Chi
 
 Other important investigations were undertaken in the 1880ies at Sèvres. Analyses were made of copper reds and published by G. Vogt#footnote[G. Vogt. 'La porcelaine'. Paris, 1893.]. According to these investigations, a typical analysis for a (fired) copper red glaze should read as follows:
 
-#figure(
-  table(
+#recipe[
+  #align(center, table(
     columns: (auto, auto),
     stroke: none,
     align: (left, right),
@@ -90,8 +90,8 @@ Other important investigations were undertaken in the 1880ies at Sèvres. Analys
     [$"SiO"_2$],     [70.18 %],
     table.hline(stroke: 0.5pt),
     [], [100.25 %]
-  )
-)
+  ))
+]
 
 Glazes according to this composition were fired at 1280 °C under reducing conditions. In this way a fairly good approach of the original Chinese reds was realized.
 

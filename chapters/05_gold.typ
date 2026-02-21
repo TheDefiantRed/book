@@ -1,6 +1,6 @@
 // Chapter 5: Gold
 
-#import "../template.typ": narrow
+#import "../template.typ": narrow, recipe
 
 = GOLD
 
@@ -68,57 +68,44 @@ From the above it may be clear that gold was and still is used to prepare gold r
 
 Gold colours are manufactured in light pinks (rose shades), mid-colours (fuchsia shades) till dark red (plum) colours. The light colours have a gold-base part of roughly 2 till 4 parts, the mid-colours between 7 till 10 parts and the dark red colours even up to 20 parts. A gold base exists normally of a gold component (e.g. gold chloride), stannous chloride, stannic chloride, potassium aluminium compound and an ammonium compound. Besides the gold base the compositions of the final colours exists also of suitable fluxes, in most cases two to achieve a good and wide firing range and to obtain the necessary chemical resistance.
 
-#block(
-  width: 100%,
-  breakable: false,
-  below: 3em,
-)[
+#recipe[
   Kenneth Shaw#footnote[Kenneth Shaw. 'Ceramic Colours and Pottery Decoration'. McLaren & Sons Ltd, London, 1962] mentions the following flux composition for use with gold colours:
 
-  #figure(
-    table(
-      columns: (auto, auto),
-      stroke: none,
-      align: (left, right),
-      [$"Na"_2"O"$], [10.29 %],
-      [$"K"_2"O"$],  [3.64 %],
-      [$"PbO"$],     [20.54 %],
-      [$"B"_2"O"_3$], [23.28 %],
-      [$"SiO"_2$],     [42.25 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %]
-    )
-  )
+  #align(center, table(
+    columns: 2,
+    stroke: none,
+    align: (left, right),
+    [$"Na"_2"O"$], [10.29 %],
+    [$"K"_2"O"$],  [3.64 %],
+    [$"PbO"$],     [20.54 %],
+    [$"B"_2"O"_3$], [23.28 %],
+    [$"SiO"_2$],     [42.25 %],
+    table.hline(stroke: 0.5pt),
+    [], [100.00 %]
+  ))
 ]
 
-#block(
-  width: 100%,
-  breakable: false,
-  below: 3em,
-)[
+#recipe[
   Other suitable fluxes can be compositions like:
 
-  #align(center)[
-    #figure(
-      table(
-        columns: (auto, auto, auto, auto, auto),
-        stroke: none,
-        align: (left, right, center, left, right),
-        [$"Na"_2"O"$], [14.02 %], [and/or], [$"Li"_2"O"$], [1.35 %],
-        [$"PbO"$], [33.47 %], [], [$"Na"_2"O"$], [3.92 %],
-        [$"Al"_2"O"_3$], [5.01 %], [], [$"K"_2"O"$], [2.98 %],
-        [$"B"_2"O"_3$], [5.28 %], [], [$"PbO"$], [29.69 %],
-        [$"SiO"_2$], [42.22 %], [], [$"CdO"$], [3.01 %],
-        [], [], [], [$"Al"_2"O"_3$], [2.76 %],
-        [], [], [], [$"B"_2"O"_3$], [7.80 %],
-        [], [], [], [$"SiO"_2$], [47.51 %],
-        [], [], [], [$"ZrO"_2$], [0.98 %],
-        table.hline(stroke: 0.5pt),
-        [], [100.00 %], [], [], [100.00 %]
-      )
-    )
-  ]
+  #align(center, table(
+    columns: 5,
+    stroke: none,
+    align: (left, right, center, left, right),
+    [$"Na"_2"O"$], [14.02 %], [and/or], [$"Li"_2"O"$], [1.35 %],
+    [$"PbO"$], [33.47 %], [], [$"Na"_2"O"$], [3.92 %],
+    [$"Al"_2"O"_3$], [5.01 %], [], [$"K"_2"O"$], [2.98 %],
+    [$"B"_2"O"_3$], [5.28 %], [], [$"PbO"$], [29.69 %],
+    [$"SiO"_2$], [42.22 %], [], [$"CdO"$], [3.01 %],
+    [], [], [], [$"Al"_2"O"_3$], [2.76 %],
+    [], [], [], [$"B"_2"O"_3$], [7.80 %],
+    [], [], [], [$"SiO"_2$], [47.51 %],
+    [], [], [], [$"ZrO"_2$], [0.98 %],
+    table.hline(stroke: 0.5pt),
+    [], [100.00 %], [], [], [100.00 %]
+  ))
 ]
+
 
 One way for the production of these gold pink colours is that the powders of gold base and fluxes are sintered followed by milling to the application fineness. Fineness of these type of colours is e.g. (PSD curve) $D_(10) = 0.4 mu$; $D_(50) = 2.8 mu$ and $D_(90) = 10.9 mu$. Application of the colours is done manually (painting) or by method of screen print transfer. The numerous examples of red, lilac and dark red floral decors (mainly roses) started already in the early times of European porcelain production and continued till these times. UK had always a strong reputation for these types of floral designs as well as the famous German porcelain factories. The transfers with these gold pinks have always been very popular in the UK but also in East European countries like Russia and Ukraine where huge amounts of porcelain are used by tradition. Examples of some gold pinks are shown in @photo:gold-colours-transfer and @photo:gold-colours-manual.
 

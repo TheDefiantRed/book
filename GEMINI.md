@@ -21,9 +21,49 @@ You are _not_ expected to correctly extract images from the source material. I w
 
 # Formatting Guidelines
 1. **Footnotes:** MUST be created using the native Typst `#footnote[]` inline command directly after the referenced text. DO NOT use manual superscripts and endnote files.
-2. **Tables:** Use `#figure(table(...))`.
-   - Table captions MUST be used via the `caption` parameter of the `#figure`.
-   - Table notes (legend/asterisks) MUST be placed inside a semantic `#table.footer(table.cell(colspan: X)[...])` at the bottom of the table to prevent margin collapse.
+
+2. **Numbered Tables:**
+- When a table needs to have a Roman Numeral, wrap it in a figure: `#figure(table(...))`.
+- Table captions MUST be used via the `caption` parameter of the `#figure`.
+- Table notes (legend/asterisks) MUST be placed inside a semantic `#table.footer(table.cell(colspan: X)[...])` at the bottom of the table to prevent margin collapse.
+- These tables will appear in the list of tables in the backmatter.
+
+Example:
+```
+#figure(
+  table(
+    columns: 2,
+    stroke: none,
+    [*Sample*], [*x*],
+    [CdSe sample (i)],  [0.637],
+  ),
+  caption: [Colour measurement data (Zeiss RFC 16 colorimeter)]
+) <tab:colour-measurement-zeiss>
+```
+
+2. **Utility Tables:**
+- When a table has no Roman Numeral, wrap it in a `#recipe(#align(center))` instead.
+- It cannot have a caption, nor a label.
+- It will not appear in the list of tables in the backmatter.
+- Useful for aligning recipes, columns, etc.
+
+Example:
+```
+#recipe[
+  The introduction of potassium resulted in bright red glossy glazes with a good resistance. The following examples can be mentioned:
+
+  #align(center,
+    table(
+      columns: 2,
+      stroke: none,
+      [$"K"_2"O"$], [0.10 -- 0.20],
+      [$"PbO"$], [0.90 -- 0.80],
+    )
+  )
+]
+```
+
+
 3. **Math & Formulas:** Use inline Typst math blocks `$ ... $`. E.g., `$x = X / (X + Y + Z)$`.
 4. **Images:** Use `#figure(image("path"), caption: [...])`. If the image is not yet available, use a `#rect()` placeholder inside the figure.
 

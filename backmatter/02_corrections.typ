@@ -82,7 +82,7 @@ This section lists the specific corrections and adjustments made to the original
 == Chapter 9: Uranium
 
 - *Spelling:* Corrected the name 'Frobisher Lyttl' to 'Frobisher Lyttle'.
-- *Presentation:* Ascii-art in @tab:uranium-red-glaze-compositions was replaced with repeating the value 0.15 -- 0.1 three times.
+- *Presentation:* Ascii-art in Uranium composition table was replaced with repeating the value 0.15 -- 0.1 three times.
 
 == Acknowledgments
 
