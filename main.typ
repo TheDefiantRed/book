@@ -28,6 +28,7 @@
 #include "chapters/05_gold.typ"
 #include "chapters/06_chromium_tin_stains.typ"
 #include "chapters/07_nickel.typ"
+#include "chapters/08_chromium.typ"
 
 // ==========================================
 // BACK MATTER

@@ -43,6 +43,7 @@ It is crucial to maintain scientific accuracy and integrity for this project. Al
 - Chapter 5 is COMPLETED.
 - Chapter 6 is COMPLETED.
 - Chapter 7 is COMPLETED.
+- Chapter 8 is COMPLETED.
 
 # Workflow
 - **Source of Truth:** The `src/thedefiantred_extracted.md` file (generated via `pandoc`) is the primary reference for text extraction.
@@ -58,6 +59,7 @@ Identify key learnings along the way and persist them inside the project. (e.g. 
 - **Documenting Corrections:** It is vital to document *every* material correction (spelling, dates, names, structural changes) in the `backmatter/02_corrections.typ` file immediately after applying it. This ensures the "Current Status" is accurate and the project maintains a transparent audit trail of changes from the original manuscript.
 
 - **Footnote Extraction:** The footnotes in the source `.odt` file are not linked as actual ODF footnotes but are manually listed at the end of the document under the section "11. LITERATURE". They are referenced in the text as superscript numbers like `1)`. To extract them efficiently, converting the `.odt` to GitHub-flavored Markdown using `pandoc -f odt -t gfm "src/thedefiantred final4.odt"` is highly recommended. This allows for easy searching of the `LITERATURE` section to match the superscript references.
+
 - **Verification of Chapter 1:** The conversion of Chapter 1 has been verified against the source `.odt` file.
   - **Formulas:** The source text for the CIE chromaticity coordinates was found to be ambiguous (e.g., `x = X / X + Y + Z`), lacking necessary parentheses. The Typst implementation `$x = X / (X + Y + Z)$` correctly applies the fix listed in `CORRECTIONS.md`.
   - **Footnotes:** The lack of italic styling for book titles in the footnotes matches the source document exactly.
@@ -66,15 +68,23 @@ Identify key learnings along the way and persist them inside the project. (e.g. 
   - **Formatting:** Terms like 'Rubia Tinctorum' are quoted in the source, not italicized. This style has been preserved.
   - **Corrections:** All 5 specific corrections for Chapter 2 from `CORRECTIONS.md` (e.g., 'porphyrin', 'chlorophyll') have been applied.
   - **Tables:** Complex tables (like the Oxide Composition comparison) have been reconstructed for clarity while maintaining data integrity.
+
 - **Typst Math Mode:** A critical distinction exists between inline and block math. `$x$` renders inline, while `$ x $` (with spaces) renders as a block. Always use tight spacing for inline formulas to avoid breaking the text flow.
 - **Global Numbering:** The project uses a global numbering scheme where:
   - **Figures & Photographs:** Are combined into a single "Figure" sequence (e.g., Figure 1, Figure 2...).
   - **Tables:** Are numbered globally as a separate "Table" sequence (e.g., Table 1, Table 2...).
   - **Implementation:** Use Typst's `#figure()` for both, relying on the `kind` parameter (or inference) to distinguish tables from images. References should use `@label` syntax for dynamic numbering.
+
 - **Source Inconsistencies:** The source document sometimes labels tables as "Figure" (e.g., "Figure 5" in Chapter 2 is actually a table). The Typst conversion standardizes this by using proper semantic types (`table` vs `image`) while maintaining a global numbering sequence where appropriate.
+
 - **Attribution:** The project acknowledges the use of AI assistance (Gemini-3-Pro-Preview) in the `backmatter/02_corrections.typ` file, detailing specific contributions like text extraction, formatting, and validation, consistent with best practices for transparency.
+
 - **Charts vs Tables:** Visual data in the source (e.g., the firing curve in Chapter 3) should be implemented as proper charts using the `cetz` package for higher fidelity, rather than replicating the "spreadsheet" look of the source. The original table data can be preserved in the `backmatter` for reference.
+
 - **Table Alignment:** To align columns perfectly across multiple separate tables (e.g., the flux compositions in Chapter 3), use proportional `fr` units (e.g., `(0.5fr, 1.5fr, 1fr...)`) instead of `auto` or `%`. This ensures consistent spacing even when content length varies slightly.
+
 - **Cetz Integration:** When using `cetz` charts, ensure the package is imported (`#import "@preview/cetz:0.2.2"`) in the specific chapter file where it is used.
+
 - **Typst Syntax:** Be vigilant with string delimiters inside math mode (`$"..."$`). A missing or extra quote can cause cascading "unclosed string" errors that break compilation for the entire document.
 
+- **Helper functions:** `template.typ` contains useful helper functions such as `#recipe` and `#narrow`. These are to be used for recipe formatting and narrowing the body, if required. These functions have to be included as follows: `#import "../template.typ": recipe, narrow`. You need to be vigilant about repeating patterns. When the repititions become too numerous, you are encouraged to extract the logic in a similar manner. DRY is not a primary directive above all else; but it is a concern. When in doubt, ask.
