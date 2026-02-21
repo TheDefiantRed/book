@@ -39,6 +39,9 @@ It is crucial to maintain scientific accuracy and integrity for this project. Al
 - Chapter 1 is COMPLETED.
 - Chapter 2 is COMPLETED.
 - Chapter 3 is COMPLETED.
+- Chapter 4 is COMPLETED.
+- Chapter 5 is COMPLETED.
+- Chapter 6 is COMPLETED.
 
 # Workflow
 - **Source of Truth:** The `src/thedefiantred_extracted.md` file (generated via `pandoc`) is the primary reference for text extraction.
@@ -46,9 +49,12 @@ It is crucial to maintain scientific accuracy and integrity for this project. Al
   - **Math/Formulas:** Pandoc often flattens fractions. Verify the order of operations and grouping.
   - **Formatting:** Check for italics/bolding in footnotes and references, which might be lost or ambiguous in Markdown.
   - **Special Characters:** Ensure superscripts/subscripts are correctly interpreted.
+- **Documentation:** Any material change or correction (spelling, factual error, structural change) made to the source text MUST be documented in `backmatter/02_corrections.typ`. This serves as a critical audit trail for the project.
 
 # Learnings
 Identify key learnings along the way and persist them inside the project. (e.g. in this file)
+
+- **Documenting Corrections:** It is vital to document *every* material correction (spelling, dates, names, structural changes) in the `backmatter/02_corrections.typ` file immediately after applying it. This ensures the "Current Status" is accurate and the project maintains a transparent audit trail of changes from the original manuscript.
 
 - **Footnote Extraction:** The footnotes in the source `.odt` file are not linked as actual ODF footnotes but are manually listed at the end of the document under the section "11. LITERATURE". They are referenced in the text as superscript numbers like `1)`. To extract them efficiently, converting the `.odt` to GitHub-flavored Markdown using `pandoc -f odt -t gfm "src/thedefiantred final4.odt"` is highly recommended. This allows for easy searching of the `LITERATURE` section to match the superscript references.
 - **Verification of Chapter 1:** The conversion of Chapter 1 has been verified against the source `.odt` file.

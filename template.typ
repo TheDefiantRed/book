@@ -46,7 +46,7 @@
   // Actually, 'show figure:' applies to all. To avoid conflict, we should be careful.
   // The 'where' selector above is more specific, so it should take precedence for the content transformation.
   // But the 'set block' below might cascade.
-  show figure: set block(above: 3em, below: 3em)
+  show figure: set block(below: 3em)
 
   // Style all figure and table captions
   show figure.caption: set text(size: font-size-small, style: "italic")

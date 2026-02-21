@@ -60,6 +60,17 @@ This section lists the specific corrections and adjustments made to the original
 - *Enhancement:* Added Simplified Chinese characters (e.g., 'Chou (周)') to dynasty names for clarity and modern context.
 - *Caption:* Corrected the caption for Photograph 7 to "Guangxu period, Ch'ing dynasty" (was "GuangxuChh").
 
+== Chapter 5: Gold
+
+- *Spelling:* Corrected the title of the 10th-century manuscript 'Mappas Clavicula' to 'Mappae Clavicula'.
+- *Figure:* The Lycurgus bowl, originally presented as two separate photographs but labeled as a single Figure, has been combined into a single Figure containing both images to maintain semantic unity with the original text.
+
+== Chapter 6: Chromium Tin Stains
+
+- *Spelling:* Corrected the name 'Alexandre Brongiart' to 'Alexandre Brongniart'.
+- *Spelling:* Corrected the name 'Josiah Wedgewood' to 'Josiah Wedgwood'.
+- *Spelling:* Added _the_ in 'An example is the following receipt'.
+
 == Acknowledgments
 
 The conversion, formatting, and technical validation of this manuscript were assisted by `Gemini-3-Pro-Preview` (Google), an AI Large Language Model. The AI was utilized for:
