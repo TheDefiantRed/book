@@ -25,6 +25,7 @@
 #include "chapters/02_historical_aspects.typ"
 #include "chapters/03_iron.typ"
 #include "chapters/04_copper.typ"
+#include "chapters/05_gold.typ"
 
 // ==========================================
 // BACK MATTER
