@@ -58,13 +58,8 @@
   }
 
   // General Figures (Tables and Images)
-  // Note: This rule applies to all figures EXCEPT those with specific overrides above if they matched first?
-  // Actually, 'show figure:' applies to all. To avoid conflict, we should be careful.
-  // The 'where' selector above is more specific, so it should take precedence for the content transformation.
-  // But the 'set block' below might cascade.
   show figure: set block(below: 3em)
-
-  // Style all figure and table captions
+  show figure.where(kind: table): set block(above: 3em)
   show figure.caption: set text(size: font-size-small, style: "italic")
 
   // 5. Render the actual document content
