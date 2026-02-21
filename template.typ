@@ -6,6 +6,22 @@
 #let margin-inside = 3cm
 #let margin-outside = 2.5cm
 
+#let recipe(body) = block(
+  width: 100%,
+  breakable: false,
+  above: 2em,
+  below: 3em,
+)[#body]
+
+#let narrow(
+  margin: 10%,
+  body,
+) = block(
+  inset: (left: margin, right: margin),
+  above: 2em,
+  below: 2em,
+)[#body]
+
 #let project(
   title: "",
   author: "",

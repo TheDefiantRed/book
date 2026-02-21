@@ -1,11 +1,6 @@
 // Chapter 6: Chromium Tin Stains
 
-#let recipe(body) = block(
-  width: 100%,
-  breakable: false,
-  above: 2em,
-  below: 3em,
-)[#body]
+#import "../template.typ": recipe, narrow
 
 = CHROMIUM TIN STAINS
 
@@ -22,11 +17,7 @@ For calcination of a given stain one makes a choice for the most suitable raw ma
 )[
   One of the production processes was as follows#footnote[Anon. Sprechsaal für Keramik-Glas-Email, Heft 6, 1962.]:
 
-  #block(
-    inset: (left: 10%, right: 10%),
-    above: 2em,
-    below: 2em,
-  )[
+  #narrow[
     - 3 kg of manganese nitrate was dissolved in water and mixed with 0.9 kg in water dissolved ammonium phosphate
     - the precipitate was dissolved in 1 ltr nitric acid and mixed with 1 kg aluminium hydroxide
     - this mass was dried and calcined at 1140 °C -- 1160 °C.
@@ -41,11 +32,7 @@ The resulting rose pink stain was, after bringing to the right fineness of cours
 )[
   Another example is the production of Aluminium Rose, a CrAl stain:
 
-  #block(
-    inset: (left: 10%, right: 10%),
-    above: 2em,
-    below: 2em,
-  )[
+  #narrow[
     - 48 kg of aluminium hydroxide and 45 kg of zinc oxide was mixed.
     - added to this mix was 6 kg potassium dichromate dissolved in water and well mixed together
     - this mixture was than dried and calcined at 1300 °C -- 1400 °C.

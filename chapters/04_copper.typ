@@ -1,5 +1,7 @@
 // Chapter 4: Copper
 
+#import "../template.typ": narrow
+
 = COPPER
 
 #figure(kind: "subtitle", supplement: none, numbering: none)[A wonderful red through ceramic conversion.]
@@ -14,11 +16,7 @@ The available literature#footnote[N. Wood. 'The evolution of the Chinese Copper 
 
 In respect of the development of Chinese ceramics one often holds over the following scheme:
 
-#block(
-  inset: (left: 10%, right: 10%),
-  above: 2em,
-  below: 2em,
-)[
+#narrow[
   / Hsia dynasty (夏): $plus.minus$ 2000 BC. Many specimens are found from this early period also known as 'the painted pottery culture'. Black and red coloured earthenware.
   / Shang dynasty (商): 1766 BC -- 1122 BC. Mainly low fired earthenware but also grayish type of hard pottery with engraved decorations derived from cast bronze.
   / Chou dynasty (周): 1122 BC -- 225 BC. Grayish-brownish ceramics with sometimes a rather rough surface.
@@ -64,7 +62,7 @@ However, of greater importance in respect of the spreading of Chinese ceramics w
   caption: [Copper reduced glaze --- so-called Peach-Bloom glaze]
 )
 
-#block(width: 100%, inset: (left: 1em, right: 1em))[
+#narrow(margin: 1em)[
   #text(style: "italic")[
     'This vase of apparently simple shape swells slowly as it rises from its foot. At the shoulder it contracts sharply, and at the neck there are three sharp-edged collars punctuating a point of union and breaking the glassy smoothness of the body of the vessel; the mouth spreads slightly. Beneath the glassy surface, one can detect subtle modulations from dull pink to red to grayish green --- the whole offering a seemingly infinite variety of nuances. In Chinese, the color is sometimes called kidney-bean red, and the shape is that of a "three-string vase" (after the rings on the neck). The vase was made as one of a set of eight different vessels, all intended for the scholar's table. There were flower vases of different shapes, together with vessels used for washing brushes and holding red seal-paste. The glaze is now thought to be the result of sandwiching a layer of copper pigment between two layers of clear glaze --- the end-product of a period of experimentation with copper red glazes that began in the late 17th century. The shape of the vase is an intellectualized and refined version of Sung Dynasty wares. Evidently there was court patronage; this vase may once have been owned by the first Prince I (1686-1730), thirteenth son of the K'ang-hsi emperor and ancestor of its 19th-century owner'.
   ]

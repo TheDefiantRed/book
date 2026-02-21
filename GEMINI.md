@@ -42,6 +42,7 @@ It is crucial to maintain scientific accuracy and integrity for this project. Al
 - Chapter 4 is COMPLETED.
 - Chapter 5 is COMPLETED.
 - Chapter 6 is COMPLETED.
+- Chapter 7 is COMPLETED.
 
 # Workflow
 - **Source of Truth:** The `src/thedefiantred_extracted.md` file (generated via `pandoc`) is the primary reference for text extraction.

@@ -1,5 +1,7 @@
 // Chapter 5: Gold
 
+#import "../template.typ": narrow
+
 = GOLD
 
 #figure(kind: "subtitle", supplement: none, numbering: none)[The noble red.]
@@ -36,7 +38,7 @@ One of the more important books in many respects is the book of the Presbyterian
 
 With the start of the Renaissance there appeared several compilations describing again the gold ruby colours of which the 'Secreti per colori' stems from the beginning of the 15#super[th] century. It mentions the following recipe:
 
-#block(inset: (left: 1em, right: 1em))[
+#narrow[
   #text(style: "italic")[
     'Take 3 parts of the white material (is lead-crystal glass), 1 part of Goldchalk, 1 part of Brasilash and 3 parts of fine rock salt. These ingredients must be mixed properly in the described ratio and put into a kiln. After four or six hours one must take it out and one shall have red coloured glass'.
   ]
@@ -50,7 +52,7 @@ An important development in respect of gold-based ruby red colours was made thro
 
 According to this publication the preparation was the following:
 
-#block(inset: (left: 1em, right: 1em))[
+#narrow[
   #text(style: "italic")[
     'English tin, the purer the better, must be solved in aqua regia until a yellowish or red wine-like solution appears. This solution must be kept for some days in order to give the gases the possibility to escape. Next to this one must prepare a solution of gold in aqua regia "in the normal way". After this one must take a large glassy container with a wide opening and put water into it. One must add somewhat of the tin solution, directly followed by an addition of a same quantity of the gold solution. One shall than remark a gold precipitation which will, under influence of the air, turn into a beautiful purple coloured powder'.
   ]
