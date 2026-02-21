@@ -79,6 +79,11 @@ This section lists the specific corrections and adjustments made to the original
 
 - *Spelling:* Corrected the name 'Nicolas-Louis Vanquilin' to 'Nicolas-Louis Vauquelin'.
 
+== Chapter 9: Uranium
+
+- *Spelling:* Corrected the name 'Frobisher Lyttl' to 'Frobisher Lyttle'.
+- *Presentation:* Ascii-art in @tab:uranium-red-glaze-compositions was replaced with repeating the value 0.15 -- 0.1 three times.
+
 == Acknowledgments
 
 The conversion, formatting, and technical validation of this manuscript were assisted by `Gemini-3-Pro-Preview` (Google), an AI Large Language Model. The AI was utilized for:
