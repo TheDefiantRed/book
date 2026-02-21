@@ -6,9 +6,15 @@ Global & Introduction
 
     Spelling Correction: The brand name 'Zeis' was corrected to 'Zeiss'.
 
-    Tables: The manuscript refers to tables in Roman Numerals, but Typst uses an internal sequence. Where the body mentions "Table nn" (where nn is a Roman Numeral, such as IX) it must be replaced by a label. Typically, we label all tables in Typst using <tab:some-descriptive-label>.
+    We have three `kinds` of Typst figures:
 
-    The same goes for Figures and Photographs, they are all counted as Figure in a Typst internal sequence. Where the body mentions a Figure, it must be replaced by a label reference. Typically, we label all figures in Typst using <fig:some-descriptive-label>.
+        - Tables: Roman Numerals. Where the body mentions "Table nn" (where nn is a Roman Numeral, such as IX) it must be replaced by a Typst label. Typically, we label all tables in Typst using <tab:some-descriptive-label>.
+
+        - Photographs: Typst figures with its `kind` set to "photo" and its `supplement` set to [Photograph]. Again, where the running text refers to a photograph, a label must be used instead. Typically, we label all photographs using <photo:some-descriptive-label>
+
+        - Finally, the generic `#figure` is also used, typically with a <fig:some-descriptive-label> and again referring to the label in the running text.
+
+        Tables, Photographs and Figures are automatically listed on the Figures page in the backmatter.
 
 Chapter 2: Historical Aspects
 

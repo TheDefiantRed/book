@@ -15,7 +15,7 @@
   set document(title: title, author: author)
   set page(
     paper: "a4",
-    margin: (inside: margin-inside, outside: margin-outside, y: margin-outside),
+    margin: (inside: margin-inside, outside: margin-outside),
     numbering: "1",
   )
 

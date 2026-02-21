@@ -6,6 +6,9 @@
   author: "L.W. Baaij"
 )
 
+// Setup: tables use Roman numerals
+#show figure.where(kind: table): set figure(numbering: "I")
+
 // ==========================================
 // FRONT MATTER
 // ==========================================
@@ -26,4 +29,5 @@
 // ==========================================
 // BACK MATTER
 // ==========================================
+#include "backmatter/01_figures.typ"
 #include "backmatter/02_corrections.typ"

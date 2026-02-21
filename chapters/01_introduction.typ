@@ -27,11 +27,6 @@ $ z = 1 - (x + y) $
 
 The $x$ and $y$ coordinates of the CIE system defines any position on the chromatic diagram (see @fig:cie-chromatic-diagram). When another variable, the $Y$ value (lightness) is coupled with the chromaticity diagram, the combination defines the exact place in the spatial pattern of the CIE diagram. The dominant wavelength, $lambda_d$, can be determined by lengthening the line between the neutral point and the point as located by the $x$ and $y$ coordinates. The point of intersection of this line and the curve of the spectral colours gives $lambda_d$ for that particular colour. The distance from the neutral point till the point as fixed by the chromatic coordinates $x$ and $y$ is a measure for the colour saturation $sigma$. The colours on the spectral curve have a $sigma = 100$.
 
-#figure(
-  image("../assets/cie-chromatic-diagram.png", width: 80%),
-  caption: [CIE chromatic diagram]
-) <fig:cie-chromatic-diagram>
-
 If one measures a typical example of a CdSe glaze prepared through the method using a pigment (i) and through the melted-in method (ii), one arrives at the data as given in @tab:colour-measurement-zeiss. For this measurement a colorimeter of Zeiss, type RFC 16 was used. The colour is measured through 16 filters. With these data one can determine the $lambda_d$ and $sigma$ for these colours.
 
 #figure(
@@ -48,6 +43,11 @@ If one measures a typical example of a CdSe glaze prepared through the method us
   ),
   caption: [Colour measurement data (Zeiss RFC 16 colorimeter)]
 ) <tab:colour-measurement-zeiss>
+
+#figure(
+  image("../assets/cie-chromatic-diagram.png", width: 80%),
+  caption: [CIE chromatic diagram]
+) <fig:cie-chromatic-diagram>
 
 Another type of colorimeter is the Hunterlab colorimeter, also including advanced calculation equipment. This meter gives the colour values in $L$, $a$ and $b$ and is also able to give the in-line colour difference according to the CIELAB method in a fast way. When measured the same colour samples (i) and (ii) as mentioned before with a Hunterlab type D 25 g, the data is obtained as given in @tab:colour-measurement-hunterlab.
 
@@ -147,6 +147,8 @@ The peak in application of cadmium selenium glazes was in the seventies and eigh
 
 #figure(
   image("../assets/vase-tokio.jpg"),
+  kind: "photo",
+  supplement: [Photograph],
   caption: [Vase "Tokio" with glossy red CdSe glaze and hand-painted decoration. The vase was in production from 1967 till 1976. Courtesy of 'Flora' (now Royal Goedewaagen).]
 )
 

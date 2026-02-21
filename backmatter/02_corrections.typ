@@ -5,13 +5,13 @@
 
 This section lists the specific corrections and adjustments made to the original manuscript during the conversion to PDF. These changes ensure scientific accuracy, consistent formatting, and improved readability while maintaining the original tone and intent of the book.
 
-- *Figures:* Unified the numbering of "Figures" and "Photographs" into a single global "Figure" sequence.
-- *Tables:* Converted from Roman Numerals into a single global "Table" sequence and corrected references.
+- *Figures:* Captions are now positioned _under_ all figures, photographs and tables in slightly smaller, italic type.
+- *Figures:* Figures that were grouped together in the book, have now been separated, resulting in an increased figure count. The contents have remained the same.
+- *Tables:* Readability and accessibility were improved by adding semantic structure and headers in bold type.
 
 == Chapter 1: Introduction
 
 - *Formulas:* The mathematical notation for the CIE chromaticity coordinates was corrected to clarify the order of operations. The formulas now read $x = X / (X + Y + Z)$ and $y = Y / (X + Y + Z)$.
-- *Formatting:* Chemical formulas (e.g., $"ZrSiO"_4$, $"CdS" dot "CdSe"$) were formatted using inline math mode for consistency.
 
 == Chapter 2: Historical Aspects
 
@@ -20,7 +20,10 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'chlorophyl' to 'chlorophyll'.
 - *Spelling:* Corrected 'carotenoides' to 'carotenoids'.
 - *Spelling:* Corrected '1, 2-dihydroxyantrachinon' to '1,2-dihydroxyanthraquinone'.
-- *Formatting:* Chemical formulas (e.g., $"Fe"_2"O"_3$, $"TiO"_2$) were formatted using inline math mode for consistency.
+- *Figure:* The grouped structure formula and photo of Alizarine was separated into  @fig:alizarine-structure-formula and @fig:alizarine-powder and separate captions were added.
+- *Figure:* The grouped structure formula and molecular model of Alinine was separated into @fig:aniline-structure-formula and @fig:aniline-molecular-model and separate captions were added.
+- *Figure:* Figure 5 in the book is now @tab:glaze-composition, increasing the total table count.
+- *Figure:* The Seger formula in @tab:glaze-composition was reformatted.
 
 == Chapter 3: Iron
 
@@ -47,7 +50,7 @@ This section lists the specific corrections and adjustments made to the original
     [hrs $arrow$], [0], [4], [8], [12], [16], [20],
     table.hline(stroke: 0.5pt),
   ),
-  caption: [Original table structure (deprecated)]
+  caption: [Original Terra Sigillata firing curve table structure (deprecated)]
 )
 
 == Chapter 4: Copper
@@ -66,3 +69,5 @@ The conversion, formatting, and technical validation of this manuscript were ass
 - Verifying mathematical formulas and chemical syntax.
 
 Human oversight was applied to all AI-generated output to ensure accuracy and alignment with the original work's intent.
+
+#pagebreak()

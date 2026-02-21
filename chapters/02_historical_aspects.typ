@@ -35,14 +35,20 @@ Another organic possibility which was used to obtain a warm red colour came from
 #grid(
   columns: (1fr, 1fr),
   gutter: 2em,
-  figure(
-    image("../assets/Alizaryna.svg", width: 90%),
-    caption: [Structure formula Alizarine red]
-  ),
-  figure(
-    image("../assets/alizarine-red.jpg", width: 90%),
-    caption: [Alizarine red powder]
-  )
+
+  [
+    #figure(
+      image("../assets/Alizaryna.svg", width: 90%),
+      caption: [Structure formula Alizarine red]
+    ) <fig:alizarine-structure-formula>
+  ],
+
+  [
+    #figure(
+      image("../assets/alizarine-red.jpg", width: 90%),
+      caption: [Alizarine red powder]
+    ) <fig:alizarine-powder>
+  ]
 )
 #v(3em)
 
@@ -66,14 +72,20 @@ It will be clear that there are a number of disadvantages with regard to these n
 #grid(
   columns: (1fr, 1fr),
   gutter: 2em,
-  figure(
-    image("../assets/Aniline.svg", width: 40%),
-    caption: [Structure formula Amino-benzene]
-  ),
-  figure(
-    image("../assets/Aniline-3D-balls.png", width: 50%),
-    caption: [Amino-benzene molecular model]
-  )
+
+  [
+    #figure(
+      image("../assets/Aniline.svg", width: 40%),
+      caption: [Structure formula Amino-benzene]
+  ) <fig:aniline-structure-formula>
+  ],
+
+  [
+    #figure(
+      image("../assets/Aniline-3D-balls.png", width: 50%),
+     caption: [Amino-benzene molecular model]
+  ) <fig:aniline-molecular-model>
+  ]
 )
 #v(3em)
 
@@ -130,6 +142,8 @@ From the translation of the so-called 'Glassmakers Tablet' which are available, 
 
 #figure(
   image("../assets/glassmakers-tablet.jpg", width: 60%),
+  kind: "photo",
+  supplement: [Photograph],
   caption: [The 'Glassmakers Tablet'. Courtesy of the British Museum]
 ) <fig:glassmakers-tablet>
 
@@ -154,31 +168,40 @@ From the history of glass#footnote[Gustav Weiss. 'Antiek Glas'. Elsevier, Hollan
 
 Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the influence of glaze components in relation with the colour development in this type of glazes. From this survey it is shown that pure alkaline silicate glazes with 3 mol $"SiO"_2$ developed the most beautiful blue colours. Besides the glaze itself, the body used is also important. This influence of the body composition with regard to this type of glazes, often called Egyptian or Persian blue, is described by M.M. French.#footnote[M. M. French. Journal of the American Ceramic Society, 1923, p.405.] From these investigations the conclusion was drawn that quartz-rich and calcium-poor bodies were favourable for the development of the blue colour. W. Henze#footnote[W. Henze. Keramische Rundschau, 1928, p.821.] reports also that just alkaline silicate compositions render good results. Also an alkaline-lead-silicate with 18% PbO develops a good 'well-melted Turkish blue'.
 
-From the before mentioned examinations, it is plausible to suppose that the base glass from the Glassmakers Tablet, mentioned as zukû-glass, could have consisted of an alkaline silicate, e.g. in the mole ratio alkaline : $"SiO"_2$ = 1 : 3 and where the alkaline is singly represented by sodium. Presuming this, the glaze composition should have been read as mentioned in @fig:glaze-composition:
+#block(
+  breakable: false
+)[
+  From the before mentioned examinations, it is plausible to suppose that the base glass from the Glassmakers Tablet, mentioned as zukû-glass, could have consisted of an alkaline silicate, e.g. in the mole ratio alkaline : $"SiO"_2$ = 1 : 3 and where the alkaline is singly represented by sodium. Presuming this, the glaze composition should have been read as mentioned in @tab:glaze-composition:
 
-#figure(
-  table(
-    columns: (auto, auto, auto, auto, auto),
-    stroke: none,
-    align: (left, right, center, left, right),
-    table.hline(stroke: 0.5pt),
-    [*Oxide composition*], [], [], [*Seger formula*], [],
-    [$"Na"_2"O"$], [25.62 %], [], [$"Na"_2"O"$], [1.00],
-    [$"SiO"_2$], [74.38 %], [], [$"SiO"_2$], [3.00],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %], [], [], []
-  ),
-  caption: [Glaze composition]
-) <fig:glaze-composition>
+  #figure(
+    table(
+      columns: (auto, auto, auto),
+      stroke: none,
+      align: (right, left, left),
+      table.hline(stroke: 0.5pt),
+        // header
+        table.cell(colspan: 2, align: center)[*Oxide composition*],
+        table.cell(align: center)[*Seger formula*],
+      [$"Na"_2"O"$], [25.62 %], [$"1.00 Na"_2"O : 3.00 SiO"_2$],
+      [$"SiO"_2$], [74.38 %], [],
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %], [],
+    ),
+    caption: [Glassmakers Tablet glaze composition]
+  ) <tab:glaze-composition>
+]
 
 #figure(
   table(
     columns: (auto, 1fr, 1fr, 1fr, 1fr),
     stroke: none,
-    align: (left, center, center, center, center),
+    align: (left, right, right, right, right),
     table.hline(stroke: 0.5pt),
-    [], table.cell(colspan: 2)[*According to Campbell T.*], table.cell(colspan: 2)[*According to Oppenheim*],
-    [*Oxides*], [*Ch. 1 glaze*], [*Ch. 2 glaze*], [*Ch. 1 glaze*], [*Ch. 2 glaze*],
+      // header
+      [],
+      table.cell(colspan: 2, align: center)[*According to Campbell T.*],
+      table.cell(colspan: 2, align: center)[*According to Oppenheim*],
+      [*Oxides*], [*Ch. 1 glaze*], [*Ch. 2 glaze*], [*Ch. 1 glaze*], [*Ch. 2 glaze*],
     table.hline(stroke: 0.5pt),
     [$"Na"_2"O"$], [18.28 %], [18.44 %], [18.23 %], [19.06 %],
     [$"CaO"$],   [0.35 %],  [1.41 %],  [---],     [---],
@@ -193,29 +216,35 @@ From the before mentioned examinations, it is plausible to suppose that the base
   caption: [Oxide composition comparison]
 ) <tab:oxide-comparison>
 
-The colour of the glazes of @tab:oxide-comparison do not show much difference in appearance and colour development when applied to several bodies. A greater difference than that between the glazes is noticed for the same glaze applied on different bodies as shown by @fig:blue-glaze. For these three articles the same glaze was used, namely the chapter one glaze according to Campbell Thomson. The most beautiful blue colour, reminiscent of the colour of Lapis Lazuli, was achieved using a body with a composition as mentioned in @tab:body-composition:
+#block(
+  breakable: false
+)[
+  The colour of the glazes of @tab:oxide-comparison do not show much difference in appearance and colour development when applied to several bodies. A greater difference than that between the glazes is noticed for the same glaze applied on different bodies as shown by @fig:blue-glaze. For these three articles the same glaze was used, namely the chapter one glaze according to Campbell Thomson. The most beautiful blue colour, reminiscent of the colour of Lapis Lazuli, was achieved using a body with a composition as mentioned in @tab:body-composition:
 
-#figure(
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    align: (left, right),
-    table.hline(stroke: 0.5pt),
-    [White burning clay 1001], [30 %],
-    [White burning clay nr.2], [22 %],
-    [Quartz], [28 %],
-    [Feldspar (Na/K)], [16 %],
-    [Lime], [4 %],
-    table.hline(stroke: 0.5pt),
-    [], [100 %]
-  ),
-  caption: [Body composition]
-) <tab:body-composition>
+  #figure(
+    table(
+      columns: (auto, auto),
+      stroke: none,
+      align: (left, right),
+      table.hline(stroke: 0.5pt),
+      [White burning clay 1001], [30 %],
+      [White burning clay nr.2], [22 %],
+      [Quartz], [28 %],
+      [Feldspar (Na/K)], [16 %],
+      [Lime], [4 %],
+      table.hline(stroke: 0.5pt),
+      [], [100 %]
+    ),
+    caption: [Body composition]
+  ) <tab:body-composition>
+]
 
 Although series of trials were also performed in a gas-heated kiln (natural gas) under reducing conditions, it was not possible to obtain (copper) reduced glazes with a reddish colour. Only the blue colour as well known from the ancient times showed up. Based on these facts it may be supposed that the glaze as prescribed on the BM 120960 tablet may have looked like the glaze on @fig:blue-glaze. The BM 120960 Glassmakers Tablet, some 3700 years old, may therefore be considered as one of the first written ceramic recipes (although not a red glaze) and the start of publishing and collecting of ceramic data.
 
 #figure(
   image("../assets/blue-alkaline-copper-glaze.jpg", width: 80%),
+  kind: "photo",
+  supplement: [Photograph],
   caption: [Blue alkaline copper glaze following BM 120960 tablet]
 ) <fig:blue-glaze>
 

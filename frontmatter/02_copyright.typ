@@ -17,7 +17,7 @@
 
     #v(1em)
 
-    *Typst Typesetting & Code*\
+    *PDF Typesetting*\
     Copyright © 2026 Joost Baaij.\
     The Typst code and formatting templates used in this project are licensed under the
     *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License* (CC BY-NC-SA 4.0).

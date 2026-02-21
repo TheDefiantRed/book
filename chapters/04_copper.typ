@@ -59,6 +59,8 @@ However, of greater importance in respect of the spreading of Chinese ceramics w
 
 #figure(
   image("../assets/copper-reduced-glaze.jpg", width: 60%),
+  kind: "photo",
+  supplement: [Photograph],
   caption: [Copper reduced glaze --- so-called Peach-Bloom glaze]
 )
 
@@ -78,7 +80,7 @@ Other important investigations were undertaken in the 1880ies at Sèvres. Analys
   table(
     columns: (auto, auto),
     stroke: none,
-    align: (right, left),
+    align: (left, right),
     [$"Na"_2"O"$], [2.71 %],
     [$"K"_2"O"$],  [4.79 %],
     [$"CaO"$],     [9.00 %],
@@ -90,8 +92,7 @@ Other important investigations were undertaken in the 1880ies at Sèvres. Analys
     [$"SiO"_2$],     [70.18 %],
     table.hline(stroke: 0.5pt),
     [], [100.25 %]
-  ),
-  caption: [Typical analysis for a fired copper red glaze]
+  )
 )
 
 Glazes according to this composition were fired at 1280 °C under reducing conditions. In this way a fairly good approach of the original Chinese reds was realized.
@@ -106,6 +107,8 @@ All these investigations have contributed to a better knowledge and understandin
 
 #figure(
   image("../assets/chinese-copper-red-glaze.jpg", width: 100%),
+  kind: "photo",
+  supplement: [Photograph],
   caption: [Chinese copper red glaze, water pot, Guangxu period, Ch'ing dynasty. Chinese red through copper reduction.]
 ) <fig:copper-red>
 
