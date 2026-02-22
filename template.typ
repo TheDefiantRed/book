@@ -40,10 +40,13 @@
 #let project(
   title: "",
   author: "",
+  date: datetime(year: 2026, month: 2, day: 22),
+  keywords: (),
+  description: none,
   body,
 ) = {
   // 1. Document & Page Globals
-  set document(title: title, author: author)
+  set document(title: title, author: author, date: date, keywords: keywords, description: description)
   set page(
     paper: "a4",
     margin: (inside: margin-inside, outside: margin-outside),

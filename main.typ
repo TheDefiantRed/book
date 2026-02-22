@@ -3,7 +3,9 @@
 // Apply the global template and config
 #show: project.with(
   title: "The Defiant Red",
-  author: "L.W. Baaij"
+  author: "L.W. Baaij",
+  keywords: ("Ceramics", "Glazes", "Red Glazes", "Cadmium", "Selenium", "Copper Red", "Iron Red", "Uranium Glaze", "Pottery", "Technical Art History", "L.W. Baaij"),
+  description: "A comprehensive review of red coloured glazes in ceramics, including historical methods and modern industrial applications. Covers Iron, Copper, Gold, Chromium-Tin, Nickel, Chromium, Uranium, and Cadmium-Selenium glaze systems. Digital edition of the original manuscript by L.W. Baaij."
 )
 
 // Setup: tables use Roman numerals
@@ -39,3 +41,4 @@
 #include "backmatter/01_figures.typ"
 #include "backmatter/02_corrections.typ"
 #include "backmatter/03_about_author.typ"
+#include "backmatter/04_about_edition.typ"

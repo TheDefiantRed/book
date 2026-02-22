@@ -7,3 +7,5 @@ Left Ferro (Holland) B.V. in 1987 and was asked to join Drakenfeld Colours to se
 Returned to ceramics in 1993 when Drakenfeld Colours and Degussa set up the Cerdec joint venture and the unit in The Netherlands was closed.
 
 Joined Johnson Matthey as from 1993 till now with several technical and commercial responsibilities in the ceramic field viz. technical manager ceramic laboratory and Commercial & Technical Manager Special Ceramics.
+
+#pagebreak()

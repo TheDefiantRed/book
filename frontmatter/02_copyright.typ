@@ -17,10 +17,12 @@
 
     #v(1em)
 
-    *PDF Typesetting*\
+    *E-book*\
     Copyright © 2026 Joost Baaij.\
     The Typst code and formatting templates used in this project are licensed under the
-    *Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License* (CC BY-NC-SA 4.0).
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).\
+    \
+    #link("https://www.thedefiantred.com")[www.thedefiantred.com]
   ]
 ]
 
