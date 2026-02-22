@@ -63,6 +63,15 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected the name 'Frobisher Lyttl' to 'Frobisher Lyttle'.
 - *Presentation:* Ascii-art in Uranium composition table was replaced with repeating the value 0.15 -- 0.1 three times.
 
+== Chapter 10: Cadmium Selenium
+
+- *Spelling:* Corrected the mineral name 'crooksite' to 'crookesite'.
+- *Spelling:* Corrected 'Hyperioon' to 'Hyperion'.
+- *Spelling:* Corrected 'nutricity' to 'nutrition'.
+- *Spelling:* Corrected 'grow of cancercells' to 'growth of cancer cells'.
+
+- *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
+
 == Acknowledgments
 
 The conversion, formatting, and technical validation of this manuscript were assisted by `Gemini-3-Pro-Preview` (Google), an AI Large Language Model. The AI was utilized for:

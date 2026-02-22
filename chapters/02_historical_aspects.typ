@@ -179,9 +179,9 @@ Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the inf
       stroke: none,
       align: (right, left, left),
       table.hline(stroke: 0.5pt),
-        // header
+      table.header(
         table.cell(colspan: 2, align: center)[*Oxide composition*],
-        table.cell(align: center)[*Seger formula*],
+        table.cell(align: center)[*Seger formula*]),
       [$"Na"_2"O"$], [25.62 %], [$"1.00 Na"_2"O : 3.00 SiO"_2$],
       [$"SiO"_2$], [74.38 %], [],
       table.hline(stroke: 0.5pt),
