@@ -1,3 +1,5 @@
+#import "../../template.typ": recipe, narrow, composition
+
 == Pigmented red
 
 It is already mentioned before how the first classical cadmium selenium red pigments were made by mixing the dry materials selenium metal, cadmium oxide or carbonate and sulphur and burn it in a (rotating) kiln at about 600 °C. Different combinations of these raw materials have been used in the past to achieve the final results. Literature#footnote[A. J. Eroles; A. L. Friedberg. 'Color and Structural Character of CdS.CdSe Pigments'. Journal of The Am. Cer. Society, Vol.48, no.5, 1965.] is mentioning e.g. the combinations cadmium sulphide or cadmium carbonate, sulphur and metallic selenium. Also Shaw is mentioning these raw materials for the preparation of the classical cadmium selenium pigments. @tab:compositions-cds-se-pigments gives compositions for CdSSe pigments as mentioned by T.V. Prasad (Cadmium Seminar, New Delhi, India). Also H. W. Webb gives these compositions.
@@ -6,11 +8,12 @@ It is already mentioned before how the first classical cadmium selenium red pigm
   table(
     columns: 4,
     stroke: none,
-    align: (left, center, center, center),
+    align: (left, right, right, right),
     table.hline(stroke: 0.5pt),
-    table.header([*Colour*], [*percentage by weight*], [], []),
+    table.header([*Colour*], table.cell(colspan: 3)[*percentage by weight*]),
     table.hline(stroke: 0.5pt),
     [], [*$"CdCO"_3$*], [*Se*], [*S*],
+    table.hline(stroke: 0.5pt),
     [Orange], [81.50], [3.40], [15.10],
     [Orange Red], [78.80], [6.62], [14.58],
     [Red], [76.28], [9.62], [14.10],
@@ -43,12 +46,12 @@ Higher firing temperatures were possible and this opened the way for application
     [1919], [Invention (BASF) of wet precipitation method], [],
     [1932], [], [Rooksby: $"CdS"."CdSe"$ mixed crystals],
     [1950], [Application as o/g colour and low firing glazes but mainly in plastics.], [Start of 1st melted-in ceramic glazes],
-    [1960], [Improved quality. Application till $plus.minus$ 1000 °C], [Improved systems: separation of frit-systems. Optimalisation of production processes.],
-    [1970], [1st generation inclusion pigments (Dr. Broll et al.) for glaze application], [Top in production of glazes for wall- and floor tiles, vases, dinnerware, giftware, etc.],
-    [1980], [2nd generation encapsulated pigments (BCRA) for glaze application], [],
+    [1960], [Improved quality. Application till $plus.minus$ 1000 °C], [],
+    [1970], [1st generation inclusion pigments (Dr. Broll et al.) for glaze application], [Improved systems: separation of frit-systems. Optimalisation of production processes.],
+    [1980], [2nd generation encapsulated pigments (BCRA) for glaze application], [Top in production of glazes for wall- and floor tiles, vases, dinnerware, giftware, etc.],
     [1990], [further improvements of production processes of inclusion pigments], [],
-    [2000], [3rd generation strong Chinese pigments for glaze application as well as for in-glaze firing.], [],
-    [2010], [], [Continued application on a lower level mainly for giftware, vases, art ware.]
+    [2000], [], [Continued application on a lower level mainly for giftware, vases, art ware.],
+    [2010], [3rd generation strong Chinese pigments for glaze application as well as for in-glaze firing.], []
   ),
   caption: [Short historical review of CdSe pigments vs. CdSe glazes.]
 ) <tab:historical-review>
@@ -57,7 +60,7 @@ A real breakthrough for the pigments for ceramic glaze application was the inven
 
 The mechanism for including colour-giving components into a crystal structure was already known. An example was the SnZr yellow colour which was encapsulated into the zircon crystal (1932, Stuckert, Degussa), the ZrV blue (1948, Seabright, Harshaw) and the ZrFe rose (1960, Seabright, Harshaw). The inclusion of a red pigment based on CdSSe and $"ZrSiO"_4$ was studied for years by H. H. Beyer, A. Broll, H. D. de Ahna and E. Meyer-Simon in the early 70ties. It resulted in the first generation of inclusion CdSSe pigments into a zircon crystal.#footnote[P. Kleinschmit. 'Einschlusspigmente, Farbkörper nach einem neuen Prinzip'. Keramische Zeitschrift, nr. 12, 1978.]#footnote[R. Fischer; P. Kleinschmit. 'Moderne Farbkörper für Dekorationen'. Ker. Zeitschrift, nr. 7, 1986.]#footnote[Dr. Werner Völker. 'Aufbau, Eigenschaften und Einsatz von Cd.sulfoselenid Einschlusspigmenten'. 29th Congresso Brasileiro De Ceramica, Cricinuma, Brasil 1985, Sprechsaal, Vol. 118, no. 10, 1985.]
 
-As described by the patent the invention was that the $"CdS"."CdSe"$ mixed crystal stain was formed in a calcinating process and that these mixed crystals were included in the $"ZrO"_2."SiO"_2$ crystals formed during the same process.
+As described by the patent the invention was that the $"CdS"dot.c"CdSe"$ mixed crystal stain was formed in a calcinating process and that these mixed crystals were included in the $"ZrO"_2dot.c"SiO"_2$ crystals formed during the same process.
 
 The following compositions are mentioned as examples in the patent:
 
@@ -86,24 +89,32 @@ The following compositions are mentioned as examples in the patent:
 
 These mixtures were mixed with water for 15 minutes, poured into crucibles and fired at resp. 900 °C, 900 °C and 950 °C for 1 hour. After the firing the calcined products were treated with $"HNO"_3$ to remove the excess of not included cadmium components. In this way resp. a light red (1), a bright red (2) and a yellow (4) colour was obtained.
 
-In another patent#footnote[German patent 2511934; published 1976 / Degussa 'Verfahren zur Herstellung von brennstabilen gelden bis rote Glasurmischungen'.] published in 1976 A. Broll et al. describe the forming of colour intensive frits to be applied with transparent basic frits to give stable red and / or yellow glazes. The basic principle, following the patent, is that 'colour-intensive' coloured-frits are made composed out of the colour-giving materials, zircon, quartz, a mineraliser and a basic frit (example 1). The patent includes also tin oxide instead of zircon and quartz (example 2) and other raw materials in the examples 3, 4, 5 and 6. The coloured-frits are mixed with a normal transparent ceramic frit and the standard additions for setting-up the glaze. As an example the patent gives for the coloured-frit (example 1):
+In another patent#footnote[German patent 2511934; published 1976 / Degussa 'Verfahren zur Herstellung von brennstabilen gelden bis rote Glasurmischungen'.] published in 1976 A. Broll et al. describe the forming of colour intensive frits to be applied with transparent basic frits to give stable red and / or yellow glazes. The basic principle, following the patent, is that 'colour-intensive' coloured-frits are made composed out of the colour-giving materials, zircon, quartz, a mineraliser and a basic frit (example 1). The patent includes also tin oxide instead of zircon and quartz (example 2) and other raw materials in the examples 3, 4, 5 and 6. The coloured-frits are mixed with a normal transparent ceramic frit and the standard additions for setting-up the glaze.
 
-#table(
-  columns: 2,
-  stroke: none,
-  [cadmium oxide], [8.6 g],
-  [selenium], [0.8],
-  [sodium sulphite], [7.3],
-  [sugar (reducing agent)], [3.3],
-  [zirconium oxide], [29.5],
-  [quartz], [14.6],
-  [lithiumfluoride (mineraliser)], [2.1],
-  [transparent frit\*], [33.6]
-)
+#recipe[
+  As an example the patent gives for the coloured-frit (example 1):
 
-\* Seger formula:
-$ "K"_2"O" 0.25 "Al"_2"O"_3 0.50 "SiO"_2 4.00 $
-$ "CaO" 0.75 "B"_2"O"_3 1.00 $
+  #align(center, table(
+    columns: 2,
+    stroke: none,
+    align: (left, right),
+    [cadmium oxide], [8.6 g],
+    [selenium], [0.8],
+    [sodium sulphite], [7.3],
+    [sugar (reducing agent)], [3.3],
+    [zirconium oxide], [29.5],
+    [quartz], [14.6],
+    [lithiumfluoride (mineraliser)], [2.1],
+    [transparent frit\*], [33.6]
+  ))
+
+  \* Seger formula:
+
+  #composition(
+    [], [$"K"_2"O"$], [0.25], [], [$"Al"_2"O"_3$],  [0.50], [], [$"SiO"_2$], [4.00],
+    [], [$"CaO"$],    [0.75], [], [$"B"_2"O"_3$],   [1.00], [], [], [],
+  )
+]
 
 These materials were first dry pre-mixed, than wet mixed, dried and fired at 1100 °C. 10 Parts of this coloured-frit together with 90 parts of a transparent basic ceramic frit and 8 parts of kaolin formed a red coloured stable glaze.
 
@@ -135,86 +146,72 @@ Following the article, the authors concluded after investigations with XR-D and 
 
 An improvement to the system of encapsulated stains was realised by the BCRA (British Ceramic Research Association, now CERAM) during the 80ties of last century and published with UK patent 2 106 530 A.#footnote[UK patent ref. 2 106 530 A, 'Protected pigments', published 1983.] The basic principle of making the encapsulated stain was different as from the 1st generation. Following the BCRA patent the processes were following:
 
-preparation of solutions:
 
-(i) 29 grs $"CdSO"_4$ + 200 ml $"H"_2"O"$
+#table(
+  columns: (15%, 60%),
+  stroke: none,
+  row-gutter: 1em,
+  align: (right, center),
 
-to be mixed with
+  [(i)],[
+    preparation of solutions: \
+    29 grs $"CdSO"_4$ + 200 ml $"H"_2"O"$ \
+    to be mixed with \
+    140 grs solution, cont. $plus.minus$ 35% Zr-acetate \
+  ],
 
-140 grs solution, cont. $plus.minus$ 35% Zr-acetate
+  [(ii)],[
+    3.6 grs Se powder + $"Na"_2"S"$ solution (28/1000 $"H"_2"O"$) \
+    \+ $"NH"_4"OH"$ (to make solution alkaline) \
+  ],
 
-(ii) 3.6 grs Se powder + $"Na"_2"S"$ solution (28/1000 $"H"_2"O"$)
+  [(i) + (ii)], [
+    precipitate \
+    $arrow.b$ \
+    washing \
+    $arrow.b$ \
+    filtering \
+    $arrow.b$ \
+    drying \
+  ],
 
- + $"NH"_4"OH"$ (to make solution alkaline)
+  [], [
+    mixing the resulting dry powder with 35 ml $"Na"_2"SiO"_3$ solution, dilute to 200 ml with $"H"_2"O"$ + acid to neutralize. \
+    $arrow.b$ \
+    gelling \
+    $arrow.b$ \
+    washing \
+    $arrow.b$ \
+    filtering \
+    $arrow.b$ \
+    drying \
+  ],
 
-(i) + (ii) $->$ precipitate
-
-$arrow.b$
-
-washing
-
-$arrow.b$
-
-filtering
-
-$arrow.b$
-
-drying
-
-mixing the resulting dry powder with 35 ml $"Na"_2"SiO"_3$ solution, dilute to 200 ml with $"H"_2"O"$ + acid to neutralize.
-
-$arrow.b$
-
-gelling
-
-$arrow.b$
-
-washing
-
-$arrow.b$
-
-filtering
-
-$arrow.b$
-
-drying
-
-mixing the resulting powder with 3 weight percent $"LiF"$
-
-$arrow.b$
-
-firing in closed crucibles at 1050°C -- 30 minutes
-
-$arrow.b$
-
-grounding in ball mill
-
-$arrow.b$
-
-washing with mixture of $"H"_2"SO"_4$ and $"HNO"_3$
-
-$arrow.b$
-
-washing with $"H"_2"O"$
-
-$arrow.b$
-
-washing with $"NaOH"$
-
-$arrow.b$
-
-washing with $"H"_2"O"$
-
-$arrow.b$
-
-drying
+  [], [
+    mixing the resulting powder with 3 weight percent $"LiF"$ \
+    $arrow.b$ \
+    firing in closed crucibles at 1050°C -- 30 minutes \
+    $arrow.b$ \
+    grounding in ball mill \
+    $arrow.b$ \
+    washing with mixture of $"H"_2"SO"_4$ and $"HNO"_3$ \
+    $arrow.b$ \
+    washing with $"H"_2"O"$ \
+    $arrow.b$ \
+    washing with $"NaOH"$ \
+    $arrow.b$ \
+    washing with $"H"_2"O"$ \
+    $arrow.b$ \
+    drying \
+  ]
+)
 
 The result of the process was that the stain had about 4 - 6 times as much pigment encapsulated as the 1st generation resulting in the fact that stronger red colours could be obtained for application as glaze stains as well as (onglaze) decoration colour. See also @photo:encapsulated-stain for the encapsulated crystals.
 
 The BCRA produced this second generation of CdSSe inclusion stain only on limited scale and the license for production was given to Blythe Colours / Johnson Matthey. The complicated way for production of the stain has always been a drag for making bigger volumes. Together with the health and safety measurements to be taken and the resulting sky-high production costs per kg it meant the end of this development. Dr. Jörg Keyn, however, mentioned in 2004 that with this second generation of CdSSe encapsulated pigments the possibility has been created to make a real red colour.#footnote[Dr. Jörg Keyn. 'Rote Einschlusspigmente mit maximaler Farbe'. Ker.Zeitschrift, 08-2004.]
 
 #figure(
-  rect(width: 80%, height: 60mm, fill: luma(240)),
+  image("../../assets/encapsulated-stain.png"),
   caption: [Encapsulated $"CdS"."CdSe"$ stain in a $"ZrO"_2."SiO"_2$ crystal.],
   kind: "photo",
   supplement: [Photograph]
@@ -229,7 +226,7 @@ Because of the threat of a complete ban on cadmium during the 80ties one was loo
 Besides the inclusion pigments as manufactured by the company Broll Buntpigmente, which soon will likely be the only manufacturer for these type of pigments left in Europe, another and third generation of very strong cadmium stains came on the market after 2000. This generation was developed and made in China and showed a stronger colour compared to the existing and available stains from West European origin. The internal Chinese market is demanding huge amounts of products and also red stains for the ceramic industry which is affecting prices of cadmium and selenium remarkably ever since about 2002. The Chinese manufacturers have found a way to produce the encapsulated CdSSe pigments resulting in much stronger red, orange and yellow pigments than the existing ones.#footnote['Preparation of ZrSiO4.Cd(SxSe1-x) pigments', CeramicStudies Journal, 1998-02.]#footnote['Synthetic Mechanism of Zircon Based Ceramic Pigments, Journal of Shandong Instituteof Building Materials, 1998-01.]#footnote['Study on the Preparation of Cadmium Red Pigment by Indirect Sedimentation - Calcination Method', Inorganic Chemicals Industry, 2000-03.]#footnote['Research and Development on Red Ceramic Pigment', Jiangxi Chemical Industry, 2001-04.]#footnote['Development of a New Type Red Glaze for the Decoration of Domestic Porcelain and Artistic Porcelain', China Ceramic Industry, 2002-05.] On top of that the production volumes are that high that there is also volume available for the export market. An estimation of the actual Chinese production of cadmium stains now (2010) is that the production of the cadmium stains is amounting to about 800 MT / month. An estimated production e.g. at Wanxing company is approximately 60 MT / month; at Jino approximately 80 MT/month and there are at least more than 10 other factories more producing cadmium pigments like Baifu, Hangzhou Hongyan Pigment Chemical Ltd Comp. (hy-pigment) and others. These factories will undoubtedly come to other than the Chinese markets with attractive prices for their strong cadmium selenium encapsulated stains. A company as Wangxing e.g. has already facilities in Turkey, Italy, Spain and Mexico.
 
 #figure(
-  rect(width: 80%, height: 60mm, fill: luma(240)),
+  image("../../assets/transparent-glaze-cdse.png", width: 80%),
   caption: [Lead free transparent glaze coloured with strong CdSe red stain. Made in 2009. Courtesy of Newland Pottery BV, The Netherlands],
   kind: "photo",
   supplement: [Photograph]
