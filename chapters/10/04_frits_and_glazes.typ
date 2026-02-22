@@ -751,7 +751,7 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
 )
 
 #recipe[
-  These glazes were also often used in multi-layer application. As an example for a floor tile glaze which has been applied in Italy on a 25cm x 25cm floor tile:
+  These glazes were also often used in multi-layer application. As an example for a floor tile glaze which has been applied in Italy on a 25 cm $times$ 25 cm floor tile:
 
   #align(center, table(
     columns: 4,
