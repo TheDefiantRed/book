@@ -69,6 +69,8 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'Hyperioon' to 'Hyperion'.
 - *Spelling:* Corrected 'nutricity' to 'nutrition'.
 - *Spelling:* Corrected 'grow of cancercells' to 'growth of cancer cells'.
+- *Spelling:* Corrected 'Greenocktite' to 'Greenockite'.
+- *Spelling:* Corrected 'Itai Itai' to 'Itai-itai'.
 
 - *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
 
