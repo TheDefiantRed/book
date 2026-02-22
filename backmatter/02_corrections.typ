@@ -73,6 +73,7 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'Greenocktite' to 'Greenockite'.
 - *Spelling:* Corrected 'Itai Itai' to 'Itai-itai'.
 - *Spelling:* Standardised 'odorless', 'celestite', 'sulfuric', 'sulfide', 'sulfo', and 'flower-of-sulphur' to British English ('odourless', 'celestine', 'sulphuric', 'sulphide', 'sulpho', 'flowers of sulphur').
+- *Grammar:* Corrected 'this phenomena' to 'this phenomenon'.
 
 - *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
 - *Photograph:* Moved @photo:walking-orange to the _Development of frits and glazes_ section of Chapter 10, where it is first mentioned.
