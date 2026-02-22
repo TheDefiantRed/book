@@ -8,6 +8,7 @@ This section lists the specific corrections and adjustments made to the original
 - *Figures:* Captions are now positioned _under_ all figures, photographs and tables in slightly smaller, italic type.
 - *Figures:* Figures that were grouped together in the book, have now been separated, resulting in an increased figure count. The contents have remained the same.
 - *Tables:* Readability and accessibility were improved by adding semantic structure and headers in bold type.
+- *Recipes:* Added the percentage sign `%` to each ingredient.
 
 == Chapter 1: Introduction
 
@@ -71,9 +72,10 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'grow of cancercells' to 'growth of cancer cells'.
 - *Spelling:* Corrected 'Greenocktite' to 'Greenockite'.
 - *Spelling:* Corrected 'Itai Itai' to 'Itai-itai'.
-- *Spelling:* Standardised 'odorless', 'celestite', 'sulfuric', and 'flower-of-sulphur' to British English ('odourless', 'celestine', 'sulphuric', 'flowers of sulphur').
+- *Spelling:* Standardised 'odorless', 'celestite', 'sulfuric', 'sulfide', 'sulfo', and 'flower-of-sulphur' to British English ('odourless', 'celestine', 'sulphuric', 'sulphide', 'sulpho', 'flowers of sulphur').
 
 - *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
+- *Photograph:* Moved @photo:walking-orange to the _Development of frits and glazes_ section of Chapter 10, where it is first mentioned.
 
 == Acknowledgments
 

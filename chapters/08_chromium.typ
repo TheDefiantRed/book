@@ -1,6 +1,6 @@
 // Chapter 8: Chromium
 
-#import "../template.typ": recipe
+#import "../template.typ": recipe, composition
 
 = CHROMIUM
 
@@ -36,15 +36,10 @@ Chromium red glazes can approximate the appearance of CdSe colour quite close wi
 #recipe[
   A good and bright shiny chromium red is achieved on basis of a lead alumina silicate frit with composition:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"Na"_2"O"$], [0.03], [], [$"Al"_2"O"_3$], [0.07], [], [$"SiO"_2$], [1.43],
-      [$"K"_2"O"$], [0.04], [], [], [], [], [], [],
-      [$"PbO"$], [0.93], [], [], [], [], [], []
-    )
+  #composition(
+    [], [$"Na"_2"O"$], [0.03], [], [$"Al"_2"O"_3$], [0.07], [], [$"SiO"_2$], [1.43],
+    [], [$"K"_2"O"$], [0.04], [], [], [], [], [], [],
+    [], [$"PbO"$], [0.93], [], [], [], [], [], []
   )
 ]
 
@@ -53,7 +48,7 @@ Chromium red glazes can approximate the appearance of CdSe colour quite close wi
 
   #align(center,
     table(
-      columns: (auto, auto, auto),
+      columns: 3,
       stroke: none,
       align: (left, right, left),
       [frit], [62.50 %], [],

@@ -1,6 +1,6 @@
 // Chapter 9: Uranium
 
-#import "../template.typ": recipe
+#import "../template.typ": recipe, composition
 
 = URANIUM
 
@@ -31,13 +31,8 @@ Other than some early findings of uranium containing glass through which an earl
 #recipe[
   Another article was published by Zimmermann#footnote[Zimmermann. 'Klei', no.20, 1927.]. He started with a simple lead-alumina-silicate with the following composition:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"PbO"$], [1.000], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.850]
-    )
+  #composition(
+    [], [$"PbO"$], [1.000], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.850]
   )
 ]
 
@@ -103,14 +98,9 @@ Another interesting but also rather compendious article was published in 1934 by
 #recipe[
   A 'pleasing red glaze of this type with a crystalline structure' could be obtained with the following glaze composition:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"Na"_2"O"$], [0.10], [], [$"UO"_3$], [0.20], [], [$"SiO"_2$], [2.00],
-      [$"PbO"$], [0.90], [], [], [], [], [], []
-    )
+  #composition(
+    [], [$"Na"_2"O"$], [0.10], [], [$"UO"_3$], [0.20], [], [$"SiO"_2$], [2.00],
+    [], [$"PbO"$], [0.90], [], [], [], [], [], []
   )
 ]
 
@@ -199,15 +189,10 @@ In those cases the uranium should be present as $"UO"_3$.
 #recipe[
   The early uranium red glazes mentioned by Binns and Lyttle were based on the following compositions:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"K"_2"O"$], [0.12], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [1.33],
-      [$"PbO"$], [0.80], [], [], [], [], [], [],
-      [$"ZnO"$], [0.08], [], [], [], [], [], []
-    )
+  #composition(
+    [], [$"K"_2"O"$], [0.12], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [1.33],
+    [], [$"PbO"$], [0.80], [], [], [], [], [], [],
+    [], [$"ZnO"$], [0.08], [], [], [], [], [], []
   )
 ]
 
@@ -216,35 +201,26 @@ An addition of 20 % of sodium uranate should result in a cinnabar red glaze for 
 #recipe[
   The base glaze:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"K"_2"O"$], [0.04], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [0.79],
-      [$"PbO"$], [0.87], [], [], [], [], [], [],
-      [$"ZnO"$], [0.09], [], [], [], [], [], []
-    )
+  #composition(
+    [], [$"K"_2"O"$], [0.04], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [0.79],
+    [], [$"PbO"$], [0.87], [], [], [], [], [], [],
+    [], [$"ZnO"$], [0.09], [], [], [], [], [], []
   )
+
   together with an addition of 37 % sodium uranate resulted in a matt red glaze for SK 04a (1020 °C).
 ]
 
 #recipe[
   Zimmermann mentioned the following compositions for orange-red glazes, suitable at SK 07a till SK 03a (960 °C till 1040 °C):
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.4 -- 0.6],
-      [], [], [], [], [], [], [], [],
-      [$"K"_2"O"$], [0.10], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.85],
-      [$"PbO"$], [0.90], [], [], [], [], [], [],
-      [], [], [], [], [], [], [], [],
-      [$"PbO"$], [0.90], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.60],
-      [$"ZnO"$], [0.10], [], [], [], [], [], []
-    )
+  #composition(
+    [], [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.4 -- 0.6],
+    [], [], [], [], [], [], [], [], [],
+    [], [$"K"_2"O"$], [0.10], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.85],
+    [], [$"PbO"$], [0.90], [], [], [], [], [], [],
+    [], [], [], [], [], [], [], [], [],
+    [], [$"PbO"$], [0.90], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.60],
+    [], [$"ZnO"$], [0.10], [], [], [], [], [], []
   )
 ]
 
@@ -273,14 +249,9 @@ For these compositions counted that an addition of 20 parts of sodium uranate to
 #recipe[
   The weather resistance was not always sufficient and the glazes were heavily attacked. This as contrasted with glazes where the lead content was partly replaced by fluorspar:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"CaF"_2$], [0.10], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.40],
-      [$"PbO"$], [0.90], [], [$"UO"_3$], [0.15], [], [], []
-    )
+  #composition(
+    [], [$"CaF"_2$], [0.10], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.40],
+    [], [$"PbO"$], [0.90], [], [$"UO"_3$], [0.15], [], [], []
   )
 ]
 
@@ -307,27 +278,17 @@ A too high an amount of sodium had a negative influence on colour, glaze, surfac
 #recipe[
   Kautz gives some compositions for respectively green, yellow, ivory, orange and red uranium based glazes. As possibility for a vermillion red glaze he mentioned:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"Na"_2"O"$], [0.10], [], [$"UO"$], [0.20], [], [$"SiO"_2$], [2.00],
-      [$"PbO"$], [0.90], [], [], [], [], [], []
-    )
+  #composition(
+    [], [$"Na"_2"O"$], [0.10], [], [$"UO"$], [0.20], [], [$"SiO"_2$], [2.00],
+    [], [$"PbO"$], [0.90], [], [], [], [], [], []
   )
 ]
 
 #recipe[
   A good tomato red glaze for SK 07a (960 °C) with good processing properties is mentioned by Eggert. As base glaze was used:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.80]
-    )
+  #composition(
+    [], [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.80]
   )
 ]
 

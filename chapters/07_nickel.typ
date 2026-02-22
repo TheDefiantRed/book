@@ -1,6 +1,6 @@
 // Chapter 7: Nickel
 
-#import "../template.typ": recipe
+#import "../template.typ": recipe, composition
 
 = NICKEL
 
@@ -40,46 +40,27 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 #recipe[
   In 1921 an investigation was published#footnote[Keramische Rundschau 21-VIII.] describing the colouring effects of nickel oxide resulting in green, blue, violet-purple and brown colours. The best compositions for violet-purple-red colours were:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"BaO"$], [0.50], [], [$"Al"_2"O"_3$], [0.35], [], [$"SiO"_2$], [2.10],
-      [$"ZnO"$], [0.50], [], [], [], [], [], [],
-      [], [], [], [], [], [],[$+ "NiO"$], [0.025]
-    )
+  #composition(
+    [], [$"BaO"$],  [0.50], [], [$"Al"_2"O"_3$],  [0.35], [], [$"SiO"_2$],  [2.10],
+    [], [$"ZnO"$],  [0.50], [], [],               [],     [], [],           [],
+    [], [],         [],     [], [],               [],     [], [$+ "NiO"$],  [0.025]
   )
-]
 
-#recipe[
-  and:
-
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"K"_2"O"$], [0.15], [], [$"Al"_2"O"_3$], [0.35], [], [$"SiO"_2$], [2.10],
-      [$"BaO"$], [0.45], [], [], [], [], [], [],
-      [$"ZnO"$], [0.40], [], [], [], [], [$+ "NiO"$], [0.025]
-    )
+  #composition(
+    [and:], [$"K"_2"O"$], [0.15], [], [$"Al"_2"O"_3$], [0.35], [], [$"SiO"_2$], [2.10],
+    [], [$"BaO"$], [0.45], [], [], [], [], [], [],
+    [], [$"ZnO"$], [0.40], [], [], [], [], [$+ "NiO"$], [0.025]
   )
 ]
 
 #recipe[
   Lehnhäuser#footnote[Prof. W. Lehnhäuser. 'Keramische Glasuren und ihre Farben'. Ritterbach Verlag, Frechen, Germany, 2000. ISBN 3 89314 659 8.] gives similar recipes for purple-violet glazes and mentions following composition for a temperature of 1100 °C till 1140 °C:
 
-  #align(center,
-    table(
-      columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-      stroke: none,
-      align: (left, right, center, left, right, center, left, right),
-      [$"Na"_2"O"$], [0.05], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [1.20],
-      [$"BaO"$], [0.20], [], [], [], [], [], [],
-      [$"PbO"$], [0.15], [], [], [], [], table.cell(colspan: 2)[$"+ 1% NiCO"_3$: lilac],
-      [$"ZnO"$], [0.60], [], [], [], [], table.cell(colspan: 2)[$"+ 2% NiCO"_3$: violet-red],
-    )
+  #composition(
+    [], [$"Na"_2"O"$], [0.05], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [1.20],
+    [], [$"BaO"$], [0.20], [], [], [], [], [], [],
+    [], [$"PbO"$], [0.15], [], [], [], table.cell(colspan: 3)[$"+ 1% NiCO"_3$: lilac],
+    [], [$"ZnO"$], [0.60], [], [], [], table.cell(colspan: 3)[$"+ 2% NiCO"_3$: violet-red],
   )
 ]
 

@@ -1,6 +1,8 @@
 #import "@preview/cetz:0.4.2"
 #import "@preview/cetz-plot:0.1.3": plot, chart
 
+#import "../template.typ": recipe, narrow, composition
+
 #let flux-cols = (0.5fr, 1fr, 1.5fr, 1fr, 1.5fr, 1fr, 1.5fr)
 #let flux-stroke = none
 #let flux-align = (left, right, left, right, left, right, left)
@@ -85,65 +87,44 @@ The fluxes are composed in such a way that they develop the colour as good as po
   caption: [Greek vase showing bright red and black colours in one firing]
 ) <photo:greek-vase>
 
-#block(
-  breakable: false,
-  width: flux-width,
-)[
+#recipe[
   For a leaded onglaze iron-red colour one can use fluxes with compositions like:
 
-  #align(center, table(
-    columns: flux-cols,
-    stroke: flux-stroke,
-    align: flux-align,
-    column-gutter: flux-gutter,
-    [(i)], [$"Na"_2"O"$], [0.074], [$"B"_2"O"_3$], [0.197], [$"SiO"_2$], [1.480],
-    [],    [$"PbO"$],    [0.781], [],              [],      [$"ZrO"_2$], [0.050],
-    [],    [$"CdO"$],    [0.072], [],              [],      [$"TiO"_2$], [0.076],
-    [],    [$"NaF"$],    [0.073], [],              [],      [],           []
-  ))
+  #composition(
+    [(i)], [$"Na"_2"O"$], [0.074], [], [$"B"_2"O"_3$], [0.197], [], [$"SiO"_2$], [1.480],
+    [],    [$"PbO"$],    [0.781], [], [],              [],      [], [$"ZrO"_2$], [0.050],
+    [],    [$"CdO"$],    [0.072], [], [],              [],      [], [$"TiO"_2$], [0.076],
+    [],    [$"NaF"$],    [0.073], [], [],              [],      [], [],           []
+  )
 ]
 
-#block(
-  breakable: false,
-  width: flux-width,
-)[
+#recipe[
   In combination with a flux like:
 
-  #align(center, table(
-    columns: flux-cols,
-    stroke: flux-stroke,
-    align: flux-align,
-    column-gutter: flux-gutter,
-    [(ii)], [$"Na"_2"O"$], [0.535], [$"Al"_2"O"_3$], [0.150], [$"SiO"_2$], [2.533],
-    [],     [$"K"_2"O"$],  [0.055], [$"B"_2"O"_3$],  [0.548], [$"ZrO"_2$], [0.040],
-    [],     [$"CaF"_2$],  [0.060], [],               [],      [$"TiO"_2$], [0.077],
-    [],     [$"PbO"$],     [0.212], [],               [],      [],           [],
-    [],     [$"ZnO"$],     [0.082], [],               [],      [],           [],
-    [],     [$"CdO"$],     [0.056], [],               [],      [],           []
-  ))
+  #composition(
+    [(ii)], [$"Na"_2"O"$], [0.535], [], [$"Al"_2"O"_3$], [0.150],  [], [$"SiO"_2$], [2.533],
+    [],     [$"K"_2"O"$],  [0.055], [], [$"B"_2"O"_3$],  [0.548],  [], [$"ZrO"_2$], [0.040],
+    [],     [$"CaF"_2$],   [0.060], [], [],               [],      [], [$"TiO"_2$], [0.077],
+    [],     [$"PbO"$],     [0.212], [], [],               [],      [], [],           [],
+    [],     [$"ZnO"$],     [0.082], [], [],               [],      [], [],           [],
+    [],     [$"CdO"$],     [0.056], [], [],               [],      [], [],           []
+  )
 ]
 
 These fluxes can be used together in a formulation to obtain the best possible firing range. Combination e.g. can be between 50 and 70 for flux (i) and between 40 and 20 parts for flux (ii).
 
 Together with a specific type of iron oxide in a weight percentage of 10% one obtains a good iron-red colour.
 
-#block(
-  breakable: false,
-  width: flux-width,
-)[
+#recipe[
   These iron-red colours are also available in an unleaded composition. In those cases one can use a flux composition like:
 
-  #align(center, table(
-    columns: flux-cols,
-    stroke: flux-stroke,
-    align: flux-align,
-    column-gutter: flux-gutter,
-    [], [$"Li"_2"O"$], [0.325], [$"Al"_2"O"_3$], [0.155], [$"SiO"_2$], [2.555],
-    [], [$"Na"_2"O"$], [0.460], [$"B"_2"O"_3$], [0.985], [$"ZrO"_2$], [0.015],
-    [], [$"K"_2"O"$],  [0.095], [],              [],      [$"TiO"_2$], [0.010],
-    [], [$"BaO"$],     [0.035], [],              [],      [],          [],
-    [], [$"ZnO"$],     [0.085], [],              [],      [],          []
-  ))
+  #composition(
+    [], [$"Li"_2"O"$], [0.325], [], [$"Al"_2"O"_3$], [0.155], [], [$"SiO"_2$], [2.555],
+    [], [$"Na"_2"O"$], [0.460], [], [$"B"_2"O"_3$], [0.985], [], [$"ZrO"_2$], [0.015],
+    [], [$"K"_2"O"$],  [0.095], [], [],              [],      [], [$"TiO"_2$], [0.010],
+    [], [$"BaO"$],     [0.035], [], [],              [],      [], [],          [],
+    [], [$"ZnO"$],     [0.085], [], [],              [],      [], [],          []
+  )
 ]
 
 Together with e.g. 10 to 12 parts of a suitable iron oxide one obtains a reddish/brown colour which is in fact far away from the real CdSe red colours. Unleaded iron red colours are even more brownish compared to the leaded versions.
@@ -152,58 +133,35 @@ This type of iron red decoration colours are commercially available and cost-wis
 
 Also on roof tiles one still applies iron-red coloured glazes today, often called 'wine red' glazes. The various roof tile companies in The Netherlands and Germany still manufacture these iron-red colours which all have a more maroon-like appearance instead of a clear red colour.
 
-#block(
-  breakable: false,
-  width: flux-width,
-)[
+#recipe[
   For a leaded composition one can use a lead-aluminium-silicate like e.g.
 
-  #align(center, table(
-    columns: flux-cols,
-    stroke: flux-stroke,
-    align: flux-align,
-    column-gutter: flux-gutter,
-    [], [$"PbO"$], [1.000], [$"Al"_2"O"_3$], [0.244], [$"SiO"_2$], [2.052]
-  ))
-]
+  #composition(
+    [], [$"PbO"$], [1.000], [], [$"Al"_2"O"_3$], [0.244], [], [$"SiO"_2$], [2.052]
+  )
 
-#block(
-  breakable: false,
-  width: flux-width,
-)[
   or in combination with the following frit:
 
-  #align(center, table(
-    columns: flux-cols,
-    stroke: flux-stroke,
-    align: flux-align,
-    column-gutter: flux-gutter,
-    [], [$"PbO"$], [1.000], [$"Al"_2"O"_3$], [0.300], [$"SiO"_2$], [2.200],
-    [], [], [], [$"B"_2"O"_3$], [0.600], [], []
-  ))
+  #composition(
+    [], [$"PbO"$], [1.000], [], [$"Al"_2"O"_3$], [0.300], [], [$"SiO"_2$], [2.200],
+    [], [], [], [], [$"B"_2"O"_3$], [0.600], [], [], []
+  )
 
   and e.g. 6 to 8 parts of a suitable red iron oxide type together with some quartz, a clay with good setting-up properties and some bentone EW.
 ]
 
 As leaded glazes, also for roof tiles, become less and less popular due to various health and environmental regulations, the tendency to apply unleaded glazes is also increasing here.
 
-#block(
-  breakable: false,
-  width: flux-width,
-)[
+#recipe[
   For an unleaded type of iron-red glaze one can use an unleaded frit composition like: (see also Yulia Shteinberg 'Strontium Glazes')
 
-  #align(center, table(
-    columns: flux-cols,
-    stroke: flux-stroke,
-    align: flux-align,
-    column-gutter: flux-gutter,
-    [], [$"Na"_2"O"$], [0.370], [$"Al"_2"O"_3$], [0.244], [$"SiO"_2$], [3.300],
-    [], [$"K"_2"O"$], [0.110], [$"B"_2"O"_3$], [0.390], [], [],
-    [], [$"MgO"$], [0.135], [], [], [], [],
-    [], [$"BaO"$], [0.115], [], [], [], [],
-    [], [$"SrO"$], [0.270], [], [], [], [],
-  ))
+  #composition(
+    [], [$"Na"_2"O"$],  [0.370], [], [$"Al"_2"O"_3$], [0.244], [], [$"SiO"_2$], [3.300],
+    [], [$"K"_2"O"$],   [0.110], [], [$"B"_2"O"_3$],  [0.390], [], [],          [],
+    [], [$"MgO"$],      [0.135], [], [],              [], [], [],               [],
+    [], [$"BaO"$],      [0.115], [], [],              [], [], [],               [],
+    [], [$"SrO"$],      [0.270], [], [],              [], [], [],               [],
+  )
 
   and e.g. 12 to 16 parts of a suitable red iron oxide together with some quartz and a clay with good setting-up properties. These types of unleaded wine-red glazes will always have more covering power and somewhat less brilliance compared to the leaded compositions.
 ]

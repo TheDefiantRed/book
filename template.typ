@@ -22,6 +22,21 @@
   below: 2em,
 )[#body]
 
+/**
+ * Composition of frits etc.
+ * Takes 9 cells at a time:
+ * label (optional), compound, amount, (empty), compound, amount, (empty), compound, amount.
+ *
+ * e.g.:
+ *  [], [$"CdO"$], [0.036], [], [], [], [], [], [],
+ */
+#let composition(..cells) = table(
+  columns: (10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%),
+  stroke: none,
+  align: (left, left, right, auto, left, right, auto, left, right),
+  ..cells,
+)
+
 #let project(
   title: "",
   author: "",

@@ -1,6 +1,6 @@
 // Chapter 6: Chromium Tin Stains
 
-#import "../template.typ": recipe, narrow
+#import "../template.typ": recipe, narrow, composition
 
 = CHROMIUM TIN STAINS
 
@@ -158,30 +158,24 @@ With all these examples, however, it is possible to create beautiful wine red, c
 #recipe[
   A typical lead containing glaze which shows a good development for CrSn stains is based on following frit:
 
-  #align(center, table(
-    columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-    stroke: none,
-    align: (left, right, auto, left, right, auto, left, right),
-    [$"Na"_2"O"$], [0.145], [], [$"Al"_2"O"_3$], [0.172], [], [$"SiO"_2$], [2.977],
-    [$"K"_2"O"$], [0.050], [], [$"B"_2"O"_3$], [0.222], [], [], [],
-    [$"CaO"$], [0.266], [], [], [], [], [], [],
-    [$"PbO"$], [0.539], [], [], [], [], [], [],
-  ))
+  #composition(
+    [], [$"Na"_2"O"$], [0.145], [], [$"Al"_2"O"_3$], [0.172], [], [$"SiO"_2$], [2.977],
+    [], [$"K"_2"O"$], [0.050], [], [$"B"_2"O"_3$], [0.222], [], [], [],
+    [], [$"CaO"$], [0.266], [], [], [], [], [], [],
+    [], [$"PbO"$], [0.539], [], [], [], [], [], [],
+  )
 ]
 
 #recipe[
   The milling formula for the glaze is 90 parts of the frit together with 10 parts of kaolin. This glaze has a maturing firing range of 1020 °C till 1100 °C and shows normally no lead release after standard DIN EN 1388-1 / -2. Despite this, many of this type of glazes have been replaced by unleaded glazes like glazes based on strontium containing frits#footnote[L.W. Baaij. 'Study on Leadfree Strontium containing Glazes', June 1980.] like e.g.:
 
-  #align(center, table(
-    columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
-    stroke: none,
-    align: (left, right, auto, left, right, auto, left, right),
-    [$"Li"_2"O"$], [0.062], [], [$"Al"_2"O"_3$], [0.134], [], [$"SiO"_2$], [2.302],
-    [$"K"_2"O"$], [0.039], [], [], [], [], [], [],
-    [$"CaO"$], [0.357], [], [], [], [], [], [],
-    [$"BaO"$], [0.107], [], [], [], [], [], [],
-    [$"SrO"$], [0.435], [], [], [], [], [], [],
-  ))
+  #composition(
+    [], [$"Li"_2"O"$], [0.062], [], [$"Al"_2"O"_3$], [0.134], [], [$"SiO"_2$], [2.302],
+    [], [$"K"_2"O"$], [0.039], [], [], [], [], [], [],
+    [], [$"CaO"$], [0.357], [], [], [], [], [], [],
+    [], [$"BaO"$], [0.107], [], [], [], [], [], [],
+    [], [$"SrO"$], [0.435], [], [], [], [], [], [],
+  )
 ]
 
 Milling formula of the glaze is 90 parts of frit together with 10 parts of kaolin. Glazes as these are nowadays widely used as unleaded transparent glazes, also as base glaze for CrSn wine red glazes.
