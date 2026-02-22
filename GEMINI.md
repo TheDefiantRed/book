@@ -65,7 +65,8 @@ Example:
 
 
 3. **Math & Formulas:** Use inline Typst math blocks `$ ... $`. E.g., `$x = X / (X + Y + Z)$`.
-4. **Images:** Use `#figure(image("path"), caption: [...])`. If the image is not yet available, use a `#rect()` placeholder inside the figure.
+4. **Chemical Formulas:** ALWAYS wrap chemical formulas in Typst math mode. Enclose element symbols in quotes and keep subscripts outside quotes. E.g., `$"Al"_2"O"_3$`, `$"CdCO"_3$`, `$"Fe"_2"O"_3$`.
+5. **Images:** Use `#figure(image("path"), caption: [...])`. If the image is not yet available, use a `#rect()` placeholder inside the figure.
 
 # Known Corrections (Must be applied to text)
 **Important: a number of post-publication corrections have been identified and MUST be applied before conversion into typst.**

@@ -71,6 +71,7 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'grow of cancercells' to 'growth of cancer cells'.
 - *Spelling:* Corrected 'Greenocktite' to 'Greenockite'.
 - *Spelling:* Corrected 'Itai Itai' to 'Itai-itai'.
+- *Spelling:* Standardised 'odorless', 'celestite', 'sulfuric', and 'flower-of-sulphur' to British English ('odourless', 'celestine', 'sulphuric', 'flowers of sulphur').
 
 - *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
 

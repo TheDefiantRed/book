@@ -2,7 +2,7 @@
 
 In 1818 the Swedish scientists and chemists Jöns Jakob Berzelius and J.G. Gahn discovered and isolated the element selenium which is called after 'Selene', the Greek word for moon. In the Greek mythology Selene was the daughter of Hyperion and sister of Helios. As selenium was found when Berzelius was working with and investigating the element tellurium and because there are similarities between these two elements he choose for the name of selenium. The element tellurium was named after the Latin word Tellus which means earth. In that way the similarities as between Earth and Moon were also expressed in the names of the elements.
 
-Selenium, with atom number 34, has an atomic weight of 78.96. Its melting point is 217 °C; the boiling point is 684.9 °C $plus.minus$ 1 °C. The specific gravity is 4.79. Some of the natural sources of selenium are the minerals crookesite ($"(CuTlAg)"_2"Se"$) and clausthalite (PbSe). The main source, however, of industrial Se (and Te) is the anode slib which is formed during the electrolytic purification of copper. Major producers of selenium in the world are Japan, Canada, Belgium, the US, Russia and Germany.
+Selenium, with atom number 34, has an atomic weight of 78.96. Its melting point is 217 °C; the boiling point is 684.9 °C $plus.minus$ 1 °C. The specific gravity is 4.79. Some of the natural sources of selenium are the minerals crookesite ($"(CuTlAg)"_2"Se"$) and clausthalite ($"PbSe"$). The main source, however, of industrial Se (and Te) is the anode slib which is formed during the electrolytic purification of copper. Major producers of selenium in the world are Japan, Canada, Belgium, the US, Russia and Germany.
 
 #figure(
   table(
