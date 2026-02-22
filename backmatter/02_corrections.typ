@@ -21,37 +21,14 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'carotenoides' to 'carotenoids'.
 - *Spelling:* Corrected '1, 2-dihydroxyantrachinon' to '1,2-dihydroxyanthraquinone'.
 - *Figure:* The grouped structure formula and photo of Alizarine was separated into  @fig:alizarine-structure-formula and @fig:alizarine-powder and separate captions were added.
+- *Figure:* @fig:alizarine-powder was replaced with the high resolution original from Wikimedia Commons and correctly attributed.
 - *Figure:* The grouped structure formula and molecular model of Alinine was separated into @fig:aniline-structure-formula and @fig:aniline-molecular-model and separate captions were added.
 - *Figure:* Figure 5 in the book is now @tab:glaze-composition, increasing the total table count.
 - *Figure:* The Seger formula in @tab:glaze-composition was reformatted.
 
 == Chapter 3: Iron
 
-- *Visualization:* The "Terra Sigillata typical firing curve" was converted from a spreadsheet-like table to a proper scientific chart using the `cetz` package. This clarifies the relationship between time, temperature, and atmosphere. The original table structure is preserved below for reference:
-
-#figure(
-  table(
-    columns: (auto, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
-    align: (left, center, center, center, center, center, center),
-    stroke: 0.5pt,
-    table.hline(stroke: 0.5pt),
-    [temp.°C], [], [], table.cell(colspan: 3, align: right, text(fill: red)[x = oxidizing atm]), [],
-    [1000°C],  [], [], table.cell(colspan: 3, align: right, text(fill: black)[x = reducing atm]),  [],
-    [900°C],   [], [], [], [#text(fill: black)[*x*]], [], [],
-    [800°C],   [], [], [], [], [#text(fill: red)[*x*]], [],
-    [700°C],   [], [], [#text(fill: black)[*x*]], [], [], [],
-    [600°C],   [], [], [], [], table.cell(colspan: 2, [#text(fill: red)[*x*]]),
-    [500°C],   [], [], [], [], [], [],
-    [400°C],   [], [], [], [], [], [],
-    [300°C],   [], [#text(fill: red)[*x*]], [], [], [], [#text(fill: red)[*x*]],
-    [200°C],   [], [], [], [], [], [],
-    [100°C],   [#text(fill: red)[*x*]], [], [], [], [], [],
-    table.hline(stroke: 0.5pt),
-    [hrs $arrow$], [0], [4], [8], [12], [16], [20],
-    table.hline(stroke: 0.5pt),
-  ),
-  caption: [Original Terra Sigillata firing curve table structure (deprecated)]
-)
+- *Visualization:* @fig:terra-sigillata-chart was converted from a spreadsheet-like table to a chart, using data found in the author's sources.
 
 == Chapter 4: Copper
 
@@ -63,6 +40,8 @@ This section lists the specific corrections and adjustments made to the original
 == Chapter 5: Gold
 
 - *Spelling:* Corrected the title of the 10th-century manuscript 'Mappas Clavicula' to 'Mappae Clavicula'.
+- *Photograph:* @photo:gold-colours-transfer was replaced with the higher resolution original.
+- *Photograph:* @photo:gold-colours-manual was also replaced with the higher resolution original.
 
 == Chapter 6: Chromium Tin Stains
 

@@ -45,8 +45,8 @@ Another organic possibility which was used to obtain a warm red colour came from
 
   [
     #figure(
-      image("../assets/alizarine-red.jpg", width: 90%),
-      caption: [Alizarine red powder]
+      image("../assets/Alizarin-sample.jpg", width: 90%),
+      caption: [Alizarine red powder. Wikimedia Commons, by Benjah-bmm27]
     ) <fig:alizarine-powder>
   ]
 )

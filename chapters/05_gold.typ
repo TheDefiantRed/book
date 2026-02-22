@@ -120,7 +120,7 @@ Without doubt one can state that during the last 10 -- 15 years the (gold) decor
 
   [
     #figure(
-      image("../assets/lavender-rose.jpg"),
+      image("../assets/lavender-rose.png"),
       kind: "photo",
       supplement: [Photograph],
       caption: [Gold colours by screen print transfer application. Plate by porcelain factory Royal Albert "Lavender Rose"]
@@ -129,7 +129,7 @@ Without doubt one can state that during the last 10 -- 15 years the (gold) decor
 
   [
     #figure(
-      image("../assets/herend.jpg"),
+      image("../assets/gold_plate_herend.png"),
       kind: "photo",
       supplement: [Photograph],
       caption: [Gold colours applied manually. Plate by porcelain factory Herend / Hungary]

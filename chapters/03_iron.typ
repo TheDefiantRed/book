@@ -31,11 +31,35 @@ By slibbing-up one could obtain the finest particles and applied to a suitable a
 
 #figure(
   cetz.canvas({
-    plot.plot(size: (10, 6), x-tick-step: 4, y-tick-step: 100, x-label: [Time (hrs)], y-label: [Temp (°C)], {
-      plot.add(((0, 100), (4, 300)), mark: "x", mark-size: 0.15, mark-style: (stroke: red, fill: red), style: (stroke: none), label: "Oxidizing")
-      plot.add(((8, 700), (12, 900)), mark: "x", mark-size: 0.15, mark-style: (stroke: black, fill: black), style: (stroke: none), label: "Reducing")
-      plot.add(((16, 800), (18, 600), (20, 300)), mark: "x", mark-size: 0.15, mark-style: (stroke: red, fill: red), style: (stroke: none))
-    })
+    import cetz.draw: *
+
+    set-style(axes: (
+      stroke: gray + 0.5pt,
+    ))
+
+    plot.plot(
+      size: (10, 6),
+      x-grid: true,
+      y-grid: true,
+      x-tick-step: 4,
+      y-tick-step: 100,
+      x-label: [Time (hrs)],
+      y-label: [Temp (°C)],
+      legend-style: (stroke: none),
+      {
+
+        plot.add(
+          ((0, 100), (3.5, 300), (14, 800), (17, 600), (19, 300), (23.5, 100)),
+          mark: "x", mark-size: 0.15, mark-style: (stroke: red, fill: red),
+          style: (stroke: none), label: "oxidizing atm."
+        )
+        plot.add(
+          ((7, 700), (10, 900)),
+          mark: "x", mark-size: 0.15, mark-style: (stroke: black, fill: black),
+          style: (stroke: none), label: "reducing atm."
+        )
+      }
+    )
   }),
   caption: [Terra Sigillata typical firing curve]
 ) <fig:terra-sigillata-chart>

@@ -30,6 +30,7 @@
 #include "chapters/07_nickel.typ"
 #include "chapters/08_chromium.typ"
 #include "chapters/09_uranium.typ"
+#include "chapters/10_cadmium_selenium.typ"
 
 // ==========================================
 // BACK MATTER
