@@ -31,9 +31,11 @@
 #include "chapters/08_chromium.typ"
 #include "chapters/09_uranium.typ"
 #include "chapters/10_cadmium_selenium.typ"
+#include "chapters/11_literature.typ"
 
 // ==========================================
 // BACK MATTER
 // ==========================================
 #include "backmatter/01_figures.typ"
 #include "backmatter/02_corrections.typ"
+#include "backmatter/03_about_author.typ"
