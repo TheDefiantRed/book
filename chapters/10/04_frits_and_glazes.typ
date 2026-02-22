@@ -298,22 +298,22 @@ Following this process for the wet preparation of CdSSe stains, a method was fou
     align: (left, left),
 
     [(i)], [
-      $"ZnSO"_4."OH"$ solution + $"Na"_2"CO"_3$ solution \
-      $3"H"_2"O" + 5"Zn"^(2+) + 5"CO"_3^(2-) -> 2"ZnCO"_3."3Zn(OH)"_2 arrow.b + 3"CO"_2 arrow.t$
+      $"ZnSO"_4$ solution + $"Na"_2"CO"_3$ solution \
+      $3"H"_2"O" + 5"Zn"^(2+) + 5"CO"_3^(2-) -> "Zn"_5("CO"_3)_2("OH")_6 (s) + 3"CO"_2 (g)$
     ],
 
     [], [],
 
     [(ii)], [
       $"Na"_2"S"$ + Se solution \
-$"Na"_2"S" + "Se" -> 2"Na"^+ + "SSe"^(2-)$
+      $"Na"_2"S" + "Se" -> 2"Na"^+ + "SSe"^(2-)$
     ],
 
     [], [],
 
     [(iii)], [
       (i) + (ii) \
-      $2"ZnCO"_3."3Zn(OH)"_2 + 3"SSe"^(2-) -> 2"ZnCO"_3."3ZnSSe" arrow.b + 6"OH"^-$
+      $"Zn"_5("CO"_3)_2("OH")_6 (s) + 3"SSe"^(2-) -> "Zn"_5("CO"_3)_2("SSe")_3 (s) + 6"OH"^-$
     ]
   )
 ]
