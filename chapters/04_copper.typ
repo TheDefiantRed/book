@@ -1,6 +1,6 @@
 // Chapter 4: Copper
 
-#import "../template.typ": narrow, recipe
+#import "../template.typ": narrow, recipe, ch
 
 = COPPER
 
@@ -41,7 +41,7 @@ Although the ultimate intention of the iron and the copper oxide was and is a co
 
 It is ascertained that the iron oxide is responsible as the colour causing component in the several types of celadon glazes. The name celadon is said to be derived from Saladin, a sultan of Egypt who sent a number of pieces of this particular ceramic ware to Nur-ed-din, the sultan of Damascus in 1171. Another story for the derivation is from the shepherd Celadon, a character in a romance called l'Astrée and written by Honoré d'Urfé in the 17th century. The shepherd Celadon was wearing a coat in distinctive grayish-greenish colours.
 
-Studies#footnote[M. J. Lime. 'Celadon Glazes'. Ceramic Monthly, Oct. 1974.] have demonstrated that the soft and warm appearance of the early celadons is caused by the fact that a relatively large number of air bubbles and non-dissolved glaze particles exist in the glaze. These are reasons for the scattering and reflection of light sources. Later dated celadons, e.g. from the Ming dynasty, differ from the earlier ones in that they usually have a more clear appearance. The so-called 'kinuta' celadons (Japanese name) are celadons with a blue colour tone. The presence of P_2O_5 in these ferrous glazes is said to be responsible for these blue colour tones. In this respect one also makes a comparison with the mineral vivianite: $"Fe"_3("PO"_4)_2 dot 8"H"_2"O"$. Another famous type is the spotted celadon, also called buckwheat celadons. For these types of glazes it seems to be a precondition that both Fe and Cu are present in the glaze.
+Studies#footnote[M. J. Lime. 'Celadon Glazes'. Ceramic Monthly, Oct. 1974.] have demonstrated that the soft and warm appearance of the early celadons is caused by the fact that a relatively large number of air bubbles and non-dissolved glaze particles exist in the glaze. These are reasons for the scattering and reflection of light sources. Later dated celadons, e.g. from the Ming dynasty, differ from the earlier ones in that they usually have a more clear appearance. The so-called 'kinuta' celadons (Japanese name) are celadons with a blue colour tone. The presence of #ch("P2O5") in these ferrous glazes is said to be responsible for these blue colour tones. In this respect one also makes a comparison with the mineral vivianite: #ch("Fe3(PO4)2 * 8H2O"). Another famous type is the spotted celadon, also called buckwheat celadons. For these types of glazes it seems to be a precondition that both #ch("Fe") and #ch("Cu") are present in the glaze.
 
 During these processes the firing conditions were of a great importance in respect of the required glazes. Reducing conditions were absolutely necessary for the creation of these glazes. The way in which the Chinese potters were able to achieve those conditions could easily be reconstructed as these particular kilns still exist today. The kilns were usually built on a hillside where the slope of the ground furnished the necessary draught. Wood was mainly used as fuel. The wood smoke, which consisted of finely divided particles of carbon, was conducted into the kiln together with a limited quantity of air. In this way, a strong reducing atmosphere was created which was necessary to reduce the copper oxide to the finely divided metallic copper in a colloidal state. In a later stage, more in particular during the Ch'ing dynasty, a more sophisticated method was employed to obtain a reducing atmosphere. The well skilled potters developed a special type of saggers. The inner sagger in which the ware was placed was perforated. This in contrast with the outer sagger which was completely closed. The space between the saggers was filled up with charcoal. This method enabled them to exercise a better control in respect of the firing under reducing conditions. A.L. Hetherington#footnote[A. L. Hetherington. 'Chinese Ceramic Glazes'. Cambridge University Press, 1948.] indicates that only one-half percent of copper must be present for the development of the best copper reds. Under well-controlled conditions and carried out by well-experienced potters, these reds were created. These Chinese reds, known as the famous 'lang yao', thank their colour to cupric oxide which has been reduced to copper. This metal is then present in a very finely divided and colloidal state. Good representatives of this type of copper reduced glazes have a uniform deep red coloured glaze all over the vase or vessel.
 
@@ -79,15 +79,15 @@ Other important investigations were undertaken in the 1880ies at Sèvres. Analys
     columns: (auto, auto),
     stroke: none,
     align: (left, right),
-    [$"Na"_2"O"$], [2.71 %],
-    [$"K"_2"O"$],  [4.79 %],
-    [$"CaO"$],     [9.00 %],
-    [$"MgO"$],     [1.65 %],
-    [$"PbO"$],     [3.90 %],
-    [$"CuO"$],     [0.54 %],
-    [$"Fe"_2"O"_3$], [0.91 %],
-    [$"Al"_2"O"_3$], [6.57 %],
-    [$"SiO"_2$],     [70.18 %],
+    [#ch("Na2O")], [2.71 %],
+    [#ch("K2O")],  [4.79 %],
+    [#ch("CaO")],     [9.00 %],
+    [#ch("MgO")],     [1.65 %],
+    [#ch("PbO")],     [3.90 %],
+    [#ch("CuO")],     [0.54 %],
+    [#ch("Fe2O3")], [0.91 %],
+    [#ch("Al2O3")], [6.57 %],
+    [#ch("SiO2")],     [70.18 %],
     table.hline(stroke: 0.5pt),
     [], [100.25 %]
   ))
