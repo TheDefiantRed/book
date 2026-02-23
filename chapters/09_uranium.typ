@@ -1,6 +1,6 @@
 // Chapter 9: Uranium
 
-#import "../template.typ": recipe, composition
+#import "../template.typ": recipe, composition, ch
 
 = URANIUM
 
@@ -10,7 +10,7 @@ The history of uranium based red glazes is as a matter of fact of course a young
 
 Uranium is called after Uranus, in the Greek mythology the father of the goddess Aphrodite. The name for the element was chosen because of the planet which was discovered some years before by the Englishman W. Herschel in 1781.
 
-The German chemist and mineralogist Martin Heinrich Klaproth (1743 -- 1817) must be honoured as the discoverer of the new element. He was first a pharmacist and a chemistry master before he became a professor at the University of Berlin. He did much work on the analyses of rocks. As a result of this he found several new elements such as uranium but also zirconium (1789), titanium (1795) and cerium (1803). He also discovered strontium as well and studied tellurium. By that time one called the component as representative in pitchblende uranium, while later on it became clear that it was the oxide form $"U"_3"O"_8$ which was present in pitchblende or uranite.
+The German chemist and mineralogist Martin Heinrich Klaproth (1743 -- 1817) must be honoured as the discoverer of the new element. He was first a pharmacist and a chemistry master before he became a professor at the University of Berlin. He did much work on the analyses of rocks. As a result of this he found several new elements such as uranium but also zirconium (1789), titanium (1795) and cerium (1803). He also discovered strontium as well and studied tellurium. By that time one called the component as representative in pitchblende uranium, while later on it became clear that it was the oxide form #ch("U3O8") which was present in pitchblende or uranite.
 
 Although the official discovery of the element took place on the eve of imposing developments in both physics and chemistry, one had already found some pieces of yellow coloured glass containing about 1% of uranium near Naples. These pieces could be dated as from AD 79.#footnote[CRC, Handbook of Chemistry and Physics, 58#super[th] edition, 1977/1978.]
 
@@ -20,60 +20,60 @@ The French physicist Henri Bequerel studied this important phenomenon and invest
 
 Maria Curie Sklodowska continued in this field and discovered that uranium was not the only element showing radiation properties. Together with her husband and well known French physicist Pierre Curie she established that the radiation was not an exclusive property of uranium and that also thorium showed this radiation. During further investigations of minerals they found that pitchblende showed a much stronger radiation than the quantities of uranium or thorium did presume. This led to the discovery of polonium and finally to radium in 1898.#footnote[Eve Curie. 'Madame Curie, haar leven en werk', 5#super[th] edition, 1938 H.F.Leopolds Uitgeversmaatschappij n.v. Den Haag.]
 
-The importance of these new materials was soon distinguished. The main mineral and source for uranium was and still is pitchblende, also called uranite: $"U"_3"O"_8$. Uranium occurs however also in much other minerals such like carnotite (an uranium potassium vanadate), in autunite (a calcium uranyl-phosphate), in uranophane (a hydrated uranium calcium silicate), in curite (a hydrated lead urinate), in torbernite (a hydrated copper uranyl phosphate and many others.#footnote[A. Esme. 'Natural sources of uranium'. Argile, no. 189, 1936.]
+The importance of these new materials was soon distinguished. The main mineral and source for uranium was and still is pitchblende, also called uranite: #ch("U3O8"). Uranium occurs however also in much other minerals such like carnotite (an uranium potassium vanadate), in autunite (a calcium uranyl-phosphate), in uranophane (a hydrated uranium calcium silicate), in curite (a hydrated lead urinate), in torbernite (a hydrated copper uranyl phosphate and many others.#footnote[A. Esme. 'Natural sources of uranium'. Argile, no. 189, 1936.]
 
 Intensive searching programmes showed that the element is not as rare as it was once thought. Because of its importance in the field of the atomic energy one has searched very intensively to uranium containing minerals. Some main and well known uranium deposits are at Sjinkolobwe (Zaire), Jáchymov (Czech Rep.), Cornwall (England), Colorado (USA), near Great Bear Lake and Athabasca Lake (Canada), Witwatersrand (South Africa), Rum Jungle and Isa Mount (Australia), Bihar (India) and Poços de Caldas (Brasil).#footnote[Anon. 'Uranium -- some characteristics and sources'. Chem. Age, 53, 1945.]
 
 All these deposits are mainly explored with regard to the economical value of uranium. One of the most important applications is its use in electrical power plants. It may be clear that this application is out of the scope of this publication. The point however where these two items do come together again is at the developments which mention the use of a glass in a unit for the melting-in of nuclear waste material.#footnote[L. D. Pye. 'Glass; a possible solution to nuclear waste problem'. Ceramic Industry, February 1983.]#footnote[Wilfried C. Heimerl. US patent 4 341 547. 'Apparatus for enclosing highly radioactive waste material in a glass smelt'.]
 
-Other than some early findings of uranium containing glass through which an early application is known, a deliberated use of uranium containing minerals was uncommonly limited. The application of several uranium salts in the glass#footnote[J. M. Stevels; F. A. Kröger; T. P. J. Botden. 'Fluorescence of hexavalent uranium in glass'. Philips Research Reports, 3 (1) 46-48, 1948.] and ceramic industry came slightly into fashion during the first half of the 20#super[th] century. There are however not so many publications available as far as the ceramic sphere is concerned. An article of Charles F. Binns and Frobisher Lyttle#footnote[Charles F. Binns; Frobisher Lyttle. Journal of the Am. Cer. Society, no.11, 1920.] published in 1920 mention some compositions for uranium red glazes. As uranium source they mentioned sodium uranate ($"Na"_2"U"_2"O"_7$). The glazes, with 20 and 37 % $"Na"_2"U"_2"O"_7$ resp., developed a bright cinnabar red at a temperature of SK 04a (1020 °C). The base glaze was a lead alumina silicate with only an introduction of some potassium and zinc oxide in the $"R"_2"O" \/ "RO"$ group.
+Other than some early findings of uranium containing glass through which an early application is known, a deliberated use of uranium containing minerals was uncommonly limited. The application of several uranium salts in the glass#footnote[J. M. Stevels; F. A. Kröger; T. P. J. Botden. 'Fluorescence of hexavalent uranium in glass'. Philips Research Reports, 3 (1) 46-48, 1948.] and ceramic industry came slightly into fashion during the first half of the 20#super[th] century. There are however not so many publications available as far as the ceramic sphere is concerned. An article of Charles F. Binns and Frobisher Lyttle#footnote[Charles F. Binns; Frobisher Lyttle. Journal of the Am. Cer. Society, no.11, 1920.] published in 1920 mention some compositions for uranium red glazes. As uranium source they mentioned sodium uranate (#ch("Na2U2O7")). The glazes, with 20 and 37 % #ch("Na2U2O7") resp., developed a bright cinnabar red at a temperature of SK 04a (1020 °C). The base glaze was a lead alumina silicate with only an introduction of some potassium and zinc oxide in the #ch("R2O") \/ #ch("RO") group.
 
 #recipe[
   Another article was published by Zimmermann#footnote[Zimmermann. 'Klei', no.20, 1927.]. He started with a simple lead-alumina-silicate with the following composition:
 
   #composition(
-    [], [$"PbO"$], [1.000], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.850]
+    [], [#ch("PbO")], [1.000], [], [#ch("Al2O3")], [0.175], [], [#ch("SiO2")], [0.850]
   )
 ]
 
-As a recommendation he indicated that the $"SiO"_2$ content may not exceed an amount of 1.0 according to the Seger formula. The influence of different compounds in the $"R"_2"O" \/ "RO"$ group was also studied. For these trials he used 20 parts of $"Na"_2"U"_2"O"_7$ to 100 parts of glaze.
+As a recommendation he indicated that the #ch("SiO2") content may not exceed an amount of 1.0 according to the Seger formula. The influence of different compounds in the #ch("R2O") \/ #ch("RO") group was also studied. For these trials he used 20 parts of #ch("Na2U2O7") to 100 parts of glaze.
 
 Arnulf Holl#footnote[Arnulf Holl. 'Keramos', 1930.] studied also the rule of the body composition and found the negative influence of high calcium containing bodies with regard to the development of the red colour. A notable fact to be recorded is that he used an amount of 18 to 21 % of uranium nitrate as colouring compound. Other authors, among them the German Hans Eska, warned against the use of this soluble uranium salt. The preparation of the glaze with this soluble component and the handling of the glazed articles by hand are reasons that a direct contact with this toxic element and the skin is almost unavoidable. The negative influence of calcium oxide on the red colour is in contradiction with the results of other investigators.
 
-One of the most comprehensive and detailed studies was published in 1933 by Hans Eska#footnote[Hans Eska. 'Wetterfeste uranrote Glasuren'. Sprechsaal, no.4, 1933.]. In this publication called 'Wetterfeste uranrote Glasuren' ('Weather resistant uranium red glazes') he described the best possible glaze compositions to obtain resistant red uranium glazes. He mentioned the application of uranium nitrate, as soluble salt, very injudicious. He also turned down the argument that this particular uranium source should be cheaper. In his investigation he indicated the influences of modifications in the $"R"_2"O" \/ "RO"$, $"R"_2"O"_3$ and $"RO"_2$ groups on the colour, gloss, craze resistance and weather resistance.
+One of the most comprehensive and detailed studies was published in 1933 by Hans Eska#footnote[Hans Eska. 'Wetterfeste uranrote Glasuren'. Sprechsaal, no.4, 1933.]. In this publication called 'Wetterfeste uranrote Glasuren' ('Weather resistant uranium red glazes') he described the best possible glaze compositions to obtain resistant red uranium glazes. He mentioned the application of uranium nitrate, as soluble salt, very injudicious. He also turned down the argument that this particular uranium source should be cheaper. In his investigation he indicated the influences of modifications in the #ch("R2O") \/ #ch("RO"), #ch("R2O3") and #ch("RO2") groups on the colour, gloss, craze resistance and weather resistance.
 
-As a base glaze composition he used a fritted lead meta silicate, completed with components as $"BaO"$, $"ZnO"$, $"CaF"_2$, $"MgO"$, $"Na"_2"O"$ (as sodium uranate), $"K"_2"O"$ and $"B"_2"O"_3$ also fritted, $"Al"_2"O"_3$ and $"UO"_3$ as uranium oxide $"U"_3"O"_8$.
+As a base glaze composition he used a fritted lead meta silicate, completed with components as #ch("BaO"), #ch("ZnO"), #ch("CaF2"), #ch("MgO"), #ch("Na2O") (as sodium uranate), #ch("K2O") and #ch("B2O3") also fritted, #ch("Al2O3") and #ch("UO3") as uranium oxide #ch("U3O8").
 
 The trials were fired in a brown coal fired muffelkiln at SK 08a (940 °C) and SK 05a (1000 °C). Heating up took 26 hours and the cooling 50 hours.
 
 #recipe[
-  One of the tests applied after the firing was a test with hydrochloric acid. The results were classified in 7 groups ranging from 'not attacked' to 'completely affected'. Glazes with only a variation in the $"SiO"_2$ content according to the formula:
+  One of the tests applied after the firing was a test with hydrochloric acid. The results were classified in 7 groups ranging from 'not attacked' to 'completely affected'. Glazes with only a variation in the #ch("SiO2") content according to the formula:
 
   #align(center,
     table(
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
       align: (left, right, center, left, right, center, left, right),
-      [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [0.80 -- 1.60],
-      [], [], [], [$"UO"_3$], [0.20], [], [], []
+      [#ch("PbO")], [1.00], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [0.80 -- 1.60],
+      [], [], [], [#ch("UO3")], [0.20], [], [], []
     )
   )
 
-showed an improved resistance with an increasing $"SiO"_2$ content. The colour of these glazes was red.
+showed an improved resistance with an increasing #ch("SiO2") content. The colour of these glazes was red.
 
 ]
 
 If part of the lead content was replaced by barium oxide (0.1 mol and 0.2 mol resp.) the colour changed more towards orange-red colour tones. While the surface became more matt, craze resistance worsened, but the weather resistance should improve.
 
-The introduction of $"ZnO"$ (0.1 mol and 0.2 mol resp.) resulted in more bright red glazes and even more bright with an increasing $"SiO"_2$ content. As best composition is mentioned 0.1 mol $"ZnO"$ in combination with 1.4 mol $"SiO"_2$. Those glazes showed a high gloss but the resistance was bad.
+The introduction of #ch("ZnO") (0.1 mol and 0.2 mol resp.) resulted in more bright red glazes and even more bright with an increasing #ch("SiO2") content. As best composition is mentioned 0.1 mol #ch("ZnO") in combination with 1.4 mol #ch("SiO2"). Those glazes showed a high gloss but the resistance was bad.
 
-$"CaO"$ was applied and introduced as $"CaF"_2$ because this Ca-compound showed the best results if several Ca containing materials were compared. The calcium fluoride had a positive effect on the red colour development and also on the weather resistance.
+#ch("CaO") was applied and introduced as #ch("CaF2") because this Ca-compound showed the best results if several Ca containing materials were compared. The calcium fluoride had a positive effect on the red colour development and also on the weather resistance.
 
 A partly replacement of lead by magnesium oxide resulted also in red colours but the properties with regard to craze- and weather resistance worsened.
 
 A partly replacement of lead by potassium resulted in more crazing while it also became more difficult to obtain a reasonable weather resistance. The red colour developed well but in the red appeared yellow spots.
 
-Sodium had in common with potassium that it had a negative influence on the red colour development especially at higher temperatures. A good red colour however was obtained with a $"Na"_2"O"$ content of 0.05 mol with at the same time a $"SiO"_2$ content of not lower as 1.20 mol. An increased $"Na"_2"O"$ content till 0.10 mol required a $"SiO"_2$ content 1.20 mol or preferably somewhat lower. The sodium-lead uranium glazes had a strong disposition to crazing and good weather resistant glazes were not obtained.
+Sodium had in common with potassium that it had a negative influence on the red colour development especially at higher temperatures. A good red colour however was obtained with a #ch("Na2O") content of 0.05 mol with at the same time a #ch("SiO2") content of not lower as 1.20 mol. An increased #ch("Na2O") content till 0.10 mol required a #ch("SiO2") content 1.20 mol or preferably somewhat lower. The sodium-lead uranium glazes had a strong disposition to crazing and good weather resistant glazes were not obtained.
 
 #recipe[
   In summary it was concluded that good resistant uranium red glazes could be obtained with compositions between:
@@ -83,30 +83,30 @@ Sodium had in common with potassium that it had a negative influence on the red 
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
       align: (left, right, center, left, right, center, left, right),
-      [$"PbO"$], [0.85 -- 0.90], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.20 -- 1.60],
-      [$"BaO"$], [0.15 -- 0.10], [], [], [], [], [], [],
-      [$"CaF"_2$], [0.15 -- 0.10], [], [], [], [], [], [],
-      [$"K"_2"O"$], [0.15 -- 0.10], [], [], [], [], [], [],
+      [#ch("PbO")], [0.85 -- 0.90], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [1.20 -- 1.60],
+      [#ch("BaO")], [0.15 -- 0.10], [], [], [], [], [], [],
+      [#ch("CaF2")], [0.15 -- 0.10], [], [], [], [], [], [],
+      [#ch("K2O")], [0.15 -- 0.10], [], [], [], [], [], [],
     )
   )
 ]
 
-The influence of metal oxides such as $"CuO"$, $"CoO"$, $"Mn"_2"O"_3$, $"Fe"_2"O"_3$ and $"Sb"_2"O"_3$ on the colour development was also ascertained. The main conclusion was that these oxides destroyed the original uranium orange or red colour, but that sometimes colour effects were created which were impossible to obtain with more conventional (and cheaper) stains.
+The influence of metal oxides such as #ch("CuO"), #ch("CoO"), #ch("Mn2O3"), #ch("Fe2O3") and #ch("Sb2O3") on the colour development was also ascertained. The main conclusion was that these oxides destroyed the original uranium orange or red colour, but that sometimes colour effects were created which were impossible to obtain with more conventional (and cheaper) stains.
 
-Another interesting but also rather compendious article was published in 1934 by Karl Kautz#footnote[Karl Kautz. 'The effect of glaze composition upon the colors produced by Sodiumuranate'. Journal of the Am. Cer. Society, January, 1934.]. He used $"Na"_2"O" dot 2"UO"_3 dot 6"H"_2"O"$ as colorant and studied the influence of glaze components on the development of specific colours. As a result he mentioned for a variety of colours the best possible glaze compositions.
+Another interesting but also rather compendious article was published in 1934 by Karl Kautz#footnote[Karl Kautz. 'The effect of glaze composition upon the colors produced by Sodiumuranate'. Journal of the Am. Cer. Society, January, 1934.]. He used #ch("Na2O * 2UO3 * 6H2O") as colorant and studied the influence of glaze components on the development of specific colours. As a result he mentioned for a variety of colours the best possible glaze compositions.
 
 #recipe[
   A 'pleasing red glaze of this type with a crystalline structure' could be obtained with the following glaze composition:
 
   #composition(
-    [], [$"Na"_2"O"$], [0.10], [], [$"UO"_3$], [0.20], [], [$"SiO"_2$], [2.00],
-    [], [$"PbO"$], [0.90], [], [], [], [], [], []
+    [], [#ch("Na2O")], [0.10], [], [#ch("UO3")], [0.20], [], [#ch("SiO2")], [2.00],
+    [], [#ch("PbO")], [0.90], [], [], [], [], [], []
   )
 ]
 
 The remark that this glaze was only used to produce 'a few small pieces of art ware' is significant in respect of the stability and reproducibility of this red coloured glaze.
 
-Franz Eggert#footnote[Franz Eggert. 'Beeinflussung der tomatenrote Farbe von Uranglasuren durch Zusätze'. Glas-Email-Keramo-Technik, März, 1951.] published an article in 1951 about the affecting of the tomato-red uranium glazes. His base glaze was a lead alumina silicate in combination with black $"UO"_3$ as colouring component, this to avoid the simultaneously introduction of sodium. He concluded among other things that in general all the glazes showed as a matter of fact different coloured layers. A first layer with a notable influence of the body; a middle layer and the top layer which was in most cases responsible for the final colour tone. Some remarks out of this publication are worthwhile to mention in respect of the realization of red colours.
+Franz Eggert#footnote[Franz Eggert. 'Beeinflussung der tomatenrote Farbe von Uranglasuren durch Zusätze'. Glas-Email-Keramo-Technik, März, 1951.] published an article in 1951 about the affecting of the tomato-red uranium glazes. His base glaze was a lead alumina silicate in combination with black #ch("UO3") as colouring component, this to avoid the simultaneously introduction of sodium. He concluded among other things that in general all the glazes showed as a matter of fact different coloured layers. A first layer with a notable influence of the body; a middle layer and the top layer which was in most cases responsible for the final colour tone. Some remarks out of this publication are worthwhile to mention in respect of the realization of red colours.
 
 An addition of 10 % of zinc oxide resulted in a colour shift towards more blood red.
 
@@ -120,7 +120,7 @@ Two articles of Fritz Jochmann#footnote[Fritz Jochmann. 'Uran im Glass, als fär
 
 An investigation to the radioactivity of the uranium glasses of his study was subject of the second part of the first publication. Concluded was e.g. that the glass composition as such had absolutely no influence on the radiation. Also the manufacturing procedures of the glasses (melting at rather high temperatures) did not influence the radiation. The only measure for radiation was the amount of uranium in the glass. Measuring the radiation of a glass composition before and after melting showed no noticeable differences if one made a correction for the melting weight factor. This factor must be understand as a difference in weight between a mix of raw materials and the weight of the same mix after melting, not involving the practical looses during melting.
 
-Although the author pointed out the risks for the workers health when applying these compounds, he indicated in his second article that the compounds in question were available again when one had a special allowance and if it were materials without the for fission necessary $"U"^235$. This point of view can be considered as overtaken. To the more recent regulations in this respect we will revert later on.
+Although the author pointed out the risks for the workers health when applying these compounds, he indicated in his second article that the compounds in question were available again when one had a special allowance and if it were materials without the for fission necessary #ch("^{235}U"). This point of view can be considered as overtaken. To the more recent regulations in this respect we will revert later on.
 
 Lehnhäuser#footnote[W. Lehnhäuser. 'Glasuren und ihre Farben'. Wilhelm Knapp Verlag, Germany, 1959.] listed the uranium compounds as colouring compounds for glazes in 1959. Although he indicated that these particular colouring compounds were expensive, he gave no special restrictions for their use. For a good uranium red glaze he recommended a $"SiO"_2$ content between 0.4 mol as a minimum and 1.3 mol as a maximum. Other glaze components should be only $"Al"_2"O"_3$ and $"PbO"$. As colouring component was applied an addition of 20 % (sodium) urinate. An oversaturation should result in a uranium-aventurine glaze, analogous to the iron-aventurines. The influence of common used alkaline earth components is also mentioned. The remark that the uranium compounds are toxic and must be treated as lead is nowadays a too brief information regarding the important radiation phenomenae for one's health.
 
@@ -250,8 +250,8 @@ For these compositions counted that an addition of 20 parts of sodium uranate to
   The weather resistance was not always sufficient and the glazes were heavily attacked. This as contrasted with glazes where the lead content was partly replaced by fluorspar:
 
   #composition(
-    [], [$"CaF"_2$], [0.10], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.40],
-    [], [$"PbO"$], [0.90], [], [$"UO"_3$], [0.15], [], [], []
+    [], [#ch("CaF2")], [0.10], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [1.40],
+    [], [#ch("PbO")], [0.90], [], [#ch("UO3")], [0.15], [], [], []
   )
 ]
 
@@ -267,20 +267,20 @@ If part of the lead content was replaced by magnesium the investigator observed 
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
       align: (left, right, center, left, right, center, left, right),
-      [$"K"_2"O"$], [0.10 -- 0.20], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.60],
-      [$"PbO"$], [0.90 -- 0.80], [], [$"UO"_3$], [0.15], [], [], []
+      [#ch("K2O")], [0.10 -- 0.20], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [1.60],
+      [#ch("PbO")], [0.90 -- 0.80], [], [#ch("UO3")], [0.15], [], [], []
     )
   )
 ]
 
-A too high an amount of sodium had a negative influence on colour, glaze, surface and craze- and weather resistance. The sodium content may not exceed 0.10 mol while as preferable $"SiO"_2$ content is mentioned 0.40 mol to a maximum 0.80 mol.
+A too high an amount of sodium had a negative influence on colour, glaze, surface and craze- and weather resistance. The sodium content may not exceed 0.10 mol while as preferable #ch("SiO2") content is mentioned 0.40 mol to a maximum 0.80 mol.
 
 #recipe[
   Kautz gives some compositions for respectively green, yellow, ivory, orange and red uranium based glazes. As possibility for a vermillion red glaze he mentioned:
 
   #composition(
-    [], [$"Na"_2"O"$], [0.10], [], [$"UO"$], [0.20], [], [$"SiO"_2$], [2.00],
-    [], [$"PbO"$], [0.90], [], [], [], [], [], []
+    [], [#ch("Na2O")], [0.10], [], [#ch("UO")], [0.20], [], [#ch("SiO2")], [2.00],
+    [], [#ch("PbO")], [0.90], [], [], [], [], [], []
   )
 ]
 
@@ -288,11 +288,11 @@ A too high an amount of sodium had a negative influence on colour, glaze, surfac
   A good tomato red glaze for SK 07a (960 °C) with good processing properties is mentioned by Eggert. As base glaze was used:
 
   #composition(
-    [], [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.80]
+    [], [#ch("PbO")], [1.00], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [1.80]
   )
 ]
 
-The basic red glaze was made with an addition of 16.7 % black uranium oxide $"UO"_3$, this to avoid the simultaneous but unwanted sodium introduction. These glaze components were not fritted before, but applied as raw glazes. As components with a negative influence on both the red colour and the glaze appearance are mentioned: calcium carbonate, boric acid and rutile. A more matt surface was supported by the introduction of e.g. tin oxide (8 %), barium carbonate (5 %), tungsten acid (2 %) and molybdenum acid (2 %). Components which radiate a positive influence on the red colour are zinc oxide (8 %), magnesium oxide (5 %), lithium carbonate (5 %) and beryllium carbonate (2 %).
+The basic red glaze was made with an addition of 16.7 % black uranium oxide #ch("UO3"), this to avoid the simultaneous but unwanted sodium introduction. These glaze components were not fritted before, but applied as raw glazes. As components with a negative influence on both the red colour and the glaze appearance are mentioned: calcium carbonate, boric acid and rutile. A more matt surface was supported by the introduction of e.g. tin oxide (8 %), barium carbonate (5 %), tungsten acid (2 %) and molybdenum acid (2 %). Components which radiate a positive influence on the red colour are zinc oxide (8 %), magnesium oxide (5 %), lithium carbonate (5 %) and beryllium carbonate (2 %).
 
 #recipe[
   Viehweger mentioned a fire-red, opaque matt glaze with following composition:
@@ -302,11 +302,11 @@ The basic red glaze was made with an addition of 16.7 % black uranium oxide $"UO
       columns: (auto, auto),
       stroke: none,
       align: (left, right),
-      [$"ZnO"$], [2.55 %],
-      [$"PbO"$], [64.08 %],
-      [$"Al"_2"O"_3$], [5.41 %],
-      [$"SiO"_2$], [11.02 %],
-      [$"Na"_2"U"_2"O"_7$], [16.94 %],
+      [#ch("ZnO")], [2.55 %],
+      [#ch("PbO")], [64.08 %],
+      [#ch("Al2O3")], [5.41 %],
+      [#ch("SiO2")], [11.02 %],
+      [#ch("Na2U2O7")], [16.94 %],
       table.hline(stroke: 0.5pt),
       [], [100.00 %]
     )
@@ -321,13 +321,13 @@ The basic red glaze was made with an addition of 16.7 % black uranium oxide $"UO
       columns: (auto, auto),
       stroke: none,
       align: (left, right),
-      [$"Na"_2"O"$], [3.81 %],
-      [$"CaO"$], [5.35 %],
-      [$"PbO"$ fritted], [24.38 %],
-      [$"Al"_2"O"_3$], [5.04 %],
-      [$"B"_2"O"_3$], [5.28 %],
-      [$"SiO"_2$], [36.14 %],
-      [$"UO"_3$], [15.00 %],
+      [#ch("Na2O")], [3.81 %],
+      [#ch("CaO")], [5.35 %],
+      [#ch("PbO") fritted], [24.38 %],
+      [#ch("Al2O3")], [5.04 %],
+      [#ch("B2O3")], [5.28 %],
+      [#ch("SiO2")], [36.14 %],
+      [#ch("UO3")], [15.00 %],
       [Kaolin], [5.00 %],
       table.hline(stroke: 0.5pt),
       [], [100.00 %]
