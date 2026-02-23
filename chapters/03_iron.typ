@@ -1,7 +1,7 @@
 #import "@preview/cetz:0.4.2"
 #import "@preview/cetz-plot:0.1.3": plot, chart
 
-#import "../template.typ": recipe, narrow, composition
+#import "../template.typ": recipe, narrow, composition, ch
 
 #let flux-cols = (0.5fr, 1fr, 1.5fr, 1fr, 1.5fr, 1fr, 1.5fr)
 #let flux-stroke = none
@@ -21,11 +21,11 @@ As an example of slip glazes Rijken mentioned the Terra Sigillata, the mostly re
 
 This Terra Sigillata was first made in Arezzo, mainly from 50 BC till 70 AD. This special way of manufacturing founds its way through several Gallic districts till the regions along the river Rhine. It took a long time before one could clarify the manufacturing of this typical earthenware product. One of the difficulties was the very thin cover layer (0.015 mm). With the possibilities of more modern investigation methods one could finally approximate the manufacturing of Terra Sigillata.
 
-Neumann published in 1932 the attempts which were undertaken so far. The glossy surface indicated that fluxing materials must be present. Analyses revealed that the glossy layer contained principally less $"SiO"_2$, more $"Fe"_2"O"_3$, more $"Al"_2"O"_3$ and more alkaline materials than the surrounding body. No boron could be found. The firing temperature was determined to be 850 °C till 1000 °C.
+Neumann published in 1932 the attempts which were undertaken so far. The glossy surface indicated that fluxing materials must be present. Analyses revealed that the glossy layer contained principally less #ch("SiO2"), more #ch("Fe2O3"), more #ch("Al2O3") and more alkaline materials than the surrounding body. No boron could be found. The firing temperature was determined to be 850 °C till 1000 °C.
 
 Progress was made by Nuissl who performed trials by slibbing up the red coloured clays and separated the coarse particles from the fine particles.
 
-Schumann continued in this way and made trials with peptisators to accomplish a better separation of the fine clay particles. With the finest clay particles he succeeded in making a good approximation of the original Terra Sigillata. With the help of X-ray diffraction analyses it could be determined that only clays of the muscovite type, $"KAl"_2("OH")_2"AlSi"_3"O"_(10)$ were suitable to obtain the real effect. This type of clay minerals has K in its structure#footnote[O. E. Radczewski. 'Die Rohstoffe der Keramik, Minerale und Vorkommen'. Springer Verlag, 1968.], a point differentiating it from kaolinite and montmorillonite.
+Schumann continued in this way and made trials with peptisators to accomplish a better separation of the fine clay particles. With the finest clay particles he succeeded in making a good approximation of the original Terra Sigillata. With the help of X-ray diffraction analyses it could be determined that only clays of the muscovite type, #ch("KAl2(OH)2AlSi3O10") were suitable to obtain the real effect. This type of clay minerals has #ch("K") in its structure#footnote[O. E. Radczewski. 'Die Rohstoffe der Keramik, Minerale und Vorkommen'. Springer Verlag, 1968.], a point differentiating it from kaolinite and montmorillonite.
 
 Adam Winter#footnote[A. Winter. 'Terra Sigillata und andere antike Glanztontechniken'. Keram. Zeitschrift (8), 3, 1956.] named these ancient surface-layers 'Glanztonfilm' with the typical remark that there is no melting flux added. The gloss should be caused by the 'parallel geschichtete Anordnung der blättchenformigen Tonminerale'.
 
@@ -91,10 +91,10 @@ The fluxes are composed in such a way that they develop the colour as good as po
   For a leaded onglaze iron-red colour one can use fluxes with compositions like:
 
   #composition(
-    [(i)], [$"Na"_2"O"$], [0.074], [], [$"B"_2"O"_3$], [0.197], [], [$"SiO"_2$], [1.480],
-    [],    [$"PbO"$],    [0.781], [], [],              [],      [], [$"ZrO"_2$], [0.050],
-    [],    [$"CdO"$],    [0.072], [], [],              [],      [], [$"TiO"_2$], [0.076],
-    [],    [$"NaF"$],    [0.073], [], [],              [],      [], [],           []
+    [(i)], [#ch("Na2O")], [0.074], [], [#ch("B2O3")], [0.197], [], [#ch("SiO2")], [1.480],
+    [],    [#ch("PbO")],    [0.781], [], [],              [],      [], [#ch("ZrO2")], [0.050],
+    [],    [#ch("CdO")],    [0.072], [], [],              [],      [], [#ch("TiO2")], [0.076],
+    [],    [#ch("NaF")],    [0.073], [], [],              [],      [], [],           []
   )
 ]
 
@@ -102,12 +102,12 @@ The fluxes are composed in such a way that they develop the colour as good as po
   In combination with a flux like:
 
   #composition(
-    [(ii)], [$"Na"_2"O"$], [0.535], [], [$"Al"_2"O"_3$], [0.150],  [], [$"SiO"_2$], [2.533],
-    [],     [$"K"_2"O"$],  [0.055], [], [$"B"_2"O"_3$],  [0.548],  [], [$"ZrO"_2$], [0.040],
-    [],     [$"CaF"_2$],   [0.060], [], [],               [],      [], [$"TiO"_2$], [0.077],
-    [],     [$"PbO"$],     [0.212], [], [],               [],      [], [],           [],
-    [],     [$"ZnO"$],     [0.082], [], [],               [],      [], [],           [],
-    [],     [$"CdO"$],     [0.056], [], [],               [],      [], [],           []
+    [(ii)], [#ch("Na2O")], [0.535], [], [#ch("Al2O3")], [0.150],  [], [#ch("SiO2")], [2.533],
+    [],     [#ch("K2O")],  [0.055], [], [#ch("B2O3")],  [0.548],  [], [#ch("ZrO2")], [0.040],
+    [],     [#ch("CaF2")],   [0.060], [], [],               [],      [], [#ch("TiO2")], [0.077],
+    [],     [#ch("PbO")],     [0.212], [], [],               [],      [], [],           [],
+    [],     [#ch("ZnO")],     [0.082], [], [],               [],      [], [],           [],
+    [],     [#ch("CdO")],     [0.056], [], [],               [],      [], [],           []
   )
 ]
 
@@ -119,17 +119,17 @@ Together with a specific type of iron oxide in a weight percentage of 10% one ob
   These iron-red colours are also available in an unleaded composition. In those cases one can use a flux composition like:
 
   #composition(
-    [], [$"Li"_2"O"$], [0.325], [], [$"Al"_2"O"_3$], [0.155], [], [$"SiO"_2$], [2.555],
-    [], [$"Na"_2"O"$], [0.460], [], [$"B"_2"O"_3$], [0.985], [], [$"ZrO"_2$], [0.015],
-    [], [$"K"_2"O"$],  [0.095], [], [],              [],      [], [$"TiO"_2$], [0.010],
-    [], [$"BaO"$],     [0.035], [], [],              [],      [], [],          [],
-    [], [$"ZnO"$],     [0.085], [], [],              [],      [], [],          []
+    [], [#ch("Li2O")], [0.325], [], [#ch("Al2O3")], [0.155], [], [#ch("SiO2")], [2.555],
+    [], [#ch("Na2O")], [0.460], [], [#ch("B2O3")], [0.985], [], [#ch("ZrO2")], [0.015],
+    [], [#ch("K2O")],  [0.095], [], [],              [],      [], [#ch("TiO2")], [0.010],
+    [], [#ch("BaO")],     [0.035], [], [],              [],      [], [],          [],
+    [], [#ch("ZnO")],     [0.085], [], [],              [],      [], [],          []
   )
 ]
 
-Together with e.g. 10 to 12 parts of a suitable iron oxide one obtains a reddish/brown colour which is in fact far away from the real CdSe red colours. Unleaded iron red colours are even more brownish compared to the leaded versions.
+Together with e.g. 10 to 12 parts of a suitable iron oxide one obtains a reddish/brown colour which is in fact far away from the real #ch("CdSe") red colours. Unleaded iron red colours are even more brownish compared to the leaded versions.
 
-This type of iron red decoration colours are commercially available and cost-wise more attractive compared to gold-containing or CdSe based red colours.
+This type of iron red decoration colours are commercially available and cost-wise more attractive compared to gold-containing or #ch("CdSe") based red colours.
 
 Also on roof tiles one still applies iron-red coloured glazes today, often called 'wine red' glazes. The various roof tile companies in The Netherlands and Germany still manufacture these iron-red colours which all have a more maroon-like appearance instead of a clear red colour.
 
@@ -137,14 +137,14 @@ Also on roof tiles one still applies iron-red coloured glazes today, often calle
   For a leaded composition one can use a lead-aluminium-silicate like e.g.
 
   #composition(
-    [], [$"PbO"$], [1.000], [], [$"Al"_2"O"_3$], [0.244], [], [$"SiO"_2$], [2.052]
+    [], [#ch("PbO")], [1.000], [], [#ch("Al2O3")], [0.244], [], [#ch("SiO2")], [2.052]
   )
 
   or in combination with the following frit:
 
   #composition(
-    [], [$"PbO"$], [1.000], [], [$"Al"_2"O"_3$], [0.300], [], [$"SiO"_2$], [2.200],
-    [], [], [], [], [$"B"_2"O"_3$], [0.600], [], [], []
+    [], [#ch("PbO")], [1.000], [], [#ch("Al2O3")], [0.300], [], [#ch("SiO2")], [2.200],
+    [], [], [], [], [#ch("B2O3")], [0.600], [], [], []
   )
 
   and e.g. 6 to 8 parts of a suitable red iron oxide type together with some quartz, a clay with good setting-up properties and some bentone EW.
@@ -156,11 +156,11 @@ As leaded glazes, also for roof tiles, become less and less popular due to vario
   For an unleaded type of iron-red glaze one can use an unleaded frit composition like: (see also Yulia Shteinberg 'Strontium Glazes')
 
   #composition(
-    [], [$"Na"_2"O"$],  [0.370], [], [$"Al"_2"O"_3$], [0.244], [], [$"SiO"_2$], [3.300],
-    [], [$"K"_2"O"$],   [0.110], [], [$"B"_2"O"_3$],  [0.390], [], [],          [],
-    [], [$"MgO"$],      [0.135], [], [],              [], [], [],               [],
-    [], [$"BaO"$],      [0.115], [], [],              [], [], [],               [],
-    [], [$"SrO"$],      [0.270], [], [],              [], [], [],               [],
+    [], [#ch("Na2O")],  [0.370], [], [#ch("Al2O3")], [0.244], [], [#ch("SiO2")], [3.300],
+    [], [#ch("K2O")],   [0.110], [], [#ch("B2O3")],  [0.390], [], [],          [],
+    [], [#ch("MgO")],      [0.135], [], [],              [], [], [],               [],
+    [], [#ch("BaO")],      [0.115], [], [],              [], [], [],               [],
+    [], [#ch("SrO")],      [0.270], [], [],              [], [], [],               [],
   )
 
   and e.g. 12 to 16 parts of a suitable red iron oxide together with some quartz and a clay with good setting-up properties. These types of unleaded wine-red glazes will always have more covering power and somewhat less brilliance compared to the leaded compositions.
@@ -192,7 +192,7 @@ Another application for iron red glazes is e.g. as floor tile glazes which were 
 
 This glaze has a clearly iron-red appearance#footnote[F. L. F. Carlebur. Ceramic report, 1985.]. It can be turned into a matt glaze by adding a combination of 5 parts of wollastonite and 5 parts of barium carbonate. Exact quantities depend on the required colour and mattnes of the glaze.
 
-Red coloured glazes were also used for a very long time in Japan for their small mosaic tiles. The use of these tiles was popular in the whole Far East region. One of the reasons was that Japanese technicians (for kilns, glazes, etc.) brought this technique over to countries such as Malaysia, Indonesia and Thailand. The colour is not as brilliant as the colours obtained with CdSe glazes and also not with the colours of CrSn based stains. However, the cost price was significantly lower which was an important factor in choosing Fe based glazes.
+Red coloured glazes were also used for a very long time in Japan for their small mosaic tiles. The use of these tiles was popular in the whole Far East region. One of the reasons was that Japanese technicians (for kilns, glazes, etc.) brought this technique over to countries such as Malaysia, Indonesia and Thailand. The colour is not as brilliant as the colours obtained with #ch("CdSe") glazes and also not with the colours of #ch("CrSn") based stains. However, the cost price was significantly lower which was an important factor in choosing #ch("Fe") based glazes.
 
 #block(
   breakable: false,
@@ -214,7 +214,7 @@ Red coloured glazes were also used for a very long time in Japan for their small
   was used for firing in a Riedhammer tunnelkiln at 1060 °C -- 1070 °C for 24 hours.
 ]
 
-As a general rule here one can state that a longer firing cycle results in a more clear and brilliant red colour. This is especially the case for the small mosaic tiles which were fired at e.g. 1280 °C for 28 hours. As the manufacturers tried to decrease the firing temperatures for economical reasons to e.g. 1190 °C, it was not possible to obtain the very same clear bright Fe red colour. Important parameters in this respect are the presence of barium and magnesium in the glaze and the type of iron oxide which must be very fine#footnote[F. L. F. Carlebur. Ceramic report, 1986.].
+As a general rule here one can state that a longer firing cycle results in a more clear and brilliant red colour. This is especially the case for the small mosaic tiles which were fired at e.g. 1280 °C for 28 hours. As the manufacturers tried to decrease the firing temperatures for economical reasons to e.g. 1190 °C, it was not possible to obtain the very same clear bright #ch("Fe") red colour. Important parameters in this respect are the presence of barium and magnesium in the glaze and the type of iron oxide which must be very fine#footnote[F. L. F. Carlebur. Ceramic report, 1986.].
 
 Nowadays, these types of glazes are not as popular anymore. Especially, the tile manufacturers and more specifically the workers on the glazing lines do not regret this. Anyone who has worked with iron-red glazes in production knows that it is a 'dirty' part of ceramic production, although even the famous American writer John Updike has said: 'Ceramic, muddy Queen of Human Arts' in his poem 'Dance of the Solids'#footnote[John Updike. 'The Dance of the Solids'. Scientific American, 1969.].
 
