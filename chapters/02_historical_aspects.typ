@@ -1,13 +1,15 @@
 // 02_historical_aspects.typ
 // Chapter 2: Historical Aspects of Red Colours
 
+#import "../template.typ": ch
+
 = HISTORICAL ASPECTS OF RED COLOURS <historical-aspects>
 
 #figure(kind: "subtitle", supplement: none, numbering: none)[Including some thoughts about colours other than ceramic red colours.]
 
 Although red is called the colour of activity it is remarkable that the ceramic industry had to wait roughly 8000 years before a more general use and application of the so-called pillar box or signal red colour was possible.
 
-From the early glazed objects as e.g. found after the excavation of ancient Babylon (mainly from 1899 till 1917), till the first half of the 20th century, there were several possible methods of achieving reddish colours. However, none of them gave the typical bright red colours as those based on CdSe.
+From the early glazed objects as e.g. found after the excavation of ancient Babylon (mainly from 1899 till 1917), till the first half of the 20th century, there were several possible methods of achieving reddish colours. However, none of them gave the typical bright red colours as those based on #ch("CdSe").
 
 Most of the bright red colours which were used in the past were all based on organic combinations which made them unsuitable for ceramic applications.
 
@@ -19,7 +21,7 @@ Several sources mention 'kermes' as the oldest recorded dye; a red colour stain 
 
 A long existing class of red and purple colours is e.g. the porphyrin group (from the Greek porfyra = purple). In ancient times the old Fenician town Tyros had already a famous purple production around 1200 BC. It is said that a certain kind of 'whelks' were the source for this purple dye. This fact has also given the name to the philosopher Porfyrios (Tyros 232 -- Rome 305). His real name was Malchos but he was called after the purple industry of his native town.
 
-The basic colouring compound is metalloporfyrine. The metal ion can be Fe, Mg, Cu, Zn, Co, etc. These types of compositions are found in numerous, important organic compositions like hemoglobin (Fe containing porphyrin complex), chlorophyll (Mg containing porphyrin complex) and others.
+The basic colouring compound is metalloporfyrine. The metal ion can be #ch("Fe"), #ch("Mg"), #ch("Cu"), #ch("Zn"), #ch("Co"), etc. These types of compositions are found in numerous, important organic compositions like hemoglobin (#ch("Fe") containing porphyrin complex), chlorophyll (#ch("Mg") containing porphyrin complex) and others.
 
 Solutions of porphyrines have, just like those of pyrrole, the property to colour deep red in a reaction with organic solvents and mineral acids.
 
@@ -29,7 +31,7 @@ The porphyrine compounds play an important role in the hemoglobin. It is well kn
 
 The carotenoids are another group of yellow, orange till red colours belonging to the group of tetraterpenes. A well known representative of this group is carotene, responsible for the orange colouring of carrots. Other representatives of this group of colours are responsible e.g. for the yellow colour of the dandelion, the orange/red colour of tomatoes and also for the yellow colour of the canary.
 
-Another organic possibility which was used to obtain a warm red colour came from the roots of the 'Rubia Tinctorum'. This plant was first cultivated in Asia (India, Iran, Egypt), followed by the countries around the Mediterranean. From the 16th century, the plant was also cultivated on a rather large scale in France and The Netherlands (mainly the south-west part). The dried and pulverized roots were used for colouring wool and silk.#footnote[Dr. J. M. G.van der Poel. 'De Teelt van Meekrap'. Agronomisch-Historische Bijdragen, deel VI, Wageningen, 1964.] The important component here is alizarine (from the Arab word 'al oesara' = the sap). The chemical compound responsible for the colouring is 1,2-dihydroxyanthraquinone ($"C"_(14)"H"_8"O"_4$). This compound is intrinsically light coloured. When chemically bound with metal oxides (Al, Zn) the real vivid red colours become possible to produce. Similarly, clear red colours could be created (figures 3 and 4).
+Another organic possibility which was used to obtain a warm red colour came from the roots of the 'Rubia Tinctorum'. This plant was first cultivated in Asia (India, Iran, Egypt), followed by the countries around the Mediterranean. From the 16th century, the plant was also cultivated on a rather large scale in France and The Netherlands (mainly the south-west part). The dried and pulverized roots were used for colouring wool and silk.#footnote[Dr. J. M. G.van der Poel. 'De Teelt van Meekrap'. Agronomisch-Historische Bijdragen, deel VI, Wageningen, 1964.] The important component here is alizarine (from the Arab word 'al oesara' = the sap). The chemical compound responsible for the colouring is 1,2-dihydroxyanthraquinone (#ch("C14H8O4")). This compound is intrinsically light coloured. When chemically bound with metal oxides (#ch("Al"), #ch("Zn")) the real vivid red colours become possible to produce. Similarly, clear red colours could be created (figures 3 and 4).
 
 #v(3em)
 #grid(
@@ -56,7 +58,7 @@ In 1868 Graebe and Liebermann succeeded in producing alizarine synthetically sta
 
 Another way to obtain bright red colours was the so-called 'orseille', a vegetable colour pigment prepared through extraction of various kinds of lichen with ammonia.
 
-The colouring component is orceine ($"C"_(28)"H"_(24)"O"_7"N"_2$). This orceine is the purified extract from the orseille. One of the families of lichen which was important in this respect was the Rocella species. It is said that the name (orceine as well as orseille) stems from Rosela, a rich traders family from Firenze. They were trading with these types of lichen pigments as early as the 14th century.#footnote[Prof. Dr. Hermann Römpp. 'Chemie Lexicon'. Frankische Verlagshandlung, Stuttgart, 1962.] H. Musso#footnote[Prof. Dr. Hermann Römpp. 'Chemie Lexicon'. Frankische Verlagshandlung, Stuutgart, 1962] succeeded in decomposing the orceine in 14 components in a chromatographic way. The main components are $alpha$-amino orceine ($"C"_(21)"H"_(18)"O"_4"N"_2$) and $gamma$-amino orceine ($"C"_(28)"H"_(24)"O"_6"N"_6$). As a colouring agent it is almost completely replaced by synthetic colours. In the food industry it is still used on a small scale.
+The colouring component is orceine (#ch("C28H24O7N2")). This orceine is the purified extract from the orseille. One of the families of lichen which was important in this respect was the Rocella species. It is said that the name (orceine as well as orseille) stems from Rosela, a rich traders family from Firenze. They were trading with these types of lichen pigments as early as the 14th century.#footnote[Prof. Dr. Hermann Römpp. 'Chemie Lexicon'. Frankische Verlagshandlung, Stuttgart, 1962.] H. Musso#footnote[Prof. Dr. Hermann Römpp. 'Chemie Lexicon'. Frankische Verlagshandlung, Stuutgart, 1962] succeeded in decomposing the orceine in 14 components in a chromatographic way. The main components are $alpha$-amino orceine (#ch("C21H18O4N2")) and $gamma$-amino orceine (#ch("C28H24O6N6")). As a colouring agent it is almost completely replaced by synthetic colours. In the food industry it is still used on a small scale.
 
 Litmus is very similar to orceine and is derived from the same kind of lichen.
 
@@ -66,7 +68,7 @@ Similarly the famous Harris Tweed is said to be coloured with a type of lichen. 
 
 Besides these and other vegetable sources of red-making colours, there were also some animal-organic pigments in use. One on these was carmine. This was prepared from the female cochenille lice. The lice were dried and after boiling in water the colour was separated in the form of a sediment. The colouring component is mainly carmine acid. To make it more suitable as a pigment it was precipitated on a carrier, in most cases alum.
 
-It will be clear that there are a number of disadvantages with regard to these natural colours. The production methods, the inferior resistance to chemicals and UV light can be highlighted. The situation regarding the production and application of organic colours changed completely by the discovery of aniline. Aniline (from the Arab word anil = indigo plant) is an amine derived from benzene by substitution of a hydrogen atom by an amino group with the formula $"C"_6"H"_5-"NH"_2$.
+It will be clear that there are a number of disadvantages with regard to these natural colours. The production methods, the inferior resistance to chemicals and UV light can be highlighted. The situation regarding the production and application of organic colours changed completely by the discovery of aniline. Aniline (from the Arab word anil = indigo plant) is an amine derived from benzene by substitution of a hydrogen atom by an amino group with the formula #ch("C6H5-NH2").
 
 #v(3em)
 #grid(
@@ -89,19 +91,19 @@ It will be clear that there are a number of disadvantages with regard to these n
 )
 #v(3em)
 
-Aniline was discovered by Otto Unverdorben in 1826. He succeeded in isolating the component from the products obtained by a dry distillation process of indigo. The preparation nowadays is done by reduction of nitrobenzene with the help of iron filings and diluted HCl. Directly after the distillation the aniline is colourless but due to the influence of light a brownish colour appears. At temperatures as low as -6 °C the aniline solidifies. It has a slight but unpleasant smell and it is highly toxic.
+Aniline was discovered by Otto Unverdorben in 1826. He succeeded in isolating the component from the products obtained by a dry distillation process of indigo. The preparation nowadays is done by reduction of nitrobenzene with the help of iron filings and diluted #ch("HCl"). Directly after the distillation the aniline is colourless but due to the influence of light a brownish colour appears. At temperatures as low as -6 °C the aniline solidifies. It has a slight but unpleasant smell and it is highly toxic.
 
-Aniline is a weak base with salts which can easily be hydrolyzed. The hydrogen atoms of the $"NH"_2$ group can be replaced by alkali metals. A typical and important reaction of aniline and the other aryl amines is the formation of diazonium salts $"C"_6"H"_5"N"_2"Cl"$ by the influence of $"HNO"_2$. These salts are starting points for hydrazines and for the important azo colours.
+Aniline is a weak base with salts which can easily be hydrolyzed. The hydrogen atoms of the #ch("NH2") group can be replaced by alkali metals. A typical and important reaction of aniline and the other aryl amines is the formation of diazonium salts #ch("C6H5N2Cl") by the influence of #ch("HNO2"). These salts are starting points for hydrazines and for the important azo colours.
 
-Aniline is also the starting point for secondary bases from the type $"C"_6"H"_5-"NH"-"CH"_3$ or $"C"_6"H"_5-"NH"-"C"_6"H"_5$ and of tertiary bases of the type $"C"_6"H"_5-"N"("CH"_3)_2$. These are mixed bases because they are both aliphatic and aromatic. They are produced by influence of alcohols on aniline under pressure in the presence of $"H"_2"SO"_4$. The bases give under influence of $"HNO"_2$ paranitroso combinations $"ON"-"C"_6"H"_5-"N"("CH"_3)_2$. These are the starting points for azine and oxazine colours.
+Aniline is also the starting point for secondary bases from the type #ch("C6H5-NH-CH3") or #ch("C6H5-NH-C6H5") and of tertiary bases of the type #ch("C6H5-N(CH3)2"). These are mixed bases because they are both aliphatic and aromatic. They are produced by influence of alcohols on aniline under pressure in the presence of #ch("H2SO4"). The bases give under influence of #ch("HNO2") paranitroso combinations #ch("ON-C6H5-N(CH3)2"). These are the starting points for azine and oxazine colours.
 
 All these organic colours, based on pure chemical reactions, have now replaced the natural colours. There is no need here to point out that the development of these colours could take place thanks to their durability advantages over the natural colours.
 
 This picture of relieving and succeeding methods for red colouring can also be recorded with regard to the methods on creating a deep red colour in ceramics.
 
-It can roughly be stated that the oldest methods made use of red coloured clays ($"Fe"_2"O"_3$). Notably it is not only the use of red coloured clays, but also the development of techniques which created warm and deep red colours and which could only be duplicated after thorough investigations and a lot of trial and error work during the first half of the 20th century.
+It can roughly be stated that the oldest methods made use of red coloured clays (#ch("Fe2O3")). Notably it is not only the use of red coloured clays, but also the development of techniques which created warm and deep red colours and which could only be duplicated after thorough investigations and a lot of trial and error work during the first half of the 20th century.
 
-Iron is the most important natural colorant in clays. Together with some other components like CaO, MgO and $"TiO"_2$ it gives specific colours which are - among other things - dependent on the processing of the raw materials and the firing conditions. The colouring properties of iron compounds were already known and utilized before one could speak of a ceramic use or tradition. Some well known earth colours such as yellow and red ochre, sienna and umber exist in mixtures of iron hydroxide (Goethite), clays and quartz. The iron compounds in sediments are developed by weathering of iron-containing minerals. During the formation of clay materials, the iron is partially built in. The main part however is separated as iron (III) hydroxide which is rather insoluble at an acidity of 6 or 7. In a publication of Fischer#footnote[P. Fisher. Lecture given for the DKG, Bezirksgruppe Nordrhein-Westfalen. November 7th, 1982.] he indicates the following compositions of some well known earth colours:
+Iron is the most important natural colorant in clays. Together with some other components like #ch("CaO"), #ch("MgO") and #ch("TiO2") it gives specific colours which are - among other things - dependent on the processing of the raw materials and the firing conditions. The colouring properties of iron compounds were already known and utilized before one could speak of a ceramic use or tradition. Some well known earth colours such as yellow and red ochre, sienna and umber exist in mixtures of iron hydroxide (Goethite), clays and quartz. The iron compounds in sediments are developed by weathering of iron-containing minerals. During the formation of clay materials, the iron is partially built in. The main part however is separated as iron (III) hydroxide which is rather insoluble at an acidity of 6 or 7. In a publication of Fischer#footnote[P. Fisher. Lecture given for the DKG, Bezirksgruppe Nordrhein-Westfalen. November 7th, 1982.] he indicates the following compositions of some well known earth colours:
 
 #figure(
   table(
@@ -109,7 +111,7 @@ Iron is the most important natural colorant in clays. Together with some other c
     align: (left, center, center, center, center, center, left),
     stroke: none,
     table.hline(stroke: 0.5pt),
-    [*Name*], [*$"Fe"_2"O"_3$*], [*$"MnO"_2$*], [*$"Al"_2"O"_3$*], [*$"SiO"_2$*], [*Moisture content*], [*colour*],
+    [*Name*], [*#ch("Fe2O3")*], [*#ch("MnO2")*], [*#ch("Al2O3")*], [*#ch("SiO2")*], [*Moisture content*], [*colour*],
     table.hline(stroke: 0.5pt),
     [Yellow ochre], [17 -- 60], [-], [10 -- 40], [35 -- 50], [10 -- 12], [yellow / brown],
     [Red ochre],    [20 -- 40], [-], [10 -- 15], [35 -- 50], [5 -- 10], [red],
@@ -166,12 +168,12 @@ Another explanation is also given, saying that the scribe did not speak the true
 
 From the history of glass#footnote[Gustav Weiss. 'Antiek Glas'. Elsevier, Holland, 1980, ISBN 90 10 02910 7.] it is also known that the first type of glass as applied in Egypt as well as in Mesopotamia had the same compositions, namely the three basic components natural soda (called nitrum by Pliny), calcium containing sand and the ash of the marsh plant salicornia. It is also generally assumed that a deliberate separation between glass and glazes for ceramic use appeared from the middle of the 16th century BC. Therefore, it can be supposed that the basic components for glass as well as for glazes were generally the same.
 
-Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the influence of glaze components in relation with the colour development in this type of glazes. From this survey it is shown that pure alkaline silicate glazes with 3 mol $"SiO"_2$ developed the most beautiful blue colours. Besides the glaze itself, the body used is also important. This influence of the body composition with regard to this type of glazes, often called Egyptian or Persian blue, is described by M.M. French.#footnote[M. M. French. Journal of the American Ceramic Society, 1923, p.405.] From these investigations the conclusion was drawn that quartz-rich and calcium-poor bodies were favourable for the development of the blue colour. W. Henze#footnote[W. Henze. Keramische Rundschau, 1928, p.821.] reports also that just alkaline silicate compositions render good results. Also an alkaline-lead-silicate with 18% PbO develops a good 'well-melted Turkish blue'.
+Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the influence of glaze components in relation with the colour development in this type of glazes. From this survey it is shown that pure alkaline silicate glazes with 3 mol #ch("SiO2") developed the most beautiful blue colours. Besides the glaze itself, the body used is also important. This influence of the body composition with regard to this type of glazes, often called Egyptian or Persian blue, is described by M.M. French.#footnote[M. M. French. Journal of the American Ceramic Society, 1923, p.405.] From these investigations the conclusion was drawn that quartz-rich and calcium-poor bodies were favourable for the development of the blue colour. W. Henze#footnote[W. Henze. Keramische Rundschau, 1928, p.821.] reports also that just alkaline silicate compositions render good results. Also an alkaline-lead-silicate with 18% #ch("PbO") develops a good 'well-melted Turkish blue'.
 
 #block(
   breakable: false
 )[
-  From the before mentioned examinations, it is plausible to suppose that the base glass from the Glassmakers Tablet, mentioned as zukû-glass, could have consisted of an alkaline silicate, e.g. in the mole ratio alkaline : $"SiO"_2$ = 1 : 3 and where the alkaline is singly represented by sodium. Presuming this, the glaze composition should have been read as mentioned in @tab:glaze-composition:
+  From the before mentioned examinations, it is plausible to suppose that the base glass from the Glassmakers Tablet, mentioned as zukû-glass, could have consisted of an alkaline silicate, e.g. in the mole ratio alkaline : #ch("SiO2") = 1 : 3 and where the alkaline is singly represented by sodium. Presuming this, the glaze composition should have been read as mentioned in @tab:glaze-composition:
 
   #figure(
     table(
@@ -182,8 +184,8 @@ Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the inf
       table.header(
         table.cell(colspan: 2, align: center)[*Oxide composition*],
         table.cell(align: center)[*Seger formula*]),
-      [$"Na"_2"O"$], [25.62 %], [$"1.00 Na"_2"O : 3.00 SiO"_2$],
-      [$"SiO"_2$], [74.38 %], [],
+      [#ch("Na2O")], [25.62 %], [#ch("1.00 Na2O : 3.00 SiO2")],
+      [#ch("SiO2")], [74.38 %], [],
       table.hline(stroke: 0.5pt),
       [], [100.00 %], [],
     ),
@@ -203,12 +205,12 @@ Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the inf
       table.cell(colspan: 2, align: center)[*According to Oppenheim*],
       [*Oxides*], [*Ch. 1 glaze (%)*], [*Ch. 2 glaze (%)*], [*Ch. 1 glaze (%)*], [*Ch. 2 glaze (%)*],
     table.hline(stroke: 0.5pt),
-    [$"Na"_2"O"$], [18.28], [18.44], [18.23], [19.06],
-    [$"CaO"$],   [0.35],  [1.41],  [---],     [---],
-    [$"PbO"$],   [12.48], [12.38], [12.45], [12.88],
-    [$"CuO"$],   [12.03], [11.24], [12.00], [8.21],
-    [$"SiO"_2$], [56.86], [56.53], [56.70], [58.60],
-    [$"Sb"_2"O"_3$], [---],     [---],     [0.62],  [1.25],
+    [#ch("Na2O")], [18.28], [18.44], [18.23], [19.06],
+    [#ch("CaO")],   [0.35],  [1.41],  [---],     [---],
+    [#ch("PbO")],   [12.48], [12.38], [12.45], [12.88],
+    [#ch("CuO")],   [12.03], [11.24], [12.00], [8.21],
+    [#ch("SiO2")], [56.86], [56.53], [56.70], [58.60],
+    [#ch("Sb2O3")], [---],     [---],     [0.62],  [1.25],
     table.hline(stroke: 0.5pt),
     [], [100.00], [100.00], [100.00], [100.00],
     table.hline(stroke: 0.5pt),
@@ -230,7 +232,7 @@ Hecht#footnote[Hecht. Keramische Rundschau, 1913, p.525.] has determined the inf
       [White burning clay 1001], [30 %],
       [White burning clay nr.2], [22 %],
       [Quartz], [28 %],
-      [Feldspar (Na/K)], [16 %],
+      [Feldspar (#ch("Na")/#ch("K"))], [16 %],
       [Lime], [4 %],
       table.hline(stroke: 0.5pt),
       [], [100 %]
