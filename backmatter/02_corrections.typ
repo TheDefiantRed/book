@@ -9,6 +9,7 @@ This section lists the specific corrections and adjustments made to the original
 - *Tables:* Readability and accessibility were improved by adding semantic structure and headers in bold type.
 - *Tables:* Moved units from content to header rows.
 - *Formulas:* Used centered dot ($dot.c$) for chemical adducts instead of period (.).
+- *Formulas:* The notation for oxidation states was standardized to the IUPAC recommended format (e.g., 'Cr(VI)') instead of the hyphenated form (e.g., 'Cr-VI') found in the manuscript.
 
 #heading(level: 2, outlined: false)[Chapter 1: Introduction]
 
