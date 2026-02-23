@@ -43,13 +43,13 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
   #composition(
     [], [#ch("BaO")],  [0.50], [], [#ch("Al2O3")],  [0.35], [], [#ch("SiO2")],  [2.10],
     [], [#ch("ZnO")],  [0.50], [], [],               [],     [], [],           [],
-    [], [],         [],     [], [],               [],     [], [$+ #ch("NiO")$],  [0.025]
+    [], [],         [],     [], [],               [],     [], [+ #ch("NiO")],  [0.025]
   )
 
   #composition(
     [and:], [#ch("K2O")], [0.15], [], [#ch("Al2O3")], [0.35], [], [#ch("SiO2")], [2.10],
     [], [#ch("BaO")], [0.45], [], [], [], [], [], [],
-    [], [#ch("ZnO")], [0.40], [], [], [], [], [$+ #ch("NiO")$], [0.025]
+    [], [#ch("ZnO")], [0.40], [], [], [], [], [+ #ch("NiO")], [0.025]
   )
 ]
 
@@ -59,8 +59,8 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
   #composition(
     [], [#ch("Na2O")], [0.05], [], [#ch("Al2O3")], [0.12], [], [#ch("SiO2")], [1.20],
     [], [#ch("BaO")], [0.20], [], [], [], [], [], [],
-    [], [#ch("PbO")], [0.15], [], [], [], table.cell(colspan: 3)[$+ 1% #ch("NiCO3")$: lilac],
-    [], [#ch("ZnO")], [0.60], [], [], [], table.cell(colspan: 3)[$+ 2% #ch("NiCO3")$: violet-red],
+    [], [#ch("PbO")], [0.15], [], [], [], table.cell(colspan: 3)[+ 1% #ch("NiCO3"): lilac],
+    [], [#ch("ZnO")], [0.60], [], [], [], table.cell(colspan: 3)[+ 2% #ch("NiCO3"): violet-red],
   )
 ]
 

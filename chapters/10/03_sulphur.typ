@@ -8,7 +8,7 @@ The element Sulphur (Sanskrit: sulvere; Latin: sulphurium) with symbol #ch("S") 
 
 Sulphur is also found in meteorites. A dark area near the crater Aristarchus on the moon has been studied by R.W. Wood with UV light. This study suggests strongly that it is a sulphur deposit.
 
-It is widely distributed in nature as iron pyrites, galena (#ch("PbS")), sphalerite (#ch("(Zn,Hg)S")), cinnabar (#ch("HgS")), stibnite, gypsum, Epsom salts, celestine, barite, etc.
+It is widely distributed in nature as iron pyrites, galena (#ch("PbS")), sphalerite (#ch("(Zn,Fe)S")), cinnabar (#ch("HgS")), stibnite, gypsum, Epsom salts, celestine, barite, etc.
 
 The element sulphur has atomic number 16. Its atomic weight is 32.06. The melting point for the rhombic form is 112.8 °C and for the monoclinic form 119.0 °C. The boiling point is 444.7 °C. The specific gravity of the rhombic form is 2.07 and of the monoclinic form 1.96 (20 °C).
 

@@ -67,6 +67,7 @@ This section lists the specific corrections and adjustments made to the original
 
 #heading(level: 2, outlined: false)[Chapter 10: Cadmium Selenium]
 
+- *Mineralogy:* Corrected the chemical formula for sphalerite from '(Zn,Hg)S' to '(Zn,Fe)S'.
 - *Spelling:* Corrected the mineral name 'crooksite' to 'crookesite'.
 - *Spelling:* Corrected 'Hyperioon' to 'Hyperion'.
 - *Spelling:* Corrected 'nutricity' to 'nutrition'.

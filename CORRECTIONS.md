@@ -16,6 +16,8 @@ Global & Introduction
 
         Tables, Photographs and Figures are automatically listed on the Figures page in the backmatter.
 
+    Oxidation State Notation: The notation for oxidation states was standardized to the IUPAC recommended format (e.g., 'Cr(VI)') instead of the hyphenated form (e.g., 'Cr-VI') found in the manuscript.
+
 Chapter 2: Historical Aspects
 
     Chemical Spelling: The term 'porphyrin complex' was corrected (was 'profirine complex').
@@ -63,6 +65,8 @@ Chapter 9: Uranium
 Chapter 10: Cadmium Selenium
 
     Equation Correction: In section 10.7, the third reaction equation for the precipitation of zinc-sulfo-selenide was balanced. The corrected equation is 2ZnCO3​⋅3Zn(OH)2​+3SSe2−→2ZnCO3​⋅3ZnSSe↓+6OH− (was 2ZnCO3​⋅3Zn(OH)2​+SSe2−→2ZnCO3​⋅3ZnSSe↓+6OH−).
+
+    Mineralogy Correction: The chemical formula for sphalerite was corrected from '(Zn,Hg)S' to '(Zn,Fe)S'.
 
     Mineralogy Spelling: The mineral name was corrected to 'Greenockite' (was 'Greenocktite').
 
