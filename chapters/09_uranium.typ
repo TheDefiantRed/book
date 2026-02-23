@@ -122,7 +122,7 @@ An investigation to the radioactivity of the uranium glasses of his study was su
 
 Although the author pointed out the risks for the workers health when applying these compounds, he indicated in his second article that the compounds in question were available again when one had a special allowance and if it were materials without the for fission necessary #ch("^{235}U"). This point of view can be considered as overtaken. To the more recent regulations in this respect we will revert later on.
 
-Lehnhäuser#footnote[W. Lehnhäuser. 'Glasuren und ihre Farben'. Wilhelm Knapp Verlag, Germany, 1959.] listed the uranium compounds as colouring compounds for glazes in 1959. Although he indicated that these particular colouring compounds were expensive, he gave no special restrictions for their use. For a good uranium red glaze he recommended a $"SiO"_2$ content between 0.4 mol as a minimum and 1.3 mol as a maximum. Other glaze components should be only $"Al"_2"O"_3$ and $"PbO"$. As colouring component was applied an addition of 20 % (sodium) urinate. An oversaturation should result in a uranium-aventurine glaze, analogous to the iron-aventurines. The influence of common used alkaline earth components is also mentioned. The remark that the uranium compounds are toxic and must be treated as lead is nowadays a too brief information regarding the important radiation phenomenae for one's health.
+Lehnhäuser#footnote[W. Lehnhäuser. 'Glasuren und ihre Farben'. Wilhelm Knapp Verlag, Germany, 1959.] listed the uranium compounds as colouring compounds for glazes in 1959. Although he indicated that these particular colouring compounds were expensive, he gave no special restrictions for their use. For a good uranium red glaze he recommended a #ch("SiO2") content between 0.4 mol as a minimum and 1.3 mol as a maximum. Other glaze components should be only #ch("Al2O3") and #ch("PbO"). As colouring component was applied an addition of 20 % (sodium) urinate. An oversaturation should result in a uranium-aventurine glaze, analogous to the iron-aventurines. The influence of common used alkaline earth components is also mentioned. The remark that the uranium compounds are toxic and must be treated as lead is nowadays a too brief information regarding the important radiation phenomenae for one's health.
 
 Another application of uranium compounds and mentioned by Viehweger#footnote[Viehweger. 'Rezeptbuch für Glasuren + Farben'. Verlag des Sprechsaal, Müller&Schmidt, Coburg, Germany, 1959.] is in compositions for lustres. These type of lustres are the resinate salts of metal oxides dissolved in volatile essential oils. The preparation of this type of lustres is a very special one and requires an experience to a high degree.
 
@@ -130,7 +130,7 @@ For a golden yellow luster one made e.g. first a uranium resinate (a mixture of 
 
 The fact that these compounds are no longer applied in the ceramic sphere is mainly due to the very severe regulations and that those compounds must be registered because of its radioactivity. The radiation consists in fact of three different kinds of radiation. The $alpha$ parts consists of 2 protons and 2 neutrons. The radiation has only a reach of 5 cm and cannot pass the human skin. The $beta$ parts are in fact a fast moving electron. They have a reach of roughly 1 meter. The third kind of radiation is formed by the $gamma$ parts which are comparable with X-rays. This kind of radiation can only be stopped by thick walls of concrete or lead. This radiation is the cause of the so-called radiation disease.
 
-The literature indicates that the characteristics of uranium red glazes are based upon the formation of lead-uranate: $"PbO" dot 2"UO"_3$. This is the reason that only a lead silicate or lead-alumina-silicate forms a suitable base glaze. The firing stability of these glazes was however rather limited. The available literature mentions in general glazes which develop a red colour at temperatures ranging from roughly 900 °C till 1020 °C. The sensitivity for a not well balanced firing atmosphere was more than normal compared with other glaze systems. Only oxidizing firing conditions resulted in the required results. Also a slightly reducing atmosphere caused already colour deviations, in most cases to more brownish colour tones. Uranium glazes were also sensitive for influence of sulphur. An addition of barium carbonate helped to suppress the sensitiveness.
+The literature indicates that the characteristics of uranium red glazes are based upon the formation of lead-uranate: #ch("PbO * 2UO3"). This is the reason that only a lead silicate or lead-alumina-silicate forms a suitable base glaze. The firing stability of these glazes was however rather limited. The available literature mentions in general glazes which develop a red colour at temperatures ranging from roughly 900 °C till 1020 °C. The sensitivity for a not well balanced firing atmosphere was more than normal compared with other glaze systems. Only oxidizing firing conditions resulted in the required results. Also a slightly reducing atmosphere caused already colour deviations, in most cases to more brownish colour tones. Uranium glazes were also sensitive for influence of sulphur. An addition of barium carbonate helped to suppress the sensitiveness.
 
 Another aspect which made the glazes less easy to apply was the fact that in many cases sodium uranate was used as the colouring compound. The high amount necessary for a sufficient colour development (between 15 and 25 %) gave the glazes an alkaline character with sometimes strong leaching phenomenae, resulting in settling-down problems. The use of setting-up agents was in most cases a necessity.
 
@@ -149,13 +149,13 @@ A not proper glaze application often resulted in an irregular glaze and colour a
       stroke: none,
       align: (left, left),
       table.header([*Name*], [*Formula*]),
-      [Uranium dioxide], [$"UO"_2$],
-      [Uranium trioxide], [$"UO"_3$],
-      [Uranium oxide], [$"U"_3"O"_8$],
-      [Sodium uranate], [$"Na"_2"O" dot "UO"_3$],
-      [Sodium diuranate], [$"Na"_2"O" dot 2"UO"_3$],
-      [hydrated sodium diuranate], [$"Na"_2"O" dot 2"UO"_3 dot 6"H"_2"O"$],
-      [uranium nitrate], [$"UO"_2"(NO"_3")"_2 dot 6 "H"_2"O"$],
+      [Uranium dioxide], [#ch("UO2")],
+      [Uranium trioxide], [#ch("UO3")],
+      [Uranium oxide], [#ch("U3O8")],
+      [Sodium uranate], [#ch("Na2O * UO3")],
+      [Sodium diuranate], [#ch("Na2O * 2UO3")],
+      [hydrated sodium diuranate], [#ch("Na2O * 2UO3 * 6H2O")],
+      [uranium nitrate], [#ch("UO2(NO3)2 * 6H2O")],
       table.hline(stroke: 0.5pt),
     )
   )
@@ -169,13 +169,13 @@ A not proper glaze application often resulted in an irregular glaze and colour a
       columns: (auto, auto),
       stroke: none,
       align: (left, right),
-      [$"Na"_2"O"$], [12.80 %],
-      [$"K"_2"O"$], [4.94 %],
-      [$"CaO"$], [6.03 %],
-      [$"BaO"$], [2.83 %],
-      [$"As"_2"O"_3$], [0.21 %],
-      [$"UO"_3$], [0.58 %],
-      [$"SiO"_2$], [72.60 %],
+      [#ch("Na2O")], [12.80 %],
+      [#ch("K2O")], [4.94 %],
+      [#ch("CaO")], [6.03 %],
+      [#ch("BaO")], [2.83 %],
+      [#ch("As2O3")], [0.21 %],
+      [#ch("UO3")], [0.58 %],
+      [#ch("SiO2")], [72.60 %],
       table.hline(stroke: 0.5pt),
       [], [99.99 %]
     )
@@ -184,15 +184,15 @@ A not proper glaze application often resulted in an irregular glaze and colour a
 
 The uranium was introduced through sodium uranate. If the glass was melted under the proper oxidizing conditions it resulted in the required yellowish fluorescence.
 
-In those cases the uranium should be present as $"UO"_3$.
+In those cases the uranium should be present as #ch("UO3").
 
 #recipe[
   The early uranium red glazes mentioned by Binns and Lyttle were based on the following compositions:
 
   #composition(
-    [], [$"K"_2"O"$], [0.12], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [1.33],
-    [], [$"PbO"$], [0.80], [], [], [], [], [], [],
-    [], [$"ZnO"$], [0.08], [], [], [], [], [], []
+    [], [#ch("K2O")], [0.12], [], [#ch("Al2O3")], [0.12], [], [#ch("SiO2")], [1.33],
+    [], [#ch("PbO")], [0.80], [], [], [], [], [], [],
+    [], [#ch("ZnO")], [0.08], [], [], [], [], [], []
   )
 ]
 
@@ -202,9 +202,9 @@ An addition of 20 % of sodium uranate should result in a cinnabar red glaze for 
   The base glaze:
 
   #composition(
-    [], [$"K"_2"O"$], [0.04], [], [$"Al"_2"O"_3$], [0.12], [], [$"SiO"_2$], [0.79],
-    [], [$"PbO"$], [0.87], [], [], [], [], [], [],
-    [], [$"ZnO"$], [0.09], [], [], [], [], [], []
+    [], [#ch("K2O")], [0.04], [], [#ch("Al2O3")], [0.12], [], [#ch("SiO2")], [0.79],
+    [], [#ch("PbO")], [0.87], [], [], [], [], [], [],
+    [], [#ch("ZnO")], [0.09], [], [], [], [], [], []
   )
 
   together with an addition of 37 % sodium uranate resulted in a matt red glaze for SK 04a (1020 °C).
@@ -214,13 +214,13 @@ An addition of 20 % of sodium uranate should result in a cinnabar red glaze for 
   Zimmermann mentioned the following compositions for orange-red glazes, suitable at SK 07a till SK 03a (960 °C till 1040 °C):
 
   #composition(
-    [], [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.4 -- 0.6],
+    [], [#ch("PbO")], [1.00], [], [#ch("Al2O3")], [0.175], [], [#ch("SiO2")], [0.4 -- 0.6],
     [], [], [], [], [], [], [], [], [],
-    [], [$"K"_2"O"$], [0.10], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.85],
-    [], [$"PbO"$], [0.90], [], [], [], [], [], [],
+    [], [#ch("K2O")], [0.10], [], [#ch("Al2O3")], [0.175], [], [#ch("SiO2")], [0.85],
+    [], [#ch("PbO")], [0.90], [], [], [], [], [], [],
     [], [], [], [], [], [], [], [], [],
-    [], [$"PbO"$], [0.90], [], [$"Al"_2"O"_3$], [0.175], [], [$"SiO"_2$], [0.60],
-    [], [$"ZnO"$], [0.10], [], [], [], [], [], []
+    [], [#ch("PbO")], [0.90], [], [#ch("Al2O3")], [0.175], [], [#ch("SiO2")], [0.60],
+    [], [#ch("ZnO")], [0.10], [], [], [], [], [], []
   )
 ]
 
@@ -234,14 +234,14 @@ For these compositions counted that an addition of 20 parts of sodium uranate to
       columns: (auto, auto, 2em, auto, auto, 2em, auto, auto),
       stroke: none,
       align: (left, right, center, left, right, center, left, right),
-      [$"PbO"$], [1.00], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.40],
-      [], [], [], [$"UO"_3$], [0.20], [], [], [],
+      [#ch("PbO")], [1.00], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [1.40],
+      [], [], [], [#ch("UO3")], [0.20], [], [], [],
       [], [], [], [], [], [], [], [],
-      [$"BaO"$], [0.10 -- 0.20], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.20 -- 1.40],
-      [$"PbO"$], [0.90 -- 0.80], [], [$"UO"_3$], [0.15], [], [], [],
+      [#ch("BaO")], [0.10 -- 0.20], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [1.20 -- 1.40],
+      [#ch("PbO")], [0.90 -- 0.80], [], [#ch("UO3")], [0.15], [], [], [],
       [], [], [], [], [], [], [], [],
-      [$"PbO"$], [0.90 -- 0.80], [], [$"Al"_2"O"_3$], [0.10], [], [$"SiO"_2$], [1.20 -- 1.40],
-      [$"ZnO"$], [0.10 -- 0.20], [], [$"UO"_3$], [0.20], [], [], []
+      [#ch("PbO")], [0.90 -- 0.80], [], [#ch("Al2O3")], [0.10], [], [#ch("SiO2")], [1.20 -- 1.40],
+      [#ch("ZnO")], [0.10 -- 0.20], [], [#ch("UO3")], [0.20], [], [], []
     )
   )
 ]

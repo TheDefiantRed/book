@@ -1,42 +1,42 @@
-#import "../../template.typ": recipe, narrow, composition
+#import "../../template.typ": recipe, narrow, composition, ch
 
 == Development of frits and glazes
 
-The use of cadmium selenium glazes in their actual compositions does not have such a long tradition. The base for the development of these glazes however can be found in the use of Se in glass. The knowledge how to obtain red colours in glass by using Se extended more and more in the second part of the 19th century after Berzelius has isolated the element in 1818.
+The use of cadmium selenium glazes in their actual compositions does not have such a long tradition. The base for the development of these glazes however can be found in the use of #ch("Se") in glass. The knowledge how to obtain red colours in glass by using #ch("Se") extended more and more in the second part of the 19th century after Berzelius has isolated the element in 1818.
 
-Although it is clear that selenium based rose till reddish coloured glasses were already known for a longer time, it is generally accepted that the patent granted to the French chemist Théophile Jules Pelouze in 1865 was an important step for the development of the CdSe based glass compositions. As far as known it is the first patent where Se is claimed to be the colouring component for red glasses. T. J. Pelouze (1807 -- 1867) did a lot of investigations e.g. in Germany for Liebig. He invented e.g. the preparation of formic acid starting from cyano hydrogen acid.
+Although it is clear that selenium based rose till reddish coloured glasses were already known for a longer time, it is generally accepted that the patent granted to the French chemist Théophile Jules Pelouze in 1865 was an important step for the development of the #ch("CdSe") based glass compositions. As far as known it is the first patent where #ch("Se") is claimed to be the colouring component for red glasses. T. J. Pelouze (1807 -- 1867) did a lot of investigations e.g. in Germany for Liebig. He invented e.g. the preparation of formic acid starting from cyano hydrogen acid.
 
-The next step was a patent of Welz, granted in 1892 for the use of Se or Se compounds for producing rose, red and orange coloured glass.
+The next step was a patent of Welz, granted in 1892 for the use of #ch("Se") or #ch("Se") compounds for producing rose, red and orange coloured glass.
 
-In 1893 a British patent was granted to H. T. and W. R. von Kralik for the use of Se and its compounds in glass manufacturing.
+In 1893 a British patent was granted to H. T. and W. R. von Kralik for the use of #ch("Se") and its compounds in glass manufacturing.
 
 In 1894 Spitzer obtained a German patent for the use of selenites and selenates.
 
-From this time the ruby coloured glass on a basis of Cd, S and Se was a subject of investigation for various scientists. It was known that the ruby glasses based on colloidal gold developed their real colour after an annealing process. A same kind of behavior was noticed for the ruby glasses based on Se. Therefore, it was generally believed that the particle sizes of the colouring particles were decisive for the final colour. Investigators to these phenomena were e.g. Treadwell, Fenaroli, Kraze, Witt, Frankel, Krak, Granger, Fuwa and Sugie.
+From this time the ruby coloured glass on a basis of #ch("Cd"), #ch("S") and #ch("Se") was a subject of investigation for various scientists. It was known that the ruby glasses based on colloidal gold developed their real colour after an annealing process. A same kind of behavior was noticed for the ruby glasses based on #ch("Se"). Therefore, it was generally believed that the particle sizes of the colouring particles were decisive for the final colour. Investigators to these phenomena were e.g. Treadwell, Fenaroli, Kraze, Witt, Frankel, Krak, Granger, Fuwa and Sugie.
 
-An important step for the investigations was made by Rooksby and published in 1932. He investigated the red coloured glasses using the XR-Diffraction method. He stated for the first time that the mixed crystals of the solid solution of $"CdS"$ and $"CdSe"$ are responsible for colouring. The final colour, between yellow and dark red, is depending on the ratio $"CdS"$ : $"CdSe"$ in the mixed crystal. The more $"CdSe"$ the darker red the colour.
+An important step for the investigations was made by Rooksby and published in 1932. He investigated the red coloured glasses using the XR-Diffraction method. He stated for the first time that the mixed crystals of the solid solution of #ch("CdS") and #ch("CdSe") are responsible for colouring. The final colour, between yellow and dark red, is depending on the ratio #ch("CdS") : #ch("CdSe") in the mixed crystal. The more #ch("CdSe") the darker red the colour.
 
 Bigelow and Silverman#footnote[M. H. Bigelow; A. Silverman. 'Selenium Ruby Glass'. Journal Am. Cer. Society, nr. 16, 1933.] confirmed the conclusions as found by Rooksby in an investigation published in 1933. They started with following sodium-zinc-silica glasses:
 
 #recipe(align(center)[
-  $"Na"_2"O"$ : $"ZnO"$ : 8$"SiO"_2$ \
-  $"Na"_2"O"$ : $"ZnO"$ : 7$"SiO"_2$ \
-  $"Na"_2"O"$ : $"ZnO"$ : 6$"SiO"_2$ \
-  $"Na"_2"O"$ : $"ZnO"$ : 5$"SiO"_2$ \
-  $"Na"_2"O"$ : $"ZnO"$ : 4$"SiO"_2$ \
-  $"Na"_2"O"$ : 2$"ZnO"$ : 4$"SiO"_2$ \
-  2$"Na"_2"O"$ : $"ZnO"$ : 4$"SiO"_2$
+  #ch("Na2O : ZnO : 8SiO2") \
+  #ch("Na2O : ZnO : 7SiO2") \
+  #ch("Na2O : ZnO : 6SiO2") \
+  #ch("Na2O : ZnO : 5SiO2") \
+  #ch("Na2O : ZnO : 4SiO2") \
+  #ch("Na2O : 2ZnO : 4SiO2") \
+  #ch("2Na2O : ZnO : 4SiO2")
 ])
 
-After a smelt study they took the glass according to the composition $"Na"_2"O"$ : $"ZnO"$ : 4 $"SiO"_2$ as a foundation glass. After a great number of trial smelts they concluded that the best ruby glass was obtained by adding 2.0 % selenium, 1.0 % cadmium sulphide, 1.0 % arsenic trioxide and 0.5 % carbon to the basic glass batch. The glass made in this way was annealed for 30 hours at 350 °C to 400 °C and further subject for X-ray examinations. For this investigation they prepared solid solutions of $"CdS"$ and $"CdSe"$ and compared this with the ruby coloured glasses. As a result they found that the values for the lattice parameters $a_o$ and $c_o$ and the ratio $c_o : a_o$ for both the solid solution and the colouring agent in the glass had such an agreement that one could conclude that the colouring agent in the glass was a solid solution of $"CdS"$ and $"CdSe"$. This was a confirmation of the results as found and published by Rooksby.
+After a smelt study they took the glass according to the composition #ch("Na2O : ZnO : 4SiO2") as a foundation glass. After a great number of trial smelts they concluded that the best ruby glass was obtained by adding 2.0 % selenium, 1.0 % cadmium sulphide, 1.0 % arsenic trioxide and 0.5 % carbon to the basic glass batch. The glass made in this way was annealed for 30 hours at 350 °C to 400 °C and further subject for X-ray examinations. For this investigation they prepared solid solutions of #ch("CdS") and #ch("CdSe") and compared this with the ruby coloured glasses. As a result they found that the values for the lattice parameters $a_o$ and $c_o$ and the ratio $c_o : a_o$ for both the solid solution and the colouring agent in the glass had such an agreement that one could conclude that the colouring agent in the glass was a solid solution of #ch("CdS") and #ch("CdSe"). This was a confirmation of the results as found and published by Rooksby.
 
-In 1934 a patent was granted to E. I. du Pont de Nemours in the USA.#footnote[NL Patent Du Pont de Nemours, ref.no. 40742, 1937.] In this patent it is claimed that a glass without cadmium sulphide and/or selenium, is added an amount of cadmium sulphoselenide ($"CdS"."CdSe"$) together with elementary cadmium. Following the patent it was possible to obtain the final colour directly after quenching and it was no longer necessary to make use of an annealing process. It may be noticed that they mentioned exactly the same glass composition as published and used by Bigelow and Silverman, namely $"Na"_2"O"$ : $"ZnO"$ : 4 $"SiO"_2$. In this patent it is already stated that oxidizing batch components like nitrates must be avoided. On the contrary, one must made use of reducing components such as carbon, sugar or tartaric acid.
+In 1934 a patent was granted to E. I. du Pont de Nemours in the USA.#footnote[NL Patent Du Pont de Nemours, ref.no. 40742, 1937.] In this patent it is claimed that a glass without cadmium sulphide and/or selenium, is added an amount of cadmium sulphoselenide (#ch("CdS * CdSe")) together with elementary cadmium. Following the patent it was possible to obtain the final colour directly after quenching and it was no longer necessary to make use of an annealing process. It may be noticed that they mentioned exactly the same glass composition as published and used by Bigelow and Silverman, namely #ch("Na2O : ZnO : 4SiO2"). In this patent it is already stated that oxidizing batch components like nitrates must be avoided. On the contrary, one must made use of reducing components such as carbon, sugar or tartaric acid.
 
-The second claim in this patent mentions that the selenium in the cadmium sulpho selenide can be replaced partly by tellurium. Although this is also mentioned in earlier publications it never has found a real great application in the practice of ceramic glaze manufacturing. Besides the reason of a less stable colouring result with tellurium, the price is also very important. An indication for the price, valid per 28.12.2007, for selenium metal is US\$ 60/kg and for tellurium US\$ 137.50/kg.#footnote[Figures for Se and Te LME (London Metal Exchange) 28.12.2007.]
+The second claim in this patent mentions that the selenium in the cadmium sulpho selenide can be replaced partly by tellurium. Although this is also mentioned in earlier publications it never has found a real great application in the practice of ceramic glaze manufacturing. Besides the reason of a less stable colouring result with tellurium, the price is also very important. An indication for the price, valid per 28.12.2007, for selenium metal is US\$ 60/kg and for tellurium US\$ 137.50/kg.#footnote[Figures for #ch("Se") and #ch("Te") LME (London Metal Exchange) 28.12.2007.]
 
-Before WW-II the classical CdSSe pigments were applied for onglaze decoration firing, for colouring porcelain enamels and only to a minor extent as a ceramic stain. These types of products were fired at abt. 800 °C for 15 minutes and the pigments of that time could just stay at those firing temperatures. From there, during the 50ties, the pigments were also started to be applied in low firing glazes which were first based upon the formulation of porcelain enamel frits. As the final results were very attractive, one started to improve the pigments as well as the glazes to make them more suitable for higher firing temperature glazes.
+Before WW-II the classical #ch("CdSSe") pigments were applied for onglaze decoration firing, for colouring porcelain enamels and only to a minor extent as a ceramic stain. These types of products were fired at abt. 800 °C for 15 minutes and the pigments of that time could just stay at those firing temperatures. From there, during the 50ties, the pigments were also started to be applied in low firing glazes which were first based upon the formulation of porcelain enamel frits. As the final results were very attractive, one started to improve the pigments as well as the glazes to make them more suitable for higher firing temperature glazes.
 
-During the 50ties and 60ties of last century there were mainly two ways to produce the yellow and red CdSe glazes viz. a pigmented type and a melted-in type. For the yellow pigmented type one added a $"CdS"$ to a suitable base glaze resulting in a bright yellow glaze with, however, a limited firing range. The other way was a melted-in method where a S compound, S as flowers of sulphur or as $"ZnS"$, was melted-in into a cadmium containing frit composition which was suitable for that. In most cases, these glazes also contained a certain amount of cadmium carbonate (2 or 3 %) as mill addition to support the yellow colour development.
+During the 50ties and 60ties of last century there were mainly two ways to produce the yellow and red #ch("CdSe") glazes viz. a pigmented type and a melted-in type. For the yellow pigmented type one added a #ch("CdS") to a suitable base glaze resulting in a bright yellow glaze with, however, a limited firing range. The other way was a melted-in method where a S compound, S as flowers of sulphur or as #ch("ZnS"), was melted-in into a cadmium containing frit composition which was suitable for that. In most cases, these glazes also contained a certain amount of cadmium carbonate (2 or 3 %) as mill addition to support the yellow colour development.
 
 #recipe[
   An example for such a pigmented yellow glaze is following composition:
@@ -45,7 +45,7 @@ During the 50ties and 60ties of last century there were mainly two ways to produ
     columns: 2,
     stroke: none,
     align: (left, right),
-    [base frit ($"PbO"$ and $"CdO"$ containing)], [94.50 %],
+    [base frit (#ch("PbO") and #ch("CdO") containing)], [94.50 %],
     [cadmium sulphide], [2.50 %],
     [cadmium carbonate], [2.00 %],
     [bentonite], [1.00 %],
@@ -54,7 +54,7 @@ During the 50ties and 60ties of last century there were mainly two ways to produ
   ))
 ]
 
-For red glazes there was a similar way: on one hand the method of adding a CdSSe pigment to a suitable base glaze and on the other hand a melted-in method. The latter method rendered better results for firing stability and had also a better firing range.
+For red glazes there was a similar way: on one hand the method of adding a #ch("CdSSe") pigment to a suitable base glaze and on the other hand a melted-in method. The latter method rendered better results for firing stability and had also a better firing range.
 
 #recipe[
   An example of a very clear, bright and real red pigmented glaze as used during the late 60ties and early 70ties of last century was following:
@@ -63,11 +63,11 @@ For red glazes there was a similar way: on one hand the method of adding a CdSSe
     columns: 2,
     stroke: none,
     align: (left, right),
-    [base frit ($"PbO"$ and $"CdO"$ containing)], [91.85 %],
+    [base frit (#ch("PbO") and #ch("CdO") containing)], [91.85 %],
     [boric acid], [4.50],
     [quartz fine], [1.50],
     [calcium phosphate], [0.80],
-    [red stain CdSSe], [1.35],
+    [red stain #ch("CdSSe")], [1.35],
     table.hline(stroke: 0.5pt),
     [], [100.00 %]
   ))
@@ -75,26 +75,26 @@ For red glazes there was a similar way: on one hand the method of adding a CdSSe
 
 The base frit was dry milled first. The boric acid, quartz and calcium phosphate were mixed separately first and later added. The complete receipt was dry mixed.
 
-Both methods, the pigmented as well as the melted-in method, however, were not stable enough for the ceramic industry which started to demand for more stable glazes and for CdSe glazes suitable for higher firing temperatures. In the late 50ties and early 60ties of last century the melted-in reds had already a better firing stability compared to the pigmented types. Some sources mention Mondré & Manz as being the first company which brought melted-in CdSe glaze on the market, followed by Reimbold & Strick, Degussa and Ferro (Holland) B.V. There is a brochure dated 20th January 1961 where Ferro (Holland) B.V. announced that they have a stable red cadmium selenium glaze for firing at 980 °C -- 1000 °C. This glaze, with reference number 55148, was a pigmented glaze. The melted-in type of glazes followed later. Also in 1961 a patent was turned in by W. Wanie#footnote[W. Wanie. German patent nr.1 289 260 'Farbstabile gelbe bis rote Glasuren auf keramischen Unterlagen', 1961, published 1969.] and published in 1969. The patent describes a method (example 1) to obtain a red colour by applying 18 weight percent of a CdSSe pigment and in the other examples it claimed the development of red colours by melting in all relevant components in one frit. The patent has been opposed at the time by Mondré & Manz and Ferro (Holland) BV.
+Both methods, the pigmented as well as the melted-in method, however, were not stable enough for the ceramic industry which started to demand for more stable glazes and for #ch("CdSe") glazes suitable for higher firing temperatures. In the late 50ties and early 60ties of last century the melted-in reds had already a better firing stability compared to the pigmented types. Some sources mention Mondré & Manz as being the first company which brought melted-in #ch("CdSe") glaze on the market, followed by Reimbold & Strick, Degussa and Ferro (Holland) B.V. There is a brochure dated 20th January 1961 where Ferro (Holland) B.V. announced that they have a stable red cadmium selenium glaze for firing at 980 °C -- 1000 °C. This glaze, with reference number 55148, was a pigmented glaze. The melted-in type of glazes followed later. Also in 1961 a patent was turned in by W. Wanie#footnote[W. Wanie. German patent nr.1 289 260 'Farbstabile gelbe bis rote Glasuren auf keramischen Unterlagen', 1961, published 1969.] and published in 1969. The patent describes a method (example 1) to obtain a red colour by applying 18 weight percent of a #ch("CdSSe") pigment and in the other examples it claimed the development of red colours by melting in all relevant components in one frit. The patent has been opposed at the time by Mondré & Manz and Ferro (Holland) BV.
 
-In the 60ties of last century these glazefrit formulations for the melted-in CdSe glazes were basically derived from the red glass compositions. The basic idea was that the red colour was based on the mixed crystal of $"CdS"."CdSe"$ and so the frit compositions had these components in their composition. Some improvements were realised by making other choices for the raw materials like e.g. sodium- or zinc selenites instead of the elements Se as metal and zinc sulphide as sulphur source instead of S as flowers of sulphur.
+In the 60ties of last century these glazefrit formulations for the melted-in #ch("CdSe") glazes were basically derived from the red glass compositions. The basic idea was that the red colour was based on the mixed crystal of #ch("CdS * CdSe") and so the frit compositions had these components in their composition. Some improvements were realised by making other choices for the raw materials like e.g. sodium- or zinc selenites instead of the elements #ch("Se") as metal and zinc sulphide as sulphur source instead of #ch("S") as flowers of sulphur.
 
 #recipe[
   As some typical base frit compositions for melted-in yellow glazes at that time can be mentioned:
 
   #composition(
-    [], [$"Na"_2"O"$], [0.284], [], [$"Al"_2"O"_3$], [0.098], [], [$"SiO"_2$], [2.380],
-    [], [$"K"_2"O"$], [0.062], [], [$"B"_2"O"_3$], [0.122], [], [$"S"$], [0.083],
-    [], [$"BaO"$], [0.283], [], [], [], [], [], [],
-    [], [$"ZnO"$], [0.335], [], [], [], [], [], [],
-    [], [$"CdO"$], [0.036], [], [], [], [], [], [],
+    [], [#ch("Na2O")], [0.284], [], [#ch("Al2O3")], [0.098], [], [#ch("SiO2")], [2.380],
+    [], [#ch("K2O")], [0.062], [], [#ch("B2O3")], [0.122], [], [#ch("S")], [0.083],
+    [], [#ch("BaO")], [0.283], [], [], [], [], [], [],
+    [], [#ch("ZnO")], [0.335], [], [], [], [], [], [],
+    [], [#ch("CdO")], [0.036], [], [], [], [], [], [],
   )
 
   #composition(
-    [or], [$"Na"_2"O"$], [0.242], [], [], [], [], [$"SiO"_2$], [1.667],
-    [], [$"BaO"$], [0.262], [], [], [], [], [$"S"$], [0.046],
-    [], [$"CdO"$], [0.031], [], [], [], [], [], [],
-    [], [$"ZnO"$], [0.465], [], [], [], [], [], [],
+    [or], [#ch("Na2O")], [0.242], [], [], [], [], [#ch("SiO2")], [1.667],
+    [], [#ch("BaO")], [0.262], [], [], [], [], [#ch("S")], [0.046],
+    [], [#ch("CdO")], [0.031], [], [], [], [], [], [],
+    [], [#ch("ZnO")], [0.465], [], [], [], [], [], [],
   )
 ]
 
@@ -150,21 +150,21 @@ The fact that frit and glaze compositions often have a preferred composition for
       ]
     ),
     table.hline(stroke: 0.5pt),
-    [$"Li"_2"O"$], [ca 0.12 %], [ca 0.12 %], [ca 0.28 %], [0.15 %],
-    [$"Na"_2"O"$], [6.0], [6.5], [7.4], [7.6],
-    [$"K"_2"O"$], [1.3], [4.5], [8.0], [0.6],
-    [$"CaO"$], [0.5], [0.02], [0.3], [0.1],
-    [$"MgO"$], [traces], [0.5], [traces], [traces],
-    [$"BaO"$], [14.0], [15.0], [8.6], [11.3],
-    [$"PbO"$], [2.5], [0.1], [0.1], [2.9],
-    [$"ZnO"$], [5.3], [10.0], [12.5], [10.7],
-    [$"CdO"$], [3.4], [2.7], [2.2], [2.7],
-    [$"Al"_2"O"_3$], [5.4], [3.8], [n.a.], [5.4],
-    [$"B"_2"O"_3$], [4.8], [n.a.], [traces], [5.9],
-    [$"SiO"_2$], [52.0], [50.0], [52.0], [52.0],
-    [F], [], [], [], [0.3],
-    [S], [], [], [], [0.4],
-    [$"SrO"$], [traces], [traces], [traces], [traces],
+    [#ch("Li2O")], [ca 0.12 %], [ca 0.12 %], [ca 0.28 %], [0.15 %],
+    [#ch("Na2O")], [6.0], [6.5], [7.4], [7.6],
+    [#ch("K2O")], [1.3], [4.5], [8.0], [0.6],
+    [#ch("CaO")], [0.5], [0.02], [0.3], [0.1],
+    [#ch("MgO")], [traces], [0.5], [traces], [traces],
+    [#ch("BaO")], [14.0], [15.0], [8.6], [11.3],
+    [#ch("PbO")], [2.5], [0.1], [0.1], [2.9],
+    [#ch("ZnO")], [5.3], [10.0], [12.5], [10.7],
+    [#ch("CdO")], [3.4], [2.7], [2.2], [2.7],
+    [#ch("Al2O3")], [5.4], [3.8], [n.a.], [5.4],
+    [#ch("B2O3")], [4.8], [n.a.], [traces], [5.9],
+    [#ch("SiO2")], [52.0], [50.0], [52.0], [52.0],
+    [#ch("F")], [], [], [], [0.3],
+    [#ch("S")], [], [], [], [0.4],
+    [#ch("SrO")], [traces], [traces], [traces], [traces],
     table.hline(stroke: 0.5pt),
     [c.o.e. ($3alpha$)], [$229 times 10^(-7) degree"C"$], [$239 times 10^(-7) degree"C"$], [$252 times 10^(-7) degree"C"$], [$221 times 10^(-7) degree"C"$],
   ),
@@ -198,21 +198,21 @@ Next step was to realize a really low-melting frit for the cadmium component as 
   In the lead silicate the one mol $"PbO"$ was partly replaced by $"CdO"$:
 
   #composition(
-    [(a)], [$"PbO"$], [0.50], [], [], [], [], [$"SiO"_2$], [2.00],
-    [], [$"CdO"$], [0.50], [], [], [], [], [], []
+    [(a)], [#ch("PbO")], [0.50], [], [], [], [], [#ch("SiO2")], [2.00],
+    [], [#ch("CdO")], [0.50], [], [], [], [], [], []
   )
 
-  and in the sodium boron silicate the sodium was partly replaced by $"CdO"$:
+  and in the sodium boron silicate the sodium was partly replaced by #ch("CdO"):
 
   #composition(
-    [(b)], [$"Na"_2"O"$], [0.50], [], [$"B"_2"O"_3$], [0.25], [], [$"SiO"_2$], [2.50],
-    [], [$"CdO"$], [0.50], [], [], [], [], [], []
+    [(b)], [#ch("Na2O")], [0.50], [], [#ch("B2O3")], [0.25], [], [#ch("SiO2")], [2.50],
+    [], [#ch("CdO")], [0.50], [], [], [], [], [], []
   )
 ]
 
-These two frits were tested in combination with the same S-containing frit (vi) to control its effectiveness. From all trials it appeared very clearly that the cadmium frit based on the lead silicate gave a good yellow colour but only till rather low firing temperatures (1040 °C -- 1060 °C). The cadmium frit based on the sodium boron silicate, however, showed good and strong yellow colour development also on higher firing temperatures. It was known that about 80 % of the cadmium was evaporating from the basic frits having both cadmium and sulphur in its composition. Therefore, the amount of cadmium in the new trial frits was investigated. The theoretical amount of $"CdO"$ in the batch formula of the frit (b) is 24.38 %. After melting the amount was 24.02 % which means a loss of only 2 %. A tremendous improvement was realised with regard to retaining of the cadmium in the frit. One of the reasons was that a choice was made for easy and quick melting raw materials as boric acid and hydrated borax. The idea behind it was that these components start to melt very early. When boric acid is heated it gradually looses water until anhydrous boric acid ($"B"_2"O"_3$) is formed.#footnote[J. R. Taylor; A. C. Bull. 'Ceramics Glaze Technology'. Pergamon Press, 1986.] This boric oxide melts at about 325 °C. Borax ($"Na"_2"B"_4"O"_7".10H"_2"O"$), on heating, begins to melt at 62 °C with frothing and five molecules of the crystallisation water have been lost at 100 °C. Four more molecules are lost at 160 °C until it is completely dehydrated at 400 °C. In fritting processes borax pentahydrate ($"Na"_2"B"_4"O"_7".5H"_2"O"$) is also often used. Dehydrated borax starts melting at 741 °C and is therefore a preferred material to starts the melting process during fritting. The early start of melting of boric compounds takes care that the cadmium oxide is already enwrapped by the molten boron components before going into solution and cannot evaporate that easy.
+These two frits were tested in combination with the same S-containing frit (vi) to control its effectiveness. From all trials it appeared very clearly that the cadmium frit based on the lead silicate gave a good yellow colour but only till rather low firing temperatures (1040 °C -- 1060 °C). The cadmium frit based on the sodium boron silicate, however, showed good and strong yellow colour development also on higher firing temperatures. It was known that about 80 % of the cadmium was evaporating from the basic frits having both cadmium and sulphur in its composition. Therefore, the amount of cadmium in the new trial frits was investigated. The theoretical amount of #ch("CdO") in the batch formula of the frit (b) is 24.38 %. After melting the amount was 24.02 % which means a loss of only 2 %. A tremendous improvement was realised with regard to retaining of the cadmium in the frit. One of the reasons was that a choice was made for easy and quick melting raw materials as boric acid and hydrated borax. The idea behind it was that these components start to melt very early. When boric acid is heated it gradually looses water until anhydrous boric acid (#ch("B2O3")) is formed.#footnote[J. R. Taylor; A. C. Bull. 'Ceramics Glaze Technology'. Pergamon Press, 1986.] This boric oxide melts at about 325 °C. Borax (#ch("Na2B4O7 * 10H2O")), on heating, begins to melt at 62 °C with frothing and five molecules of the crystallisation water have been lost at 100 °C. Four more molecules are lost at 160 °C until it is completely dehydrated at 400 °C. In fritting processes borax pentahydrate (#ch("Na2B4O7 * 5H2O")) is also often used. Dehydrated borax starts melting at 741 °C and is therefore a preferred material to starts the melting process during fritting. The early start of melting of boric compounds takes care that the cadmium oxide is already enwrapped by the molten boron components before going into solution and cannot evaporate that easy.
 
-The following step was trying to improve the sulphur containing frit. By varying the amount of sulphur and also the source of it, it became clear that an amount of 1 % was the optimum. With 2 % sulphur or more a lot of bubbles appeared in the fired glaze which was even worse with 3 %. The introduction of S through zinc sulphide ($"ZnS"$) was shown the best one regarding the retaining and the stability of the frit.
+The following step was trying to improve the sulphur containing frit. By varying the amount of sulphur and also the source of it, it became clear that an amount of 1 % was the optimum. With 2 % sulphur or more a lot of bubbles appeared in the fired glaze which was even worse with 3 %. The introduction of S through zinc sulphide (#ch("ZnS")) was shown the best one regarding the retaining and the stability of the frit.
 
 #recipe[
   Variations of the components learned following:
@@ -240,10 +240,10 @@ All these testing of different raw materials finally resulted in a stable frit w
   All the investigations resulted in the following basic sulphur containing frit:
 
   #composition(
-    [], [$"Na"_2"O"$], [0.467], [], [$"Al"_2"O"_3$], [0.129], [], [$"SiO"_2$], [2.346],
-    [], [$"K"_2"O"$], [0.052], [], [$"B"_2"O"_3$], [0.112], [], [$"S"$], [0.077],
-    [], [$"CaO"$], [0.173], [], [], [], [], [], [],
-    [], [$"ZnO"$], [0.308], [], [], [], [], [], [],
+    [], [#ch("Na2O")], [0.467], [], [#ch("Al2O3")], [0.129], [], [#ch("SiO2")], [2.346],
+    [], [#ch("K2O")], [0.052], [], [#ch("B2O3")], [0.112], [], [#ch("S")], [0.077],
+    [], [#ch("CaO")], [0.173], [], [], [], [], [], [],
+    [], [#ch("ZnO")], [0.308], [], [], [], [], [], [],
   )
 ]
 
@@ -298,22 +298,22 @@ Following this process for the wet preparation of CdSSe stains, a method was fou
     align: (left, left),
 
     [(i)], [
-      $"ZnSO"_4$ solution + $"Na"_2"CO"_3$ solution \
-      $3"H"_2"O" + 5"Zn"^(2+) + 5"CO"_3^(2-) -> "Zn"_5("CO"_3)_2("OH")_6 (s) + 3"CO"_2 (g)$
+      #ch("ZnSO4") solution + #ch("Na2CO3") solution \
+      #ch("3H2O + 5Zn^2+ + 5CO3^2- -> Zn5(CO3)2(OH)6 v + 3CO2 ^")
     ],
 
     [], [],
 
     [(ii)], [
-      $"Na"_2"S"$ + Se solution \
-      $"Na"_2"S" + "Se" -> 2"Na"^+ + "SSe"^(2-)$
+      #ch("Na2S") + #ch("Se") solution \
+      #ch("Na2S + Se -> 2Na+ + SSe^2-")
     ],
 
     [], [],
 
     [(iii)], [
       (i) + (ii) \
-      $"Zn"_5("CO"_3)_2("OH")_6 (s) + 3"SSe"^(2-) -> "Zn"_5("CO"_3)_2("SSe")_3 (s) + 6"OH"^-$
+      #ch("Zn5(CO3)2(OH)6 v + 3SSe^2- -> Zn5(CO3)2(SSe)3 v + 6OH-")
     ]
   )
 ]
@@ -327,15 +327,15 @@ The resulting precipitate of zinc-sulpho-selenide ($"ZnSSe"$) was centrifuged, d
     columns: 2,
     stroke: none,
     align: (left, right),
-    [Se :], [33.2 %],
-    [Zn :], [35.7 %],
-    [S :], [9.0 %],
+    [#ch("Se") :], [33.2 %],
+    [#ch("Zn") :], [35.7 %],
+    [#ch("S") :], [9.0 %],
     [moisture :], [6.2 %],
-    [$"H"_2"O"$ sol. :], [0.7 %]
+    [#ch("H2O") sol. :], [0.7 %]
   ))
 ]
 
-The mixture of quartz and $"ZnSSe"$ was used as raw material to introduce the necessary S and Se in the basic frits for red glazes.
+The mixture of quartz and #ch("ZnSSe") was used as raw material to introduce the necessary S and Se in the basic frits for red glazes.
 
 Also in these cases a significant improvement was realised with regards to a decrease of the volatilization of the component selenium. Most of the systems for making basic red frits of that time contained cadmium as well as selenium and sulphur at the same time. Analyses of production molten frits learned that up to 83 % of the cadmium disappeared after melting. The figure for selenium was abt. 52 % and for the sulphur in these type of frits abt. 91 %.
 
@@ -353,13 +353,13 @@ Also in these cases a significant improvement was realised with regards to a dec
     [alum.oxide], [2.80 %],
     [boric acid], [4.27 %],
     [cadmium oxide], [1.70 %],
-    [zinc selenite $"ZnSeO"_3$], [2.13 %],
+    [zinc selenite #ch("ZnSeO3")], [2.13 %],
     table.hline(stroke: 0.5pt),
     [], [100.00 %]
   ))
 ]
 
-The knowledge of the new frits as developed for the yellow frits and glazes was transferred for the development for new basic frits for red frits and glazes. Of course, the cadmium was separated from the basic frits in the first place. The raw material zinc selenite as source for Se was changed for the zinc-sulpho-selenide ($"ZnSSe"$) and the reduction agent carbon was introduced into the raw batch formula. Some other small adaptations were made in the composition but it is mainly the different way of melting which made these types of frits much better with regard to the red colour development and the colour strength.#footnote[L.W. Baaij. 'Basisfritten voor ingesmolten Cd-S gele en Cd-Se-S rode glazuren', 1974.]
+The knowledge of the new frits as developed for the yellow frits and glazes was transferred for the development for new basic frits for red frits and glazes. Of course, the cadmium was separated from the basic frits in the first place. The raw material zinc selenite as source for Se was changed for the zinc-sulpho-selenide (#ch("ZnSSe")) and the reduction agent carbon was introduced into the raw batch formula. Some other small adaptations were made in the composition but it is mainly the different way of melting which made these types of frits much better with regard to the red colour development and the colour strength.#footnote[L.W. Baaij. 'Basisfritten voor ingesmolten Cd-S gele en Cd-Se-S rode glazuren', 1974.]
 
 #recipe[
   An example of such a modified frit is:
@@ -399,9 +399,9 @@ Through XR-F analyses a comparison was made between the 'traditional' melted fri
     table.hline(stroke: 0.5pt),
     [], [], [], [], [], [], [], [],
     [*old*], [*new*], [*old*], [*new*], [*old*], [*new*], [*old*], [*new*],
-    [$"CdO"$], [-], [1.90 %], [-], [0.14 %], [-], [92.6 %], [-],
-    [Se], [Se], [0.98 %], [0.90 %], [0.31 %], [.77 %], [68.4 %], [14.5 %],
-    [S], [S], [0.98 %], [0.74 %], [0.41 %], [0.28 %], [58.2 %], [62.2 %],
+    [#ch("CdO")], [-], [1.90 %], [-], [0.14 %], [-], [92.6 %], [-],
+    [#ch("Se")], [#ch("Se")], [0.98 %], [0.90 %], [0.31 %], [.77 %], [68.4 %], [14.5 %],
+    [#ch("S")], [#ch("S")], [0.98 %], [0.74 %], [0.41 %], [0.28 %], [58.2 %], [62.2 %],
   ),
   caption: [Cd/Se/S volatilization loss.]
 ) <tab:volatilization-loss>
@@ -411,16 +411,16 @@ The important changes in the batch compositions of the sulphur frit for yellow a
 With these new basic frits for cadmium selenium red glazes and together with the earlier mentioned concentrated cadmium frit, it was possible to create new and very stable cadmium selenium red glazes for all kind of applications.
 
 #recipe[
-  Besides the concentrated cadmium frit already mentioned, other concentrated cadmium frits have been developed e.g. with the target to develop CdSe glazes with a lower coefficient of expansion resulting in a composition like:
+  Besides the concentrated cadmium frit already mentioned, other concentrated cadmium frits have been developed e.g. with the target to develop #ch("CdSe") glazes with a lower coefficient of expansion resulting in a composition like:
 
   #composition(
-    [], [$"Na"_2"O"$], [0.353], [], [$"Al"_2"O"_3$], [0.054], [], [$"SiO"_2$], [3.871],
-    [], [$"K"_2"O"$], [0.137], [], [$"B"_2"O"_3$], [0.630], [], [], [],
-    [], [$"CdO"$], [0.510], [], [], [], [], [], [],
+    [], [#ch("Na2O")], [0.353], [], [#ch("Al2O3")], [0.054], [], [#ch("SiO2")], [3.871],
+    [], [#ch("K2O")], [0.137], [], [#ch("B2O3")], [0.630], [], [], [],
+    [], [#ch("CdO")], [0.510], [], [], [], [], [], [],
   )
 ]
 
-With this handful of basic frits it was very well possible to create an endless range of CdSe glazes. During the 70ties, thousands of tons of cadmium selenium yellow and red glazes were produced per year by the various but only a handful of suppliers and applied onto wall- and floor tiles, giftware, vases, dinnerware, etc. The production of these type of glazes needed attention of people from ceramic development laboratory, quality control, and the various production disciplines like melting and milling department. To produce a given glaze every time to the same colour and same characteristics, first a choice was made for the red and yellow frits of specific batches out of a production run. This was done because it could happen that some molten batches of red frits were more red or less red than others. A small test was then made where the specified frit batches were used in the milling formula of the glaze. In case the result was approved, a production mill (e.g. 5 tons of material) was charged with the specified batch references of the frits involved and the production milling was started. After milling and controlling the glaze slib was mixed with similar prepared glaze slib of the same glaze reference before it was finally pumped to a spray drier. In this way, manufacturers could make a stable glaze for colour and colour strength all the time.
+With this handful of basic frits it was very well possible to create an endless range of #ch("CdSe") glazes. During the 70ties, thousands of tons of cadmium selenium yellow and red glazes were produced per year by the various but only a handful of suppliers and applied onto wall- and floor tiles, giftware, vases, dinnerware, etc. The production of these type of glazes needed attention of people from ceramic development laboratory, quality control, and the various production disciplines like melting and milling department. To produce a given glaze every time to the same colour and same characteristics, first a choice was made for the red and yellow frits of specific batches out of a production run. This was done because it could happen that some molten batches of red frits were more red or less red than others. A small test was then made where the specified frit batches were used in the milling formula of the glaze. In case the result was approved, a production mill (e.g. 5 tons of material) was charged with the specified batch references of the frits involved and the production milling was started. After milling and controlling the glaze slib was mixed with similar prepared glaze slib of the same glaze reference before it was finally pumped to a spray drier. In this way, manufacturers could make a stable glaze for colour and colour strength all the time.
 
 The 'space' in the glaze compositions between the sum of the necessary basic selenium and cadmium frits and the total composition allowed applying other frits which could answer certain demands from the market. Especially here, this 'space' was utilized by technical ceramic engineers to realize certain targets as set by customers. As there were many customers with many different kilns and firing cycles, the necessary adjustments were made using this 'space' in the glaze composition. The advantage was that fairly quick a solution was found for a given problem but the disadvantage was that there was a kind of unlimited growth of new cadmium selenium glazes. As long as volumes justified this way of working there were no problems but as soon as volumes started to drop down the production had so its difficulties with keeping up the quality, same colour and colour strength for all these, sometimes only slightly, different glazes.
 
@@ -434,7 +434,7 @@ Good and stable matt glazes have been developed as this was also a strong demand
   As barium carbonate as powder is rather unhealthy, special frits have been developed based on barium aluminium silicate with compositions like:
 
   #composition(
-    [], [$"BaO"$], [1.000], [], [$"Al"_2"O"_3$], [0.500], [], [$"SiO"_2$], [2.018],
+    [], [#ch("BaO")], [1.000], [], [#ch("Al2O3")], [0.500], [], [#ch("SiO2")], [2.018],
   )
 ]
 
@@ -442,18 +442,18 @@ Good and stable matt glazes have been developed as this was also a strong demand
   Some other frequently used barium matt frits were e.g. frits with following composition:
 
   #composition(
-    [], [$"Na"_2"O"$], [0.032], [], [$"Al"_2"O"_3$], [0.324], [], [$"SiO"_2$], [2.061],
-    [], [$"K"_2"O"$], [0.066], [], [$"B"_2"O"_3$], [0.046], [], [], [],
-    [], [$"CaO"$], [0.093], [], [], [], [], [], [],
-    [], [$"BaO"$], [0.256], [], [], [], [], [], [],
-    [], [$"PbO"$], [0.502], [], [], [], [], [], [],
-    [], [$"ZnO"$], [0.051], [], [], [], [], [], [],
+    [], [#ch("Na2O")], [0.032], [], [#ch("Al2O3")], [0.324], [], [#ch("SiO2")], [2.061],
+    [], [#ch("K2O")], [0.066], [], [#ch("B2O3")], [0.046], [], [], [],
+    [], [#ch("CaO")], [0.093], [], [], [], [], [], [],
+    [], [#ch("BaO")], [0.256], [], [], [], [], [], [],
+    [], [#ch("PbO")], [0.502], [], [], [], [], [], [],
+    [], [#ch("ZnO")], [0.051], [], [], [], [], [], [],
   )
 
   #composition(
-    [and],  [$"BaO"$], [0.400], [], [], [], [], [$"SiO"_2$], [0.700],
-    [],     [$"PbO"$], [0.100], [], [], [], [], [], [],
-    [],     [$"ZnO"$], [0.500], [], [], [], [], [], [],
+    [and],  [#ch("BaO")], [0.400], [], [], [], [], [#ch("SiO2")], [0.700],
+    [],     [#ch("PbO")], [0.100], [], [], [], [], [], [],
+    [],     [#ch("ZnO")], [0.500], [], [], [], [], [], [],
   )
 ]
 
@@ -797,7 +797,7 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     stroke: none,
     align: (left, right),
     [Na/K/Ca/Al/B/Si transparent frit], [5 %],
-    [feldspar (Na/K)], [22 %],
+    [feldspar (#ch("Na")/#ch("K"))], [22 %],
     [nepheline syenite], [18 %],
     [ball clay], [33 %],
     [aluminium oxide fine], [11 %],

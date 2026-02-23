@@ -1,4 +1,4 @@
-#import "../../template.typ": narrow, recipe
+#import "../../template.typ": narrow, recipe, ch
 
 == Cadmium
 
@@ -6,7 +6,7 @@ The element cadmium is called after the Greek word 'kadmeia'. This is the ancien
 
 Cadmium, with atomic number 48, has an atomic weight of 112.41. Its melting point is 320.9 °C and the boiling point is 765 °C. The specific gravity of the element is 8.65.
 
-The element was discovered in 1817. Stromeyer found it as an impurity in zinc carbonate. Cadmium most often occurs in small quantities associated with zinc ores such as sphalerite ($"ZnS"$). Greenockite ($"CdS"$) is the only mineral of any consequence bearing cadmium.
+The element was discovered in 1817. Stromeyer found it as an impurity in zinc carbonate. Cadmium most often occurs in small quantities associated with zinc ores such as sphalerite (#ch("ZnS")). Greenockite (#ch("CdS")) is the only mineral of any consequence bearing cadmium.
 
 Almost all cadmium is obtained as a by-product in the treatment of zinc, copper and lead ores. This fact that cadmium is a component in zinc ores hasn't always been distinguished in the past. The way how zinc metal was produced in an industrial way was started in the beginning of the 19th century. Knowing now that the cadmium, present in the zinc ores, was also reduced to the cadmium metal, it escaped during the process. Now, more than a hundred years later, this uncontrolled part of the process is a serious source of environmental contamination.
 
@@ -28,7 +28,7 @@ The world production of cadmium amounts 15,000 to 20,000 tons p/a.#footnote['Cad
 
 Cadmium is used in thin metal coatings to prevent it from atmospherical influences. As metallic material it forms the negative pole in nickel-cadmium batteries. Cadmium is also a component in some low-melting eutectic alloys as solders for lead.
 
-The brown coloured cadmium oxide CdO can be obtained by the combustion and oxidizing of the metal. Together with cadmium carbonate ($"CdCO"_3$, white powder) it is the most important raw material source for the manufacturing of CdSe glazes. The yellow cadmium sulfide ($"CdS"$) occurs in nature as greenockite but it is chemically produced by precipitation from solutions of cadmium salts. After precipitation it has a cubic structure but after calcining it has a hexagonal crystal structure which makes it a stable pigment. The cadmium pigments do have very good properties for application in polymers. This has always been by far the most important application of cadmium pigments what is also expressed in @tab:application-cadmium-pigments showing the use of cadmium pigments in Germany in 1981.#footnote[K. Heinle; G. Benzing. 'Anwendung von Cadmiumpigmenten und Möglichkeiten zur Substitution'. Metalloberfläche 36, 1982.]
+The brown coloured cadmium oxide #ch("CdO") can be obtained by the combustion and oxidizing of the metal. Together with cadmium carbonate (#ch("CdCO3"), white powder) it is the most important raw material source for the manufacturing of #ch("CdSe") glazes. The yellow cadmium sulfide (#ch("CdS")) occurs in nature as greenockite but it is chemically produced by precipitation from solutions of cadmium salts. After precipitation it has a cubic structure but after calcining it has a hexagonal crystal structure which makes it a stable pigment. The cadmium pigments do have very good properties for application in polymers. This has always been by far the most important application of cadmium pigments what is also expressed in @tab:application-cadmium-pigments showing the use of cadmium pigments in Germany in 1981.#footnote[K. Heinle; G. Benzing. 'Anwendung von Cadmiumpigmenten und Möglichkeiten zur Substitution'. Metalloberfläche 36, 1982.]
 
 #figure(
   table(
