@@ -1,6 +1,6 @@
 // Chapter 5: Gold
 
-#import "../template.typ": narrow, recipe
+#import "../template.typ": narrow, recipe, ch
 
 = GOLD
 
@@ -75,11 +75,11 @@ Gold colours are manufactured in light pinks (rose shades), mid-colours (fuchsia
     columns: 2,
     stroke: none,
     align: (left, right),
-    [$"Na"_2"O"$], [10.29 %],
-    [$"K"_2"O"$],  [3.64 %],
-    [$"PbO"$],     [20.54 %],
-    [$"B"_2"O"_3$], [23.28 %],
-    [$"SiO"_2$],     [42.25 %],
+    [#ch("Na2O")], [10.29 %],
+    [#ch("K2O")],  [3.64 %],
+    [#ch("PbO")],     [20.54 %],
+    [#ch("B2O3")], [23.28 %],
+    [#ch("SiO2")],     [42.25 %],
     table.hline(stroke: 0.5pt),
     [], [100.00 %]
   ))
@@ -92,15 +92,15 @@ Gold colours are manufactured in light pinks (rose shades), mid-colours (fuchsia
     columns: 5,
     stroke: none,
     align: (left, right, center, left, right),
-    [$"Na"_2"O"$], [14.02 %], [and/or], [$"Li"_2"O"$], [1.35 %],
-    [$"PbO"$], [33.47 %], [], [$"Na"_2"O"$], [3.92 %],
-    [$"Al"_2"O"_3$], [5.01 %], [], [$"K"_2"O"$], [2.98 %],
-    [$"B"_2"O"_3$], [5.28 %], [], [$"PbO"$], [29.69 %],
-    [$"SiO"_2$], [42.22 %], [], [$"CdO"$], [3.01 %],
-    [], [], [], [$"Al"_2"O"_3$], [2.76 %],
-    [], [], [], [$"B"_2"O"_3$], [7.80 %],
-    [], [], [], [$"SiO"_2$], [47.51 %],
-    [], [], [], [$"ZrO"_2$], [0.98 %],
+    [#ch("Na2O")], [14.02 %], [and/or], [#ch("Li2O")], [1.35 %],
+    [#ch("PbO")], [33.47 %], [], [#ch("Na2O")], [3.92 %],
+    [#ch("Al2O3")], [5.01 %], [], [#ch("K2O")], [2.98 %],
+    [#ch("B2O3")], [5.28 %], [], [#ch("PbO")], [29.69 %],
+    [#ch("SiO2")], [42.22 %], [], [#ch("CdO")], [3.01 %],
+    [], [], [], [#ch("Al2O3")], [2.76 %],
+    [], [], [], [#ch("B2O3")], [7.80 %],
+    [], [], [], [#ch("SiO2")], [47.51 %],
+    [], [], [], [#ch("ZrO2")], [0.98 %],
     table.hline(stroke: 0.5pt),
     [], [100.00 %], [], [], [100.00 %]
   ))
