@@ -1,5 +1,4 @@
-// 05_preface.typ
-// The Preface
+#import "../template.typ": ch
 
 #heading(numbering: none)[PREFACE]
 
@@ -11,11 +10,11 @@ With admiration of what has been explored and described by numerous historians a
 
 I must admit to exploring some side roads which, in my opinion, are mentioned to complement the overall view of the genesis of some red glazes.
 
-The eight different methods reviewed cover the important existing methods for realizing red coloured glazes. Two of them are by far the most important in respect of their industrial applications. These two are the reddish colours obtained by colour stains of the CrSn group and the CdSe glazes.
+The eight different methods reviewed cover the important existing methods for realizing red coloured glazes. Two of them are by far the most important in respect of their industrial applications. These two are the reddish colours obtained by colour stains of the #ch("CrSn") group and the #ch("CdSe") glazes.
 
-The most typical red colour, represented by a wavelength of 614 nm and a colour saturation $sigma$ of about 90, is however only possible to create when making use of the facilities offered by the system of the CdSe glazes and CdSe stains. This group of colours and glazes is well known by names such as signal red, cinnabar, scarlet, madder red, lobster red, carmine red, poppy red and pillar box red.
+The most typical red colour, represented by a wavelength of 614 nm and a colour saturation $sigma$ of about 90, is however only possible to create when making use of the facilities offered by the system of the #ch("CdSe") glazes and #ch("CdSe") stains. This group of colours and glazes is well known by names such as signal red, cinnabar, scarlet, madder red, lobster red, carmine red, poppy red and pillar box red.
 
-The importance of the CdSe glazes has increased considerably since the end of the fifties and the early sixties of the last century when improved methods were developed for the retention of the red colour under normal industrial firing conditions. The available literature, including patent literature, is somewhat limited in the area of describing the practical application and manufacture of these glazes. It is therefore hoped that this review will also contribute to this knowledge.
+The importance of the #ch("CdSe") glazes has increased considerably since the end of the fifties and the early sixties of the last century when improved methods were developed for the retention of the red colour under normal industrial firing conditions. The available literature, including patent literature, is somewhat limited in the area of describing the practical application and manufacture of these glazes. It is therefore hoped that this review will also contribute to this knowledge.
 
 Red colours have something defiant in their character but that was not the only reason for this review. Under certain but different circumstances I think I might have undertaken the same exercise for blue.
 

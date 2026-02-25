@@ -1,5 +1,3 @@
-#import "../template.typ": ch
-
 = LITERATURE
 
 #enum(start: 1)[
@@ -191,7 +189,7 @@
 ][
   NL Patent Du Pont de Nemours, ref.no. 40742, 1937.
 ][
-  Figures for #ch("Se") and Te LME (London Metal Exchange) 28.12.2007.
+  Figures for Se and Te LME (London Metal Exchange) 28.12.2007.
 ][
   W. Wanie. German patent nr.1 289 260 'Farbstabile gelbe bis rote Glasuren auf keramischen Unterlagen', 1961, published 1969.
 ][
