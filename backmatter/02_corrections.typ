@@ -81,6 +81,18 @@ This section lists the specific corrections and adjustments made to the original
 - *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
 - *Photograph:* Moved @photo:walking-orange to the _Development of frits and glazes_ section of Chapter 10, where it is first mentioned.
 
+#heading(level: 2, outlined: false)[Literature]
+
+- *Deduplication:* The following entries were deduplicated, reducing the literature count by 5:
+  - Methuen, 1978
+  - Römpp, 1962
+  - Berendsen, 1975
+  - US patent 3802900
+  - UK patent 2 106 530 A
+- *Enrichment:* Corrected missing or incorrect metadata for books with ISBN.
+- *Formatting:* Entries were structured in YAML format to the Hayagriva specification.
+- *Formatting:* Entries are shown in ISO 690 format.
+
 #heading(level: 2, outlined: false)[Acknowledgments]
 
 The conversion, formatting, and technical validation of this manuscript were assisted by `Gemini-3-Pro-Preview` (Google), an AI Large Language Model. The AI was utilized for:

@@ -18,6 +18,6 @@ Sulphur is a pale yellow, odourless, brittle solid which is insoluble in water b
 
 A finely divided form of sulphur, known as 'flowers of sulphur', is obtained by sublimation.
 
-A main application of sulphur is at the vulcanization of natural and synthetic rubber and as fungicide. A tremendous tonnage is used to produce sulphuric acid, one of the world's most important manufactured chemicals. In 2001 the world production of sulphuric acid was 165 million tons.#footnote[Wikipedia. 'Sulfuric acid', May 2010.]
+A main application of sulphur is at the vulcanization of natural and synthetic rubber and as fungicide. A tremendous tonnage is used to produce sulphuric acid, one of the world's most important manufactured chemicals. In 2001 the world production of sulphuric acid was 165 million tons.@lit:wikipedia-sulfuric-acid
 
 For the manufacturing of ceramic red and yellow glazes the more important compounds are cadmium sulphide and zinc sulphide. In old recipes one can still find the introduction of the necessary amount of sulphur by the yellow element as flowers of sulphur. Investigations have, however, proven that this is a less good method of introducing sulphur into the formulation of frits and glazes.
