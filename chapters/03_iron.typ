@@ -15,7 +15,7 @@
 
 The techniques of making warm and deep red coloured ceramics ware reached another culminating point during the Greek and Roman civilizations.
 
-Ir. A.J. Rijken@lit:ir-a-j correctly observed that in this respect there is a lot of confusion about the designation of the slibs used for this process. Besides the group of glazes and engobes he named the group of layers necessary to create the typical red and black glazes 'slip glazes'.
+Ir. A.J. Rijken#super[@lit:ir-a-j] correctly observed that in this respect there is a lot of confusion about the designation of the slibs used for this process. Besides the group of glazes and engobes he named the group of layers necessary to create the typical red and black glazes 'slip glazes'.
 
 As an example of slip glazes Rijken mentioned the Terra Sigillata, the mostly red earthenware of the Romans which is covered with a very thin glossy layer.
 
@@ -25,9 +25,9 @@ Neumann published in 1932 the attempts which were undertaken so far. The glossy 
 
 Progress was made by Nuissl who performed trials by slibbing up the red coloured clays and separated the coarse particles from the fine particles.
 
-Schumann continued in this way and made trials with peptisators to accomplish a better separation of the fine clay particles. With the finest clay particles he succeeded in making a good approximation of the original Terra Sigillata. With the help of X-ray diffraction analyses it could be determined that only clays of the muscovite type, #ch("KAl2(OH)2AlSi3O10") were suitable to obtain the real effect. This type of clay minerals has #ch("K") in its structure@lit:o-e-radczewski, a point differentiating it from kaolinite and montmorillonite.
+Schumann continued in this way and made trials with peptisators to accomplish a better separation of the fine clay particles. With the finest clay particles he succeeded in making a good approximation of the original Terra Sigillata. With the help of X-ray diffraction analyses it could be determined that only clays of the muscovite type, #ch("KAl2(OH)2AlSi3O10") were suitable to obtain the real effect. This type of clay minerals has #ch("K") in its structure#super[@lit:o-e-radczewski], a point differentiating it from kaolinite and montmorillonite.
 
-Adam Winter@lit:a-winter-terra named these ancient surface-layers 'Glanztonfilm' with the typical remark that there is no melting flux added. The gloss should be caused by the 'parallel geschichtete Anordnung der blättchenformigen Tonminerale'.
+Adam Winter#super[@lit:a-winter-terra] named these ancient surface-layers 'Glanztonfilm' with the typical remark that there is no melting flux added. The gloss should be caused by the 'parallel geschichtete Anordnung der blättchenformigen Tonminerale'.
 
 By slibbing-up one could obtain the finest particles and applied to a suitable and well treated body it was possible to reach a good looking copy of the Terra Sigillata. An oxidizing atmosphere resulted in the beautiful bright red colours, while a reducing atmosphere resulted in dark brown to black colours.
 
@@ -72,9 +72,9 @@ Durand-Gréville was the first who discovered in 1891 that the black layer remai
 
 Attempts of Charles Binns and Fraser, published in 1929 in the American Journal of Archaeology, lead to the following hypothesis: the Greek heated their ceramic ware to roughly 600 °C in an oxidizing atmosphere. After reaching this temperature they continued the firing till about 950 °C in a reducing atmosphere. After obtaining this temperature one started cooling in a reducing atmosphere till approximately 850 °C after which oxygen was admitted. The black iron oxide parts which were enclosed by the glassy material could not change anymore in the oxidizing atmosphere. The porous body itself however (the places not treated with the slib glaze) turned again into red during the oxidizing cooling from about 850 °C till room temperature. In this way one could obtain both black and red colours in one and the same firing. It is determined that the oldest Greek vases show black figures against a red background. Lateron, red figures against a black background were also made.
 
-Interesting investigations to clarify the processes which deal with Terra Sigillata making and firing are done among other things by A. Winter@lit:a-winter-antike and F. Oberlies and N. Köppen@lit:f-oberlies-n.
+Interesting investigations to clarify the processes which deal with Terra Sigillata making and firing are done among other things by A. Winter#super[@lit:a-winter-antike] and F. Oberlies and N. Köppen#super[@lit:f-oberlies-n].
 
-This technique with the slib glazes reached an absolute culminating point during the Greek period roughly from 550 BC till 400 BC and the Roman manufacturing of Terra Sigillata. After the 3rd century this application disappeared completely as far as the civilizations under Roman influence were concerned. In other early civilizations like those of the Indus-dale it was and still is quite common to make use of coloured, engobe-like layers, besides the use of the very same copper blue glazes of Sindh in northern India and the ceramic ware as found in Mohendscho-Daro and Harappa (abt. 3000 BC) are evidence for the existence of an important and also well-developed and regularly ceramic production.@lit:jola-leela-lawton
+This technique with the slib glazes reached an absolute culminating point during the Greek period roughly from 550 BC till 400 BC and the Roman manufacturing of Terra Sigillata. After the 3rd century this application disappeared completely as far as the civilizations under Roman influence were concerned. In other early civilizations like those of the Indus-dale it was and still is quite common to make use of coloured, engobe-like layers, besides the use of the very same copper blue glazes of Sindh in northern India and the ceramic ware as found in Mohendscho-Daro and Harappa (abt. 3000 BC) are evidence for the existence of an important and also well-developed and regularly ceramic production.#super[@lit:jola-leela-lawton]
 
 Besides these still beautiful red colour of the Terra Sigillata from the past there are also today iron red colours used in ceramics. One of them is as onglaze decoration colour also called Venetian Red. This is a red onglaze colour for application at about 780 °C -- 800 °C in a cycle of 5 to 6 hours also known as the classical porcelain onglaze firing. The Venetian Red is in most cases built up with one or more suitable fluxes and an iron compound which in most cases is an iron oxide.
 
@@ -190,7 +190,7 @@ Another application for iron red glazes is e.g. as floor tile glazes which were 
   ))
 ]
 
-This glaze has a clearly iron-red appearance@lit:f-l-f. It can be turned into a matt glaze by adding a combination of 5 parts of wollastonite and 5 parts of barium carbonate. Exact quantities depend on the required colour and mattnes of the glaze.
+This glaze has a clearly iron-red appearance#super[@lit:f-l-f]. It can be turned into a matt glaze by adding a combination of 5 parts of wollastonite and 5 parts of barium carbonate. Exact quantities depend on the required colour and mattnes of the glaze.
 
 Red coloured glazes were also used for a very long time in Japan for their small mosaic tiles. The use of these tiles was popular in the whole Far East region. One of the reasons was that Japanese technicians (for kilns, glazes, etc.) brought this technique over to countries such as Malaysia, Indonesia and Thailand. The colour is not as brilliant as the colours obtained with #ch("CdSe") glazes and also not with the colours of #ch("CrSn") based stains. However, the cost price was significantly lower which was an important factor in choosing #ch("Fe") based glazes.
 
@@ -214,9 +214,9 @@ Red coloured glazes were also used for a very long time in Japan for their small
   was used for firing in a Riedhammer tunnelkiln at 1060 °C -- 1070 °C for 24 hours.
 ]
 
-As a general rule here one can state that a longer firing cycle results in a more clear and brilliant red colour. This is especially the case for the small mosaic tiles which were fired at e.g. 1280 °C for 28 hours. As the manufacturers tried to decrease the firing temperatures for economical reasons to e.g. 1190 °C, it was not possible to obtain the very same clear bright #ch("Fe") red colour. Important parameters in this respect are the presence of barium and magnesium in the glaze and the type of iron oxide which must be very fine@lit:f-l-f-1.
+As a general rule here one can state that a longer firing cycle results in a more clear and brilliant red colour. This is especially the case for the small mosaic tiles which were fired at e.g. 1280 °C for 28 hours. As the manufacturers tried to decrease the firing temperatures for economical reasons to e.g. 1190 °C, it was not possible to obtain the very same clear bright #ch("Fe") red colour. Important parameters in this respect are the presence of barium and magnesium in the glaze and the type of iron oxide which must be very fine#super[@lit:f-l-f-1].
 
-Nowadays, these types of glazes are not as popular anymore. Especially, the tile manufacturers and more specifically the workers on the glazing lines do not regret this. Anyone who has worked with iron-red glazes in production knows that it is a 'dirty' part of ceramic production, although even the famous American writer John Updike has said: 'Ceramic, muddy Queen of Human Arts' in his poem 'Dance of the Solids'@lit:john-updike-the.
+Nowadays, these types of glazes are not as popular anymore. Especially, the tile manufacturers and more specifically the workers on the glazing lines do not regret this. Anyone who has worked with iron-red glazes in production knows that it is a 'dirty' part of ceramic production, although even the famous American writer John Updike has said: 'Ceramic, muddy Queen of Human Arts' in his poem 'Dance of the Solids'#super[@lit:john-updike-the].
 
 #figure(
   image("../assets/imari-porcelain-plate.jpg", width: 100%),

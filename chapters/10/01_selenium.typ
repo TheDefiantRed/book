@@ -41,7 +41,7 @@ The price of selenium has long been on a stable and low level but has increased 
   caption: [Price trend of selenium metal (US\$/kg) from 2000 to 2010 (Table IX)]
 ) <fig:price-selenium>
 
-Selenium is mainly used in glass manufacturing (50 %), chemicals & pigments (15 %), metallurgy (13 %), electronics (10 %) and others, like agriculture (2 %). It plays also a role in nutrition and is mentioned, together with vitamin A and vitamin E, to have an effect on slowing down the growth of cancer cells.@lit:private-correspondence-between-1
+Selenium is mainly used in glass manufacturing (50 %), chemicals & pigments (15 %), metallurgy (13 %), electronics (10 %) and others, like agriculture (2 %). It plays also a role in nutrition and is mentioned, together with vitamin A and vitamin E, to have an effect on slowing down the growth of cancer cells.#super[@lit:private-correspondence-between-1]
 
 The electrical properties of the element are important (semi-conductor application in the electronic industry) as well as the photoconductor properties (changes light into electrical energy). The application as photoreceptor in photocopiers was very important for a long period but is nowadays more and more replaced by organic based photoreceptors. Also its role as semi-conductor is taken over by pure silicon.
 

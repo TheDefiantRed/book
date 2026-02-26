@@ -38,7 +38,7 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 ]
 
 #recipe[
-  In 1921 an investigation was published@lit:keramische-rundschau-21-viii describing the colouring effects of nickel oxide resulting in green, blue, violet-purple and brown colours. The best compositions for violet-purple-red colours were:
+  In 1921 an investigation was published#super[@lit:keramische-rundschau-21-viii] describing the colouring effects of nickel oxide resulting in green, blue, violet-purple and brown colours. The best compositions for violet-purple-red colours were:
 
   #composition(
     [], [#ch("BaO")],  [0.50], [], [#ch("Al2O3")],  [0.35], [], [#ch("SiO2")],  [2.10],
@@ -54,7 +54,7 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 ]
 
 #recipe[
-  Lehnhäuser@lit:prof-w-lehnhuser gives similar recipes for purple-violet glazes and mentions following composition for a temperature of 1100 °C till 1140 °C:
+  Lehnhäuser#super[@lit:prof-w-lehnhuser] gives similar recipes for purple-violet glazes and mentions following composition for a temperature of 1100 °C till 1140 °C:
 
   #composition(
     [], [#ch("Na2O")], [0.05], [], [#ch("Al2O3")], [0.12], [], [#ch("SiO2")], [1.20],
@@ -66,7 +66,7 @@ Greenish, grayish and brownish colours may be obtained depending on the glaze co
 
 In most of the compositions mentioned an amount of 0.10 to 0.15 of #ch("NiO") in the Seger formula is present. The presence of #ch("BaO") and #ch("ZnO") is necessary for a good violet-red colour but the end result is a glaze with a matt finish for temperatures of 1100 °C or higher. A way to decrease the firing temperature and remaining the violet-red colour is to add a low smelting flux. The best result in that case is obtained by adding 10 to 20% of a simple lead mono silicate which makes it possible to decrease the firing temperature to 1040 °C.
 
-In 1964 an investigation was published by Franz Kure@lit:ing-franz-kure describing possibilities for red coloured glazes. Basically, he mentioned similar compositions as described above with the remark that compositions for red-violet colour tones have narrow possibilities and are sensitive for temperature differences.
+In 1964 an investigation was published by Franz Kure#super[@lit:ing-franz-kure] describing possibilities for red coloured glazes. Basically, he mentioned similar compositions as described above with the remark that compositions for red-violet colour tones have narrow possibilities and are sensitive for temperature differences.
 
 #recipe[
   For the possibilities with nickel he mentioned that:
