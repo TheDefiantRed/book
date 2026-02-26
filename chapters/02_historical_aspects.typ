@@ -198,7 +198,7 @@ Hecht#super[@lit:hecht-keramische-rundschau] has determined the influence of gla
     [], [100.00], [100.00], [100.00], [100.00],
     table.hline(stroke: 0.5pt),
   ),
-  caption: [Comparison of base glaze compositions from the Glassmakers Tablet according to Campbell Thomson and Oppenheim]
+  caption: [Comparison of base glaze compositions from the Glassmakers Tablet]
 ) <tab:oxide-comparison>
 
 #block(

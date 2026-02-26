@@ -143,7 +143,10 @@ Following the article, the authors concluded after investigations with XR-D and 
     [#ch("NaF")], [--], [14.3], [--], [14.3],
     [#ch("LiF")], [8.9], [--], [8.9], [--]
   ),
-  caption: [Experimental compositions for #ch("CdSSe") inclusion pigments (after Lambies Lavilla and Rincón López)]
+  caption: flex-caption(
+    [Experimental compositions for #ch("CdSSe") inclusion pigments],
+    [Experimental compositions for #ch("CdSSe") inclusion pigments (after Lambies Lavilla and Rincón López)]
+  )
 ) <tab:compositions-inclusion-pigments>
 
 An improvement to the system of encapsulated stains was realised by the BCRA (British Ceramic Research Association, now CERAM) during the 80ties of last century and published with UK patent 2 106 530 A.#super[@lit:uk-patent-2106530a] The basic principle of making the encapsulated stain was different as from the 1st generation. Following the BCRA patent the processes were following:

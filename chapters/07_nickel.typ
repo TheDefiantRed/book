@@ -12,7 +12,7 @@ Nickel was discovered by the Swedish chemist Axel Fredrik Cronstedt back in 1751
   image("../assets/niccolite-molecular-model.png"),
   kind: image,
   supplement: [Figure],
-  caption: [Molecular model of niccolite (#ch("NiAs")) (Figure 7)]
+  caption: [Molecular model of niccolite (#ch("NiAs"))]
 ) <fig:niccolite-structure>
 
 Nickel has been used for long time already although people at those times did not realise that it was the element nickel as we know it today. In the area of what we now know as Syria various metal objects have been found which contain nickel. The oldest known use of nickel goes back till 3500 BC. Also from old Chinese documents appears that nickel-containing minerals as niccolite were already used to give a green colour to glass.
