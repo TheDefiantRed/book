@@ -1,7 +1,7 @@
 // 02_historical_aspects.typ
 // Chapter 2: Historical Aspects of Red Colours
 
-#import "../template.typ": ch
+#import "../template.typ": ch, flex-caption
 
 = HISTORICAL ASPECTS OF RED COLOURS <historical-aspects>
 
@@ -41,14 +41,17 @@ Another organic possibility which was used to obtain a warm red colour came from
   [
     #figure(
       image("../assets/Alizaryna.svg", width: 90%),
-      caption: [Structure formula Alizarine red]
+      caption: [Chemical structure formula of Alizarine]
     ) <fig:alizarine-structure-formula>
   ],
 
   [
     #figure(
       image("../assets/Alizarin-sample.jpg", width: 90%),
-      caption: [Alizarine red powder. Wikimedia Commons, by Benjah-bmm27]
+      caption: flex-caption(
+        [Alizarine red powder (synthetic)],
+        [Alizarine red powder. Wikimedia Commons, by Benjah-bmm27]
+      )
     ) <fig:alizarine-powder>
   ]
 )
@@ -78,14 +81,14 @@ It will be clear that there are a number of disadvantages with regard to these n
   [
     #figure(
       image("../assets/Aniline.svg", width: 40%),
-      caption: [Structure formula Amino-benzene]
+      caption: [Chemical structure formula of aniline (aminobenzene)]
   ) <fig:aniline-structure-formula>
   ],
 
   [
     #figure(
       image("../assets/Aniline-3D-balls.png", width: 50%),
-     caption: [Amino-benzene molecular model]
+     caption: [Molecular model of aniline (aminobenzene)]
   ) <fig:aniline-molecular-model>
   ]
 )
@@ -119,8 +122,8 @@ Iron is the most important natural colorant in clays. Together with some other c
     [Umber],        [37 -- 60], [11 -- 23], [3 -- 13], [16 -- 35], [10 -- 15], [darkbrown / black],
     table.hline(stroke: 0.5pt),
   ),
-  caption: [Natural earth pigments]
-)
+  caption: [Compositions of common natural earth pigments]
+) <tab:natural-earth-pigments>
 
 These types of earth colours were applied in paintings during the late-Paleolithicum. As such they are the oldest type of paints and most probably older than ceramics. The homo sapiens living in the late-Paleolithicum have left us evidence of earth colours as can be seen in the admirable paintings in beautiful red colours like those in the caves of Lascaux, Altamira, Font de Gaume and others. The cave of Altamira e.g. has a 'room' called the 'Sistine chapel of prehistory'@lit:geoffrey-bibby-the and the paintings of bulls, horses, deer and bison stem from the Magdalénien ($plus.minus$ 12000 BC).
 
@@ -146,7 +149,10 @@ From the translation of the so-called 'Glassmakers Tablet' which are available, 
   image("../assets/glassmakers-tablet.jpg", width: 60%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [The 'Glassmakers Tablet'. Courtesy of the British Museum]
+  caption: flex-caption(
+    [The "Glassmakers Tablet" (BM 120960), 17th century BC],
+    [The 'Glassmakers Tablet'. Courtesy of the British Museum]
+  )
 ) <fig:glassmakers-tablet>
 
 The text of the tablet is divided into five chapters. The first chapter gives the receipt for 'lead-copper' glaze; the second chapter gives a receipt for 'Akkadian-copper'. Chapter three describes the handling of the clay for the potter ware to be glazed. Chapter four mentions the glazing, while the fifth chapter gives the signature which translation reads as follows:
@@ -155,7 +161,7 @@ The text of the tablet is divided into five chapters. The first chapter gives th
 
 #figure(
   image("../assets/glassmakers-tablet-chapters.jpg", width: 80%),
-  caption: [Chapters of the Glassmakers Tablet.]
+  caption: [Chapters 1 and 2 of the Glassmakers Tablet (reproduction)]
 ) <fig:chapters-glassmakers>
 
 Although Assyriologists had already succeeded to unravel Assyrian cuneiform more than a hundred years ago, one can notice some differences in the mentioned translations. Where Campbell Thomson mentions salpeter, Oppenheims' translation gives anzahhu-glass. Another difference is that Campbell Thomson makes mention of lime, where Oppenheim mentions antimony. Furthermore, a striking difference is that Oppenheim states that the BM 120960 text gives 'a prescription how to produce red-stone coloured glass'. Following Oppenheim, chapter one gives the recipe for Assyrian red-stone glass and chapter two the recipe for Akkadian red-stone glass. R. Campbell Thomson, who has done a lot of work in respect of investigation and translation of Assyrian clay tablets, speaks of green lead-copper glazes in his translation.@lit:private-correspondence-between
@@ -189,7 +195,7 @@ Hecht@lit:hecht-keramische-rundschau has determined the influence of glaze compo
       table.hline(stroke: 0.5pt),
       [], [100.00 %], [],
     ),
-    caption: [Glassmakers Tablet glaze composition]
+    caption: [Calculated composition of zukû glass from the Glassmakers Tablet]
   ) <tab:glaze-composition>
 ]
 
@@ -215,7 +221,7 @@ Hecht@lit:hecht-keramische-rundschau has determined the influence of glaze compo
     [], [100.00], [100.00], [100.00], [100.00],
     table.hline(stroke: 0.5pt),
   ),
-  caption: [Oxide composition comparison]
+  caption: [Comparison of base glaze compositions from the Glassmakers Tablet according to Campbell Thomson and Oppenheim]
 ) <tab:oxide-comparison>
 
 #block(
@@ -237,7 +243,7 @@ Hecht@lit:hecht-keramische-rundschau has determined the influence of glaze compo
       table.hline(stroke: 0.5pt),
       [], [100 %]
     ),
-    caption: [Body composition]
+    caption: [Lapis Lazuli-like blue body composition]
   ) <tab:body-composition>
 ]
 
@@ -247,7 +253,7 @@ Although series of trials were also performed in a gas-heated kiln (natural gas)
   image("../assets/blue-alkaline-copper-glaze.jpg", width: 80%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Blue alkaline copper glaze following BM 120960 tablet]
+  caption: [Blue alkaline copper glaze based on the oldest known records]
 ) <fig:blue-glaze>
 
 #pagebreak()

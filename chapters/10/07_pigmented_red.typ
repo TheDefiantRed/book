@@ -1,6 +1,6 @@
 // Chapter 10 Section 7: Pigmented Red
 
-#import "../../template.typ": recipe, narrow, composition, ch
+#import "../../template.typ": recipe, narrow, composition, ch, flex-caption
 
 == Pigmented red
 
@@ -24,7 +24,7 @@ It is already mentioned before how the first classical cadmium selenium red pigm
     [Purple Red], [69.90], [14.00], [16.10],
     [Blue Red], [69.90], [17.50], [12.60]
   ),
-  caption: [Compositions of #ch("CdSSe") pigments.]
+  caption: [Chemical compositions of #ch("CdSSe") pigments for varied red and orange shades (Table XV)]
 ) <tab:compositions-cds-se-pigments>
 
 BASF found a way to improve the manufacturing through the wet precipitating process which has been described here earlier already.
@@ -86,7 +86,7 @@ The following compositions are mentioned as examples in the patent:
     table.hline(stroke: 0.5pt),
     [], [5000], [220.1], [211.9]
   ),
-  caption: [Raw material compositions re inclusion pigments.]
+  caption: [Batch compositions for first-generation #ch("CdSSe") inclusion pigments (Table XVI)]
 ) <tab:raw-material-compositions>
 
 These mixtures were mixed with water for 15 minutes, poured into crucibles and fired at resp. 900 °C, 900 °C and 950 °C for 1 hour. After the firing the calcined products were treated with #ch("HNO3") to remove the excess of not included cadmium components. In this way resp. a light red (1), a bright red (2) and a yellow (4) colour was obtained.
@@ -143,7 +143,7 @@ Following the article, the authors concluded after investigations with XR-D and 
     [#ch("NaF")], [--], [14.3], [--], [14.3],
     [#ch("LiF")], [8.9], [--], [8.9], [--]
   ),
-  caption: [Compositions of #ch("CdSe") inclusion pigments.]
+  caption: [Experimental compositions for #ch("CdSSe") inclusion pigments (after Lambies Lavilla and Rincón López) (Table XVII)]
 ) <tab:compositions-inclusion-pigments>
 
 An improvement to the system of encapsulated stains was realised by the BCRA (British Ceramic Research Association, now CERAM) during the 80ties of last century and published with UK patent 2 106 530 A.@lit:uk-patent-2106530a The basic principle of making the encapsulated stain was different as from the 1st generation. Following the BCRA patent the processes were following:
@@ -214,7 +214,7 @@ The BCRA produced this second generation of #ch("CdSSe") inclusion stain only on
 
 #figure(
   image("../../assets/encapsulated-stain.png"),
-  caption: [Encapsulated #ch("CdS * CdSe") stain in a #ch("ZrO2 * SiO2") crystal.],
+  caption: [Microscopic view of an encapsulated #ch("CdS * CdSe") stain within a zircon (#ch("ZrO2 * SiO2")) crystal],
   kind: "photo",
   supplement: [Photograph]
 ) <photo:encapsulated-stain>
@@ -229,7 +229,10 @@ Besides the inclusion pigments as manufactured by the company Broll Buntpigmente
 
 #figure(
   image("../../assets/transparent-glaze-cdse.png", width: 80%),
-  caption: [Lead free transparent glaze coloured with strong #ch("CdSe") red stain. Made in 2009. Courtesy of Newland Pottery BV, The Netherlands],
+  caption: flex-caption(
+    [Pigmented #ch("CdSe") red glaze (Newland Pottery)],
+    [Lead-free transparent glaze coloured with a strong #ch("CdSe") red stain (2009). Courtesy of Newland Pottery BV, The Netherlands.]
+  ),
   kind: "photo",
   supplement: [Photograph]
 ) <photo:transparent-glaze-cdse>

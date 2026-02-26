@@ -1,6 +1,6 @@
 // Chapter 10 Section 1: Selenium
 
-#import "../../template.typ": ch
+#import "../../template.typ": ch, flex-caption
 
 == Selenium
 
@@ -28,14 +28,17 @@ Selenium, with atom number 34, has an atomic weight of 78.96. Its melting point 
     table.hline(stroke: 0.5pt),
     table.footer([*World total*],[*1,900*])
   ),
-  caption: [Estimated world production of selenium metal in metric tons per annum. Source: British Geological Survey, _World Mineral Statistics_.]
+  caption: flex-caption(
+    [World production of selenium metal (2003)],
+    [Estimated world production of selenium metal (MTons) per country for 2003. Source: British Geological Survey. (Table VIII)]
+  )
 ) <tab:world-production-selenium>
 
 The price of selenium has long been on a stable and low level but has increased incredibly as from 2003. Reason for this is the enormous demand for selenium from China for application in the ceramic and glass industry as well as fertilizer for the Chinese soil. A general price level in 2000 was US\$ 5.50/kg but in 2009 it was already increased to US\$ 88.10/kg and increasing. See also @fig:price-selenium which shows the remarkable price increase shortly after 2003.
 
 #figure(
   image("../../assets/selenium-metal-price.jpg", width: 70%),
-  caption: [Price of selenium metal. Source: www.metalprices.com]
+  caption: [Price trend of selenium metal (US\$/kg) from 2000 to 2010 (Table IX)]
 ) <fig:price-selenium>
 
 Selenium is mainly used in glass manufacturing (50 %), chemicals & pigments (15 %), metallurgy (13 %), electronics (10 %) and others, like agriculture (2 %). It plays also a role in nutrition and is mentioned, together with vitamin A and vitamin E, to have an effect on slowing down the growth of cancer cells.@lit:private-correspondence-between-1

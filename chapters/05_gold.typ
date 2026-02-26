@@ -1,6 +1,6 @@
 // Chapter 5: Gold
 
-#import "../template.typ": narrow, recipe, ch
+#import "../template.typ": narrow, recipe, ch, flex-caption
 
 = GOLD
 
@@ -25,7 +25,7 @@ After a peak in glass manufacturing high standards were reached e.g. in Egypt, M
   ),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Lycurgus bowl]
+  caption: [The Lycurgus bowl (c. AD 300), an example of dichroic gold-ruby glass]
 ) <photo:lycurgus-bowl>
 
 The monasteries, especially some Benedictine ones, could be seen as the defenders of the antique heritage and the guards of the transmitted literature, including those about glass manufacturing. In this respect the books in question from the bishop of Sevilla (7#super[th] century) and the bishop of Mainz (Hrabanus Maurus 'De universo', abt. 845) are dated back to Pliny, one of the main 'technical-encyclopaedists' of the ancient world.
@@ -123,7 +123,10 @@ Without doubt one can state that during the last 10 -- 15 years the (gold) decor
       image("../assets/lavender-rose.png"),
       kind: "photo",
       supplement: [Photograph],
-      caption: [Gold colours by screen print transfer application. Plate by porcelain factory Royal Albert "Lavender Rose"]
+      caption: flex-caption(
+        [Gold onglaze decoration (Royal Albert)],
+        [Gold-based onglaze decoration via screen print transfer. "Lavender Rose" pattern by Royal Albert.]
+      )
   ) <photo:gold-colours-transfer>
   ],
 
@@ -132,7 +135,10 @@ Without doubt one can state that during the last 10 -- 15 years the (gold) decor
       image("../assets/gold_plate_herend.png"),
       kind: "photo",
       supplement: [Photograph],
-      caption: [Gold colours applied manually. Plate by porcelain factory Herend / Hungary]
+      caption: flex-caption(
+        [Hand-painted gold onglaze decoration (Herend)],
+        [Gold-based onglaze decoration applied manually. Plate by the Herend Porcelain Manufactory, Hungary.]
+      )
   ) <photo:gold-colours-manual>
   ]
 )

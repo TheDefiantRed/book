@@ -1,7 +1,7 @@
 #import "@preview/cetz:0.4.2"
 #import "@preview/cetz-plot:0.1.3": plot, chart
 
-#import "../template.typ": recipe, narrow, composition, ch
+#import "../template.typ": recipe, narrow, composition, ch, flex-caption
 
 #let flux-cols = (0.5fr, 1fr, 1.5fr, 1fr, 1.5fr, 1fr, 1.5fr)
 #let flux-stroke = none
@@ -63,7 +63,7 @@ By slibbing-up one could obtain the finest particles and applied to a suitable a
       }
     )
   }),
-  caption: [Terra Sigillata typical firing curve]
+  caption: [Typical firing curve for Terra Sigillata (oxidizing and reducing atmospheres)]
 ) <fig:terra-sigillata-chart>
 
 This is also the explanation for the red and black colours of the Greek ceramic vases.
@@ -84,7 +84,7 @@ The fluxes are composed in such a way that they develop the colour as good as po
   image("../assets/greek-vase-showing-bright-red-and-black.jpg", width: 50%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Greek vase showing bright red and black colours in one firing]
+  caption: [Greek vase in Terra Sigillata technique, showing red and black colours from a single firing]
 ) <photo:greek-vase>
 
 #recipe[
@@ -222,7 +222,10 @@ Nowadays, these types of glazes are not as popular anymore. Especially, the tile
   image("../assets/imari-porcelain-plate.jpg", width: 100%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Imari porcelain plate, flower decoration, QianLong period, 2nd half of 18th century]
+  caption: flex-caption(
+    [Imari porcelain plate with iron red onglaze decoration],
+    [Imari porcelain plate with iron red onglaze decoration, flower decoration, Qianlong period (1736–1795)]
+  )
 ) <photo:imari-plate>
 
 #pagebreak()

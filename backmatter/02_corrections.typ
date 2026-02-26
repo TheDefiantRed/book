@@ -6,6 +6,7 @@
 This section lists the specific corrections and adjustments made to the original manuscript during the conversion to PDF. These changes ensure scientific accuracy, consistent formatting, and improved readability while maintaining the original tone and intent of the book.
 
 - *Figures:* Captions are now positioned _under_ all figures in slightly smaller, italic type.
+- *Captions:* Performed a comprehensive audit of all table, figure, and photograph captions. Data from the manuscript's original outline (index) was synthesized with on-page captions to provide more descriptive, professionally titled, and scientifically accurate labels. References to the original Roman numerals (Tables) and Arabic numerals (Photographs) were preserved in the captions for historical continuity.
 - *Tables:* Readability and accessibility were improved by adding semantic structure and headers in bold type.
 - *Tables:* Moved units from content to header rows.
 - *Formulas:* Used centered dot ($dot.c$) for chemical adducts instead of period (.).
@@ -27,6 +28,7 @@ This section lists the specific corrections and adjustments made to the original
 - *Figure:* The grouped structure formula and molecular model of Alinine was separated into @fig:aniline-structure-formula and @fig:aniline-molecular-model and separate captions were added.
 - *Figure:* Figure 5 in the book is now @tab:glaze-composition, increasing the total table count.
 - *Figure:* The Seger formula in @tab:glaze-composition was reformatted.
+- *Table:* Table VII was renamed to 'Lapis Lazuli-like blue body composition' to better reflect its purpose and the author's intent.
 
 #heading(level: 2, outlined: false)[Chapter 3: Iron]
 

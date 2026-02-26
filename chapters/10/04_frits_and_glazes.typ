@@ -168,7 +168,7 @@ The fact that frit and glaze compositions often have a preferred composition for
     table.hline(stroke: 0.5pt),
     [c.o.e. ($3alpha$)], [$229 times 10^(-7) degree"C"$], [$239 times 10^(-7) degree"C"$], [$252 times 10^(-7) degree"C"$], [$221 times 10^(-7) degree"C"$],
   ),
-  caption: [Analyses of 4 different cadmium yellow glazes.]
+  caption: [Chemical analyses of cadmium yellow glazes from four different manufacturers (1972) (Table XII)]
 ) <tab:analyses-cadmium-yellow>
 
 The development for a more stable glaze formulation was soon focused on the splitting up of the basic frits. From many trials it became clear that the optimum melting conditions for one component (#ch("S")) worked out very negative for the other component (#ch("Cd")). Investigations at the various frits learned that the loss of cadmium can easily go up to 80 % due to volatilization during the melting of the frit.@lit:report-r2915-chemical In case the melting conditions were not optimal the cadmium oxide could rather easily be reduced to cadmium metal which is even more volatile than cadmium oxide.@lit:f-ullmann-enzyclopdie Also the melting temperature had a dramatic effect on the retaining of the cadmium in the frit. Investigations clearly showed that bringing down the melting temperature from 1450 °C to 1350 °C while maintaining the same yield resulted in a 50 % less loss of cadmium oxide in the molten frit. The combination of these two facts and information as e.g. from the German patent 2 023 710 from Hercules Inc. was the start for a study for the development of a new generation of base frits for cadmium yellow and red glazes. The start was made by splitting up the basic (#ch("Cd + S")) frit for yellow glazes in a frit containing the cadmium and another part containing the sulphur and in such a way that the two frits together matched the same original basic frit again. Next step was to melt the splitted frits under three different melting conditions, viz. oxidizing, neutral and reducing melting conditions. See also @tab:melting-conditions. For the oxidizing conditions the choice was made in the end for the introduction of 2 % sodium nitrate in the raw batch composition. For the reducing conditions a choice was made for melting with less air and with a reducing agent in the batch composition. After testing various possibilities carbon (#ch("C")) was taken as the reducing agent. Also sugar was tried but was less effective. #ch("SiC") was also tested with good reducing properties but the disadvantage was that it causes contamination of the frit and later contamination of glazes in the mills resulting in pinholes.
@@ -187,7 +187,7 @@ The development for a more stable glaze formulation was soon focused on the spli
     [(ii) neutral], [(v) neutral],
     [(iii) reducing], [(vi) reducing],
   ),
-  caption: [Melting conditions.]
+  caption: [Experimental melting conditions for cadmium and sulphur-containing frits (Table XIII)]
 ) <tab:melting-conditions>
 
 Testing of the application of carbon as reducing agent learned that a quantity of 2 % was the optimum; 1 % was less effective and more than 2 % didn't render better results. These six frits (see @tab:melting-conditions) were tested again in the standard glaze composition by making combinations of resp. the oxidizing melted #ch("Cd") frit (i) with the three different molten #ch("S") frits (iv, v and vi); the neutral melted #ch("Cd") frit (ii) with the three different molten #ch("S") frits (iv, v and vi) and the reduced melted #ch("Cd") frit (iii) with the three different molten #ch("S") frits (iv, v and vi). The results clearly confirmed that the cadmium frit needed different smelting conditions as the sulphur containing frit. By combining the cadmium frit melted under oxidizing conditions (i) and the sulphur containing frit melted under reducing conditions (vi), the final results were significant better compared to the original yellow glaze formula.
@@ -403,7 +403,7 @@ Through XR-F analyses a comparison was made between the 'traditional' melted fri
     [#ch("Se")], [#ch("Se")], [0.98 %], [0.90 %], [0.31 %], [.77 %], [68.4 %], [14.5 %],
     [#ch("S")], [#ch("S")], [0.98 %], [0.74 %], [0.41 %], [0.28 %], [58.2 %], [62.2 %],
   ),
-  caption: [Cd/Se/S volatilization loss.]
+  caption: [Comparison of volatilization losses (Cd, Se, S) between traditional and modified frit melting processes (Table XIV)]
 ) <tab:volatilization-loss>
 
 The important changes in the batch compositions of the sulphur frit for yellow and the suphur/selenium frits for red were of course very important for the retention of the red colour. However, the way of melting was and is also important. It may be clear that an oxidizing melting atmosphere was and is easier to obtain in a melting kiln (continuous or batch/rotating) than a reducing atmosphere. Although one speaks about a reducing atmosphere it is of course not possible to create a real reducing atmosphere in e.g. a continuous melting kiln of 1.80m by 4.80m with a double feeding system and at melting temperatures of about 1350 °C where a sufficient amount of gas and oxygen is necessary to reach the smelting temperature and to maintain it as well. A reducing atmosphere here means that the oxygen was reduced as far as possible. Also the draught in the melting kiln could not be reduced completely as this had a very negative effect on the quality of the frit. The experience of how to melt these frits was very important and also difficult to lay down in fixed instructions as it happened quite often that one kiln reacted different than another similar melting kiln. One of the measurements taken was to smelt a high viscosity zircon white frit at temperatures as high as 1400 °C -- 1425 °C before smelting a production run of basic frits for red or yellow glazes. In this way the bottom of the melting kiln had a smooth and stable surface when the basic red and yellow frits followed at lower temperatures, e.g. 1350 °C. The zircon frit stayed rather stiff at the bottom of the kiln and experience learned that the basic frits for red and yellow glazes were less contaminated and more stable. As many people involved in classical ceramics know: ceramics is for a major part an empirical science. Trial and error is for ceramic people a way of life. Production of cadmium selenium frits and glazes has therefore always been a job which asked the highest discipline and cooperation between the various people involved from chemical and ceramic laboratories, production (melting, milling, drying) and quality control.
@@ -813,7 +813,7 @@ Another example which shows how one could 'tailor-made' cadmium selenium glazes 
 
 #figure(
   image("../../assets/walking-orange.png"),
-  caption: ['Walking Orange', 1975, made by the author.],
+  caption: [“Walking Orange” (1978), a ceramic tableau by the author showcasing varied glaze textures],
   kind: "photo",
   supplement: [Photograph]
 ) <photo:walking-orange>

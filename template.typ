@@ -11,6 +11,17 @@
 #let margin-inside = 3cm
 #let margin-outside = 2.5cm
 
+// State to track if we are inside the outline for short captions
+#let in-outline = state("in-outline", false)
+
+#let flex-caption(short, long) = context {
+  if in-outline.get() {
+    short
+  } else {
+    long
+  }
+}
+
 #let recipe(body) = block(
   width: 100%,
   breakable: false,
@@ -71,6 +82,13 @@
   }
 
   // 4. Global Styling Rules
+
+  // Track when rendering an outline for short captions
+  show outline: it => {
+    in-outline.update(true)
+    it
+    in-outline.update(false)
+  }
 
   // Subtitles (Semantic figure)
   show figure.where(kind: "subtitle"): it => {

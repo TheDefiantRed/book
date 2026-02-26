@@ -1,7 +1,7 @@
 // 01_introduction.typ
 // Chapter 1: Introduction
 
-#import "../template.typ": ch
+#import "../template.typ": ch, flex-caption
 
 = INTRODUCTION
 
@@ -43,7 +43,7 @@ If one measures a typical example of a #ch("CdSe") glaze prepared through the me
     [#ch("CdSe") sample (ii)], [0.646], [0.321], [614.5], [91.00], [8.41],
     table.hline(stroke: 0.5pt)
   ),
-  caption: [Colour measurement data (Zeiss RFC 16 colorimeter)]
+  caption: [#ch("Cd * S * Se") colour measurements (Zeiss RFC 16 colorimeter)]
 ) <tab:colour-measurement-zeiss>
 
 #figure(
@@ -65,7 +65,7 @@ Another type of colorimeter is the Hunterlab colorimeter, also including advance
     [#ch("CdSe") sample (ii)], [+27.98], [+52.80], [+17.65],
     table.hline(stroke: 0.5pt)
   ),
-  caption: [Colour measurement data (Hunterlab type D 25 g)]
+  caption: [#ch("Cd * S * Se") colour measurements (Hunterlab type D 25 g)]
 ) <tab:colour-measurement-hunterlab>
 
 Although these data of the colour measurements of sample (i) and sample (ii) are rather close, it is without doubt that a simple visual judgment, even by inexperienced eyes, is sufficient to distinguish the different nature of these two examples of #ch("CdSe") glazes.
@@ -87,7 +87,7 @@ The typical colour characteristics of the #ch("CdSe") glazes as shown in the Tab
     [#ch("Cr") red],           [0.545], [0.355], [601.0], [73.50], [18.25],
     table.hline(stroke: 0.5pt)
   ),
-  caption: [Colour measurement data comparison]
+  caption: [Comparison of reddish glaze colour data]
 ) <tab:colour-measurement-comparison>
 
 As there are no colours which can be considered as standard colours for the various mentioned reds, the glaze examples of @tab:colour-measurement-comparison represent a certain choice. This choice per colouring component was made in such a way that the mentioned glazes clearly can be recognized as representatives for that colour component. The glaze references as used for these colour measurements are given in @tab:glaze-references.
@@ -118,7 +118,7 @@ As there are no colours which can be considered as standard colours for the vari
       ]
     )
   ),
-  caption: [Glaze references]
+  caption: [Glaze references for the colour data in @tab:colour-measurement-comparison]
 ) <tab:glaze-references>
 
 As mentioned before, these values illustrate more or less the typical character of the #ch("CdSe") colours. Only the red colour obtained through chromium can approximate these values to a certain extent. However, the special character and application possibilities of chromium red glazes mean that these types of glazes are only applicable in the field of art pottery. All other methods are unable to create the typical signal or pillar-box red colours as those from the #ch("CdSe") glazes.
@@ -151,7 +151,10 @@ The peak in application of cadmium selenium glazes was in the seventies and eigh
   image("../assets/vase-tokio.jpg"),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Vase "Tokio" with glossy red #ch("CdSe") glaze and hand-painted decoration. The vase was in production from 1967 till 1976. Courtesy of 'Flora' (now Royal Goedewaagen).]
-)
+  caption: flex-caption(
+    [Vase "Tokio" with glossy red #ch("CdSe") glaze],
+    [Vase "Tokio" with glossy red #ch("CdSe") glaze and hand-painted decoration. The vase was in production from 1967 till 1976. Courtesy of 'Flora' (now Royal Goedewaagen).]
+  )
+) <photo:vase-tokio>
 
 #pagebreak()

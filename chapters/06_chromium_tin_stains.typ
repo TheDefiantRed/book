@@ -186,7 +186,7 @@ As mentioned, the calcination process gives some different possibilities to obta
   image("../assets/ceramic-vase-CrSn.jpg"),
   kind: "photo",
   supplement: [Photograph],
-  caption: [ceramic vase with #ch("CrSn") coloured glaze]
+  caption: [Ceramic vase with #ch("CrSn") (chromium-tin) wine-red coloured glaze]
 ) <photo:crsn-vase>
 
 #pagebreak()

@@ -1,6 +1,6 @@
 // Chapter 9: Uranium
 
-#import "../template.typ": recipe, composition, ch
+#import "../template.typ": recipe, composition, ch, flex-caption
 
 = URANIUM
 
@@ -365,7 +365,10 @@ Nowadays we can only wonder that the use of these compounds was rather wide spre
   image("../assets/uranium-glaze.jpg", width: 60%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Uranium red glaze. Courtesy of Mobach B.V., Utrecht, The Netherlands]
+  caption: flex-caption(
+    [Uranium red glaze (Mobach)],
+    [Uranium red glaze. Courtesy of Mobach B.V., Utrecht, The Netherlands, c. 1930.]
+  )
 ) <photo:uranium-glaze>
 
 Another example is the Homer Laughlin factory in East Liverpool - Ohio / USA. They make the so-called Fiesta ware (dinnerware in earthenware) in various colours ever since 1936. It included at that time a red-orange colour which was made through a uranium red glaze (@photo:uranium-fiesta).
@@ -374,7 +377,10 @@ Another example is the Homer Laughlin factory in East Liverpool - Ohio / USA. Th
   image("../assets/uranium-fiesta.jpg", width: 60%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Uranium red glazes. Small plate produced by Homer Laughlin / USA. Other two items produced by Californian potteries. Between 1930 and 1940]
+  caption: flex-caption(
+    [Uranium red "Fiesta" ware],
+    [Uranium red glazes on "Fiesta" dinnerware (Homer Laughlin, USA) and Californian pottery, 1930–1940.]
+  )
 ) <photo:uranium-fiesta>
 
 In 2001 a comprehensive article was published by Donna Strahan@lit:donna-strahan-uranium. The article is a survey of over 400 glass, ceramic and enamel objects from museum and private collections. It is an investigation for the extent of uranium colorants, mainly produced between 1830 till 1940. It shows that uranium colorant was widely used in glass and ceramic and also that little health risk was found from the uranium containing objects.

@@ -12,7 +12,7 @@ Nickel was discovered by the Swedish chemist Axel Fredrik Cronstedt back in 1751
   image("../assets/niccolite-molecular-model.png"),
   kind: image,
   supplement: [Figure],
-  caption: [Molecular model of niccolite NiAs]
+  caption: [Molecular model of niccolite (#ch("NiAs")) (Figure 7)]
 ) <fig:niccolite-structure>
 
 Nickel has been used for long time already although people at those times did not realise that it was the element nickel as we know it today. In the area of what we now know as Syria various metal objects have been found which contain nickel. The oldest known use of nickel goes back till 3500 BC. Also from old Chinese documents appears that nickel-containing minerals as niccolite were already used to give a green colour to glass.
@@ -104,7 +104,7 @@ Firing of this glaze was done at 1060 °C in an electrical fired kiln in a tradi
   image("../assets/violet-purple-nickel-glaze.jpg"),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Violet-purple nickel glaze]
+  caption: [Violet-purple nickel-coloured glaze]
 ) <photo:nickel-glaze>
 
 Also in this case counts that this type of nickel red glazes is not applied in the ceramic industry because of its instability, the type of colour which isn't always favourable and the narrow possibilities to create these colour tones, viz. only in #ch("BaO"), #ch("ZnO") matt glazes. Some artists / potters may apply those compositions to create some one-off pieces. A further restriction of the application of nickel is the health and environmental regulations which are in place today. Glazes which do contain free nickel oxide are obliged to be labelled accordingly. The use of free nickel oxide is therefore decreased significantly and in most cases replaced by a calcined nickel silicate or a frit where nickel is melted into the frit. For people with some experience in ceramics it is not a surprise that those compounds react different compared to free nickel oxide which makes the realisation of a good and stable red-purple nickel glaze even more complicated.

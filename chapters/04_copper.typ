@@ -1,6 +1,6 @@
 // Chapter 4: Copper
 
-#import "../template.typ": narrow, recipe, ch
+#import "../template.typ": narrow, recipe, ch, flex-caption
 
 = COPPER
 
@@ -59,8 +59,8 @@ However, of greater importance in respect of the spreading of Chinese ceramics w
   image("../assets/copper-reduced-glaze.jpg", width: 60%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Copper reduced glaze --- so-called Peach-Bloom glaze]
-)
+  caption: [Copper reduced peach-bloom glaze]
+) <photo:peach-bloom>
 
 #narrow(margin: 1em)[
   #text(style: "italic")[
@@ -107,7 +107,10 @@ All these investigations have contributed to a better knowledge and understandin
   image("../assets/chinese-copper-red-glaze.jpg", width: 100%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Chinese copper red glaze, water pot, Guangxu period, Ch'ing dynasty. Chinese red through copper reduction.]
+  caption: flex-caption(
+    [Copper red water pot by reduction],
+    [Chinese copper red water pot, Guangxu period (1875–1908), Ch'ing dynasty. Created through copper reduction.]
+  )
 ) <fig:copper-red>
 
 #pagebreak()

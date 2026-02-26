@@ -45,16 +45,16 @@ The brown coloured cadmium oxide #ch("CdO") can be obtained by the combustion an
     [Synthetic material], [85], [
       Consumer goods, toys 35 % \ Food packing 35 % \ Technical articles 10 % \ Fibres, sanitary parts, Sport equipment 5 %]
   ),
-  caption: [Application of cadmium pigments in Germany 1981.]
+  caption: [Industrial application of cadmium pigments in Germany (1981) (Table X)]
 ) <tab:application-cadmium-pigments>
 
 #recipe[
-  The price of cadmium showed a high peak during the early part of this century (2006) but has come down now and is more or less stable as shown in @tab:price-cadmium.
+  The price of cadmium showed a high peak during the early part of this century (2006) but has come down now and is more or less stable as shown in @fig:price-cadmium.
 
   #figure(
     image("../../assets/cadmium-metal-price.jpg", width: 60%),
-    caption: [Price of cadmium metal. Source: www.metalprices.com]
-  ) <tab:price-cadmium>
+    caption: [Price trend of cadmium metal (US\$/lb) from 2000 to 2010 (Table XI)]
+  ) <fig:price-cadmium>
 ]
 
 The toxicity of cadmium is already subject of all kind of investigations, regulations, discussions and restrictions for use after the Itai-itai disease in Japan became a world-issue. Mining in the Toyama Prefecture by the Mitsui Mining and Smelting Co. was already done since long times. The Kamioka Mines in Toyama increased the output of the mines due to the wartime demands for zinc, lead and other metals caused by the Russian Japanese war and World War I. The output increased significantly before World War II and so did the cadmium contamination. The waste water contaminated the Jinzu river and all water what was used for preparing food, washing, drinking, fishing and irrigation of the rice fields.

@@ -12,7 +12,7 @@ The element chromium was in fact discovered when Johann Gottlob Lehmann found an
   image("../assets/crocoite-mineral.jpg"),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Mineral Crocoite (#ch("PbCrO4"))]
+  caption: [The mineral Crocoite (#ch("PbCrO4")), a natural lead chromate]
 ) <photo:crocoite-mineral>
 
 A few years later Peter Simon Pallas visited the same location again and discovered that this 'Siberian red lead' was very suitable as pigment for paints. The good resistance properties of paints with lead chromate made the application afterwards very common and some examples of the warm and signaling yellow colour are very well known as i.e. the colour of the school busses in the USA and the house colour of Deutsche Post. In more recent times, the lead chromate based paints and colours have been substituted more and more by organic and lead free compounds due to environmental and safety concerns.
@@ -66,7 +66,7 @@ This glaze has been supplied e.g. to Ceramica SMOV in Italy during the 70ties of
   image("../assets/smov-floor-tile.png"),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Ceramic floor tile as produced by Ceramica SMOV with a chromium red glaze]
+  caption: [Ceramic floor tile with chromium red glaze, produced by Ceramica SMOV (Italy)]
 ) <photo:smov-floor-tile>
 
 #recipe[
