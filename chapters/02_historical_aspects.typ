@@ -58,7 +58,7 @@ Similarly the famous Harris Tweed is said to be coloured with a type of lichen. 
 
 Besides these and other vegetable sources of red-making colours, there were also some animal-organic pigments in use. One on these was carmine. This was prepared from the female cochenille lice. The lice were dried and after boiling in water the colour was separated in the form of a sediment. The colouring component is mainly carmine acid. To make it more suitable as a pigment it was precipitated on a carrier, in most cases alum.
 
-It will be clear that there are a number of disadvantages with regard to these natural colours. The production methods, the inferior resistance to chemicals and UV light can be highlighted. The situation regarding the production and application of organic colours changed completely by the discovery of aniline. Aniline (from the Arab word anil = indigo plant) is an amine derived from benzene by substitution of a hydrogen atom by an amino group with the formula #ch("C6H5-NH2").
+It will be clear that there are a number of disadvantages with regard to these natural colours. The production methods, the inferior resistance to chemicals and UV light can be highlighted. The situation regarding the production and application of organic colours changed completely by the discovery of aniline. Aniline (from the Arab word anil = indigo plant) is an amine derived from benzene by substitution of a hydrogen atom by an amino group with the formula #ch("C6H5 - NH2").
 
 #v(3em)
 #figure(
@@ -75,7 +75,7 @@ Aniline was discovered by Otto Unverdorben in 1826. He succeeded in isolating th
 
 Aniline is a weak base with salts which can easily be hydrolyzed. The hydrogen atoms of the #ch("NH2") group can be replaced by alkali metals. A typical and important reaction of aniline and the other aryl amines is the formation of diazonium salts #ch("C6H5N2Cl") by the influence of #ch("HNO2"). These salts are starting points for hydrazines and for the important azo colours.
 
-Aniline is also the starting point for secondary bases from the type #ch("C6H5-NH-CH3") or #ch("C6H5-NH-C6H5") and of tertiary bases of the type #ch("C6H5-N(CH3)2"). These are mixed bases because they are both aliphatic and aromatic. They are produced by influence of alcohols on aniline under pressure in the presence of #ch("H2SO4"). The bases give under influence of #ch("HNO2") paranitroso combinations #ch("ON-C6H5-N(CH3)2"). These are the starting points for azine and oxazine colours.
+Aniline is also the starting point for secondary bases from the type #ch("C6H5 - NH - CH3") or #ch("C6H5 - NH - C6H5") and of tertiary bases of the type #ch("C6H5 - N(CH3)2"). These are mixed bases because they are both aliphatic and aromatic. They are produced by influence of alcohols on aniline under pressure in the presence of #ch("H2SO4"). The bases give under influence of #ch("HNO2") paranitroso combinations #ch("ON - C6H5 - N(CH3)2"). These are the starting points for azine and oxazine colours.
 
 All these organic colours, based on pure chemical reactions, have now replaced the natural colours. There is no need here to point out that the development of these colours could take place thanks to their durability advantages over the natural colours.
 
@@ -167,7 +167,7 @@ Hecht#super[@lit:hecht-keramische-rundschau] has determined the influence of gla
       table.header(
         table.cell(colspan: 2, align: center)[*Oxide composition*],
         table.cell(align: center)[*Seger formula*]),
-      [#ch("Na2O")], [25.62 %], [#ch("1.00 Na2O : 3.00 SiO2")],
+      [#ch("Na2O")], [25.62 %], [1.00 #ch("Na2O") : 3.00 #ch("SiO2")],
       [#ch("SiO2")], [74.38 %], [],
       table.hline(stroke: 0.5pt),
       [], [100.00 %], [],
