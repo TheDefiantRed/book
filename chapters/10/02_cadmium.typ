@@ -45,7 +45,7 @@ The brown coloured cadmium oxide #ch("CdO") can be obtained by the combustion an
     [Synthetic material], [85], [
       Consumer goods, toys 35 % \ Food packing 35 % \ Technical articles 10 % \ Fibres, sanitary parts, Sport equipment 5 %]
   ),
-  caption: [Industrial application of cadmium pigments in Germany (1981) (Table X)]
+  caption: [Industrial application of cadmium pigments in Germany (1981)]
 ) <tab:application-cadmium-pigments>
 
 #recipe[
@@ -53,7 +53,7 @@ The brown coloured cadmium oxide #ch("CdO") can be obtained by the combustion an
 
   #figure(
     image("../../assets/cadmium-metal-price.jpg", width: 60%),
-    caption: [Price trend of cadmium metal (US\$/lb) from 2000 to 2010 (Table XI)]
+    caption: [Price trend of cadmium metal (US\$/lb) from 2000 to 2010]
   ) <fig:price-cadmium>
 ]
 

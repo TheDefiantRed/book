@@ -24,14 +24,14 @@ It is already mentioned before how the first classical cadmium selenium red pigm
     [Purple Red], [69.90], [14.00], [16.10],
     [Blue Red], [69.90], [17.50], [12.60]
   ),
-  caption: [Chemical compositions of #ch("CdSSe") pigments for varied red and orange shades (Table XV)]
+  caption: [Chemical compositions of #ch("CdSSe") pigments for varied red and orange shades]
 ) <tab:compositions-cds-se-pigments>
 
 BASF found a way to improve the manufacturing through the wet precipitating process which has been described here earlier already.
 
 Those pigments have been improved all the time by several manufacturers especially during the middle period of the last century. The majority of the volume of these cadmium pigments was applied in plastics mainly (abt. 85 %) and only a minor part was applied in ceramics, see @tab:application-cadmium-pigments. The reason for this was that among other things the stability of the cadmium pigments was much better compared to the available organic colours of that time.#super[@lit:j-dickenson-the] They could easily withstand the higher temperatures at which the plastics must be formed, particle size was good and the necessary percentage for a good strong colour was rather low. Moreover, the organic colours of that time were fading out over time. Well known examples of that time were the plastic yellow, green and red beer and beverage crates of various famous breweries, household packaging, toys, etc. The overall disadvantage, however, of the classical #ch("CdSSe") pigments was the fact that they couldn't be applied in ceramics at temperatures higher than 1000 °C till 1020 °C maximum without losing too much colour strength or turning into dark / black discolorations. Therefore, the application in ceramics was mainly limited to decoration colours and porcelain enamels. For both counts a firing temperature of about 800 °C.
 
-An UK patent was filed in 1979 by Corning Glass Works#super[@lit:uk-patent-2] for improvement of the #ch("CdSSe") pigment, especially when applied as screen print decoration colour. Following the patent the classical pigment was mixed with a #ch("CdO-PbO-B2O3-SiO2") glass enamel flux, an organic vehicle for printing and also an amount of a potassium borosilicate glass. The composition was mixed in an ink mill and screened onto silkscreen paper. This layer was then covered by a second layer of the same glass enamel flux as used in the first layer. This principle of applying a second layer as transparent cover flux over a red coloured first layer is still applied on some occasions and also recommended when applying red colours as screen printing colour. It protects the red colour against negative influences from the kiln atmosphere resulting in a better, bright and high glossy red decoration colour.
+An UK patent was filed in 1979 by Corning Glass Works#super[@lit:uk-patent-2] for improvement of the #ch("CdSSe") pigment, especially when applied as screen print decoration colour. Following the patent the classical pigment was mixed with a #ch("CdO - PbO - B2O3 - SiO2") glass enamel flux, an organic vehicle for printing and also an amount of a potassium borosilicate glass. The composition was mixed in an ink mill and screened onto silkscreen paper. This layer was then covered by a second layer of the same glass enamel flux as used in the first layer. This principle of applying a second layer as transparent cover flux over a red coloured first layer is still applied on some occasions and also recommended when applying red colours as screen printing colour. It protects the red colour against negative influences from the kiln atmosphere resulting in a better, bright and high glossy red decoration colour.
 
 The improvements realised by the systems of melting-in cadmium, selenium and sulphur into glass (frit) compositions from the sixties and especially during the seventies of last century, resulted in much more stable yellow, orange to red glazes with a good resistance to high firing temperatures as required by the ceramic industry. The melted-in cadmium selenium glazes could therefore overtook the role of the classic pigmented yellow and red glazes (not the red decoration colours for onglaze firing at 800 °C) in the ceramic area during this period as also is shown in @tab:historical-review.
 
@@ -60,7 +60,7 @@ Higher firing temperatures were possible and this opened the way for application
 
 A real breakthrough for the pigments for ceramic glaze application was the invention of the first generation of inclusion pigments by Dr. Broll et al. as also described in US patent 3802900.#super[@lit:us-patent-3802900]
 
-The mechanism for including colour-giving components into a crystal structure was already known. An example was the #ch("SnZr") yellow colour which was encapsulated into the zircon crystal (1932, Stuckert, Degussa), the #ch("ZrV") blue (1948, Seabright, Harshaw) and the #ch("ZrFe") rose (1960, Seabright, Harshaw). The inclusion of a red pigment based on #ch("CdSSe") and #ch("ZrSiO4") was studied for years by H. H. Beyer, A. Broll, H. D. de Ahna and E. Meyer-Simon in the early 70ties. It resulted in the first generation of inclusion #ch("CdSSe") pigments into a zircon crystal.#super[@lit:p-kleinschmit-einschlusspigmente]#super[@lit:r-fischer-p]#super[@lit:dr-werner-vlker]
+The mechanism for including colour-giving components into a crystal structure was already known. An example was the #ch("SnZr") yellow colour which was encapsulated into the zircon crystal (1932, Stuckert, Degussa), the #ch("ZrV") blue (1948, Seabright, Harshaw) and the #ch("ZrFe") rose (1960, Seabright, Harshaw). The inclusion of a red pigment based on #ch("CdSSe") and #ch("ZrSiO4") was studied for years by H. H. Beyer, A. Broll, H. D. de Ahna and E. Meyer-Simon in the early 70ties. It resulted in the first generation of inclusion #ch("CdSSe") pigments into a zircon crystal.#super[@lit:p-kleinschmit-einschlusspigmente @lit:r-fischer-p @lit:dr-werner-vlker]
 
 As described by the patent the invention was that the #ch("CdS * CdSe") mixed crystal stain was formed in a calcinating process and that these mixed crystals were included in the #ch("ZrO2 * SiO2") crystals formed during the same process.
 
@@ -86,7 +86,7 @@ The following compositions are mentioned as examples in the patent:
     table.hline(stroke: 0.5pt),
     [], [5000], [220.1], [211.9]
   ),
-  caption: [Batch compositions for first-generation #ch("CdSSe") inclusion pigments (Table XVI)]
+  caption: [Batch compositions for first-generation #ch("CdSSe") inclusion pigments]
 ) <tab:raw-material-compositions>
 
 These mixtures were mixed with water for 15 minutes, poured into crucibles and fired at resp. 900 °C, 900 °C and 950 °C for 1 hour. After the firing the calcined products were treated with #ch("HNO3") to remove the excess of not included cadmium components. In this way resp. a light red (1), a bright red (2) and a yellow (4) colour was obtained.
@@ -143,7 +143,7 @@ Following the article, the authors concluded after investigations with XR-D and 
     [#ch("NaF")], [--], [14.3], [--], [14.3],
     [#ch("LiF")], [8.9], [--], [8.9], [--]
   ),
-  caption: [Experimental compositions for #ch("CdSSe") inclusion pigments (after Lambies Lavilla and Rincón López) (Table XVII)]
+  caption: [Experimental compositions for #ch("CdSSe") inclusion pigments (after Lambies Lavilla and Rincón López)]
 ) <tab:compositions-inclusion-pigments>
 
 An improvement to the system of encapsulated stains was realised by the BCRA (British Ceramic Research Association, now CERAM) during the 80ties of last century and published with UK patent 2 106 530 A.#super[@lit:uk-patent-2106530a] The basic principle of making the encapsulated stain was different as from the 1st generation. Following the BCRA patent the processes were following:
@@ -214,7 +214,10 @@ The BCRA produced this second generation of #ch("CdSSe") inclusion stain only on
 
 #figure(
   image("../../assets/encapsulated-stain.png"),
-  caption: [Microscopic view of an encapsulated #ch("CdS * CdSe") stain within a zircon (#ch("ZrO2 * SiO2")) crystal],
+  caption: flex-caption(
+    [#ch("CdS * CdSe") stain within a zircon (#ch("ZrO2 * SiO2")) crystal],
+    [Microscopic view of an encapsulated #ch("CdS * CdSe") stain within a zircon (#ch("ZrO2 * SiO2")) crystal]
+  ),
   kind: "photo",
   supplement: [Photograph]
 ) <photo:encapsulated-stain>

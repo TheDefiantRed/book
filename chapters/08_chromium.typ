@@ -1,6 +1,6 @@
 // Chapter 8: Chromium
 
-#import "../template.typ": recipe, composition, ch
+#import "../template.typ": recipe, composition, ch, flex-caption
 
 = CHROMIUM
 
@@ -66,7 +66,10 @@ This glaze has been supplied e.g. to Ceramica SMOV in Italy during the 70ties of
   image("../assets/smov-floor-tile.png"),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Ceramic floor tile with chromium red glaze, produced by Ceramica SMOV (Italy)]
+  caption: flex-caption(
+    [Ceramic floor tile with chromium red glaze (SMOV)],
+    [Ceramic floor tile with chromium red glaze, produced by Ceramica SMOV (Italy)]
+  )
 ) <photo:smov-floor-tile>
 
 #recipe[

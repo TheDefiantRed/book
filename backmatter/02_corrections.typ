@@ -1,3 +1,5 @@
+#import "../template.typ": ch
+
 = CORRECTIONS
 
 This section lists the specific corrections and adjustments made to the original manuscript during the conversion to PDF. They were made to ensure scientific accuracy, have consistent formatting, and improve readability while maintaining the original tone and intent of the book.
@@ -19,12 +21,10 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'chlorophyl' to 'chlorophyll'.
 - *Spelling:* Corrected 'carotenoides' to 'carotenoids'.
 - *Spelling:* Corrected '1, 2-dihydroxyantrachinon' to '1,2-dihydroxyanthraquinone'.
-- *Figure:* The grouped structure formula and photo of Alizarine was separated into  @fig:alizarine-structure-formula and @fig:alizarine-powder and separate captions were added.
-- *Figure:* @fig:alizarine-powder was replaced with the high resolution original from Wikimedia Commons and correctly attributed.
-- *Figure:* The grouped structure formula and molecular model of Alinine was separated into @fig:aniline-structure-formula and @fig:aniline-molecular-model and separate captions were added.
+- *Figure:* @fig:alizarine and @fig:alinine were replaced with the high-resolution originals.
 - *Figure:* Figure 5 in the book is now @tab:glaze-composition, increasing the total table count.
 - *Figure:* The Seger formula in @tab:glaze-composition was reformatted.
-- *Table:* Table VII was renamed to 'Lapis Lazuli-like blue body composition' to better reflect its purpose and the author's intent.
+- *Table:* @tab:body-composition was renamed to 'Lapis Lazuli-like blue body composition' to better reflect its purpose and the author's intent.
 
 #heading(level: 2, outlined: false)[Chapter 3: Iron]
 
@@ -74,10 +74,8 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'Itai Itai' to 'Itai-itai'.
 - *Spelling:* Standardised 'odorless', 'celestite', 'sulfuric', 'sulfide', 'sulfo', 'sulfite', 'color', 'laquer', and 'flower-of-sulphur' to British English ('odourless', 'celestine', 'sulphuric', 'sulphide', 'sulpho', 'sulphite', 'colour', 'lacquer', 'flowers of sulphur').
 - *Grammar:* Corrected 'this phenomena' to 'this phenomenon'.
-- *Formula:* Balanced the chemical equation for the precipitation of zinc-sulpho-selenide: $2"ZnCO"_3 dot.c 3"Zn(OH)"_2 + 3"SSe"^(2-) -> 2"ZnCO"_3 dot.c 3"ZnSSe" arrow.b + 6"OH"^-$ (was $2"ZnCO"_3.3"Zn(OH)"_2 + "SSe"^(2-) -> 2"ZnCO"_3.3"ZnSSe" arrow.b + 6"OH"^-$).
-
 - *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
-- *Photograph:* Moved @photo:walking-orange to the _Development of frits and glazes_ section of Chapter 10, where it is first mentioned.
+- *Photograph:* Moved @photo:walking-orange to the place of first mention, reordering photographs 17--19.
 
 #heading(level: 2, outlined: false)[Literature]
 

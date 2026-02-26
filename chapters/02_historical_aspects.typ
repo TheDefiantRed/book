@@ -31,31 +31,18 @@ The porphyrine compounds play an important role in the hemoglobin. It is well kn
 
 The carotenoids are another group of yellow, orange till red colours belonging to the group of tetraterpenes. A well known representative of this group is carotene, responsible for the orange colouring of carrots. Other representatives of this group of colours are responsible e.g. for the yellow colour of the dandelion, the orange/red colour of tomatoes and also for the yellow colour of the canary.
 
-Another organic possibility which was used to obtain a warm red colour came from the roots of the 'Rubia Tinctorum'. This plant was first cultivated in Asia (India, Iran, Egypt), followed by the countries around the Mediterranean. From the 16th century, the plant was also cultivated on a rather large scale in France and The Netherlands (mainly the south-west part). The dried and pulverized roots were used for colouring wool and silk.#super[@lit:dr-j-m] The important component here is alizarine (from the Arab word 'al oesara' = the sap). The chemical compound responsible for the colouring is 1,2-dihydroxyanthraquinone (#ch("C14H8O4")). This compound is intrinsically light coloured. When chemically bound with metal oxides (#ch("Al"), #ch("Zn")) the real vivid red colours become possible to produce. Similarly, clear red colours could be created (figures 3 and 4).
+Another organic possibility which was used to obtain a warm red colour came from the roots of the 'Rubia Tinctorum'. This plant was first cultivated in Asia (India, Iran, Egypt), followed by the countries around the Mediterranean. From the 16th century, the plant was also cultivated on a rather large scale in France and The Netherlands (mainly the south-west part). The dried and pulverized roots were used for colouring wool and silk.#super[@lit:dr-j-m] The important component here is alizarine (from the Arab word 'al oesara' = the sap). The chemical compound responsible for the colouring is 1,2-dihydroxyanthraquinone (#ch("C14H8O4")). This compound is intrinsically light coloured. When chemically bound with metal oxides (#ch("Al"), #ch("Zn")) the real vivid red colours become possible to produce. Similarly, clear red colours could be created (@fig:alizarine).
 
 #v(3em)
-#grid(
-  columns: (1fr, 1fr),
-  gutter: 2em,
-
-  [
-    #figure(
-      image("../assets/Alizaryna.svg", width: 90%),
-      caption: [Chemical structure formula of Alizarine]
-    ) <fig:alizarine-structure-formula>
-  ],
-
-  [
-    #figure(
-      image("../assets/Alizarin-sample.jpg", width: 90%),
-      caption: flex-caption(
-        [Alizarine red powder (synthetic)],
-        [Alizarine red powder. Wikimedia Commons, by Benjah-bmm27]
-      )
-    ) <fig:alizarine-powder>
-  ]
-)
-#v(3em)
+#figure(
+  grid(
+    columns: (1fr, 1fr),
+    gutter: 2em,
+    image("../assets/Alizaryna.svg", width: 90%),
+    image("../assets/Alizarin-sample.jpg", width: 90%),
+  ),
+  caption: [Alizarine]
+) <fig:alizarine>
 
 In 1868 Graebe and Liebermann succeeded in producing alizarine synthetically starting from coal tar. From that time the plant became unimportant and later on the alizarine itself also. One of the applications today of alizarine red is e.g. in the plastic industry but only to a minor extent. The reasons for this are its inferior heat resistance and its poor resistance to ultra violet light and chemicals.
 
@@ -74,25 +61,15 @@ Besides these and other vegetable sources of red-making colours, there were also
 It will be clear that there are a number of disadvantages with regard to these natural colours. The production methods, the inferior resistance to chemicals and UV light can be highlighted. The situation regarding the production and application of organic colours changed completely by the discovery of aniline. Aniline (from the Arab word anil = indigo plant) is an amine derived from benzene by substitution of a hydrogen atom by an amino group with the formula #ch("C6H5-NH2").
 
 #v(3em)
-#grid(
-  columns: (1fr, 1fr),
-  gutter: 2em,
-
-  [
-    #figure(
-      image("../assets/Aniline.svg", width: 40%),
-      caption: [Chemical structure formula of aniline (aminobenzene)]
-  ) <fig:aniline-structure-formula>
-  ],
-
-  [
-    #figure(
-      image("../assets/Aniline-3D-balls.png", width: 50%),
-     caption: [Molecular model of aniline (aminobenzene)]
-  ) <fig:aniline-molecular-model>
-  ]
-)
-#v(3em)
+#figure(
+  grid(
+    columns: (1fr, 1fr),
+    gutter: 2em,
+    image("../assets/Aniline.svg", width: 40%),
+    image("../assets/Aniline-3D-balls.png", width: 50%),
+  ),
+  caption: [Alinine (aminobenzene)]
+) <fig:alinine>
 
 Aniline was discovered by Otto Unverdorben in 1826. He succeeded in isolating the component from the products obtained by a dry distillation process of indigo. The preparation nowadays is done by reduction of nitrobenzene with the help of iron filings and diluted #ch("HCl"). Directly after the distillation the aniline is colourless but due to the influence of light a brownish colour appears. At temperatures as low as -6 °C the aniline solidifies. It has a slight but unpleasant smell and it is highly toxic.
 

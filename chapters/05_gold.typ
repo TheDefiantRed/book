@@ -25,7 +25,10 @@ After a peak in glass manufacturing high standards were reached e.g. in Egypt, M
   ),
   kind: "photo",
   supplement: [Photograph],
-  caption: [The Lycurgus bowl (c. AD 300), an example of dichroic gold-ruby glass]
+  caption: flex-caption(
+    [Lycurgus bowl],
+    [The Lycurgus bowl (c. AD 300), an example of dichroic gold-ruby glass]
+  )
 ) <photo:lycurgus-bowl>
 
 The monasteries, especially some Benedictine ones, could be seen as the defenders of the antique heritage and the guards of the transmitted literature, including those about glass manufacturing. In this respect the books in question from the bishop of Sevilla (7#super[th] century) and the bishop of Mainz (Hrabanus Maurus 'De universo', abt. 845) are dated back to Pliny, one of the main 'technical-encyclopaedists' of the ancient world.

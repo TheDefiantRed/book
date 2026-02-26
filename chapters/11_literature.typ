@@ -1,3 +1,5 @@
-#bibliography("../literature.yaml", title: "LITERATURE", style: "iso-690-numeric")
+= LITERATURE
+
+#bibliography("../literature.yaml", title: none, style: "iso-690-numeric")
 
 #pagebreak()

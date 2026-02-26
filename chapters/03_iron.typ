@@ -84,7 +84,10 @@ The fluxes are composed in such a way that they develop the colour as good as po
   image("../assets/greek-vase-showing-bright-red-and-black.jpg", width: 50%),
   kind: "photo",
   supplement: [Photograph],
-  caption: [Greek vase in Terra Sigillata technique, showing red and black colours from a single firing]
+  caption: flex-caption(
+    [Greek vase in Terra Sigillate technique],
+    [Greek vase in Terra Sigillata technique, showing red and black colours from a single firing]
+  )
 ) <photo:greek-vase>
 
 #recipe[
