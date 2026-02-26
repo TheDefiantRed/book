@@ -1,14 +1,10 @@
-// backmatter/02_corrections.typ
-// Corrections and Changelog
-
 = CORRECTIONS
 
-This section lists the specific corrections and adjustments made to the original manuscript during the conversion to PDF. These changes ensure scientific accuracy, consistent formatting, and improved readability while maintaining the original tone and intent of the book.
+This section lists the specific corrections and adjustments made to the original manuscript during the conversion to PDF. They were made to ensure scientific accuracy, have consistent formatting, and improve readability while maintaining the original tone and intent of the book.
 
 - *Figures:* Captions are now positioned _under_ all figures in slightly smaller, italic type.
-- *Captions:* Performed a comprehensive audit of all table, figure, and photograph captions. Data from the manuscript's original outline (index) was synthesized with on-page captions to provide more descriptive, professionally titled, and scientifically accurate labels. References to the original Roman numerals (Tables) and Arabic numerals (Photographs) were preserved in the captions for historical continuity.
+- *Captions:* Performed a comprehensive audit of all table, figure, and photograph captions. Data from the manuscript's original outline (index) was synthesized with on-page captions to provide more descriptive labels.
 - *Tables:* Readability and accessibility were improved by adding semantic structure and headers in bold type.
-- *Tables:* Moved units from content to header rows.
 - *Formulas:* Used centered dot ($dot.c$) for chemical adducts instead of period (.).
 - *Formulas:* The notation for oxidation states was standardized to the IUPAC recommended format (e.g., 'Cr(VI)') instead of the hyphenated form (e.g., 'Cr-VI') found in the manuscript.
 
