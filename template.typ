@@ -8,8 +8,6 @@
 // ==========================================
 #let font-size-main = 11pt
 #let font-size-small = 10pt
-#let margin-inside = 3cm
-#let margin-outside = 2.5cm
 
 // State to track if we are inside the outline for short captions
 #let in-outline = state("in-outline", false)
@@ -22,6 +20,9 @@
   }
 }
 
+/**
+ * Glaze recipes are inset, unbreakable and have whitespace.
+ */
 #let recipe(body) = block(
   width: 100%,
   breakable: false,
@@ -29,6 +30,9 @@
   below: 3em,
 )[#body]
 
+/**
+ * A narrow block is for lists, history, or any stand-out section.
+ */
 #let narrow(
   margin: 10%,
   body,
@@ -54,24 +58,38 @@
 )
 
 #let project(
-  title: "",
-  author: "",
-  date: datetime(year: 2026, month: 2, day: 22),
+  title: none,
+  author: (),
+  date: auto,
   keywords: (),
   description: none,
   body,
 ) = {
   // 1. Document & Page Globals
-  set document(title: title, author: author, date: date, keywords: keywords, description: description)
+  set document(
+    title: title,
+    author: author,
+    date: date,
+    keywords: keywords,
+    description: description
+  )
+
   set page(
     paper: "a4",
-    margin: (inside: margin-inside, outside: margin-outside),
+    margin: 30mm,
     numbering: "1",
   )
 
   // 2. Typography & Font Definitions
   set text(size: font-size-main, lang: "en")
-  set par(justify: true, leading: 0.65em)
+
+  set par(
+    justify: true,
+    justification-limits: (
+      tracking: (min: -0.01em, max: 0.02em)
+    ),
+    leading: 0.65em,
+  )
 
   // 3. Header Definitions
   set heading(numbering: "1.1")
