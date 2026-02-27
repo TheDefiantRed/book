@@ -8,6 +8,8 @@ When I once wrote on the website that this book *"describes all possibilities kn
 
 For years, ceramists and students have been asking me for copies of this highly regarded manuscript. This repository is the labor of love that finally makes it happen: a complete extraction, correction, and professional typesetting of a long-lost `thedefiantred final4.doc` file into a gorgeous, modern, open-source PDF.
 
+Latest PDF: <https://www.thedefiantred.com/download>
+
 ## About This Edition
 
 This is not a simple PDF export. I've taken the manuscript and given it the treatment it deserves:
