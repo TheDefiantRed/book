@@ -22,7 +22,6 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'carotenoides' to 'carotenoids'.
 - *Spelling:* Corrected '1, 2-dihydroxyantrachinon' to '1,2-dihydroxyanthraquinone'.
 - *Figure:* @fig:alizarine and @fig:alinine were replaced with the high-resolution originals.
-- *Figure:* Figure 5 in the book is now @tab:glaze-composition, increasing the total table count.
 - *Figure:* The Seger formula in @tab:glaze-composition was reformatted.
 - *Table:* @tab:body-composition was renamed to 'Lapis Lazuli-like blue body composition' to better reflect its purpose and the author's intent.
 
@@ -74,8 +73,6 @@ This section lists the specific corrections and adjustments made to the original
 - *Spelling:* Corrected 'Itai Itai' to 'Itai-itai'.
 - *Spelling:* Standardised 'odorless', 'celestite', 'sulfuric', 'sulfide', 'sulfo', 'sulfite', 'color', 'laquer', and 'flower-of-sulphur' to British English ('odourless', 'celestine', 'sulphuric', 'sulphide', 'sulpho', 'sulphite', 'colour', 'lacquer', 'flowers of sulphur').
 - *Grammar:* Corrected 'this phenomena' to 'this phenomenon'.
-- *Figure:* Labelled @fig:price-selenium a Figure, not a Table.
-- *Photograph:* Moved @photo:walking-orange to the place of first mention, reordering photographs 17--19.
 
 #heading(level: 2, outlined: false)[Literature]
 
@@ -86,8 +83,30 @@ This section lists the specific corrections and adjustments made to the original
   - US patent 3802900
   - UK patent 2 106 530 A
 - *Enrichment:* Corrected missing or incorrect metadata for books with ISBN.
-- *Formatting:* Entries were structured in YAML format to the Hayagriva specification.
 - *Formatting:* Entries are shown in ISO 690 format.
+
+#heading(level: 2, outlined: false)[Index Differences]
+
+The lists of tables, figures, and photographs have diverged from the original manuscript to better reflect the semantic content of the referenced materials. The following structural changes were made:
+
+- *Tables reclassified as Figures:*
+  - Manuscript Table IX (price graph of selenium metal) is now Figure 7.
+  - Manuscript Table XI (price graph of cadmium metal) is now Figure 8.
+- *Figures reclassified as Tables:*
+  - Manuscript Figure 5 (composition zukû glass) is now Table VI.
+- *New Table:*
+  - A new table, Table XV ("Short historical review of CdSe pigments vs. CdSe glazes"), was introduced.
+- *Renumbering (Tables):*
+  - The reclassifications and addition above shifted the numbering of tables.
+  - Manuscript Tables VI--VIII are now Tables VII--IX.
+  - Manuscript Table X remains Table X.
+  - Manuscript Tables XII--XV are now Tables XI--XIV.
+  - Manuscript Tables XVI--XVII remain Tables XVI--XVII.
+- *Renumbering (Figures):*
+  - Manuscript Figures 6--7 are now Figures 5--6.
+- *Photographs reordered:*
+  - Manuscript Photograph 19 ('Walking Orange') was moved to Photograph 17 to match the location of its first mention in the text.
+  - Consequently, Manuscript Photograph 17 is now Photograph 18, and Manuscript Photograph 18 is now Photograph 19.
 
 #heading(level: 2, outlined: false)[Acknowledgments]
 
