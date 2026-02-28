@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as follows."
+authors:
+  - family-names: "Baaij"
+    given-names: "Leendert W."
+title: "The Defiant Red: The definitive book on red ceramic glazes"
+abstract: "The definitive work describing all known possibilities to create red coloured glazes for ceramic application, covering elements such as iron, copper, gold, and cadmium selenium."
+version: "2026.02.27"
+doi: "10.5281/zenodo.18791884"
+date-released: "2026-02-27"
+url: "https://www.thedefiantred.com/"
+repository-code: "https://github.com/TheDefiantRed/book"
+keywords:
+  - chemistry
+  - book
+  - ebook
+  - "open-access"
+  - "materials-science"
+  - "color-science"
+  - pottery
+  - ceramics
+  - metallurgy
+  - pigments
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18791884"
+  - type: isbn
+    value: "PENDING" # Replace with the ISBN from mijnisbn.nl once received

@@ -19,6 +19,8 @@
 
     *E-book*\
     Copyright © 2026 Joost Baaij.\
+    #link("https://doi.org/10.5281/zenodo.18744218")[DOI 10.5281/zenodo.18744218] \
+    NUR 942/474 \
     The Typst code and formatting templates used in this project are licensed under the
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).\
     \

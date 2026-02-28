@@ -12,12 +12,13 @@ Latest PDF: <https://www.thedefiantred.com/download>
 
 ## About This Edition
 
-This is not a simple PDF export. I've taken the manuscript and given it the treatment it deserves:
+Instead of clicking "Save As...", I've taken the manuscript and given it the treatment it deserves:
 
 - **Typeset with Typst:** The entire book has been rewritten in [Typst](https://typst.app/), providing a modular, maintainable, and stunning layout.
-- **Chemistry Done Right:** I migrated hundreds of manual subscript-ridden chemical formulas to the robust `chemformula` package. We're talking proper precipitation arrows ($arrow.b$), scientifically accurate IUPAC oxidation states (like `Cr(VI)` instead of the old-school `Cr-VI`), and free-range, organic adduct dots.
+- **Chemistry Done Right:** I migrated hundreds of manual subscript-ridden chemical formulas to the robust `chemformula` package. We're talking proper precipitation arrows ($arrow.b$), scientifically accurate IUPAC oxidation states (like `Cr(VI)` instead of the old-school `Cr-VI`), and free-range, organic adduct dots instead of periods.
 - **Fact-Checked & Balanced:** I balanced precipitation equations, fixed historical names (it's *Nicolas-Louis Vauquelin*, let's not needlessly upset the French), and even corrected the mineralogy of sphalerite from `(Zn,Hg)S` to `(Zn,Fe)S` free of charge.
 - **Semantic Tables & Figures:** All recipes and oxide compositions have been meticulously aligned into semantic tables, ensuring that the flux data is as readable as it is useful.
+- **Up to date Literature:** I've cross-checked all referenced literature and deduplicated the list. I've completed and corrected missing information using online sources (for ISBNs).
 
 Every single material change, spelling fix, and grammatical correction has been painstakingly logged in the `backmatter/02_corrections.typ` file to maintain a transparent audit trail.
 
