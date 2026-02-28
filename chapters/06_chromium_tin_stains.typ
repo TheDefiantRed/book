@@ -183,7 +183,7 @@ Milling formula of the glaze is 90 parts of frit together with 10 parts of kaoli
 As mentioned, the calcination process gives some different possibilities to obtain reddish colours. However, also in this case none of them can compete or even come close to the clear and bright red colour having a dominate wavelength of about 614 nm. @photo:crsn-vase shows an example of a #ch("CrSn") coloured ceramic vase.
 
 #figure(
-  image("../assets/ceramic-vase-CrSn.jpg"),
+  image("../assets/ceramic-vase-CrSn.jpg", alt: "Vase with wine-red glossy CrSn glaze"),
   kind: "photo",
   supplement: [Photograph],
   caption: [Ceramic vase with #ch("CrSn") wine-red coloured glaze]

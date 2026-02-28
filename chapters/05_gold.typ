@@ -20,8 +20,8 @@ After a peak in glass manufacturing high standards were reached e.g. in Egypt, M
   grid(
     columns: (1fr, 1fr),
     gutter: 1em,
-    image("../assets/Lycurgus-bowl-1.jpg", width: 100%),
-    image("../assets/Lycurgus-bowl-2.jpg", width: 100%),
+    image("../assets/Lycurgus-bowl-1.jpg", width: 100%, alt: "Lycurgus bowl (c. AD 300), low light conditions, green coloured"),
+    image("../assets/Lycurgus-bowl-2.jpg", width: 100%, alt: "Same bowl, increased light, now red in colour"),
   ),
   kind: "photo",
   supplement: [Photograph],
@@ -123,7 +123,7 @@ Without doubt one can state that during the last 10 -- 15 years the (gold) decor
 
   [
     #figure(
-      image("../assets/lavender-rose.png"),
+      image("../assets/lavender-rose.png", alt: "White porcelain tea set (teapot with lid, teacup and saucer, and a plate behind) decorated with delicate garlands of small pink roses and green leaves"),
       kind: "photo",
       supplement: [Photograph],
       caption: flex-caption(
@@ -135,7 +135,7 @@ Without doubt one can state that during the last 10 -- 15 years the (gold) decor
 
   [
     #figure(
-      image("../assets/gold_plate_herend.png"),
+      image("../assets/gold_plate_herend.png", alt: "White porcelain dinner plate with a scalloped rim and subtle basketweave texture, decorated in deep pink-red with a central bouquet and smaller floral sprigs, plus thin red borders and small gold accents"),
       kind: "photo",
       supplement: [Photograph],
       caption: flex-caption(

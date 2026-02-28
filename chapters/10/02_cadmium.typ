@@ -52,7 +52,7 @@ The brown coloured cadmium oxide #ch("CdO") can be obtained by the combustion an
   The price of cadmium showed a high peak during the early part of this century (2006) but has come down now and is more or less stable as shown in @fig:price-cadmium.
 
   #figure(
-    image("../../assets/cadmium-metal-price.jpg", width: 60%),
+    image("../../assets/cadmium-metal-price.jpg", width: 60%, alt: "Chart showing the price of Cadmium metal, spiking around 2006 but stable afterwards"),
     caption: [Price trend of cadmium metal (US\$/lb) from 2000 to 2010]
   ) <fig:price-cadmium>
 ]

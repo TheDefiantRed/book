@@ -56,7 +56,7 @@ It can be stated that some natural circumstances were a cause that the Chinese c
 However, of greater importance in respect of the spreading of Chinese ceramics were the traders' activities of the Portuguese, soon followed by the Dutch. Especially the Dutch, after the establishment of the VOC (Vereenigde Oostindische Compagnie), had a great part in shipping an important amount of Chinese porcelain to the West European countries. These trading activities made the various manifestations of Chinese porcelain well known and also very popular in the Western world. The Portuguese Jesuit priest Père d'Entrecolles lived at Ching-tê Chên during the reign of the emperor K'ang Hsi of the Ch'ing dynasty. He wrote several letters in 1712 and 1722 describing the potting techniques at that time#super[@lit:pre-dentrecolles-lettres].
 
 #figure(
-  image("../assets/copper-reduced-glaze.jpg", width: 60%),
+  image("../assets/copper-reduced-glaze.jpg", width: 60%, alt: "Chinese vase with peach coloured copper reduced glaze"),
   kind: "photo",
   supplement: [Photograph],
   caption: [Copper reduced peach-bloom glaze]
@@ -104,7 +104,7 @@ Important contributions in respect of the development, the realization and the c
 All these investigations have contributed to a better knowledge and understanding of Chinese reds made through reduction of copper oxide. This offers the present artists a lead in their experiments but it is hardly imaginable that they will reach a higher level than the Chinese potters of the Sung dynasty. An example of copper red glaze can be seen on @fig:copper-red:
 
 #figure(
-  image("../assets/chinese-copper-red-glaze.jpg", width: 100%),
+  image("../assets/chinese-copper-red-glaze.jpg", width: 100%, alt: "Chinese pot with red coloured copper glaze"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(

@@ -216,7 +216,7 @@ The result of the process was that the stain had about 4 - 6 times as much pigme
 The BCRA produced this second generation of #ch("CdSSe") inclusion stain only on limited scale and the license for production was given to Blythe Colours / Johnson Matthey. The complicated way for production of the stain has always been a drag for making bigger volumes. Together with the health and safety measurements to be taken and the resulting sky-high production costs per kg it meant the end of this development. Dr. Jörg Keyn, however, mentioned in 2004 that with this second generation of #ch("CdSSe") encapsulated pigments the possibility has been created to make a real red colour.#super[@lit:dr-jrg-keyn]
 
 #figure(
-  image("../../assets/encapsulated-stain.png"),
+  image("../../assets/encapsulated-stain.png", alt: "Microscopic view of an encapsulated CdS.CdSe stain within a zircon crystal"),
   caption: flex-caption(
     [#ch("CdS * CdSe") stain within a zircon (#ch("ZrO2 * SiO2")) crystal],
     [Microscopic view of an encapsulated #ch("CdS * CdSe") stain within a zircon (#ch("ZrO2 * SiO2")) crystal]
@@ -234,7 +234,7 @@ Because of the threat of a complete ban on cadmium during the 80ties one was loo
 Besides the inclusion pigments as manufactured by the company Broll Buntpigmente, which soon will likely be the only manufacturer for these type of pigments left in Europe, another and third generation of very strong cadmium stains came on the market after 2000. This generation was developed and made in China and showed a stronger colour compared to the existing and available stains from West European origin. The internal Chinese market is demanding huge amounts of products and also red stains for the ceramic industry which is affecting prices of cadmium and selenium remarkably ever since about 2002. The Chinese manufacturers have found a way to produce the encapsulated #ch("CdSSe") pigments resulting in much stronger red, orange and yellow pigments than the existing ones.#super[@lit:preparation-of-chzrsio4]#super[@lit:synthetic-mechanism-of]#super[@lit:study-on-the]#super[@lit:research-and-development]#super[@lit:development-of-a] On top of that the production volumes are that high that there is also volume available for the export market. An estimation of the actual Chinese production of cadmium stains now (2010) is that the production of the cadmium stains is amounting to about 800 MT / month. An estimated production e.g. at Wanxing company is approximately 60 MT / month; at Jino approximately 80 MT/month and there are at least more than 10 other factories more producing cadmium pigments like Baifu, Hangzhou Hongyan Pigment Chemical Ltd Comp. (hy-pigment) and others. These factories will undoubtedly come to other than the Chinese markets with attractive prices for their strong cadmium selenium encapsulated stains. A company as Wangxing e.g. has already facilities in Turkey, Italy, Spain and Mexico.
 
 #figure(
-  image("../../assets/transparent-glaze-cdse.png", width: 80%),
+  image("../../assets/transparent-glaze-cdse.png", width: 80%, alt: "Transparent pot with a strong CdSe red stain"),
   caption: flex-caption(
     [Pigmented #ch("CdSe") red glaze (Newland Pottery)],
     [Lead-free transparent glaze coloured with a strong #ch("CdSe") red stain (2009). Courtesy of Newland Pottery BV, The Netherlands.]

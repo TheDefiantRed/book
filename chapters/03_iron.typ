@@ -81,7 +81,7 @@ Besides these still beautiful red colour of the Terra Sigillata from the past th
 The fluxes are composed in such a way that they develop the colour as good as possible and also have good properties with regard to gloss and acid resistance. Of course, one may call this colour red but compared to the #ch("CdSe") red colours it has a clearly brown component. The famous Japanese Imari colours (see @photo:imari-plate) are an example and a representative of this type of iron red onglaze colours.
 
 #figure(
-  image("../assets/greek-vase-showing-bright-red-and-black.jpg", width: 50%),
+  image("../assets/greek-vase-showing-bright-red-and-black.jpg", width: 50%, alt: "greek vase showing bright red and black glaze"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(
@@ -222,7 +222,7 @@ As a general rule here one can state that a longer firing cycle results in a mor
 Nowadays, these types of glazes are not as popular anymore. Especially, the tile manufacturers and more specifically the workers on the glazing lines do not regret this. Anyone who has worked with iron-red glazes in production knows that it is a 'dirty' part of ceramic production, although even the famous American writer John Updike has said: 'Ceramic, muddy Queen of Human Arts' in his poem 'Dance of the Solids'#super[@lit:john-updike-the].
 
 #figure(
-  image("../assets/imari-porcelain-plate.jpg", width: 100%),
+  image("../assets/imari-porcelain-plate.jpg", width: 100%, alt: "porcelain plate, decorated with flowers"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(
