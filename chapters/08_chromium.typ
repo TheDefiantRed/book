@@ -1,10 +1,10 @@
 // Chapter 8: Chromium
 
-#import "../template.typ": recipe, composition, ch, flex-caption
+#import "../template.typ": recipe, composition, ch, flex-caption, subtitle
 
 = CHROMIUM
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[Red results with a multi-colouring component.]
+#subtitle[Red results with a multi-colouring component.]
 
 The element chromium was in fact discovered when Johann Gottlob Lehmann found an orange-red mineral in the Beryozovskoye mines in the Ural Mountains in 1761. He called this mineral 'Siberian red lead' because he thought that it was a lead compound with selenium and iron. Later on, it appeared that he had found the mineral Crocoite which exists as leadchromate (#ch("PbCrO4")). See also @photo:crocoite-mineral.
 

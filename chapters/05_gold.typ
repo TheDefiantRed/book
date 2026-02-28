@@ -1,10 +1,10 @@
 // Chapter 5: Gold
 
-#import "../template.typ": narrow, recipe, ch, flex-caption
+#import "../template.typ": narrow, recipe, ch, flex-caption, subtitle
 
 = GOLD
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[The noble red.]
+#subtitle[The noble red.]
 
 Gold is often called the oldest known metal which was and still is used to express a particular richness and also as a standard of value. Specimens are found which could be dated from ancient human civilizations. The occurrence of the metal in pure form and the easy way of manufacture made it possible that it became one of the oldest known and applied metals.
 

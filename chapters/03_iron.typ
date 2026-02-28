@@ -1,7 +1,7 @@
 #import "@preview/cetz:0.4.2"
 #import "@preview/cetz-plot:0.1.3": plot, chart
 
-#import "../template.typ": recipe, narrow, composition, ch, flex-caption
+#import "../template.typ": recipe, narrow, composition, ch, flex-caption, subtitle
 
 #let flux-cols = (0.5fr, 1fr, 1.5fr, 1fr, 1.5fr, 1fr, 1.5fr)
 #let flux-stroke = none
@@ -11,7 +11,7 @@
 
 = IRON <iron>
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[The element with many-sided possibilities.]
+#subtitle[The element with many-sided possibilities.]
 
 The techniques of making warm and deep red coloured ceramics ware reached another culminating point during the Greek and Roman civilizations.
 

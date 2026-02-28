@@ -1,10 +1,10 @@
 // Chapter 7: Nickel
 
-#import "../template.typ": recipe, composition, ch
+#import "../template.typ": recipe, composition, ch, subtitle
 
 = NICKEL
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[A purplish red.]
+#subtitle[A purplish red.]
 
 Nickel was discovered by the Swedish chemist Axel Fredrik Cronstedt back in 1751 from niccolite (#ch("NiAs")) see @fig:niccolite-structure. He tried to isolate copper from the mineral but to his surprise at the end he had a silver-like powder what he called nickel. The name comes from the German 'Kupfernickel': German miners could not derive any copper from the ore and believed that a sprite from the German mythology named 'Nickel' did the copper disappear and put the other material instead. The nickel ore was at those times often confused with copper ore. As from 1881 nickel was used for coins and later on it has found many applications in the metallurgy. Most of the nickel today comes from pentlandite (#ch("NiS * 2FeS")), from garnierite or limonite. The main areas producing nickel are in Ontario / Canada, at Norilsk / Russia, at Cuba, Australia and Indonesia.
 

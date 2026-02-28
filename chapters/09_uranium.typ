@@ -1,10 +1,10 @@
 // Chapter 9: Uranium
 
-#import "../template.typ": recipe, composition, ch, flex-caption
+#import "../template.typ": recipe, composition, ch, flex-caption, subtitle
 
 = URANIUM
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[The radioactive red.]
+#subtitle[The radioactive red.]
 
 The history of uranium based red glazes is as a matter of fact of course a young but also a rather short one. Young because it developed only after the discovery of the element uranium and after the different oxides were put into operation. Short because one distinguished on one hand also the negative and dangerous properties with regard to radiation phenomena when people are exposed to these components and on the other hand governments also blocked the various applications, this in favour of the application for the investigations in the atomic energy area.
 

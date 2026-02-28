@@ -1,10 +1,10 @@
 // Chapter 4: Copper
 
-#import "../template.typ": narrow, recipe, ch, flex-caption
+#import "../template.typ": narrow, recipe, ch, flex-caption, subtitle
 
 = COPPER
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[A wonderful red through ceramic conversion.]
+#subtitle[A wonderful red through ceramic conversion.]
 
 As mentioned before, a completely different group of red coloured glazes are the reduction glazes. This type of glazes is achieved using copper as the main colorant while the glaze composition, and even of more importance, the specific firing conditions, are decisive for the final colour tone.
 
