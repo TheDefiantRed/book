@@ -1,15 +1,15 @@
 // Chapter 7: Nickel
 
-#import "../template.typ": recipe, composition, ch
+#import "../template.typ": recipe, composition, ch, subtitle
 
 = NICKEL
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[A purplish red.]
+#subtitle[A purplish red.]
 
 Nickel was discovered by the Swedish chemist Axel Fredrik Cronstedt back in 1751 from niccolite (#ch("NiAs")) see @fig:niccolite-structure. He tried to isolate copper from the mineral but to his surprise at the end he had a silver-like powder what he called nickel. The name comes from the German 'Kupfernickel': German miners could not derive any copper from the ore and believed that a sprite from the German mythology named 'Nickel' did the copper disappear and put the other material instead. The nickel ore was at those times often confused with copper ore. As from 1881 nickel was used for coins and later on it has found many applications in the metallurgy. Most of the nickel today comes from pentlandite (#ch("NiS * 2FeS")), from garnierite or limonite. The main areas producing nickel are in Ontario / Canada, at Norilsk / Russia, at Cuba, Australia and Indonesia.
 
 #figure(
-  image("../assets/niccolite-molecular-model.png"),
+  image("../assets/niccolite-molecular-model.png", alt: "niccolite molecular model"),
   kind: image,
   supplement: [Figure],
   caption: [Molecular model of niccolite (#ch("NiAs"))]
@@ -101,7 +101,7 @@ In 1964 an investigation was published by Franz Kure#super[@lit:ing-franz-kure] 
 Firing of this glaze was done at 1060 °C in an electrical fired kiln in a traditional cycle. The glaze surface has a matt finish and is rather stable between 1020 °C and 1080 °C.
 
 #figure(
-  image("../assets/violet-purple-nickel-glaze.jpg"),
+  image("../assets/violet-purple-nickel-glaze.jpg", alt: "Tile with violet purple nickel glaze"),
   kind: "photo",
   supplement: [Photograph],
   caption: [Violet-purple nickel-coloured glaze]

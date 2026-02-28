@@ -1,8 +1,9 @@
 // Chapter 10: Cadmium Selenium
+#import "../template.typ": subtitle
 
 = CADMIUM SELENIUM
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[A ceramic creation of real red colours.]
+#subtitle[A ceramic creation of real red colours.]
 
 Before describing the ins and outs of producing and application of cadmium selenium red, orange and yellow glazes a short description is given about the colour forming and therefore essential elements selenium, cadmium and sulphur.
 

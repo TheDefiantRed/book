@@ -818,7 +818,7 @@ Knowing the extensive lines for glaze application for wall- and floor tiles (mai
 Another example which shows how one could 'tailor-made' cadmium selenium glazes is shown by @photo:walking-orange. This ceramic tableau called 'Walking Orange' shows an outside of an orange which really looks like the real outside of an orange: a matt grainy surface and a so-called orange peel effect. The effect is created among other things by adding a course aluminium oxide and other raw materials to a mixture of a red and a yellow glaze. The inside, however, of the orange also looks exactly like the real inside of an orange: this surface is more soft and glossy. This is realised by adding soft lead fluxes the get a more shiny glaze. The ratio red to yellow glaze is also different for the outside and for the inside of the orange. The white veins are made by a stiffer zircon white glaze.
 
 #figure(
-  image("../../assets/walking-orange.png"),
+  image("../../assets/walking-orange.png", alt: "Ceramic tableau of an orange with feet, leaves and one slice outward"),
   caption: flex-caption(
     [“Walking Orange” (1978)],
     [“Walking Orange” (1978), a ceramic tableau by the author showcasing varied glaze textures]

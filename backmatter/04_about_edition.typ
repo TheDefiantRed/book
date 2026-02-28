@@ -17,7 +17,7 @@ This electronic edition fills the need of many a would-be customer who contacted
 #v(2em)
 
 #figure(
-  image("../assets/IMGP0891.JPG"),
+  image("../assets/IMGP0891.JPG", alt: "photo of L.W. Baaij"),
   caption: [L.W. Baaij (1947 – 2025)],
   kind: "photo",
   supplement: [Photograph],

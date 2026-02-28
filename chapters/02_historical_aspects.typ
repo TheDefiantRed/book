@@ -1,11 +1,11 @@
 // 02_historical_aspects.typ
 // Chapter 2: Historical Aspects of Red Colours
 
-#import "../template.typ": ch, flex-caption
+#import "../template.typ": ch, flex-caption, subtitle
 
 = HISTORICAL ASPECTS OF RED COLOURS <historical-aspects>
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[Including some thoughts about colours other than ceramic red colours.]
+#subtitle[Including some thoughts about colours other than ceramic red colours.]
 
 Although red is called the colour of activity it is remarkable that the ceramic industry had to wait roughly 8000 years before a more general use and application of the so-called pillar box or signal red colour was possible.
 
@@ -38,8 +38,8 @@ Another organic possibility which was used to obtain a warm red colour came from
   grid(
     columns: (1fr, 1fr),
     gutter: 2em,
-    image("../assets/Alizaryna.svg", width: 90%),
-    image("../assets/Alizarin-sample.jpg", width: 90%),
+    image("../assets/Alizaryna.svg", width: 90%, alt: "alizarine structural formula"),
+    image("../assets/Alizarin-sample.jpg", width: 90%, alt: "alizarine red powder"),
   ),
   caption: [Alizarine]
 ) <fig:alizarine>
@@ -65,8 +65,8 @@ It will be clear that there are a number of disadvantages with regard to these n
   grid(
     columns: (1fr, 1fr),
     gutter: 2em,
-    image("../assets/Aniline.svg", width: 40%),
-    image("../assets/Aniline-3D-balls.png", width: 50%),
+    image("../assets/Aniline.svg", width: 40%, alt: "aniline structural formula"),
+    image("../assets/Aniline-3D-balls.png", width: 50%, alt: "aniline molecular model"),
   ),
   caption: [Alinine (aminobenzene)]
 ) <fig:alinine>
@@ -123,7 +123,7 @@ Other evidence of the same kind for early ceramic cultures is found during the e
 From the translation of the so-called 'Glassmakers Tablet' which are available, namely one of C. J. Gadd and R. Campbell Thomson#super[@lit:c-j-gadd] and another one of A. L. Oppenheim#super[@lit:a-l-oppenheim], it is possible to get a view of the then present knowledge of glass- and glaze techniques.
 
 #figure(
-  image("../assets/glassmakers-tablet.jpg", width: 60%),
+  image("../assets/glassmakers-tablet.jpg", width: 60%, alt: "The Glassmakers Tablet, 17th century BC"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(
@@ -137,7 +137,7 @@ The text of the tablet is divided into five chapters. The first chapter gives th
 'Liballit-Marduk, Son of Ussur-an-Marduk, priest of Marduk, a man (native) of Babylon, Month of Tebet, 24th day, year after (which) Gulkishar (became) the king'.
 
 #figure(
-  image("../assets/glassmakers-tablet-chapters.jpg", width: 80%),
+  image("../assets/glassmakers-tablet-chapters.jpg", width: 80%, alt: "cuneiform reproduction of the Glassmakers Tablet"),
   caption: [Chapters 1 and 2 of the Glassmakers Tablet (reproduction)]
 ) <fig:chapters-glassmakers>
 
@@ -227,7 +227,7 @@ Hecht#super[@lit:hecht-keramische-rundschau] has determined the influence of gla
 Although series of trials were also performed in a gas-heated kiln (natural gas) under reducing conditions, it was not possible to obtain (copper) reduced glazes with a reddish colour. Only the blue colour as well known from the ancient times showed up. Based on these facts it may be supposed that the glaze as prescribed on the BM 120960 tablet may have looked like the glaze on @fig:blue-glaze. The BM 120960 Glassmakers Tablet, some 3700 years old, may therefore be considered as one of the first written ceramic recipes (although not a red glaze) and the start of publishing and collecting of ceramic data.
 
 #figure(
-  image("../assets/blue-alkaline-copper-glaze.jpg", width: 80%),
+  image("../assets/blue-alkaline-copper-glaze.jpg", width: 80%, alt: "blue alkaline copper glaze ceramics"),
   kind: "photo",
   supplement: [Photograph],
   caption: [Blue alkaline copper glaze based on the oldest known records]

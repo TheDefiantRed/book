@@ -1,10 +1,10 @@
 // Chapter 9: Uranium
 
-#import "../template.typ": recipe, composition, ch, flex-caption
+#import "../template.typ": recipe, composition, ch, flex-caption, subtitle
 
 = URANIUM
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[The radioactive red.]
+#subtitle[The radioactive red.]
 
 The history of uranium based red glazes is as a matter of fact of course a young but also a rather short one. Young because it developed only after the discovery of the element uranium and after the different oxides were put into operation. Short because one distinguished on one hand also the negative and dangerous properties with regard to radiation phenomena when people are exposed to these components and on the other hand governments also blocked the various applications, this in favour of the application for the investigations in the atomic energy area.
 
@@ -362,7 +362,7 @@ Apart from that, Viehweger stated that it was no longer allowed to use uranium c
 Nowadays we can only wonder that the use of these compounds was rather wide spread. Till the 2#super[nd] World War however, when all uranium compounds were claimed for nuclear investigations, it was a way to create orange and red ceramic colours which was impossible to do in another way. Still today, the glazes have a very good, nice and brilliant appearance. There are various examples in factory musea in several countries which I have seen and the tomato red colour was still impressive. An example is shown by @photo:uranium-glaze. It shows an uranium glaze made by the famous ceramic factory Mobach in Utrecht / The Netherlands. This and other uranium based glazes were made around 1930.
 
 #figure(
-  image("../assets/uranium-glaze.jpg", width: 60%),
+  image("../assets/uranium-glaze.jpg", width: 60%, alt: "Vase with orange Uranium glaze on the inside"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(
@@ -374,7 +374,7 @@ Nowadays we can only wonder that the use of these compounds was rather wide spre
 Another example is the Homer Laughlin factory in East Liverpool - Ohio / USA. They make the so-called Fiesta ware (dinnerware in earthenware) in various colours ever since 1936. It included at that time a red-orange colour which was made through a uranium red glaze (@photo:uranium-fiesta).
 
 #figure(
-  image("../assets/uranium-fiesta.jpg", width: 60%),
+  image("../assets/uranium-fiesta.jpg", width: 60%, alt: "Bright orange dinnerware with Uranium glaze"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(

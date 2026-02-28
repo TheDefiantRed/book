@@ -57,6 +57,16 @@
   ..cells,
 )
 
+/**
+ * Chapter subtitle or description.
+ */
+#let subtitle(body) = {
+  set block(above: 0.5em, below: 2em)
+  align(center, block(width: 85%)[
+    #text(style: "italic", fill: rgb("#666666"), size: 1.15em, body)
+  ])
+}
+
 #let project(
   title: none,
   author: (),
@@ -93,11 +103,7 @@
 
   // 3. Header Definitions
   set heading(numbering: "1.1")
-  show heading: it => {
-    v(1em)
-    it
-    v(0.5em)
-  }
+  show heading: set block(below: 2em)
 
   // 4. Global Styling Rules
 
@@ -106,14 +112,6 @@
     in-outline.update(true)
     it
     in-outline.update(false)
-  }
-
-  // Subtitles (Semantic figure)
-  show figure.where(kind: "subtitle"): it => {
-    set block(above: 0.5em, below: 2em) // Override default figure spacing
-    align(center, block(width: 85%)[
-      #text(style: "italic", fill: rgb("#666666"), size: 1.15em, it.body)
-    ])
   }
 
   // General Figures (Tables and Images)

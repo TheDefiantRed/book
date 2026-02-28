@@ -1,10 +1,10 @@
 // Chapter 6: Chromium Tin Stains
 
-#import "../template.typ": recipe, narrow, composition, ch
+#import "../template.typ": recipe, narrow, composition, ch, subtitle
 
 = CHROMIUM TIN STAINS
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[Red shades through calcination.]
+#subtitle[Red shades through calcination.]
 
 A completely different way to obtain reddish colours in ceramics is making use of calcined stains e.g. of the chromium tin calcium based type. Besides this rather big family of stains there are also other possibilities to obtain lighter, more rose colour tones like #ch("MnAl") stains and #ch("CrAl") stains. Lilac colour stains are normally based on #ch("Sn") and #ch("Cr") with a small amount of cobalt to turn the lilac more into the bluish shade. The bigger family of #ch("CrSnCa") stains has different members but most of them have a maroon, crimson, wine-red or cherry-red like appearance with light and darker members and with reddish or more blue-reddish family members. The final colour depends e.g. on the amount of chromium in the composition, which other components are present, on the processing of the stain but also on the composition of the glaze in which the stain is applied.
 
@@ -183,7 +183,7 @@ Milling formula of the glaze is 90 parts of frit together with 10 parts of kaoli
 As mentioned, the calcination process gives some different possibilities to obtain reddish colours. However, also in this case none of them can compete or even come close to the clear and bright red colour having a dominate wavelength of about 614 nm. @photo:crsn-vase shows an example of a #ch("CrSn") coloured ceramic vase.
 
 #figure(
-  image("../assets/ceramic-vase-CrSn.jpg"),
+  image("../assets/ceramic-vase-CrSn.jpg", alt: "Vase with wine-red glossy CrSn glaze"),
   kind: "photo",
   supplement: [Photograph],
   caption: [Ceramic vase with #ch("CrSn") wine-red coloured glaze]

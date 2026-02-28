@@ -37,7 +37,7 @@ Selenium, with atom number 34, has an atomic weight of 78.96. Its melting point 
 The price of selenium has long been on a stable and low level but has increased incredibly as from 2003. Reason for this is the enormous demand for selenium from China for application in the ceramic and glass industry as well as fertilizer for the Chinese soil. A general price level in 2000 was US\$ 5.50/kg but in 2009 it was already increased to US\$ 88.10/kg and increasing. See also @fig:price-selenium which shows the remarkable price increase shortly after 2003.
 
 #figure(
-  image("../../assets/selenium-metal-price.jpg", width: 70%),
+  image("../../assets/selenium-metal-price.jpg", width: 70%, alt: "Chart showing the price of Selenium metal, increasing sharply from 2005"),
   caption: [Price trend of selenium metal (US\$/kg) from 2000 to 2010]
 ) <fig:price-selenium>
 

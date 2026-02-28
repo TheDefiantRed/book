@@ -1,15 +1,15 @@
 // Chapter 8: Chromium
 
-#import "../template.typ": recipe, composition, ch, flex-caption
+#import "../template.typ": recipe, composition, ch, flex-caption, subtitle
 
 = CHROMIUM
 
-#figure(kind: "subtitle", supplement: none, numbering: none)[Red results with a multi-colouring component.]
+#subtitle[Red results with a multi-colouring component.]
 
 The element chromium was in fact discovered when Johann Gottlob Lehmann found an orange-red mineral in the Beryozovskoye mines in the Ural Mountains in 1761. He called this mineral 'Siberian red lead' because he thought that it was a lead compound with selenium and iron. Later on, it appeared that he had found the mineral Crocoite which exists as leadchromate (#ch("PbCrO4")). See also @photo:crocoite-mineral.
 
 #figure(
-  image("../assets/crocoite-mineral.jpg"),
+  image("../assets/crocoite-mineral.jpg", alt: "Cluster of bright red, semi-translucent crocoite crystals with long bladed spikes"),
   kind: "photo",
   supplement: [Photograph],
   caption: [The mineral Crocoite (#ch("PbCrO4")), a natural lead chromate]
@@ -63,7 +63,7 @@ Chromium red glazes can approximate the appearance of #ch("CdSe") colour quite c
 This glaze has been supplied e.g. to Ceramica SMOV in Italy during the 70ties of last century. They have applied the glaze onto a floor tile with high relief. In such a case one did not scratch the glaze too much because one is walking onto the relief of the tile itself (see also @photo:smov-floor-tile).
 
 #figure(
-  image("../assets/smov-floor-tile.png"),
+  image("../assets/smov-floor-tile.png", alt: "Bright red floor tile with intricate decoration and a glossy finish"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(

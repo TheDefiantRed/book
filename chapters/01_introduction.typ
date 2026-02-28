@@ -47,7 +47,7 @@ If one measures a typical example of a #ch("CdSe") glaze prepared through the me
 ) <tab:colour-measurement-zeiss>
 
 #figure(
-  image("../assets/cie-chromatic-diagram.png", width: 80%),
+  image("../assets/cie-chromatic-diagram.png", width: 80%, alt: "a horseshoe-shaped color gamut filled with a smooth rainbow gradient (blue/green on the left, red on the right), with x and y axes on a faint grid"),
   caption: [CIE chromatic diagram]
 ) <fig:cie-chromatic-diagram>
 
@@ -148,7 +148,7 @@ It may also be stated that it is commonly known that the higher the firing tempe
 The peak in application of cadmium selenium glazes was in the seventies and eighties of last century when thousands of tons of cadmium selenium glazes were produced per annum by the main West European manufacturers and applied onto wall- and floor tiles, vases, dinnerware and giftware. Colours are, however, also strongly dependent on colour trends for interior textiles and follow e.g. the directions as given by the ICA (International Colour Authority) and other organisations in this field. Although today such huge quantities are not applied anymore, there will always be a place also in ceramics for the application of red glazes.
 
 #figure(
-  image("../assets/vase-tokio.jpg"),
+  image("../assets/vase-tokio.jpg", alt: "vase with glossy red CdSe glaze and hand-painted decoration"),
   kind: "photo",
   supplement: [Photograph],
   caption: flex-caption(
