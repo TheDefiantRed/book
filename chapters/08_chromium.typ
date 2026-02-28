@@ -54,8 +54,10 @@ Chromium red glazes can approximate the appearance of #ch("CdSe") colour quite c
       [frit], [62.50 %], [],
       [tin oxide], [6.25 %], [],
       [basic lead chromate], [31.25 %], [(#ch("2PbO * PbCrO4"))],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %], []
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [100.00 %], []
+      )
     )
   )
 ]
@@ -98,8 +100,10 @@ This glaze has been supplied e.g. to Ceramica SMOV in Italy during the 70ties of
       [tin oxide], [7.8 %],
       [feldspar (#ch("Na,K")) fine], [3.2 %],
       [potassium dichromate], [7.8 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.0 %]
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [100.0 %]
+      )
     )
   )
 ]

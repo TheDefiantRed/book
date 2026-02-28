@@ -49,8 +49,10 @@ During the 50ties and 60ties of last century there were mainly two ways to produ
     [cadmium sulphide], [2.50 %],
     [cadmium carbonate], [2.00 %],
     [bentonite], [1.00 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   ))
 ]
 
@@ -68,8 +70,10 @@ For red glazes there was a similar way: on one hand the method of adding a #ch("
     [quartz fine], [1.50],
     [calcium phosphate], [0.80],
     [red stain #ch("CdSSe")], [1.35],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   ))
 ]
 
@@ -129,8 +133,8 @@ The fact that frit and glaze compositions often have a preferred composition for
     columns: 5,
     stroke: none,
     align: (left, center, center, center, center),
-    table.hline(stroke: 0.5pt),
     table.header(
+      table.hline(stroke: 0.5pt),
       [*Prod. ref.*],
       [
         *43276* \
@@ -147,9 +151,9 @@ The fact that frit and glaze compositions often have a preferred composition for
       [
         *53451* \
         *Ferro Holl.*
-      ]
+      ],
+      table.hline(stroke: 0.5pt)
     ),
-    table.hline(stroke: 0.5pt),
     [#ch("Li2O")], [ca 0.12 %], [ca 0.12 %], [ca 0.28 %], [0.15 %],
     [#ch("Na2O")], [6.0], [6.5], [7.4], [7.6],
     [#ch("K2O")], [1.3], [4.5], [8.0], [0.6],
@@ -181,9 +185,11 @@ The development for a more stable glaze formulation was soon focused on the spli
     columns: 2,
     stroke: none,
     align: (left, left),
-    table.hline(stroke: 0.5pt),
-    table.header([*Cd containing frit*], [*S containing frit*]),
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Cd containing frit*], [*S containing frit*],
+      table.hline(stroke: 0.5pt)
+    ),
 
     [Melting conditions], [Melting conditions],
     [(i) oxidizing], [(iv) oxidizing],
@@ -357,8 +363,10 @@ Also in these cases a significant improvement was realised with regards to a dec
     [boric acid], [4.27 %],
     [cadmium oxide], [1.70 %],
     [zinc selenite #ch("ZnSeO3")], [2.13 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   ))
 ]
 
@@ -379,8 +387,10 @@ The knowledge of the new frits as developed for the yellow frits and glazes was 
     [boric acid], [4.23 %],
     [norit], [2.00 %],
     [zinc-sulpho-selenide], [2.33 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   ))
 ]
 
@@ -390,16 +400,16 @@ Through XR-F analyses a comparison was made between the 'traditional' melted fri
   table(
     columns: 8,
     stroke: none,
-    table.hline(stroke: 0.5pt),
     table.header(
+      table.hline(stroke: 0.5pt),
       table.cell(colspan: 2)[*contains*],
       [*theoretical*],
       [*amount*],
       [*after*],
       [*melting*],
       table.cell(colspan: 2)[*% volat.*],
+      table.hline(stroke: 0.5pt)
     ),
-    table.hline(stroke: 0.5pt),
     [], [], [], [], [], [], [], [],
     [*old*], [*new*], [*old*], [*new*], [*old*], [*new*], [*old*], [*new*],
     [#ch("CdO")], [-], [1.90 %], [-], [0.14 %], [-], [92.6 %], [-],
@@ -479,8 +489,10 @@ Together with this type of matt frits some special cadmium selenium glazes for a
     [Ba-aluminate], [16.2 %],
     [kaolin], [4.3 %],
     [alum. oxide fine], [3.4 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.0 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.0 %]
+    )
   ))
 ]
 
@@ -496,8 +508,10 @@ Together with this type of matt frits some special cadmium selenium glazes for a
     [basic cadmium frit low c.o.e. version], [15.4 %],
     [Ba-Al-Si frit], [43.8 %],
     [kaolin], [3.6 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.0 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.0 %]
+    )
   ))
 ]
 
@@ -515,8 +529,10 @@ Together with this type of matt frits some special cadmium selenium glazes for a
     [Na/K/Ca/Al/B/Si frit], [16.5 %],
     [alum.oxide fine], [6.7 %],
     [ball clay], [5.8 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.0 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.0 %]
+    )
   ))
 ]
 
@@ -537,8 +553,10 @@ Another method for making matt cadmium selenium glazes was the addition of bariu
     [lead alum silicate frit], [15.0 %],
     [kaolin], [1.7 %],
     [bentonite], [0.3 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.0 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.0 %]
+    )
   ))
 ]
 
@@ -558,8 +576,10 @@ Cadmium selenium glazes for screen print application were specially developed. N
     [Na-B silicate], [21.4 %],
     [zircon frit], [5.7 %],
     [zinkoxide], [3.0 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.0 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.0 %]
+    )
   ))
 ]
 
@@ -574,9 +594,11 @@ From the basic frits there have been developed various standard cadmium selenium
     columns: 3,
     stroke: none,
     align: (left, left, left),
-    table.hline(stroke: 0.5pt),
-    table.header([*material*], [*addition*], [*result*]),
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*material*], [*addition*], [*result*],
+      table.hline(stroke: 0.5pt)
+    ),
     [corundum], [10 to 30 parts], [higher abrasion resistance],
     [zirconium silicate], [10 to 30 parts], [higher abrasion resistance],
     [mixture of wollastonite, al.oxide, kaolin and petalite], [20 to 30 parts], [higher abrasion resistance],
@@ -607,8 +629,10 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     [cadmium selenium red glaze], [36.19 %],
     [cadmium yellow glaze (93618)], [40.95 %],
     [high boron frit u/l milled], [22.86 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %],
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   )
 )
 
@@ -629,8 +653,10 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     [high boron frit u/l milled], [15.00 %],
     [lead aluminium silicate milled], [5.00 %],
     [zircon silicate $5mu$], [5.00 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %],
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   )
 )
 
@@ -651,8 +677,10 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     [lead boron silicate milled], [22.93 %],
     [kaolin], [4.92 %],
     [corundum], [9.85 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %],
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   )
 )
 
@@ -684,8 +712,10 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     [zinc oxide], [0.78 %], [--],
     [bentonite], [0.58 %], [--],
     [corundum 100], [9.40 %], [9.08 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %], [100.00 %]
+    )
   ))
 
 
@@ -706,8 +736,10 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     [cadmium yellow glaze], [39.0 %],
     [alum. oxide fine], [8.0 %],
     [zinc oxide], [3.0 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %],
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   )
 )
 
@@ -730,8 +762,10 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     [zircon silicate $5mu$], [2.5 %],
     [talcum], [2.0 %],
     [bentonite], [0.5 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %],
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   )
 )
 
@@ -751,8 +785,10 @@ In this way many standard cadmium selenium glazes have been customized to fit cu
     [cadmium yellow glaze (93618)], [12.27 %],
     [Ba / Al / Si matt frit milled], [21.47 %],
     [kaolin], [4.91 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %],
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   )
 )
 

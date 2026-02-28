@@ -13,9 +13,11 @@ Selenium, with atom number 34, has an atomic weight of 78.96. Its melting point 
     columns: 2,
     stroke: none,
     align: (left, right),
-    table.hline(stroke: 0.5pt),
-    table.header([*Country*], [*#ch("Se") metal in MTons 2003*]),
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Country*], [*#ch("Se") metal in MTons 2003*],
+      table.hline(stroke: 0.5pt)
+    ),
     [Belgium], [200],
     [Germany], [100],
     [Russia], [81],
@@ -25,8 +27,10 @@ Selenium, with atom number 34, has an atomic weight of 78.96. Its melting point 
     [China], [65],
     [Japan], [734],
     [Other countries], [267],
-    table.hline(stroke: 0.5pt),
-    table.footer([*World total*],[*1,900*])
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [*World total*],[*1,900*]
+    )
   ),
   caption: flex-caption(
     [World production of selenium metal (2003)],

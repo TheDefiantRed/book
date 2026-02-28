@@ -76,8 +76,10 @@ In former days one used to make first a calcium stannate out of calcium carbonat
     [quartz], [38.89 %],
     [tin oxide], [19.40 %],
     [lead chromate], [2.80 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   ))
 ]
 
@@ -93,8 +95,10 @@ In former days one used to make first a calcium stannate out of calcium carbonat
     [tin oxide], [42.60 %],
     [potassium dichromate], [0.72 %],
     [red lead oxide], [8.50 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   ))
 ]
 

@@ -88,8 +88,10 @@ Other important investigations were undertaken in the 1880ies at Sèvres. Analys
     [#ch("Fe2O3")], [0.91 %],
     [#ch("Al2O3")], [6.57 %],
     [#ch("SiO2")],     [70.18 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.25 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.25 %]
+    )
   ))
 ]
 

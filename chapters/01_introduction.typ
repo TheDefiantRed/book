@@ -36,9 +36,11 @@ If one measures a typical example of a #ch("CdSe") glaze prepared through the me
     columns: (auto, 1fr, 1fr, 1fr, 1fr, 1fr),
     stroke: none,
     align: (left, center, center, center, center, center),
-    table.hline(stroke: 0.5pt),
-    [*Sample*], [*x*], [*y*], [*$lambda_d$*], [*$sigma$*], [*Y*],
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Sample*], [*x*], [*y*], [*$lambda_d$*], [*$sigma$*], [*Y*],
+      table.hline(stroke: 0.5pt)
+    ),
     [#ch("CdSe") sample (i)],  [0.637], [0.327], [612.0], [90.50], [9.67],
     [#ch("CdSe") sample (ii)], [0.646], [0.321], [614.5], [91.00], [8.41],
     table.hline(stroke: 0.5pt)
@@ -58,9 +60,11 @@ Another type of colorimeter is the Hunterlab colorimeter, also including advance
     columns: (auto, 1fr, 1fr, 1fr),
     stroke: none,
     align: (left, center, center, center),
-    table.hline(stroke: 0.5pt),
-    [*Sample*], [*L*], [*a*], [*b*],
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Sample*], [*L*], [*a*], [*b*],
+      table.hline(stroke: 0.5pt)
+    ),
     [#ch("CdSe") sample (i)],  [+30.46], [+52.69], [+19.05],
     [#ch("CdSe") sample (ii)], [+27.98], [+52.80], [+17.65],
     table.hline(stroke: 0.5pt)
@@ -77,9 +81,11 @@ The typical colour characteristics of the #ch("CdSe") glazes as shown in the Tab
     columns: (auto, 1fr, 1fr, 1fr, 1fr, 1fr),
     stroke: none,
     align: (left, center, center, center, center, center),
-    table.hline(stroke: 0.5pt),
-    [*Colour sample*], [*x*], [*y*], [*$lambda_d$*], [*$sigma$*], [*Y*],
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Colour sample*], [*x*], [*y*], [*$lambda_d$*], [*$sigma$*], [*Y*],
+      table.hline(stroke: 0.5pt)
+    ),
     [#ch("CdSe") sample (i)],  [0.637], [0.327], [612.0], [90.50], [9.67],
     [#ch("CdSe") sample (ii)], [0.646], [0.321], [614.5], [91.00], [8.41],
     [#ch("CrSn") red],         [0.581], [0.314], [618.0], [72.00], [2.59],
@@ -97,9 +103,11 @@ As there are no colours which can be considered as standard colours for the vari
     columns: (auto, 1fr, 1fr),
     stroke: none,
     align: (left, left, left),
-    table.hline(stroke: 0.5pt),
-    [*Colour sample*], [*Glaze reference*], [*Firing temp. / cycle*],
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Colour sample*], [*Glaze reference*], [*Firing temp. / cycle*],
+      table.hline(stroke: 0.5pt)
+    ),
     [#ch("CdSe") sample (i)],  [Transp. frit + #ch("CdSSe") stain R125AT\*], [1040 °C / 12 hrs c.t.c.],
     [#ch("CdSe") sample (ii)], [12.95672.00\*\*],                      [1040 °C / 12 hrs c.t.c.],
     [#ch("CrSn") red],         [12.55028.00\*\*],                      [1020 °C / 12 hrs c.t.c.],

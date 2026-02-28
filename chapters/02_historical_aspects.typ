@@ -90,9 +90,11 @@ Iron is the most important natural colorant in clays. Together with some other c
     columns: (auto, auto, auto, auto, auto, auto, auto),
     align: (left, center, center, center, center, center, left),
     stroke: none,
-    table.hline(stroke: 0.5pt),
-    [*Name*], [*#ch("Fe2O3")*], [*#ch("MnO2")*], [*#ch("Al2O3")*], [*#ch("SiO2")*], [*Moisture content*], [*colour*],
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Name*], [*#ch("Fe2O3")*], [*#ch("MnO2")*], [*#ch("Al2O3")*], [*#ch("SiO2")*], [*Moisture content*], [*colour*],
+      table.hline(stroke: 0.5pt)
+    ),
     [Yellow ochre], [17 -- 60], [-], [10 -- 40], [35 -- 50], [10 -- 12], [yellow / brown],
     [Red ochre],    [20 -- 40], [-], [10 -- 15], [35 -- 50], [5 -- 10], [red],
     [Sienna],       [25 -- 75], [little], [10 -- 20], [10 -- 35], [15 -- 20], [yellow / brown],
@@ -163,14 +165,17 @@ Hecht#super[@lit:hecht-keramische-rundschau] has determined the influence of gla
       columns: (auto, auto, auto),
       stroke: none,
       align: (right, left, left),
-      table.hline(stroke: 0.5pt),
       table.header(
+        table.hline(stroke: 0.5pt),
         table.cell(colspan: 2, align: center)[*Oxide composition*],
-        table.cell(align: center)[*Seger formula*]),
+        table.cell(align: center)[*Seger formula*]
+      ),
       [#ch("Na2O")], [25.62 %], [1.00 #ch("Na2O") : 3.00 #ch("SiO2")],
       [#ch("SiO2")], [74.38 %], [],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %], [],
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [100.00 %], []
+      )
     ),
     caption: [Calculated composition of zukû glass from the Glassmakers Tablet]
   ) <tab:glaze-composition>
@@ -181,22 +186,25 @@ Hecht#super[@lit:hecht-keramische-rundschau] has determined the influence of gla
     columns: (auto, 1fr, 1fr, 1fr, 1fr),
     stroke: none,
     align: (left, right, right, right, right),
-    table.hline(stroke: 0.5pt),
-      // header
+    table.header(
+      table.hline(stroke: 0.5pt),
       [],
       table.cell(colspan: 2, align: center)[*According to Campbell T.*],
       table.cell(colspan: 2, align: center)[*According to Oppenheim*],
       [*Oxides*], [*Ch. 1 glaze (%)*], [*Ch. 2 glaze (%)*], [*Ch. 1 glaze (%)*], [*Ch. 2 glaze (%)*],
-    table.hline(stroke: 0.5pt),
+      table.hline(stroke: 0.5pt)
+    ),
     [#ch("Na2O")], [18.28], [18.44], [18.23], [19.06],
     [#ch("CaO")],   [0.35],  [1.41],  [---],     [---],
     [#ch("PbO")],   [12.48], [12.38], [12.45], [12.88],
     [#ch("CuO")],   [12.03], [11.24], [12.00], [8.21],
     [#ch("SiO2")], [56.86], [56.53], [56.70], [58.60],
     [#ch("Sb2O3")], [---],     [---],     [0.62],  [1.25],
-    table.hline(stroke: 0.5pt),
-    [], [100.00], [100.00], [100.00], [100.00],
-    table.hline(stroke: 0.5pt),
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00], [100.00], [100.00], [100.00],
+      table.hline(stroke: 0.5pt)
+    )
   ),
   caption: [Comparison of base glaze compositions from the Glassmakers Tablet]
 ) <tab:oxide-comparison>
@@ -217,8 +225,10 @@ Hecht#super[@lit:hecht-keramische-rundschau] has determined the influence of gla
       [Quartz], [28 %],
       [Feldspar (#ch("Na")/#ch("K"))], [16 %],
       [Lime], [4 %],
-      table.hline(stroke: 0.5pt),
-      [], [100 %]
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [100 %]
+      )
     ),
     caption: [Lapis Lazuli-like blue body composition]
   ) <tab:body-composition>

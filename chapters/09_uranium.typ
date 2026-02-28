@@ -176,8 +176,10 @@ A not proper glaze application often resulted in an irregular glaze and colour a
       [#ch("As2O3")], [0.21 %],
       [#ch("UO3")], [0.58 %],
       [#ch("SiO2")], [72.60 %],
-      table.hline(stroke: 0.5pt),
-      [], [99.99 %]
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [99.99 %]
+      )
     )
   )
 ]
@@ -307,8 +309,10 @@ The basic red glaze was made with an addition of 16.7 % black uranium oxide #ch(
       [#ch("Al2O3")], [5.41 %],
       [#ch("SiO2")], [11.02 %],
       [#ch("Na2U2O7")], [16.94 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %]
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [100.00 %]
+      )
     )
   )
 ]
@@ -329,8 +333,10 @@ The basic red glaze was made with an addition of 16.7 % black uranium oxide #ch(
       [#ch("SiO2")], [36.14 %],
       [#ch("UO3")], [15.00 %],
       [Kaolin], [5.00 %],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %]
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [100.00 %]
+      )
     )
   )
 ]

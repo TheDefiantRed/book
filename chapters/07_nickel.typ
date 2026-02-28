@@ -92,8 +92,10 @@ In 1964 an investigation was published by Franz Kure#super[@lit:ing-franz-kure] 
       [(Ferro) frit 35200], [54.50 %], [(#ch("PbO") -- #ch("ZnO") frit)],
       [Kaolin], [8.00 %], [],
       [Nickel oxide], [1.50 %], [],
-      table.hline(stroke: 0.5pt),
-      [], [100.00 %], []
+      table.footer(
+        table.hline(stroke: 0.5pt),
+        [], [100.00 %], []
+      )
     )
   )
 ]

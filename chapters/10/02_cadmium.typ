@@ -35,9 +35,11 @@ The brown coloured cadmium oxide #ch("CdO") can be obtained by the combustion an
     columns: 3,
     stroke: none,
     align: (center, center, left),
-    table.hline(stroke: 0.5pt),
-    table.header([*Type of industry*], [*%*], [*Application*]),
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Type of industry*], [*%*], [*Application*],
+      table.hline(stroke: 0.5pt)
+    ),
     [Paints and Lacquers], [5], [
       Powder coating 3 % \ Silicon coating 1 % \ Automotive lacquers 1 %],
     [Ceramics Enamel Glass], [10], [

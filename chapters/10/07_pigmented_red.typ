@@ -11,11 +11,13 @@ It is already mentioned before how the first classical cadmium selenium red pigm
     columns: 4,
     stroke: none,
     align: (left, right, right, right),
-    table.hline(stroke: 0.5pt),
-    table.header([*Colour*], table.cell(colspan: 3)[*percentage by weight*]),
-    table.hline(stroke: 0.5pt),
-    [], [*#ch("CdCO3")*], [*#ch("Se")*], [*#ch("S")*],
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Colour*], table.cell(colspan: 3)[*percentage by weight*],
+      table.hline(stroke: 0.5pt),
+      [], [*#ch("CdCO3")*], [*#ch("Se")*], [*#ch("S")*],
+      table.hline(stroke: 0.5pt)
+    ),
     [Orange], [81.50], [3.40], [15.10],
     [Orange Red], [78.80], [6.62], [14.58],
     [Red], [76.28], [9.62], [14.10],
@@ -41,9 +43,11 @@ Higher firing temperatures were possible and this opened the way for application
   table(
     columns: 3,
     stroke: none,
-    table.hline(stroke: 0.5pt),
-    table.header([*Period*], [*#ch("CdSSe") pigments*], [*#ch("CdSSe") melted-in glazes*]),
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Period*], [*#ch("CdSSe") pigments*], [*#ch("CdSSe") melted-in glazes*],
+      table.hline(stroke: 0.5pt)
+    ),
     [19th century], [Production in classical dry way], [Application of #ch("Se") in glass for rubin red glass and as decolourant.],
     [1919], [Invention (BASF) of wet precipitation method], [],
     [1932], [], [Rooksby: #ch("CdS * CdSe") mixed crystals],
@@ -71,9 +75,11 @@ The following compositions are mentioned as examples in the patent:
     columns: 4,
     stroke: none,
     align: (left, right, right, right),
-    table.hline(stroke: 0.5pt),
-    table.header([*example reference:*], [*(1)*], [*(2)*], [*(4)*]),
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*example reference:*], [*(1)*], [*(2)*], [*(4)*],
+      table.hline(stroke: 0.5pt)
+    ),
     [#ch("ZrO2")], [2381 g], [85 g], [85 g],
     [#ch("SiO2")], [1174], [42], [42],
     [#ch("CdCO3")], [950], [34], [--],
@@ -131,9 +137,11 @@ Following the article, the authors concluded after investigations with XR-D and 
     columns: 5,
     stroke: none,
     align: (left, center, center, center, center),
-    table.hline(stroke: 0.5pt),
-    table.header([*Raw material*], table.cell(colspan: 4)[*Compositions (weight in g)*]),
-    table.hline(stroke: 0.5pt),
+    table.header(
+      table.hline(stroke: 0.5pt),
+      [*Raw material*], table.cell(colspan: 4)[*Compositions (weight in g)*],
+      table.hline(stroke: 0.5pt)
+    ),
     [#ch("ZrO2")], [119], [119], [119], [119],
     [#ch("SiO2")], [58.7], [58.7], [58.7], [58.7],
     [#ch("CdS")], [--], [--], [40.5], [40.5],

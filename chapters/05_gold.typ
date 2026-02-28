@@ -83,8 +83,10 @@ Gold colours are manufactured in light pinks (rose shades), mid-colours (fuchsia
     [#ch("PbO")],     [20.54 %],
     [#ch("B2O3")], [23.28 %],
     [#ch("SiO2")],     [42.25 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %]
+    )
   ))
 ]
 
@@ -104,8 +106,10 @@ Gold colours are manufactured in light pinks (rose shades), mid-colours (fuchsia
     [], [], [], [#ch("B2O3")], [7.80 %],
     [], [], [], [#ch("SiO2")], [47.51 %],
     [], [], [], [#ch("ZrO2")], [0.98 %],
-    table.hline(stroke: 0.5pt),
-    [], [100.00 %], [], [], [100.00 %]
+    table.footer(
+      table.hline(stroke: 0.5pt),
+      [], [100.00 %], [], [], [100.00 %]
+    )
   ))
 ]
 
