@@ -103,11 +103,7 @@
 
   // 3. Header Definitions
   set heading(numbering: "1.1")
-  show heading: it => {
-    v(1em)
-    it
-    v(0.5em)
-  }
+  show heading: set block(below: 2em)
 
   // 4. Global Styling Rules
 
