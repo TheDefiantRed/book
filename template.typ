@@ -103,7 +103,8 @@
 
   // 3. Header Definitions
   set heading(numbering: "1.1")
-  show heading: set block(below: 2em)
+  show heading: set block(above: 3em, below: 1.5em)
+  show heading.where(level: 1): set block(below: 2em)
 
   // 4. Global Styling Rules
 

@@ -2,7 +2,6 @@
 // Auto-generated Table of Contents
 
 #heading(numbering: none, outlined: false)[CONTENT]
-#v(1cm)
 
 // The outline function automatically grabs all headings from the document
 #outline(

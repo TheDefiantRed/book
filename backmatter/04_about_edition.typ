@@ -14,15 +14,15 @@ This electronic edition fills the need of many a would-be customer who contacted
   The Netherlands
 ]
 
-#v(2em)
-
-#figure(
-  image("../assets/IMGP0891.JPG", alt: "photo of L.W. Baaij"),
-  caption: [L.W. Baaij (1947 – 2025)],
-  kind: "photo",
-  supplement: [Photograph],
-  numbering: none,
-  outlined: false
-) <photo:author-portrait>
+#align(bottom)[
+  #figure(
+    image("../assets/IMGP0891.JPG", alt: "L.W. Baaij (1947--2025)"),
+    caption: [L.W. Baaij (1947--2025)],
+    kind: "photo",
+    supplement: [Photograph],
+    numbering: none,
+    outlined: false
+  ) <photo:author-portrait>
+]
 
 #pagebreak()

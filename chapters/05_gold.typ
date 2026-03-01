@@ -149,6 +149,5 @@ Without doubt one can state that during the last 10 -- 15 years the (gold) decor
   ) <photo:gold-colours-manual>
   ]
 )
-#v(3em)
 
 #pagebreak()
