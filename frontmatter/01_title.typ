@@ -29,7 +29,7 @@
   #align(center + horizon)[
     #title()
     #v(1em)
-    #text(size: 16pt, style: "italic")[a review of red coloured glazes]
+    #text(size: 16pt, style: "italic")[A review of red coloured glazes]
   ]
 ]
 

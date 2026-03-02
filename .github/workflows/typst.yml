@@ -33,6 +33,7 @@ jobs:
         run: |
           mkdir -p out
           typst compile main.typ out/book.pdf --creation-timestamp "$CREATION_TS"
+          typst compile preview.typ out/preview.pdf --creation-timestamp "$CREATION_TS"
 
       # Only on main: publish a stable PDF via Pages
       - name: Prepare Pages site
@@ -40,7 +41,8 @@ jobs:
         run: |
           mkdir -p site
           cp out/book.pdf site/book.pdf
-          printf '%s\n' '<!doctype html><meta charset="utf-8"><title>The Defiant Red</title><p><a href="book.pdf">Download the latest PDF</a></p>' > site/index.html
+          cp out/preview.pdf site/preview.pdf
+          printf '%s\n' '<!doctype html><meta charset="utf-8"><title>The Defiant Red</title><p><a href="book.pdf">Download the full book PDF</a></p><p><a href="preview.pdf">Download the preview edition PDF</a></p>' > site/index.html
           touch site/.nojekyll
 
       - name: Configure Pages

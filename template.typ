@@ -67,10 +67,11 @@
   ])
 }
 
+#let publication-date = datetime(year: 2026, month: 3, day: 4)
+
 #let project(
   title: none,
   author: (),
-  date: auto,
   keywords: (),
   description: none,
   body,
@@ -79,7 +80,7 @@
   set document(
     title: title,
     author: author,
-    date: date,
+    date: publication-date,
     keywords: keywords,
     description: description
   )

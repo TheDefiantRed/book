@@ -4,7 +4,7 @@
 
 #align(center)[
   #text(size: 16pt, weight: "bold")[THE DEFIANT RED]\
-  #text(size: 12pt, style: "italic")[a review of red coloured glazes]
+  #text(size: 12pt, style: "italic")[A review of red coloured glazes]
 ]
 
 #v(2cm)

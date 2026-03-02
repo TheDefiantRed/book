@@ -31,11 +31,14 @@ If you want to compile the book yourself, you will need the [Typst CLI](https://
 git clone https://github.com/TheDefiantRed/book.git
 cd book
 
-# Compile the book
+# Compile the full book
 typst compile main.typ
+
+# Compile the preview edition (Cadmium-Selenium chapters only)
+typst compile preview.typ
 ```
 
-This will generate `main.pdf` in the root directory.
+This will generate `main.pdf` and `preview.pdf` in the root directory.
 
 *Note: The project relies on the `@preview/chemformula:0.1.2` and `@preview/cetz:0.4.2` packages, which Typst will fetch automatically.*
 
