@@ -44,6 +44,8 @@ This will generate `main.pdf` and `preview.pdf` in the root directory.
 
 ## License & Citation
 
+This repository contains two classes of intellectual property. See LICENSE for details.
+
 This project is preserved for the ceramic community. You can cite this work using the Zenodo Concept DOI:
 **[https://doi.org/10.5281/zenodo.18744218](https://doi.org/10.5281/zenodo.18744218)**
 
